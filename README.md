@@ -48,11 +48,11 @@ This mainboard is compatible with the following mower models:
     - [ ] LC-Display
     - [ ] Speaker
 - [ ] Software
-  - [ ] [Firmware](https://github.com/xtech/fw-openmower-v2)
-    - [ ] Emergency :fire:
+  - [x] [Firmware](https://github.com/xtech/fw-openmower-v2)
+    - [x] Emergency
   - [ ] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
-    - [ ] Drive PIDs. At the moment the mower drive somehow stutter (not a big deal, but time consuming)
-    - [ ] Limit blade motor to only one direction
+    - [x] Drive PIDs. At the moment the mower drive somehow stutter (not a big deal, but time consuming)
+    - [ ] Limit blade motor to only one direction :fire:
 
 
 ## Known Issues :bangbang:

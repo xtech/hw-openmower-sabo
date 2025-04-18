@@ -7298,7 +7298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local_Connectors:Molex_Milli-Grid_878311420"
+		(property "Footprint" "local_Connectors:Molex_Milli-Grid_878311419"
 			(at 209.55 106.68 0)
 			(effects
 				(font
@@ -7342,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "878312619"
+		(property "MFPN" "878311419"
 			(at 209.55 106.68 0)
 			(effects
 				(font
@@ -8129,9 +8129,9 @@
 		(at 264.16 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "67ef520c-f4eb-4d40-a69b-77b413894234")
 		(property "Reference" "S2-J8"
 			(at 265.43 142.494 0)
@@ -8193,7 +8193,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "878311019"
+		(property "MFPN" "878311041"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -8914,9 +8914,9 @@
 		(at 198.12 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a0c6053e-d5f5-4159-acb5-7c776b7a935c")
 		(property "Reference" "S2-J2"
 			(at 199.39 20.066 0)
