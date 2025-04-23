@@ -23,8 +23,10 @@ This mainboard is compatible with the following mower models:
 - SABO MOWit 500F (Series-I & II)
 - John Deere Tango E5 (Series-I & II)
 
-![OpenMower-V2 SABO Mainboard Series-I v0.1](assets/om-sabo-mb-s1-v01.jpg)
-![V0.1 Mainboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg)
+| Series-I @ John Deere Tango E5 | Series-II @ Sabo MOWiT 500F |
+|:---:|:---:|
+| ![OpenMower-V2 SABO Mainboard Series-I v0.1](assets/om-sabo-mb-s1-v01.jpg)  | ![OpenMower-V2 SABO Mainboard Series-II v0.1](assets/om-sabo-mb-s2-v01.jpg) |
+| ![V0.1 Mainboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg) | ![V0.1 Mainboard Series-II assembled](assets/sabo-s2-v01-assembled.jpg) |
 
 
 ## Roadmap
@@ -40,19 +42,21 @@ This mainboard is compatible with the following mower models:
     - [ ] Buttons
     - [ ] LEDs
     - [ ] LC-Display
-    - [ ] Speaker
   - [ ] CoverUI (Series-II)
     - [ ] LCD Backlight
+    - [x] Buttons
+    - [x] LEDs
+    - [ ] LC-Display
+- [ ] Software
+  - [x] [Firmware](https://github.com/xtech/fw-openmower-v2)
+    - [x] Emergency (Series-I)
+    - [ ] Emergency (Series-II) :fire:
     - [ ] Buttons
     - [ ] LEDs
     - [ ] LC-Display
-    - [ ] Speaker
-- [ ] Software
-  - [x] [Firmware](https://github.com/xtech/fw-openmower-v2)
-    - [x] Emergency
   - [ ] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
-    - [x] Drive PIDs. At the moment the mower drive somehow stutter (not a big deal, but time consuming)
-    - [ ] Limit blade motor to only one direction :fire:
+    - [x] Drive PIDs. ~~At the moment the mower drive somehow stutter (not a big deal, but time consuming)~~
+    - [x] ~~Limit blade motor to only one direction~~
 
 
 ## Known Issues :bangbang:
