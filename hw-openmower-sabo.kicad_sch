@@ -3256,7 +3256,7 @@
 		)
 		(uuid "80958c25-61db-4140-8ed2-066813bc710c")
 	)
-	(text "--------------- DESIGN FAILURES --------------\n\n1. Front-Wheel & Top- Stop-Button Emergencies for Series-I:\n   Outputs of OPAMPs (for Series-II) need to get cutted!\n   U6 Pin1, 2 & 14"
+	(text "--------------- DESIGN FAULTS --------------\n\n1. Front-Wheel & Top- Stop-Button Emergencies for Series-I:\n   Outputs of OPAMPs (for Series-II) need to get cutted!\n   U6 Pin1, 2 & 14\n2. See required changes in RobotConnectorsSeries2"
 		(exclude_from_sim no)
 		(at 24.638 87.122 0)
 		(effects

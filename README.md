@@ -28,6 +28,27 @@ This mainboard is compatible with the following mower models:
 | ![OpenMower-V2 SABO Mainboard Series-I v0.1](assets/om-sabo-mb-s1-v01.jpg)  | ![OpenMower-V2 SABO Mainboard Series-II v0.1](assets/om-sabo-mb-s2-v01.jpg) |
 | ![V0.1 Mainboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg) | ![V0.1 Mainboard Series-II assembled](assets/sabo-s2-v01-assembled.jpg) |
 
+## Usage
+
+### Meaning of the LEDs
+
+| LED            | Meaning |
+|----------------|---------|
+| Auto           | - On = Mow whenever possible (TODO)<br>- Blink = Semi- Auto (Mow entire map once and then wait for manual start again) (TODO)
+| Driving/Mowing | - On = In autonomous mowing or driving mode (TODO)<br>- Blink = Area recording mode (TODO)
+| House/Home     | - On = GPS has RTK-Fix (TODO)<br>- Blink = Waiting for RTK-Fix (TODO)
+| Start/Play     | - On = Mowing or Area-recording (TODO)<br>- Slow-blink- red = Charging (TODO)<br>- Fast-blink- red = Emergency (TODO) |
+
+
+### Meaning of the Buttons
+
+| Button         | Series-I | Series-II          | Meaning |
+|----------------|:--------:|:------------------:|---------|
+| Auto           | :x:      | :white_check_mark: |
+| Driving/Mowing | :x:      | :white_check_mark: |
+| House/Home     | :x:      | :white_check_mark: |
+| Select (left)  | :white_check_mark: |:x:      | 
+| Start/Play     | :white_check_mark: | :white_check_mark: | Start or Pause mowing (TODO)
 
 ## Roadmap
 
@@ -39,8 +60,8 @@ This mainboard is compatible with the following mower models:
   - [x] Emergency sensors (Front Wheel Lifts, Top-Stop, Handle-Stop)
   - [ ] CoverUI (Series-I)
     - [x] LCD Backlight
-    - [ ] Buttons
-    - [ ] LEDs
+    - [ ] Buttons :fire:
+    - [ ] LEDs :fire:
     - [ ] LC-Display
   - [ ] CoverUI (Series-II)
     - [ ] LCD Backlight
@@ -50,20 +71,22 @@ This mainboard is compatible with the following mower models:
 - [ ] Software
   - [x] [Firmware](https://github.com/xtech/fw-openmower-v2)
     - [x] Emergency (Series-I)
-    - [ ] Emergency (Series-II) :fire:
-    - [ ] Buttons
-    - [ ] LEDs
+    - [x] Emergency (Series-II)
+    - [x] Buttons
+    - [x] LEDs
     - [ ] LC-Display
   - [ ] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
     - [x] Drive PIDs. ~~At the moment the mower drive somehow stutter (not a big deal, but time consuming)~~
     - [x] ~~Limit blade motor to only one direction~~
+    - [ ] Buttons
+    - [ ] LEDs
 
 
 ## Known Issues :bangbang:
 
 - LC-Display is not working at all and it's doubtful if it ever will be (mainly due to missing technical specs like display controller, ...)
 - Series-I CoverUI isn't connected (except LCD backlight) due to missing pinning (need a faulty Series-I CoverUI to reverse engineer the pinning)
-- Series-II is only prepared for now, but not yet tested in any way
+- ~~Series-II is only prepared for now, but not yet tested in any way~~
 
 
 ## Additional Information
