@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-02-26")
-		(rev "v0.1")
+		(date "2025-05-04")
+		(rev "v0.2")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -2885,10 +2885,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa44677b-d5d8-4ac7-918b-a44cfac00ef9")
 		(property "Reference" "C64"
-			(at 93.98 101.9809 0)
+			(at 77.724 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2896,7 @@
 			)
 		)
 		(property "Value" "220uF@80V"
-			(at 93.98 104.5209 0)
+			(at 77.724 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "220uF 80V Plugin,D10xL16mm  Aluminum Electrolytic Capacitors - Leaded ROHS"
 			(at 90.17 104.14 0)
 			(effects
 				(font
@@ -2932,7 +2931,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C106516"
+		(property "JLC" "C2937593 "
 			(at 90.17 104.14 0)
 			(effects
 				(font
@@ -3144,10 +3143,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1199382-eac3-4f1f-b6d3-d2f26f52c256")
 		(property "Reference" "C65"
-			(at 101.6 101.9809 0)
+			(at 94.234 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3154,7 @@
 			)
 		)
 		(property "Value" "220uF@80V"
-			(at 101.6 104.5209 0)
+			(at 94.234 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "220uF 80V Plugin,D10xL16mm  Aluminum Electrolytic Capacitors - Leaded ROHS"
 			(at 97.79 104.14 0)
 			(effects
 				(font
@@ -3191,7 +3189,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C106516"
+		(property "JLC" "C2937593 "
 			(at 97.79 104.14 0)
 			(effects
 				(font

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-02-26")
-		(rev "v0.1")
+		(date "2025-05-04")
+		(rev "v0.2")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -3561,6 +3561,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+36V"
 			(power)
 			(pin_numbers
@@ -4078,7 +4376,7 @@
 	)
 	(text "Top-Stop Hall = SAU13124, 1503 (3-pin)\n\nVcc | LowSide-R | Idle  | Active |\n----------------------------------\n 5V |    120    | 1.73V | 0.73V  |"
 		(exclude_from_sim no)
-		(at 204.978 24.13 0)
+		(at 229.108 24.13 0)
 		(effects
 			(font
 				(face "Bitstream Vera Sans Mono")
@@ -4107,20 +4405,6 @@
 			)
 		)
 		(uuid "810d9b1c-50ce-486e-a6af-8fa485707a75")
-	)
-	(text "----------- DESIGN FAULTS ----------\n\n1. Hall Sensors SAU12996 and SAU13124 will not\n   work reliable with R_{Sense} = 330.\n   R9, R10 & R28 need to be changed to 120 Ohm.\n2. In consequence of 1. R23 need to be changed to 3k3 to\n   get a V_{Ref} of 1.24V\n3. Comparator V_{Ref} inputs Pin 4, 6 & 8 need an 100k R\n   in series so that an oscillation comparator doesn't\n   affect V_{Ref}.\n4. The unused \"C\" comparator need to get an\n   10k pull-up on \"-\" input and a 10k pull-down\n   on \"+\" input. Otherwise it tend to oscillate."
-		(exclude_from_sim no)
-		(at 19.558 170.18 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "8457b56a-a185-4f91-89e1-d32c3bc9db72")
 	)
 	(text "U"
 		(exclude_from_sim no)
@@ -4215,7 +4499,7 @@
 	)
 	(text "Wheel-Lift Hall = SAU12996, 1308 (2-pin)\n========================================\n\nVcc | LowSide-R | Idle  | Active |\n----------------------------------\n 5V |    120    | 1.85V | 0.74V  |"
 		(exclude_from_sim no)
-		(at 219.964 89.916 0)
+		(at 226.568 89.662 0)
 		(effects
 			(font
 				(face "Bitstream Vera Sans Mono")
@@ -4256,16 +4540,16 @@
 		(uuid "38359152-d144-408d-a334-91846acf01a3")
 	)
 	(junction
+		(at 177.8 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c761870-982c-4385-9e61-f8511b660326")
+	)
+	(junction
 		(at 186.69 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "463b9c06-0f40-43f1-96b3-3f2a79fa199c")
-	)
-	(junction
-		(at 189.23 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47eba08a-79e6-4b56-8992-bc95a27efd1c")
 	)
 	(junction
 		(at 189.23 44.45)
@@ -4274,10 +4558,16 @@
 		(uuid "570ff3d5-24cb-4d7d-8b1c-f8751691b6c6")
 	)
 	(junction
-		(at 134.62 177.8)
+		(at 243.84 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b01c879-c19f-4af8-a443-d75791475f9b")
+	)
+	(junction
+		(at 256.54 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70739dc3-2411-4932-a20f-3db745d388fd")
 	)
 	(junction
 		(at 204.47 57.15)
@@ -4286,10 +4576,22 @@
 		(uuid "777d5471-9370-43c6-89bc-747e2c5c379c")
 	)
 	(junction
+		(at 207.01 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ae53871-a630-4ba2-a7dc-467964897dad")
+	)
+	(junction
 		(at 191.77 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8af459a6-e940-460d-a44f-1d9976db10c0")
+	)
+	(junction
+		(at 45.72 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf8b1e4-df0c-4448-a958-0c5e19ab940c")
 	)
 	(junction
 		(at 208.28 107.95)
@@ -4304,28 +4606,34 @@
 		(uuid "915e56f1-6c8e-420a-999d-9e927aa5277c")
 	)
 	(junction
+		(at 36.83 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "933432d0-bc14-477a-8fc5-655cd07fbc7d")
+	)
+	(junction
 		(at 214.63 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cab65c0f-902e-4fa2-b241-2a9919039336")
 	)
 	(junction
-		(at 234.95 41.91)
+		(at 252.73 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ceb84ab2-46a1-42d5-b167-4cfd104fdf45")
-	)
-	(junction
-		(at 204.47 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbcacdfd-0856-4cc7-8b17-191dd0ae3d74")
+		(uuid "de3622f3-9996-4981-83b9-4732956e3a64")
 	)
 	(junction
 		(at 237.49 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eff70b2e-8130-465d-b5c9-10e5873636db")
+	)
+	(junction
+		(at 234.95 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3d594ca-bd87-452e-85e0-b1f4a1c0f71c")
 	)
 	(no_connect
 		(at 217.17 123.19)
@@ -4350,10 +4658,6 @@
 	(no_connect
 		(at 259.08 148.59)
 		(uuid "170aebc8-92bf-41a2-ae1b-af345bf348cf")
-	)
-	(no_connect
-		(at 109.22 180.34)
-		(uuid "1ea4711f-2ff5-4959-b848-8d0f2a944e38")
 	)
 	(no_connect
 		(at 72.39 48.26)
@@ -4420,12 +4724,8 @@
 		(uuid "c2aab21b-3d2d-4131-8de3-62bb744f560c")
 	)
 	(no_connect
-		(at 124.46 177.8)
+		(at 146.05 180.34)
 		(uuid "d4a9d26f-cc01-4a3b-94dc-21289a816dd7")
-	)
-	(no_connect
-		(at 109.22 175.26)
-		(uuid "e6ba55be-4415-47ad-98bb-c31e04f53107")
 	)
 	(no_connect
 		(at 271.78 158.75)
@@ -4599,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 186.69) (xy 134.62 189.23)
+			(xy 243.84 130.81) (xy 243.84 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4629,6 +4929,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 177.8) (xy 45.72 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078b1a56-d7f2-4337-965d-cf4ea01f6df6")
+	)
+	(wire
+		(pts
 			(xy 205.74 67.31) (xy 204.47 67.31)
 		)
 		(stroke
@@ -4649,7 +4959,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 110.49) (xy 265.43 110.49)
+			(xy 267.97 110.49) (xy 269.24 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4679,6 +4989,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 121.92) (xy 255.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dad79c1-b148-423f-bbd8-593b81832542")
+	)
+	(wire
+		(pts
 			(xy 48.26 115.57) (xy 87.63 115.57)
 		)
 		(stroke
@@ -4686,6 +5006,16 @@
 			(type default)
 		)
 		(uuid "110702da-8dfe-439a-a203-4b8c27b1b5fe")
+	)
+	(wire
+		(pts
+			(xy 177.8 125.73) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111860e1-d771-449d-a954-8bb04aa68341")
 	)
 	(wire
 		(pts
@@ -4719,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 59.69) (xy 256.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e298e8-4b7d-4178-be7d-01ce85e2e737")
+	)
+	(wire
+		(pts
 			(xy 204.47 52.07) (xy 209.55 52.07)
 		)
 		(stroke
@@ -4726,16 +5066,6 @@
 			(type default)
 		)
 		(uuid "1a1fa58f-0008-47ac-86d2-1ba5c5a4fe9f")
-	)
-	(wire
-		(pts
-			(xy 189.23 41.91) (xy 191.77 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b30511a-1a54-4b73-b6a9-b8bb01f96d3d")
 	)
 	(bus
 		(pts
@@ -4756,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "20f50b56-3840-49b4-8f27-661177cbc386")
+	)
+	(wire
+		(pts
+			(xy 252.73 113.03) (xy 252.73 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2120c270-7b54-41f4-bced-c6f3ac296480")
 	)
 	(wire
 		(pts
@@ -4809,7 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 41.91) (xy 189.23 39.37)
+			(xy 189.23 39.37) (xy 189.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4849,6 +5189,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 168.91) (xy 36.83 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8c2c69-1f64-4a51-a741-83a8e0b2120d")
+	)
+	(wire
+		(pts
 			(xy 85.09 50.8) (xy 105.41 50.8)
 		)
 		(stroke
@@ -4859,7 +5209,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 166.37) (xy 134.62 168.91)
+			(xy 243.84 111.76) (xy 243.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4879,6 +5229,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 44.45) (xy 257.81 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35307daa-056b-43a4-b60a-6f00d6e1f09e")
+	)
+	(wire
+		(pts
 			(xy 48.26 118.11) (xy 72.39 118.11)
 		)
 		(stroke
@@ -4889,7 +5249,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 107.95) (xy 248.92 107.95)
+			(xy 237.49 107.95) (xy 252.73 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4906,16 +5266,6 @@
 			(type default)
 		)
 		(uuid "37c50ff8-1590-4183-ae1a-40a5f220a868")
-	)
-	(wire
-		(pts
-			(xy 248.92 113.03) (xy 248.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f7f08d-be07-451f-8ef1-ad99cf001e21")
 	)
 	(bus
 		(pts
@@ -5019,6 +5369,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 127) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488834cf-f77f-415d-ab88-043196edae3c")
+	)
+	(wire
+		(pts
 			(xy 205.74 71.12) (xy 205.74 67.31)
 		)
 		(stroke
@@ -5039,6 +5399,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 135.89) (xy 177.8 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b479fa7-ccdf-49ef-8ce8-6a07ed1e29d9")
+	)
+	(wire
+		(pts
 			(xy 90.17 87.63) (xy 90.17 81.28)
 		)
 		(stroke
@@ -5056,6 +5426,16 @@
 			(type default)
 		)
 		(uuid "4bc5c22c-f131-4672-9aec-6a624c32cc94")
+	)
+	(wire
+		(pts
+			(xy 48.26 177.8) (xy 45.72 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8a1257-a1e4-4241-b635-918c0a914cfe")
 	)
 	(bus
 		(pts
@@ -5089,6 +5469,26 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 170.18) (xy 36.83 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548ec213-ecb0-417b-893c-c720b040891f")
+	)
+	(wire
+		(pts
+			(xy 128.27 182.88) (xy 130.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551289e2-7dcb-4ef8-b526-0c293bd33523")
+	)
+	(wire
+		(pts
 			(xy 87.63 76.2) (xy 87.63 78.74)
 		)
 		(stroke
@@ -5109,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 176.53) (xy 134.62 177.8)
+			(xy 243.84 120.65) (xy 243.84 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5127,6 +5527,16 @@
 		)
 		(uuid "56a10f1f-35be-4484-b541-d3301686790b")
 	)
+	(wire
+		(pts
+			(xy 256.54 49.53) (xy 256.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b860aed-a4d5-47bc-9c01-59bb574d7835")
+	)
 	(bus
 		(pts
 			(xy 124.46 83.82) (xy 124.46 96.52)
@@ -5139,13 +5549,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 44.45) (xy 189.23 41.91)
+			(xy 45.72 153.67) (xy 45.72 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6056556a-ce25-412b-8ebc-c0b9c263593d")
+		(uuid "60fd20da-1796-4f9c-883c-a672f6e97738")
 	)
 	(wire
 		(pts
@@ -5199,6 +5609,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 156.21) (xy 45.72 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692b6133-59d4-412f-9c8a-65459f5a9c53")
+	)
+	(wire
+		(pts
 			(xy 107.95 38.1) (xy 85.09 38.1)
 		)
 		(stroke
@@ -5206,6 +5626,16 @@
 			(type default)
 		)
 		(uuid "69ccc7fc-f6cc-4a11-8e9a-efb71ebeb567")
+	)
+	(wire
+		(pts
+			(xy 256.54 59.69) (xy 259.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7f002f-750d-45a9-b736-4e746f592478")
 	)
 	(wire
 		(pts
@@ -5259,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 46.99) (xy 204.47 49.53)
+			(xy 207.01 46.99) (xy 207.01 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5319,6 +5749,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 41.91) (xy 242.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82036d6e-99a2-4d30-bf0e-8835fdf8fad2")
+	)
+	(wire
+		(pts
 			(xy 191.77 36.83) (xy 186.69 36.83)
 		)
 		(stroke
@@ -5329,7 +5769,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 46.99) (xy 227.33 46.99)
+			(xy 204.47 46.99) (xy 207.01 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5377,16 +5817,6 @@
 		)
 		(uuid "8c38f3c7-be6f-4400-adb9-d924eed5ba24")
 	)
-	(wire
-		(pts
-			(xy 242.57 46.99) (xy 242.57 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c696074-d3d6-4371-b2be-d55a2837bb73")
-	)
 	(bus
 		(pts
 			(xy 45.72 31.75) (xy 45.72 33.02)
@@ -5399,7 +5829,37 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 90.17) (xy 203.2 90.17)
+			(xy 128.27 190.5) (xy 128.27 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917cc7fc-d5a8-407c-ba49-e9f837a8f4b2")
+	)
+	(wire
+		(pts
+			(xy 128.27 168.91) (xy 128.27 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92581458-40fb-4557-88e1-77b756458177")
+	)
+	(wire
+		(pts
+			(xy 198.12 113.03) (xy 198.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948ccf32-db54-4c3e-87ea-df4922da51db")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 203.2 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5429,6 +5889,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 127) (xy 177.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf5cd47-a5cf-4aac-a613-f137c6152b65")
+	)
+	(wire
+		(pts
 			(xy 190.5 147.32) (xy 195.58 147.32)
 		)
 		(stroke
@@ -5449,16 +5919,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 41.91) (xy 242.57 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea7e4af-27a6-4c04-b208-c0a0e37156b6")
-	)
-	(wire
-		(pts
 			(xy 189.23 39.37) (xy 191.77 39.37)
 		)
 		(stroke
@@ -5466,6 +5926,26 @@
 			(type default)
 		)
 		(uuid "a1e20fcf-91d1-4cac-ad35-4ff9f7baf1f2")
+	)
+	(wire
+		(pts
+			(xy 180.34 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25d9bdb-1c08-4dd4-8113-7e2466227192")
+	)
+	(wire
+		(pts
+			(xy 177.8 127) (xy 175.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a785013f-01c7-43e0-8c08-0bd929cdf1c8")
 	)
 	(wire
 		(pts
@@ -5479,7 +5959,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 59.69) (xy 222.25 59.69)
+			(xy 204.47 59.69) (xy 209.55 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5509,7 +5989,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 110.49) (xy 182.88 110.49)
+			(xy 207.01 27.94) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac80f2ed-d07c-4b4b-b248-88f97e0159e8")
+	)
+	(wire
+		(pts
+			(xy 173.99 110.49) (xy 182.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5527,6 +6017,16 @@
 		)
 		(uuid "b0233370-8e90-4e13-9c40-e601f3d2d7fe")
 	)
+	(wire
+		(pts
+			(xy 256.54 59.69) (xy 256.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24ad00d-b8eb-476d-a763-20e3ad75ff99")
+	)
 	(bus
 		(pts
 			(xy 125.73 80.01) (xy 124.46 80.01)
@@ -5536,6 +6036,16 @@
 			(type default)
 		)
 		(uuid "b51a372e-ff69-4a05-8314-0238f61be62d")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 177.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b594e7f4-7ecc-47bb-b883-b714e197a559")
 	)
 	(wire
 		(pts
@@ -5566,6 +6076,16 @@
 			(type default)
 		)
 		(uuid "b6f437c3-9206-4332-bb64-8874f58b7c34")
+	)
+	(wire
+		(pts
+			(xy 36.83 156.21) (xy 45.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8eacbee-fb33-438f-8f81-4070021dcdde")
 	)
 	(wire
 		(pts
@@ -5609,6 +6129,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 58.42) (xy 256.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6bbfba-f11e-4bfc-8e24-8a8f01a91f26")
+	)
+	(wire
+		(pts
 			(xy 85.09 35.56) (xy 102.87 35.56)
 		)
 		(stroke
@@ -5626,6 +6156,16 @@
 			(type default)
 		)
 		(uuid "bf9e8d7f-084f-41f9-abcc-2ae21a367f50")
+	)
+	(wire
+		(pts
+			(xy 256.54 68.58) (xy 256.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bc237e-602d-4df4-a576-dccee38ab30e")
 	)
 	(wire
 		(pts
@@ -5679,6 +6219,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 49.53) (xy 204.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e3c925-0864-42ee-9833-56785a750fdc")
+	)
+	(wire
+		(pts
 			(xy 69.85 86.36) (xy 72.39 86.36)
 		)
 		(stroke
@@ -5729,7 +6279,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 170.18) (xy 166.37 171.45)
+			(xy 166.37 168.91) (xy 166.37 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5779,17 +6329,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 113.03) (xy 198.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1caaa2c-7cfa-447e-b55d-ed86a5f7b137")
-	)
-	(wire
-		(pts
-			(xy 204.47 57.15) (xy 222.25 57.15)
+			(xy 204.47 57.15) (xy 209.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5819,7 +6359,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 177.8) (xy 134.62 179.07)
+			(xy 243.84 121.92) (xy 243.84 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5847,6 +6387,16 @@
 		)
 		(uuid "db1cd719-abe3-4ecd-b1ef-8c7f35dca951")
 	)
+	(wire
+		(pts
+			(xy 36.83 161.29) (xy 36.83 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc64f7c6-3362-4d50-8e97-78b22a895d3d")
+	)
 	(bus
 		(pts
 			(xy 124.46 123.19) (xy 124.46 135.89)
@@ -5869,7 +6419,27 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 177.8) (xy 138.43 177.8)
+			(xy 36.83 170.18) (xy 38.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b4b565-0909-463f-84c1-27c452b5efa0")
+	)
+	(wire
+		(pts
+			(xy 128.27 177.8) (xy 130.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bc7c3d-8e3d-4bb0-83ca-f27567ffb084")
+	)
+	(wire
+		(pts
+			(xy 243.84 121.92) (xy 252.73 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5959,6 +6529,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 46.99) (xy 242.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40745b6-509c-4e2d-a7d7-157f9e8c9c7d")
+	)
+	(wire
+		(pts
 			(xy 69.85 99.06) (xy 69.85 86.36)
 		)
 		(stroke
@@ -6027,18 +6607,8 @@
 		)
 		(uuid "02be88b4-fc8a-4fc9-b57c-821503bc2dbf")
 	)
-	(label "2.6V_REF"
-		(at 198.12 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03d9fc0d-751e-4028-9a97-e5ad6d8813b9")
-	)
-	(label "2.6V_REF"
-		(at 138.43 177.8 0)
+	(label "1.24V_REF_D"
+		(at 255.27 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6046,6 +6616,26 @@
 			(justify left bottom)
 		)
 		(uuid "04265bca-5a4e-4ef7-9876-a4f7ebd3316d")
+	)
+	(label "5V_HALL"
+		(at 256.54 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dbf3032-75ce-4d97-9f64-784ffb7acd79")
+	)
+	(label "5V_HALL"
+		(at 166.37 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f89fb20-a5a8-490e-a9c3-b7ebed42ad1e")
 	)
 	(label "ML_HALL_SENSOR.V"
 		(at 101.6 99.06 0)
@@ -6056,6 +6646,26 @@
 			(justify left bottom)
 		)
 		(uuid "0f9893a0-0dc8-4dd7-9765-d431a09ac3d0")
+	)
+	(label "5V_HALL"
+		(at 193.04 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "129eb4e4-84c1-4f20-9928-7c6e5e859a46")
+	)
+	(label "5V_HALL"
+		(at 243.84 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13e7ebb1-3c96-498b-9156-4039eecb0dfc")
 	)
 	(label "5V"
 		(at 64.77 83.82 180)
@@ -6107,6 +6717,26 @@
 		)
 		(uuid "215413ff-455f-45a6-aa2c-ccbe3996a4b1")
 	)
+	(label "5V_HALL"
+		(at 177.8 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b8e6148-0329-4561-b4ac-5a2e73ff67ed")
+	)
+	(label "1.24V_REF_B"
+		(at 175.26 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3131b246-879c-4b69-85cf-3c7764501843")
+	)
 	(label "MC_PHASE.V"
 		(at 91.44 48.26 0)
 		(effects
@@ -6116,6 +6746,16 @@
 			(justify left bottom)
 		)
 		(uuid "318de7e7-cd22-4292-af97-73a393e85a9b")
+	)
+	(label "5V_HALL"
+		(at 48.26 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "428723a4-aa3a-4671-8389-64693581c4f5")
 	)
 	(label "ML_HALL_SENSOR.W"
 		(at 101.6 86.36 0)
@@ -6147,6 +6787,26 @@
 		)
 		(uuid "5ecbf497-78ef-41ad-ba03-e3ac3700050d")
 	)
+	(label "1.24V_REF_A"
+		(at 259.08 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73e47222-110c-4f19-948e-c2da9ebd76ab")
+	)
+	(label "5V"
+		(at 45.72 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "809e1a20-2122-47b5-a260-b9b7e685a4c9")
+	)
 	(label "5V"
 		(at 102.87 35.56 0)
 		(effects
@@ -6177,16 +6837,6 @@
 		)
 		(uuid "a7028970-9095-4cc5-900f-654ab2a4bc47")
 	)
-	(label "5V"
-		(at 134.62 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a85e6b06-e7de-4cf0-9e1e-0748ec6a9089")
-	)
 	(label "MC_HALL_SENSOR.U"
 		(at 48.26 38.1 0)
 		(effects
@@ -6196,16 +6846,6 @@
 			(justify left bottom)
 		)
 		(uuid "ab6bd4eb-8cd6-4030-893e-1dec3afc886e")
-	)
-	(label "5V"
-		(at 198.12 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac885542-5040-408b-b43f-4a6fd3b2be3e")
 	)
 	(label "MC_PHASE.U"
 		(at 91.44 50.8 0)
@@ -6238,7 +6878,7 @@
 		(uuid "bd3152fc-6973-46fb-87ff-07b4030a90ef")
 	)
 	(label "5V"
-		(at 227.33 46.99 180)
+		(at 207.01 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6247,15 +6887,15 @@
 		)
 		(uuid "c0eb250b-eb26-4467-a572-f258e20c6883")
 	)
-	(label "2.6V_REF"
-		(at 248.92 119.38 0)
+	(label "5V_HALL"
+		(at 128.27 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cfa87a70-eabe-4f8b-9912-40ba7ef3aaeb")
+		(uuid "c61b5c87-1a69-4a37-b292-86d467498356")
 	)
 	(label "ML_PHASE.W"
 		(at 49.53 81.28 0)
@@ -6286,26 +6926,6 @@
 			(justify left bottom)
 		)
 		(uuid "e04be29d-9f5e-4986-8d38-75faec677a0b")
-	)
-	(label "2.6V_REF"
-		(at 242.57 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1c2f7de-c692-4f47-adb0-069c7c745016")
-	)
-	(label "5V"
-		(at 166.37 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f26f84f5-a22f-409b-9e1b-35f7e653bde3")
 	)
 	(label "ML_HALL_SENSOR.U"
 		(at 101.6 83.82 0)
@@ -6360,7 +6980,7 @@
 		)
 		(uuid "1c72506c-77b4-40c6-9186-46f21eb70e06")
 	)
-	(hierarchical_label "SPI_RX"
+	(hierarchical_label "SPI_RX_5V"
 		(shape output)
 		(at 209.55 39.37 0)
 		(effects
@@ -6371,7 +6991,7 @@
 		)
 		(uuid "25ddd7c9-9e7a-4a20-b1d2-e91140e7a6a0")
 	)
-	(hierarchical_label "LATCH_LOAD"
+	(hierarchical_label "LATCH_LOAD_5V"
 		(shape input)
 		(at 180.34 52.07 180)
 		(effects
@@ -6384,7 +7004,7 @@
 	)
 	(hierarchical_label "LCD_BACKLIGHT_ANODE"
 		(shape input)
-		(at 222.25 57.15 0)
+		(at 209.55 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6392,6 +7012,17 @@
 			(justify left)
 		)
 		(uuid "39139e9a-78ef-4314-84ea-43ddb17a060b")
+	)
+	(hierarchical_label "HALL_~{EN}_5V"
+		(shape input)
+		(at 33.02 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4727cfb4-3ab2-4afd-9f2c-bfc7bca92a26")
 	)
 	(hierarchical_label "MR_HALL_SENSOR{U V W}"
 		(shape output)
@@ -6406,7 +7037,7 @@
 	)
 	(hierarchical_label "HALL1_5V"
 		(shape output)
-		(at 265.43 110.49 0)
+		(at 269.24 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6426,6 +7057,17 @@
 		)
 		(uuid "5adc7c68-8ec3-4615-92e3-0b0512ee343f")
 	)
+	(hierarchical_label "UI_~{CON}"
+		(shape input)
+		(at 180.34 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d7afef4-bb0f-4c77-ae1a-8dafbb7bd054")
+	)
 	(hierarchical_label "BMC_GN"
 		(shape bidirectional)
 		(at 107.95 40.64 0)
@@ -6437,7 +7079,7 @@
 		)
 		(uuid "6789ff23-ac1c-47e9-b26e-10232641e56a")
 	)
-	(hierarchical_label "SPI_CLK"
+	(hierarchical_label "SPI_CLK_5V"
 		(shape input)
 		(at 180.34 46.99 180)
 		(effects
@@ -6450,7 +7092,7 @@
 	)
 	(hierarchical_label "HALL2_5V"
 		(shape output)
-		(at 257.81 44.45 0)
+		(at 265.43 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6481,7 +7123,7 @@
 		)
 		(uuid "8cd39bf5-dc80-42fc-a508-8bdcf873f73d")
 	)
-	(hierarchical_label "LCD_IN_Y"
+	(hierarchical_label "LCD_IN_Y_5V"
 		(shape input)
 		(at 180.34 57.15 180)
 		(effects
@@ -6492,7 +7134,7 @@
 		)
 		(uuid "9524fac6-c03b-4dec-8388-6aa76e308f21")
 	)
-	(hierarchical_label "OE"
+	(hierarchical_label "OE_5V"
 		(shape input)
 		(at 209.55 52.07 0)
 		(effects
@@ -6503,7 +7145,7 @@
 		)
 		(uuid "961b2433-3946-471e-9934-044af9c834fb")
 	)
-	(hierarchical_label "BTN_~{CE}"
+	(hierarchical_label "BTN_~{CE}_5V"
 		(shape input)
 		(at 209.55 44.45 0)
 		(effects
@@ -6516,7 +7158,7 @@
 	)
 	(hierarchical_label "HALL0_5V"
 		(shape output)
-		(at 181.61 110.49 180)
+		(at 173.99 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6547,7 +7189,7 @@
 		)
 		(uuid "f03b587c-2175-4b2b-84f0-9222b4c6fd7b")
 	)
-	(hierarchical_label "LCD_IN_X"
+	(hierarchical_label "LCD_IN_X_5V"
 		(shape input)
 		(at 180.34 54.61 180)
 		(effects
@@ -6558,9 +7200,9 @@
 		)
 		(uuid "f4bd149a-2d9d-411b-baac-b8f505f67d00")
 	)
-	(hierarchical_label "LCD_IN_Z"
+	(hierarchical_label "LCD_IN_Z_5V"
 		(shape input)
-		(at 222.25 59.69 0)
+		(at 209.55 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6569,7 +7211,7 @@
 		)
 		(uuid "f83a2536-274d-4383-bd88-85f2629174cd")
 	)
-	(hierarchical_label "SPI_TX"
+	(hierarchical_label "SPI_TX_5V"
 		(shape input)
 		(at 180.34 49.53 180)
 		(effects
@@ -6590,6 +7232,83 @@
 			(justify left)
 		)
 		(uuid "fb011b0f-874f-4381-86b8-0c0cec39d6d1")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0052e524-9900-49db-9e22-91d5d8cfcc62")
+		(property "Reference" "R89"
+			(at 175.514 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 177.8 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 179.578 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 177.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C25804"
+			(at 177.8 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f01e2a67-8882-4c9a-bbb3-371f225648dc")
+		)
+		(pin "1"
+			(uuid "da81c137-379d-4111-83f0-4f8e3e0015a7")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
@@ -6766,83 +7485,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 172.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18899fb6-5ad7-46d7-b096-172ee900fee7")
-		(property "Reference" "R27"
-			(at 132.334 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 134.62 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.398 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C25744"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da1a0636-9054-4a38-8ea3-54821928e091")
-		)
-		(pin "1"
-			(uuid "99229a4c-59ad-448f-affd-fc4e84afdddc")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7091,6 +7733,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 256.54 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "256b0882-d41f-445f-88c1-493171a2f6b1")
+		(property "Reference" "R42"
+			(at 254.254 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 256.54 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 258.318 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 256.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C25804"
+			(at 256.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e4942a9-69ac-4d7e-9636-d54ccd498c4c")
+		)
+		(pin "1"
+			(uuid "78502676-0e52-4461-aed5-15d778f55da1")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 205.74 71.12 0)
 		(mirror y)
@@ -7174,7 +7893,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "120"
 			(at 208.28 112.522 90)
 			(effects
 				(font
@@ -7182,7 +7901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 210.058 113.03 90)
 			(effects
 				(font
@@ -7200,7 +7919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor"
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 120Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 208.28 113.03 0)
 			(effects
 				(font
@@ -7209,7 +7928,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C23138"
+		(property "JLC" "C22787"
 			(at 208.28 113.03 0)
 			(effects
 				(font
@@ -7324,7 +8043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local_Connectors:Molex_Milli-Grid_878311419"
+		(property "Footprint" "local_Connectors:Molex_Milli-Grid_878311420"
 			(at 222.25 115.57 0)
 			(effects
 				(font
@@ -7430,7 +8149,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 189.23 0)
+		(at 243.84 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7438,7 +8157,7 @@
 		(dnp no)
 		(uuid "3e81cc2d-b8e6-4d5a-80ce-6e4dc01e1ee9")
 		(property "Reference" "#PWR04"
-			(at 134.62 195.58 0)
+			(at 243.84 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +8166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.747 193.6242 0)
+			(at 243.967 136.4742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7455,7 +8174,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 189.23 0)
+			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +8183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 189.23 0)
+			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +8192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 189.23 0)
+			(at 243.84 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +8214,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 182.88 0)
+		(at 243.84 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7504,23 +8223,23 @@
 		(dnp no)
 		(uuid "3fe8cf6c-3d27-4f30-8fe7-0107ce078dd7")
 		(property "Reference" "R23"
-			(at 132.334 182.88 90)
+			(at 241.554 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "11k"
-			(at 134.62 182.88 90)
+		(property "Value" "3k3"
+			(at 243.84 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 136.398 182.88 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 245.618 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +8248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 182.88 0)
+			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,8 +8256,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 11kΩ 0402 Chip Resistor"
-			(at 134.62 182.88 0)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 3.3kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,8 +8265,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25749"
-			(at 134.62 182.88 0)
+		(property "JLC" "C22978"
+			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,6 +8284,83 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40c4342f-a9bf-418a-a438-bc8b9c006026")
+		(property "Reference" "R27"
+			(at 235.204 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 237.49 112.522 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 239.268 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 120Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C22787"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3ecf3a9-bdb8-4491-aee5-b24a3d6a1881")
+		)
+		(pin "1"
+			(uuid "0a31fa7b-455d-4b99-94bb-d73041d8a0b7")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7651,7 +8447,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 256.54 110.49 0)
+		(at 260.35 110.49 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7660,7 +8456,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fb28e82-47e6-42a7-ab10-f007af6f54a2")
 		(property "Reference" "U6"
-			(at 256.54 100.33 0)
+			(at 260.35 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +8464,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 256.54 102.87 0)
+			(at 260.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +8472,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 255.27 107.95 0)
+			(at 259.08 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +8481,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 257.81 105.41 0)
+			(at 261.62 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +8490,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 256.54 110.49 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +8499,7 @@
 			)
 		)
 		(property "JLC" "C7948"
-			(at 256.54 110.49 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,6 +9073,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 128.27 173.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7322e91a-a40b-44c2-8010-8621719bc35d")
+		(property "Reference" "R39"
+			(at 125.984 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 128.27 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 130.048 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C25804"
+			(at 128.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a15782d-e936-4e5b-a688-4a25f53f0ad4")
+		)
+		(pin "1"
+			(uuid "051c4a19-b68a-4601-b9f5-c585a9433e06")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+36V")
 		(at 107.95 33.02 0)
 		(unit 1)
@@ -8540,6 +9413,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 256.54 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c81fe1d-194b-476a-aef2-a6e6cc51d450")
+		(property "Reference" "R43"
+			(at 254.254 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k3"
+			(at 256.54 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 258.318 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 3.3kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C22978"
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8810878-a232-4d81-87b8-75dc37fbe6df")
+		)
+		(pin "1"
+			(uuid "d6da03cf-5bee-48a4-a6fc-decfcd4cd349")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 201.93 157.48 0)
 		(mirror y)
@@ -8600,6 +9550,71 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84583fe1-ac1f-4682-9029-b7ba7466603f")
+		(property "Reference" "#PWR097"
+			(at 128.27 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.397 196.1642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b718607-9416-4ecd-9814-24b97811ee14")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -8805,6 +9820,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 177.8 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b6006dc-de26-4dc0-9ad9-743240472f86")
+		(property "Reference" "#PWR099"
+			(at 177.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.927 141.5542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2a41dbb-7f43-463f-823b-17061b46fccb")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 90.17 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8930,6 +10010,245 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 165.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96cc5c83-3cd0-4f4c-822e-02846dddc359")
+		(property "Reference" "R91"
+			(at 38.608 160.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 36.83 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 35.052 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 36.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C25744"
+			(at 36.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "126df859-8b0b-493a-baa3-43185ad3de37")
+		)
+		(pin "2"
+			(uuid "7203c709-0b0f-49f1-be0d-f8bde7d9a991")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "992def85-9287-43fe-b881-104d7bdd3288")
+		(property "Reference" "R90"
+			(at 175.514 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k3"
+			(at 177.8 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 179.578 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 3.3kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 177.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C22978"
+			(at 177.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b8b5532-fd2f-4052-8bb2-b237ea46191b")
+		)
+		(pin "1"
+			(uuid "18ba31ea-b4c6-4c02-9416-74d7714a86e6")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 43.18 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9acb0960-35ce-4187-a22b-7e06e55d05ac")
+		(property "Reference" "Q3"
+			(at 49.53 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 49.53 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 48.26 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 4.2A 50mΩ@10V 1.4W 400mV@250uA 1 piece P-channel SOT-23 MOSFETs ROHS"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C347476"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c94a892-70fd-43ef-9f38-1aa4f6c8da6c")
+		)
+		(pin "2"
+			(uuid "de7fed18-7956-4467-9bbc-ea6863291e1a")
+		)
+		(pin "1"
+			(uuid "1fd08ed8-6bb5-4423-969b-100da8d1cf06")
+		)
+		(instances
+			(project ""
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9120,6 +10439,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 256.54 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3613c8b-131e-41c9-88b1-83fec33e1977")
+		(property "Reference" "#PWR098"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.667 74.2442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac0eeacf-3ae0-4a6b-9963-85c336743563")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 78.74 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9186,32 +10570,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 237.49 113.03 0)
+		(at 234.95 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af21dac3-8699-4a7c-8c8f-32e1562ae44c")
-		(property "Reference" "R9"
-			(at 235.204 113.03 90)
+		(uuid "ae831b2c-b1b5-440c-81c1-830852ef212b")
+		(property "Reference" "R28"
+			(at 232.664 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 237.49 112.522 90)
+		(property "Value" "120"
+			(at 234.95 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 239.268 113.03 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 236.728 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +10604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 113.03 0)
+			(at 234.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,8 +10612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor"
-			(at 237.49 113.03 0)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 120Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(at 234.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,8 +10621,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C23138"
-			(at 237.49 113.03 0)
+		(property "JLC" "C22787"
+			(at 234.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,15 +10631,169 @@
 			)
 		)
 		(pin "2"
-			(uuid "7ce9f52f-2680-454b-b925-d38e25cfcc1d")
+			(uuid "e311bb6c-94a2-4193-8fbf-e1074afa9a31")
 		)
 		(pin "1"
-			(uuid "d59f467e-91b5-4d0f-b607-d13d89f54c85")
+			(uuid "9bd3f95f-1539-480b-b475-13c0fd103c6c")
 		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
-					(reference "R9")
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 186.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2266c3e-1e88-4411-b015-8a0082ce6e13")
+		(property "Reference" "R40"
+			(at 125.984 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 128.27 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 130.048 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C25804"
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f01e0c8-49bc-4108-b606-2e9ff8db7f47")
+		)
+		(pin "1"
+			(uuid "fce87511-cf3d-4cae-bf2c-ad25a862a564")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cab89820-c99d-4a38-8005-2a6d4440c832")
+		(property "Reference" "R41"
+			(at 241.554 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 243.84 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 245.618 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 10kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C25804"
+			(at 243.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93e55469-41dc-42c8-be04-9116eefad4b6")
+		)
+		(pin "1"
+			(uuid "c7d30bc4-e371-4332-8067-e311d40ef8d6")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -9328,16 +10866,16 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 116.84 177.8 0)
+		(at 138.43 180.34 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ceec529f-4964-4991-8069-936854fa0908")
 		(property "Reference" "U6"
-			(at 116.84 167.64 0)
+			(at 138.43 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +10883,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 116.84 170.18 0)
+			(at 138.43 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +10891,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 115.57 175.26 0)
+			(at 137.16 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9362,7 +10900,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 118.11 172.72 0)
+			(at 139.7 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,7 +10909,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 116.84 177.8 0)
+			(at 138.43 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9380,7 +10918,7 @@
 			)
 		)
 		(property "JLC" "C7948"
-			(at 116.84 177.8 0)
+			(at 138.43 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +11115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local_Connectors:Molex_Mini-Fit_Jr_5566-16A_2x08_P4.20mm_Vertical"
+		(property "Footprint" "local_Connectors:CONN-TH_X9357WV-2X08HN-N2SN"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -9622,7 +11160,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C5339222"
+		(property "Alternative" "XKB Connection X9357WV-2x08HN-N2SN. ATTENTION: Different Footprint"
+			(at 77.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C388779"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -9815,82 +11362,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "S2-J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 234.95 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f838e285-707d-414e-8c45-f5888baf9517")
-		(property "Reference" "R28"
-			(at 237.236 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 234.95 45.212 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 233.172 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 330Ω 0603 Chip Resistor"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C23138"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8de4f2a0-cf4a-4e28-8741-340ac31e4587")
-		)
-		(pin "1"
-			(uuid "ffb91d26-e9da-4096-a987-57098301087a")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
-					(reference "R28")
 					(unit 1)
 				)
 			)

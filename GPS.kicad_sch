@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-02-26")
-		(rev "v0.1")
+		(date "2025-05-04")
+		(rev "v0.2")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -1646,7 +1646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "xtech:UM9XX_WitMotion"
+		(property "Footprint" "local_Connectors:UM9XX_WitMotion Sabo"
 			(at 184.15 107.95 0)
 			(effects
 				(font
@@ -2200,7 +2200,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ffcb21c8-cb7c-44cd-8396-427284a0b753")
 		(property "Reference" "Q1"
 			(at 166.37 106.6799 0)
@@ -2212,7 +2211,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 166.37 109.2199 0)
+			(at 164.846 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
