@@ -1673,6 +1673,14 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "2eecc8b2-2c7c-4740-9865-8cb5990b356f")
 		)
@@ -1845,6 +1853,14 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5dc31df-43bd-4de5-b83e-690900d79643")
 		)
@@ -1942,6 +1958,14 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b1cc541-80a1-4243-8420-0e3e078d50e6")
 		)
@@ -2010,6 +2034,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2104,6 +2136,14 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0b0aee4-cede-48c7-a97e-b4a8afffca73")
 		)
@@ -2174,13 +2214,29 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C718230"
+		(property "JLC" ""
 			(at 354.33 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C718230"
+			(at 354.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(instances
@@ -2274,6 +2330,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

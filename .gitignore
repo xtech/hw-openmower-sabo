@@ -17,7 +17,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-production/*
+production/backups/*
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -35,3 +35,5 @@ production/*
 components/extern/tmp/
 
 release/
+production/OpenMower_SABO_Mainboard_for_Series_I__II_v*.zip
+production/netlist.ipc

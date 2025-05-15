@@ -104,6 +104,9 @@ The code/schematics/PCB files are distributed in the hope that it will be useful
 
 This basically means: I'm just documenting a project of mine here for free and I don't have the time and resources to check that devices built using this information will be safe to use, legal to use or even work as intended. You will need technical know-how to use this project and I'm not liable for any damages your devices do to anyone or anything.
 
+The RoHS mark on the PCB indicates presumed compliance based on supplier declarations. No third-party testing or certification has been conducted.
+
+
 ## License
 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
