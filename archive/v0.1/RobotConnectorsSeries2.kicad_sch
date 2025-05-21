@@ -4108,7 +4108,7 @@
 		)
 		(uuid "810d9b1c-50ce-486e-a6af-8fa485707a75")
 	)
-	(text "----------- DESIGN FAULTS ----------\n\n1. Hall Sensors SAU12996 and SAU13124 will not\n   work reliable with R_{Sense} = 330.\n   R9, R10 & R28 need to be changed to 120 Ohm.\n2. In consequence of 1. R23 need to be changed to 3k3 to\n   get a V_{Ref} of 1.24V\n3. Comparator V_{Ref} inputs Pin 4, 6 & 8 need an 100k R\n   in series so that an oscillation comparator doesn't\n   affect V_{Ref}.\n4. The unused \"C\" comparator need to get an\n   10k pull-up on \"-\" input and a 10k pull-down\n   on \"+\" input. Otherwise it tend to oscillate."
+	(text "----------- DESIGN FAULTS ----------\n\n1. Hall Sensors SAU12996 and SAU13124 will not\n   work reliable with R_{Sense} = 330.\n   R9, R10 & R28 need to be changed to 120 Ohm.\n2. In consequence of 1. R23 need to be changed to 3k3 to\n   get a V_{Ref} of 1.24V\n3. Comparator V_{Ref} inputs Pin 4, 6 & 8 need an 100k R\n   in series so that an oscillation comparator doesn't\n   affect V_{Ref}.\n4. The unused \"C\" comparator need to get an\n   10k pull-up on \"-\" input and a 10k pull-down\n   on \"+\" input. Otherwise it tend to oscillate.\n5. Cut LCD_IN_X-Z otherwise you might destroy your LCD\n   due to 5V instead of (recently determined) 3.0V!!!"
 		(exclude_from_sim no)
 		(at 19.558 170.18 0)
 		(effects
