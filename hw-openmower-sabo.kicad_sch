@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-04")
+		(date "2025-05-22")
 		(rev "v0.2")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
@@ -12044,39 +12044,39 @@
 				(justify left)
 			)
 		)
-		(pin "UI_LCD_X" input
-			(at 72.39 176.53 180)
-			(uuid "c5fba665-1a1f-40d8-9a03-5baba6866714")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UI_LCD_Y" input
-			(at 72.39 179.07 180)
-			(uuid "e723f2ba-332f-4a28-a195-7da3fcf80707")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UI_LCD_Z" input
-			(at 72.39 181.61 180)
-			(uuid "58584b2b-abc3-4000-a4b2-7d890b7d5e09")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "UI_S2_BTN_~{CS}" input
 			(at 72.39 168.91 180)
 			(uuid "5fec7f80-6c91-4152-8a70-dfc2f213ae88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_MISC1" input
+			(at 72.39 179.07 180)
+			(uuid "98016762-ce89-4365-a001-104094212356")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_MISC2" input
+			(at 72.39 181.61 180)
+			(uuid "a1e08db2-a76f-40c6-9e02-c6fe32763795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCD_~{CE}" input
+			(at 72.39 176.53 180)
+			(uuid "bfa9a394-c48b-488f-a030-ef46a6c31279")
 			(effects
 				(font
 					(size 1.27 1.27)

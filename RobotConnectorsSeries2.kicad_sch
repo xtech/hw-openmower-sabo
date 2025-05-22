@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-04")
+		(date "2025-05-22")
 		(rev "v0.2")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
@@ -4501,6 +4501,16 @@
 		)
 		(uuid "35b7c6b7-da82-4917-b13e-c764dd880c0a")
 	)
+	(text "(always high during RE)"
+		(exclude_from_sim no)
+		(at 221.234 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37c9587f-4f90-411a-b30f-9837a9f18531")
+	)
 	(text "Front-Left-Lift"
 		(exclude_from_sim no)
 		(at 206.248 106.68 0)
@@ -4520,6 +4530,16 @@
 			)
 		)
 		(uuid "4f3d2de2-d24c-463b-9ae1-4422707ebb91")
+	)
+	(text "LCD_IN_MISC2:\n1-3 low-strobes\n@ end of ~{CE} phase\nduring RE"
+		(exclude_from_sim no)
+		(at 152.4 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5839e1a6-ee18-4993-89a9-f1602ae363a6")
 	)
 	(text "Dock (PWR-ON)"
 		(exclude_from_sim no)
@@ -4882,10 +4902,6 @@
 		(uuid "004783bc-ae40-437e-87e4-b1d8d16be1c3")
 	)
 	(no_connect
-		(at 204.47 62.23)
-		(uuid "0744d5eb-cf3b-4cda-9302-68d4df3978e1")
-	)
-	(no_connect
 		(at 229.87 115.57)
 		(uuid "0c583050-8010-47b5-a5f0-c4b23dcfcb96")
 	)
@@ -4922,10 +4938,6 @@
 		(uuid "55f39c91-9198-42fb-9ea4-2919553cb5ac")
 	)
 	(no_connect
-		(at 191.77 62.23)
-		(uuid "56b519d1-5be5-4dd6-a83c-2aa3a0b2021a")
-	)
-	(no_connect
 		(at 217.17 120.65)
 		(uuid "5ceab8e4-fa3c-4bc8-b194-b3bd3763c5bd")
 	)
@@ -4956,10 +4968,6 @@
 	(no_connect
 		(at 271.78 148.59)
 		(uuid "ad29253d-6646-4381-8f27-38c65c4ddefc")
-	)
-	(no_connect
-		(at 204.47 64.77)
-		(uuid "b1f57411-4287-47fb-858e-6a86474a72d0")
 	)
 	(no_connect
 		(at 271.78 153.67)
@@ -6111,6 +6119,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 62.23) (xy 191.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892ea8a6-c539-4b89-b54f-09f7a8a784ae")
+	)
+	(wire
+		(pts
 			(xy 229.87 107.95) (xy 237.49 107.95)
 		)
 		(stroke
@@ -6479,6 +6497,16 @@
 		)
 		(uuid "bd1d1226-85d5-4252-9128-84993d101a51")
 	)
+	(wire
+		(pts
+			(xy 204.47 62.23) (xy 209.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd33ba1c-532d-45d2-b704-d541405c670b")
+	)
 	(bus
 		(pts
 			(xy 107.95 45.72) (xy 107.95 50.8)
@@ -6518,6 +6546,16 @@
 			(type default)
 		)
 		(uuid "c4fcacd5-449e-4609-bb1a-6f42ec3e9161")
+	)
+	(wire
+		(pts
+			(xy 204.47 64.77) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c531ebb0-6e3f-431b-a4a4-8cb6606c635a")
 	)
 	(wire
 		(pts
@@ -7431,6 +7469,17 @@
 		)
 		(uuid "08f5916d-e147-4a4b-be2c-00381dcea8ea")
 	)
+	(hierarchical_label "LCD_IN_MISC2_3V"
+		(shape input)
+		(at 180.34 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a0cdf81-8668-4f54-b9d4-5f353b47b2a1")
+	)
 	(hierarchical_label "BMC_YW"
 		(shape bidirectional)
 		(at 107.95 38.1 0)
@@ -7453,6 +7502,17 @@
 		)
 		(uuid "25ddd7c9-9e7a-4a20-b1d2-e91140e7a6a0")
 	)
+	(hierarchical_label "LCD_VCC_3V"
+		(shape input)
+		(at 209.55 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "359cfb1a-aff9-416d-bf97-b20feca2f511")
+	)
 	(hierarchical_label "LATCH_LOAD_5V"
 		(shape input)
 		(at 180.34 52.07 180)
@@ -7474,6 +7534,17 @@
 			(justify left)
 		)
 		(uuid "39139e9a-78ef-4314-84ea-43ddb17a060b")
+	)
+	(hierarchical_label "LCD_CLK_3V"
+		(shape input)
+		(at 180.34 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a937f5b-20e5-4106-9cc4-bcbdf53d2a07")
 	)
 	(hierarchical_label "HALL_~{EN}_5V"
 		(shape input)
@@ -7552,6 +7623,17 @@
 		)
 		(uuid "7c884559-46bf-4e3e-990e-edfbc84af88e")
 	)
+	(hierarchical_label "LCD_MOSI_3V"
+		(shape input)
+		(at 180.34 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c968e26-0d5a-4a5f-8da9-ccd81a4577bd")
+	)
 	(hierarchical_label "HALL2_5V"
 		(shape output)
 		(at 274.32 44.45 0)
@@ -7585,17 +7667,6 @@
 		)
 		(uuid "8cd39bf5-dc80-42fc-a508-8bdcf873f73d")
 	)
-	(hierarchical_label "LCD_IN_Y_5V"
-		(shape input)
-		(at 180.34 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9524fac6-c03b-4dec-8388-6aa76e308f21")
-	)
 	(hierarchical_label "OE_5V"
 		(shape input)
 		(at 209.55 52.07 0)
@@ -7617,6 +7688,17 @@
 			(justify left)
 		)
 		(uuid "b028e437-28e0-4623-81e9-8f6e2bdb5f21")
+	)
+	(hierarchical_label "LCD_~{CE}_3V"
+		(shape input)
+		(at 209.55 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d524532f-67d4-4a22-9470-f31bdb964b76")
 	)
 	(hierarchical_label "HALL0_5V"
 		(shape output)
@@ -7640,6 +7722,17 @@
 		)
 		(uuid "dbcdc934-0b38-421a-a210-240b30c5e717")
 	)
+	(hierarchical_label "LCD_IN_MISC1_3V"
+		(shape input)
+		(at 209.55 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de41367c-b6b1-488f-aa66-0473cb692656")
+	)
 	(hierarchical_label "LCD_BACKLIGHT_KATHODE"
 		(shape input)
 		(at 185.42 66.04 180)
@@ -7650,28 +7743,6 @@
 			(justify right)
 		)
 		(uuid "f03b587c-2175-4b2b-84f0-9222b4c6fd7b")
-	)
-	(hierarchical_label "LCD_IN_X_5V"
-		(shape input)
-		(at 180.34 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4bd149a-2d9d-411b-baac-b8f505f67d00")
-	)
-	(hierarchical_label "LCD_IN_Z_5V"
-		(shape input)
-		(at 209.55 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f83a2536-274d-4383-bd88-85f2629174cd")
 	)
 	(hierarchical_label "SPI_TX_5V"
 		(shape input)
