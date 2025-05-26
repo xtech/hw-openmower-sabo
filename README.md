@@ -37,7 +37,7 @@ This mainboard is compatible with the following mower models:
 | Auto           | - On = Mow whenever possible (TODO)<br>- Blink = Semi- Auto (Mow entire map once and then wait for manual start again) (TODO)
 | Driving/Mowing | - On = In autonomous mowing or driving mode (TODO)<br>- Blink = Area recording mode (TODO)
 | House/Home     | - On = GPS has RTK-Fix (TODO)<br>- Blink = Waiting for RTK-Fix (TODO)
-| Start/Play     | ![led-rd-blink-fast] Emergency, ![led-rd-blink-slow] Docked & charging<br>![led-gn-on] Mowing or Area-recording, ![led-gn-blink-slow] Docked (charging finished), ![led-gn-blink-fast] Docked but no or faulty battery |
+| Start/Play     | - On = Mowing or Area-recording (TODO)<br>- Slow-blink- red = Charging (TODO)<br>- Fast-blink- red = Emergency (TODO) |
 
 
 ### Meaning of the Buttons
@@ -58,11 +58,10 @@ This mainboard is compatible with the following mower models:
   - [x] Charger
   - [x] ESCs (BLDC Motors)
   - [x] Emergency sensors (Front Wheel Lifts, Top-Stop, Handle-Stop)
-  - [ ] ~~Battery signal. CAN?~~
   - [ ] CoverUI (Series-I)
     - [x] LCD Backlight
-    - [ ] Buttons
-    - [ ] LEDs
+    - [ ] Buttons :fire:
+    - [ ] LEDs :fire:
     - [ ] LC-Display
   - [ ] CoverUI (Series-II)
     - [ ] LCD Backlight
@@ -80,7 +79,7 @@ This mainboard is compatible with the following mower models:
     - [x] Drive PIDs. ~~At the moment the mower drive somehow stutter (not a big deal, but time consuming)~~
     - [x] ~~Limit blade motor to only one direction~~
     - [ ] Buttons
-    - [ ] LEDs :fire:
+    - [ ] LEDs
 
 
 ## Known Issues :bangbang:
@@ -104,16 +103,6 @@ The code/schematics/PCB files are distributed in the hope that it will be useful
 
 This basically means: I'm just documenting a project of mine here for free and I don't have the time and resources to check that devices built using this information will be safe to use, legal to use or even work as intended. You will need technical know-how to use this project and I'm not liable for any damages your devices do to anyone or anything.
 
-The RoHS mark on the PCB indicates presumed compliance based on supplier declarations. No third-party testing or certification has been conducted.
-
-
 ## License
 
 <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
-[led-gn-on]: assets/led-gn-on.gif
-[led-gn-blink-slow]: assets/led-gn-blink-slow.gif
-[led-gn-blink-fast]: assets/led-gn-blink-fast.gif
-[led-rd-on]: assets/led-rd-on.gif
-[led-rd-blink-slow]: assets/led-rd-blink-slow.gif
-[led-rd-blink-fast]: assets/led-rd-blink-fast.gif

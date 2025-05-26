@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-22")
-		(rev "v0.2")
+		(date "2025-02-26")
+		(rev "v0.1")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -1909,29 +1909,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C7509517"
 			(at 26.67 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 26.67 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C7509517"
-			(at 26.67 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -2015,14 +1999,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 118.11 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d189e3b2-2885-49ef-a9b8-478894acc7f5")
 		)
@@ -2097,14 +2073,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 166.37 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "14"
@@ -2246,14 +2214,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 218.44 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0d99ce3e-57f2-4be9-9dce-b13670d3d617")
 		)
@@ -2332,29 +2292,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C92273"
 			(at 68.58 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C92273"
-			(at 68.58 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -2438,14 +2382,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 124.46 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3aa57f5d-556f-45f3-bf7a-709f30457a42")
 		)
@@ -2524,29 +2460,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C7509520"
 			(at 26.67 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 26.67 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C7509520"
-			(at 26.67 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -2695,29 +2615,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C7509518"
 			(at 26.67 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 26.67 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C7509518"
-			(at 26.67 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -2792,29 +2696,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C7509518"
 			(at 26.67 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 26.67 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C7509518"
-			(at 26.67 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -2889,29 +2777,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C92273"
 			(at 68.58 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C92273"
-			(at 68.58 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -3013,9 +2885,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "aa44677b-d5d8-4ac7-918b-a44cfac00ef9")
 		(property "Reference" "C64"
-			(at 77.724 104.648 0)
+			(at 93.98 101.9809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +2897,7 @@
 			)
 		)
 		(property "Value" "220uF@80V"
-			(at 77.724 107.188 0)
+			(at 93.98 104.5209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +2923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220uF 80V Plugin,D10xL16mm  Aluminum Electrolytic Capacitors - Leaded ROHS"
+		(property "Description" "Polarized capacitor"
 			(at 90.17 104.14 0)
 			(effects
 				(font
@@ -3059,21 +2932,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2937593 "
+		(property "JLC" "C106516"
 			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 90.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -3159,14 +3024,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 199.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -3256,14 +3113,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 106.68 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f57579df-7876-412c-bb23-01b415c9a78f")
 		)
@@ -3295,9 +3144,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c1199382-eac3-4f1f-b6d3-d2f26f52c256")
 		(property "Reference" "C65"
-			(at 94.234 94.742 0)
+			(at 101.6 101.9809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3156,7 @@
 			)
 		)
 		(property "Value" "220uF@80V"
-			(at 94.234 97.282 0)
+			(at 101.6 104.5209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "220uF 80V Plugin,D10xL16mm  Aluminum Electrolytic Capacitors - Leaded ROHS"
+		(property "Description" "Polarized capacitor"
 			(at 97.79 104.14 0)
 			(effects
 				(font
@@ -3341,21 +3191,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2937593 "
+		(property "JLC" "C106516"
 			(at 97.79 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 97.79 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -3436,29 +3278,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C92273"
 			(at 68.58 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C92273"
-			(at 68.58 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -3760,14 +3586,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 209.55 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

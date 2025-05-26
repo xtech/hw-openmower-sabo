@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-22")
-		(rev "v0.2")
+		(date "2025-02-26")
+		(rev "v0.1")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -1646,7 +1646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local_Connectors:UM9XX_WitMotion Sabo"
+		(property "Footprint" "xtech:UM9XX_WitMotion"
 			(at 184.15 107.95 0)
 			(effects
 				(font
@@ -1671,14 +1671,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 184.15 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "9"
@@ -1853,14 +1845,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 217.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e5dc31df-43bd-4de5-b83e-690900d79643")
 		)
@@ -1958,14 +1942,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 139.7 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7b1cc541-80a1-4243-8420-0e3e078d50e6")
 		)
@@ -2034,14 +2010,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 124.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -2136,14 +2104,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 147.32 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e0b0aee4-cede-48c7-a97e-b4a8afffca73")
 		)
@@ -2214,29 +2174,13 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
+		(property "JLC" "C718230"
 			(at 354.33 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 354.33 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C718230"
-			(at 354.33 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(instances
@@ -2256,6 +2200,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ffcb21c8-cb7c-44cd-8396-427284a0b753")
 		(property "Reference" "Q1"
 			(at 166.37 106.6799 0)
@@ -2267,7 +2212,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 164.846 109.474 0)
+			(at 166.37 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,14 +2275,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 160.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
