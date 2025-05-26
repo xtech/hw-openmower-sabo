@@ -3968,6 +3968,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "xtech:Dummy"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4154,6 +4255,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fb9c43d-56f3-43b3-a573-1fdefd40a7a4")
+	)
+	(junction
+		(at 58.42 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30095243-a090-482a-bdfc-24bd1b083c0f")
+	)
+	(junction
+		(at 17.78 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "328e6cb8-aac3-433a-bee7-ac6680f538fe")
 	)
 	(junction
 		(at 69.85 199.39)
@@ -5028,6 +5141,16 @@
 			(type default)
 		)
 		(uuid "138c8d55-a479-43c3-b70a-aec6c8a468f9")
+	)
+	(wire
+		(pts
+			(xy 69.85 199.39) (xy 74.93 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1453c62b-498c-4ecc-8aa8-3f041bd01add")
 	)
 	(wire
 		(pts
@@ -6398,6 +6521,16 @@
 			(type default)
 		)
 		(uuid "5bec28c5-00db-4bb7-835c-27108a323450")
+	)
+	(wire
+		(pts
+			(xy 17.78 38.1) (xy 17.78 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfd3880-0b5b-407f-86af-0aaf54b5021e")
 	)
 	(wire
 		(pts
@@ -8748,6 +8881,16 @@
 			(type default)
 		)
 		(uuid "e4237d22-1213-4411-961f-fe89245a8cca")
+	)
+	(wire
+		(pts
+			(xy 58.42 86.36) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4272b44-4c28-497a-b569-52e6c531bcf5")
 	)
 	(wire
 		(pts
@@ -13197,8 +13340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 151.13 90)
-		(mirror x)
+		(at 52.07 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13206,7 +13348,7 @@
 		(dnp no)
 		(uuid "3673fdb1-882b-49df-ac21-f630b0a415f0")
 		(property "Reference" "R4"
-			(at 56.134 150.114 90)
+			(at 48.006 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13214,7 +13356,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 52.324 151.13 90)
+			(at 51.816 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13758,7 +13900,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "FT Rotation Offset" "180"
 			(at 382.27 41.91 0)
 			(effects
 				(font
@@ -14988,7 +15130,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "FT Rotation Offset" "180"
 			(at 382.27 86.36 0)
 			(effects
 				(font
@@ -15841,7 +15983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x2P 2P XH 1 2.5mm 2 Plugin,P=2.5mm Wire To Board Connector ROHS"
 			(at 74.93 132.08 0)
 			(effects
 				(font
@@ -15868,7 +16010,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2910525"
+		(property "JLC" "C20079"
 			(at 74.93 132.08 0)
 			(effects
 				(font
@@ -15877,21 +16019,13 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "Y"
+		(property "FT Rotation Offset" "180"
 			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 74.93 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -16968,6 +17102,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9122837c-b0a8-4bba-86b1-bfa16bf5a5ef")
+		(property "Reference" "#FLG02"
+			(at 58.42 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dee5423c-2496-40d2-a223-1932fb371f65")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 186.69 0)
 		(mirror y)
@@ -17654,6 +17854,73 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a7e6f0-88ce-4bdb-b50c-375319eabfa1")
+		(property "Reference" "#FLG05"
+			(at 76.835 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 78.74 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 74.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474fbd87-a9b6-457e-b141-14fcdb2eec12")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -18875,6 +19142,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 17.78 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9cf6b98-c53d-47a1-b734-6e88fd0a84dc")
+		(property "Reference" "#FLG01"
+			(at 17.78 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 17.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 17.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 17.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10e74ddb-94e9-40ac-b322-856ef4271bee")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 232.41 270)
 		(unit 1)
@@ -19133,7 +19466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "FT Rotation Offset" "180"
 			(at 382.27 71.12 0)
 			(effects
 				(font
@@ -19985,7 +20318,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "FT Rotation Offset" "180"
 			(at 382.27 57.15 0)
 			(effects
 				(font
@@ -20102,9 +20435,9 @@
 		(at 381 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c3df7d7a-edc3-4366-aee5-48dde2868f10")
 		(property "Reference" "TP2"
@@ -21491,7 +21824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x2P 2P XH 1 2.5mm 2 Plugin,P=2.5mm Wire To Board Connector ROHS"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -21518,7 +21851,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2910525"
+		(property "JLC" "C20079"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -21527,12 +21860,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "FT Rotation Offset" "180"
 			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21892,7 +22226,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "FT Rotation Offset" "180"
 			(at 382.27 27.94 0)
 			(effects
 				(font

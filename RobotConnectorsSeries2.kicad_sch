@@ -7906,15 +7906,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 168.91 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" ""
 			(at 168.91 179.07 0)
 			(effects
@@ -8677,12 +8668,13 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "LCSC Part #" "C17218801"
 			(at 222.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -9202,15 +9194,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 260.35 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" ""
 			(at 260.35 110.49 0)
 			(effects
@@ -9606,15 +9589,6 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 250.19 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" ""
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -10431,7 +10405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2x4P 8P Micro-Fit(MX 3.0) Tin 3mm 4 -40℃~+105℃ 8.5A 2 3mm Brass Standing paste SMD,P=3mm Wire To Board Connector ROHS"
 			(at 77.47 120.65 0)
 			(effects
 				(font
@@ -10448,7 +10422,7 @@
 				)
 			)
 		)
-		(property "MF" "Molex"
+		(property "Manufacturer" "Molex"
 			(at 77.47 120.65 0)
 			(effects
 				(font
@@ -10466,7 +10440,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C505075"
+		(property "LCSC Part #" "C400369"
 			(at 77.47 120.65 0)
 			(effects
 				(font
@@ -10475,21 +10449,13 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" "0"
 			(at 77.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11139,23 +11105,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP" "Y"
-			(at 196.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 196.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "4"
@@ -11996,15 +11945,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 138.43 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" ""
 			(at 138.43 180.34 0)
 			(effects
@@ -12125,15 +12065,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 190.5 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" ""
 			(at 190.5 110.49 0)
 			(effects
@@ -12226,7 +12157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local_Connectors:CONN-TH_X9357WV-2X08HN-N2SN"
+		(property "Footprint" "local_Connectors:Molex_Mini-Fit_Jr_5566-16A_2x08_P4.20mm_Vertical"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -12271,30 +12202,13 @@
 				(hide yes)
 			)
 		)
-		(property "Alternative" "XKB Connection X9357WV-2x08HN-N2SN. ATTENTION: Different Footprint"
+		(property "JLC" "C5339222"
 			(at 77.47 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "JLC" "C388779"
-			(at 77.47 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12397,7 +12311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2x4P 8P Micro-Fit(MX 3.0) Tin 3mm 4 -40℃~+105℃ 8.5A 2 3mm Brass Standing paste SMD,P=3mm Wire To Board Connector ROHS"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -12414,7 +12328,7 @@
 				)
 			)
 		)
-		(property "MF" "Molex"
+		(property "Manufacturer" "Molex"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -12432,7 +12346,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C505075"
+		(property "LCSC Part #" "C400369"
 			(at 77.47 81.28 0)
 			(effects
 				(font
@@ -12441,21 +12355,13 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" "0"
 			(at 77.47 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

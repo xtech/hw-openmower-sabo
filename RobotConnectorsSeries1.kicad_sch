@@ -7736,7 +7736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2.54mm 260℃@10S -40℃~+105℃ Direct Insert 3A Gold Brass 1kV 2x13P 13 2.54mm Simple cow constellation 2 Plugin,P=2.54mm  IDC Connectors ROHS"
 			(at 243.84 78.74 0)
 			(effects
 				(font
@@ -7753,7 +7753,7 @@
 				)
 			)
 		)
-		(property "MFPN" "BHR-26-VUA"
+		(property "MFPN" "ZX-IDC2.54-2-13PZZ"
 			(at 243.84 78.74 0)
 			(effects
 				(font
@@ -7762,12 +7762,31 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer" "Megastar"
 			(at 243.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7501247"
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "24"
@@ -8140,7 +8159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2x4P 8P Micro-Fit(MX 3.0) Tin 3mm 4 -40℃~+105℃ 8.5A 2 3mm Brass Standing paste SMD,P=3mm Wire To Board Connector ROHS"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -8157,7 +8176,7 @@
 				)
 			)
 		)
-		(property "MFPN" "MOLEX 430450818"
+		(property "Manufacturer" "Molex"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -8166,7 +8185,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "MFPN" "430450818"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -8175,7 +8194,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "FT Rotation Offset" "0"
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C400369"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -9026,7 +9054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local_Connectors:CONN-TH_X9357WV-2X08HN-N2SN"
+		(property "Footprint" "local_Connectors:Molex_Mini-Fit_Jr_5566-16A_2x08_P4.20mm_Vertical"
 			(at 69.85 43.18 0)
 			(effects
 				(font
@@ -9071,30 +9099,13 @@
 				(hide yes)
 			)
 		)
-		(property "Alternative" "XKB Connection X9357WV-2x08HN-N2SN. ATTENTION: Different Footprint"
+		(property "JLC" "C5339222"
 			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "JLC" "C388779"
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

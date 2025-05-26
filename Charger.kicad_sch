@@ -9848,9 +9848,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c1fd0dbe-0d17-4ad5-9fd4-7cbb9f9e6908")
 		(property "Reference" "TP1"
 			(at 157.48 248.9201 90)
@@ -9895,14 +9895,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 154.94 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -10097,7 +10089,7 @@
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 154.94 257.81 90)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
