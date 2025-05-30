@@ -34,10 +34,10 @@ This mainboard is compatible with the following mower models:
 
 | LED            | Meaning |
 |----------------|---------|
-| Auto           | - On = Mow whenever possible (TODO)<br>- Blink = Semi- Auto (Mow entire map once and then wait for manual start again) (TODO)
-| Driving/Mowing | - On = In autonomous mowing or driving mode (TODO)<br>- Blink = Area recording mode (TODO)
-| House/Home     | - On = GPS has RTK-Fix (TODO)<br>- Blink = Waiting for RTK-Fix (TODO)
-| Start/Play     | ![led-rd-blink-fast] Emergency, ![led-rd-blink-slow] Docked & charging<br>![led-gn-on] Mowing or Area-recording, ![led-gn-blink-slow] Docked (charging finished), ![led-gn-blink-fast] Docked but no or faulty battery |
+| Auto           | ![led-gn-on] Mow whenever possible (TODO), ![led-gn-blink-slow] Semi- Auto (Mow entire map once and then wait for manual start again) (TODO)
+| Driving/Mowing | ![led-gn-blink-slow] In autonomous mowing or driving mode (TODO), ![led-gn-blink-fast] Area recording mode (TODO)
+| House/Home     | ![led-gn-on] GPS has RTK-Fix (TODO), ![led-gn-blink-slow] Waiting for RTK-Fix (TODO)
+| Start/Play     | ![led-rd-blink-fast] Emergency, ![led-rd-blink-slow] Waiting for ROS (TODO)<br>![led-gn-on] Docked & charging finished, ![led-gn-blink-slow] Docked & charging, ![led-gn-blink-fast] Docked but no or faulty battery |
 
 
 ### Meaning of the Buttons
@@ -86,7 +86,8 @@ This mainboard is compatible with the following mower models:
 ## Known Issues :bangbang:
 
 - LC-Display is not working at all and it's doubtful if it ever will be (mainly due to missing technical specs like display controller, ...)
-- Series-I CoverUI isn't connected (except LCD backlight) due to missing pinning (need a faulty Series-I CoverUI to reverse engineer the pinning)
+- ~~Series-I CoverUI isn't connected (except LCD backlight) due to missing pinning (need a faulty Series-I CoverUI to reverse engineer the pinning).~~
+    Since hardware v0.2, Series-I CoverUI is also connected.
 - ~~Series-II is only prepared for now, but not yet tested in any way~~
 
 
