@@ -6731,7 +6731,7 @@
 		)
 		(uuid "194825b4-2b03-40f9-a07e-7c261df346a4")
 	)
-	(label "LED_D"
+	(label "LED_BTN_D"
 		(at 114.3 78.74 0)
 		(effects
 			(font
@@ -6761,7 +6761,7 @@
 		)
 		(uuid "472d7c61-0695-422f-b6e1-2ee706d51f21")
 	)
-	(label "LED_STR"
+	(label "LED_BTN_STR"
 		(at 186.69 104.14 0)
 		(effects
 			(font
@@ -6861,7 +6861,7 @@
 		)
 		(uuid "a4b9bd08-c032-49d7-9e2b-800201962347")
 	)
-	(label "LED_D"
+	(label "LED_BTN_D"
 		(at 181.61 114.3 0)
 		(effects
 			(font
@@ -6871,7 +6871,7 @@
 		)
 		(uuid "b157471c-740a-4110-b6af-094eb0279698")
 	)
-	(label "LED_STR"
+	(label "LED_BTN_STR"
 		(at 114.3 81.28 0)
 		(effects
 			(font

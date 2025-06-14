@@ -4552,6 +4552,20 @@
 		)
 		(uuid "a7bf252d-6f94-488b-9019-46e41d054a84")
 	)
+	(text "--------- DESIGN FAULTS --------\n\n1. S1-J2 is to tight to USB. Unplugging difficult\n2. S1-J2/S1-J3 is to tight. Unplugging difficult"
+		(exclude_from_sim no)
+		(at 98.298 23.114 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "bec9398c-3003-4229-9745-134013b84d3c")
+	)
 	(text "W"
 		(exclude_from_sim no)
 		(at 64.008 140.208 0)

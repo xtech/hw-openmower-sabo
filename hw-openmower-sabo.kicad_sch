@@ -3607,6 +3607,20 @@
 		)
 		(uuid fc25efc1-e259-4030-814d-0ea67a674ebd)
 	)
+	(text "--------------- DESIGN FAULTS --------------\n\n1. See required changes in RobotConnectors"
+		(exclude_from_sim no)
+		(at 26.162 95.25 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1604f1e2-bd5e-4544-841b-16d8f21afcce")
+	)
 	(text "FAN connector\n"
 		(exclude_from_sim no)
 		(at 379.73 86.36 0)

@@ -62,7 +62,7 @@ This mainboard is compatible with the following mower models:
   - [ ] CoverUI (Series-I)
     - [x] LCD Backlight
     - [ ] Buttons
-    - [ ] LEDs
+    - [x] LEDs
     - [ ] LC-Display
   - [ ] CoverUI (Series-II)
     - [ ] LCD Backlight
@@ -95,6 +95,14 @@ This mainboard is compatible with the following mower models:
 
 This mainboard includes more features than actually required to build an OpenMower robot. Additional features include a gigabit Ethernet switch, LiPo charger, and a 12V auxiliary power supply for extensions.
 
+## History
+
+### Carrier versions
+
+| Version | Date | Info |
+|:-------:|:----:|------|
+| v0.2    | 2025/06 | - Fix Series-II emergency osczillation issues<br>- Support Series-I LEDs and Buttons<br>- May support LCD (at least connected)|
+| v0.1    | 2025/03 | Initial Prototype |
 
 ## Patents, Local Laws, Liability
 
