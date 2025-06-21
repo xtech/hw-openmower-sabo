@@ -4142,6 +4142,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "<--- MODed to be now UI_S2_~{LOAD}_5V"
+		(exclude_from_sim no)
+		(at 396.748 213.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 2 142 4 1)
+			)
+			(justify left)
+		)
+		(uuid "138f0436-b874-4b07-9d5b-1e7942ad5088")
+	)
 	(text "UI_S1_BTN_OK"
 		(exclude_from_sim no)
 		(at 182.626 152.908 0)
@@ -4153,7 +4165,43 @@
 		)
 		(uuid "3b22f22f-7fe0-4c70-8ae2-f4cdd785131b")
 	)
-	(text "--------- DESIGN FAULTS --------\n\n1. Miss-placed (DS/Dx) inputs of U29\n2. See RobotConnectorSeries-1\n3. SPI_RX collision of U42-Q7 and HC165 of CoverUI-S2.\n   Fix via cascading to U29:\n   1. Cut F.Cu trace directly @ U29/Pin10\n   2. Bridge R84 to JP2 and open JP2\n   3. Cut S2-J2/Pin4 (SPI_RX_5V) directly @ U42/Pin9\n      and solder old S2-J2/Pin4 trace to U29/Pin10 "
+	(text "MODded to be\nUI_S2_LATCH_5V only --->"
+		(exclude_from_sim no)
+		(at 186.436 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 10 135 0 1)
+			)
+			(justify left)
+		)
+		(uuid "40affe81-d59d-4c7a-a1d5-63bb71e3dda3")
+	)
+	(text "Now UI_S2_~{LOAD} --->"
+		(exclude_from_sim no)
+		(at 326.898 214.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 2 142 4 1)
+			)
+			(justify right)
+		)
+		(uuid "48e3335d-e4b8-4dcc-9b80-b39c60b51075")
+	)
+	(text "Now UI_S2_LATCH --->"
+		(exclude_from_sim no)
+		(at 337.312 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 2 142 4 1)
+			)
+			(justify right)
+		)
+		(uuid "4d01a970-572f-4523-a3ce-a96c6edae5be")
+	)
+	(text "--------- DESIGN FAULTS --------\n\n1. Miss-placed (DS/Dx) inputs of U29\n2. See RobotConnectorSeries-1\n3. SPI_RX collision of U42-Q7 and HC165 of CoverUI-S2.\n   Fix via cascading to U29:\n   1. Cut F.Cu trace directly @ U29/Pin10\n   2. Bridge R84 to JP2 and open JP2\n   3. Cut S2-J2/Pin4 (SPI_RX_5V) directly @ U42/Pin9\n      and solder old S2-J2/Pin4 trace to U29/Pin10 \n4. See RobotConnectorSeries-2\n"
 		(exclude_from_sim no)
 		(at 43.434 -23.622 0)
 		(effects
@@ -4166,6 +4214,28 @@
 			(justify left)
 		)
 		(uuid "d0643388-9b5b-4b3c-ac5a-fb5d13d6b093")
+	)
+	(text "(trace interrupted)"
+		(exclude_from_sim no)
+		(at 170.688 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df5d0bcb-5a98-4903-8741-8d263dcd77ea")
+	)
+	(text "<--- MODed to be now UI_S2_LATCH_5V"
+		(exclude_from_sim no)
+		(at 397.002 211.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 2 142 4 1)
+			)
+			(justify left)
+		)
+		(uuid "f19843f5-58bd-4d10-9bcf-bd21b1231818")
 	)
 	(junction
 		(at 276.86 264.16)
@@ -5156,6 +5226,17 @@
 			(type default)
 		)
 		(uuid "12c1af40-2c80-4717-8e06-f57df1063558")
+	)
+	(wire
+		(pts
+			(xy 200.66 127) (xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 3 3 1)
+		)
+		(uuid "12d81247-cd07-4312-b150-02cae2b9d11a")
 	)
 	(wire
 		(pts
@@ -9253,6 +9334,17 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 124.46) (xy 214.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 3 3 1)
+		)
+		(uuid "f49561a4-7ebb-4632-8ba8-adb4c6f9a185")
+	)
+	(wire
+		(pts
 			(xy 181.61 267.97) (xy 182.88 267.97)
 		)
 		(stroke
@@ -9486,6 +9578,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 19 5 1)
 			)
 			(justify right bottom)
 		)
@@ -10587,6 +10680,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 8 0 1)
 			)
 			(justify right bottom)
 		)
@@ -10777,6 +10871,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 10 0 1)
 			)
 			(justify left bottom)
 		)
@@ -10917,6 +11012,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 3 2 1)
 			)
 			(justify right bottom)
 		)
@@ -11269,6 +11365,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 2 1)
 			)
 			(justify right)
 		)
@@ -11379,6 +11476,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 11 1)
 			)
 			(justify right)
 		)
@@ -20774,6 +20872,73 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0ac06f5-9d8b-4e5e-9097-155b451c4bea")
+		(property "Reference" "#PWR0106"
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89fb67e8-d649-4612-bd89-d217f9aaff62")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

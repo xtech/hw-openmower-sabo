@@ -3714,6 +3714,30 @@
 		)
 		(uuid "e009f037-50c2-45c1-844b-35fab62b6cf4")
 	)
+	(text "<--|\nMODed to be\nUI_S2_~{LOAD}"
+		(exclude_from_sim no)
+		(at 95.758 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 2 142 4 1)
+			)
+			(justify right)
+		)
+		(uuid "f9db36ba-37b2-4768-8817-5f19b7d5fe4c")
+	)
+	(text "MODed to be\n<--- UI_S2_LATCH"
+		(exclude_from_sim no)
+		(at 99.568 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 2 142 4 1)
+			)
+			(justify right)
+		)
+		(uuid "fc0b350f-eb46-493d-9e1a-ec627c60fe5d")
+	)
 	(junction
 		(at 46.99 25.4)
 		(diameter 0)
@@ -12466,6 +12490,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 255 0 3 1)
 				)
 				(justify left)
 			)

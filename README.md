@@ -60,14 +60,14 @@ This mainboard is compatible with the following mower models:
   - [x] Emergency sensors (Front Wheel Lifts, Top-Stop, Handle-Stop)
   - [ ] ~~Battery signal. CAN?~~
   - [ ] CoverUI (Series-I)
-    - [x] LCD Backlight
-    - [ ] Buttons
-    - [x] LEDs
-    - [ ] LC-Display
-  - [ ] CoverUI (Series-II)
-    - [ ] LCD Backlight
     - [x] Buttons
     - [x] LEDs
+    - [x] LCD Backlight
+    - [ ] LC-Display
+  - [ ] CoverUI (Series-II)
+    - [x] Buttons
+    - [x] LEDs
+    - [ ] LCD Backlight
     - [ ] LC-Display
 - [ ] Software
   - [x] [Firmware](https://github.com/xtech/fw-openmower-v2)
