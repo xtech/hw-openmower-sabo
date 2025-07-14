@@ -4266,9 +4266,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "LCDisplay:\nMolex P/N: 127810002\nDate: 13/02/22\n\nLCD: PCBS100058A-2"
+	(text "LCDisplay:\nSABO P/N: SAU12991\nMolex P/N: 127810002\nDate: 13/02/22\n\nLCD: PCBS100058A-2\n\nCounted 240*160 pixel"
 		(exclude_from_sim no)
-		(at 72.644 189.738 0)
+		(at 72.644 186.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6731,6 +6731,16 @@
 		)
 		(uuid "194825b4-2b03-40f9-a07e-7c261df346a4")
 	)
+	(label "SCK"
+		(at 68.58 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a4603fe-0d13-4871-bb31-8e59caa73a54")
+	)
 	(label "LED_BTN_D"
 		(at 114.3 78.74 0)
 		(effects
@@ -6801,6 +6811,26 @@
 		)
 		(uuid "6d77b5c2-fc7a-4d52-aa6c-ef107037dbb7")
 	)
+	(label "VDD"
+		(at 99.06 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e18f9db-76c6-4d57-9930-6e4b1c690911")
+	)
+	(label "~{C}D"
+		(at 78.74 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f3fcf67-a683-4f3a-b61b-67bd8634a36b")
+	)
 	(label "~{PL}"
 		(at 240.03 58.42 0)
 		(effects
@@ -6842,7 +6872,7 @@
 		(uuid "82525509-7bd8-458d-be6a-94305a868d90")
 	)
 	(label "MB-LM317LM-Pin3_VOut"
-		(at 102.87 132.08 0)
+		(at 118.11 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6931,6 +6961,26 @@
 		)
 		(uuid "f02a303b-33c7-417e-8810-06c528699eb8")
 	)
+	(label "SDA"
+		(at 48.26 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f33d2a46-3d37-4026-bee4-eb863725a883")
+	)
+	(label "ID1"
+		(at 93.98 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f37a5489-2381-421e-b398-fe3b6a917fb6")
+	)
 	(label "BTN_~{CE}"
 		(at 148.59 73.66 180)
 		(effects
@@ -6940,6 +6990,16 @@
 			(justify right bottom)
 		)
 		(uuid "fa54ce57-43bb-4853-89f3-ece32d9a07e9")
+	)
+	(label "RST"
+		(at 71.12 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd681d78-6e1b-4edb-bc84-5055b21a3ee1")
 	)
 	(symbol
 		(lib_id "power:+5V")

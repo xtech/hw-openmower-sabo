@@ -3607,12 +3607,12 @@
 		)
 		(uuid fc25efc1-e259-4030-814d-0ea67a674ebd)
 	)
-	(text "--------------- DESIGN FAULTS --------------\n\n1. See required changes in RobotConnectors"
+	(text "----- REQUIRED REWORK -----\n\n1. See RobotConnectors"
 		(exclude_from_sim no)
-		(at 26.162 95.25 0)
+		(at 36.322 92.71 0)
 		(effects
 			(font
-				(size 1.778 1.778)
+				(size 2.032 2.032)
 				(thickness 0.254)
 				(bold yes)
 				(color 255 0 0 1)
@@ -12555,7 +12555,7 @@
 				(justify left)
 			)
 		)
-		(pin "LCD_MISC1" input
+		(pin "LCD_~{RST}" input
 			(at 72.39 179.07 180)
 			(uuid "98016762-ce89-4365-a001-104094212356")
 			(effects
@@ -12565,7 +12565,7 @@
 				(justify left)
 			)
 		)
-		(pin "LCD_MISC2" input
+		(pin "LCD_~{C}D" input
 			(at 72.39 181.61 180)
 			(uuid "a1e08db2-a76f-40c6-9e02-c6fe32763795")
 			(effects

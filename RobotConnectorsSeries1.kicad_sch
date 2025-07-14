@@ -4554,7 +4554,7 @@
 	)
 	(text "--------- DESIGN FAULTS --------\n\n1. S1-J2 is to tight to USB. Unplugging difficult\n2. S1-J2/S1-J3 is to tight. Unplugging difficult"
 		(exclude_from_sim no)
-		(at 98.298 23.114 0)
+		(at 91.44 22.606 0)
 		(effects
 			(font
 				(size 1.778 1.778)

@@ -4154,13 +4154,29 @@
 		)
 		(uuid "138f0436-b874-4b07-9d5b-1e7942ad5088")
 	)
+	(text "----- REQUIRED REWORK -----\n\n1. SX-FIX1: UI_S1_BTN_OK / SPI_RX_5V of Series-II\n   SX-FIX1.1: Cut trace between S1-J2/Pin8 and U29/Pin10\n   S1-FIX1.2: Bridge R84 to SP2\n   S1-FIX1.3: Open solder jumper SP2 (B.Cu)\n   S2-FIX1.4: Cut S2-J2/Pin4 (SPI_RX_5V) directly @ U42/Pin9\n   S2-FIX1.5: Cascade S2-J2/Pin4 to U29/Pin10\n\n2. S2-FIX2: Get a free GPIO for HEF STR separation from HC165 SH/PL\n   S2-FIX2.1: Cut trace to U43/Pin13 (B.Cu)\n   S2-FIX2.2: Bridge U43/Pin13 to GND (B.Cu)\n   S2-FIX2.3: Cut trace between S2-J2/Pin1 to 13 (B.Cu)\n   S2-FIX2.4: Cut trace from S2-J2/Pin1 (UI_S2_LATCH_~{LOAD}_5V) to U43/Pin1\n   S2-FIX2.5: Cut trace from S2-J2/Pin8 (UI_S2_BTN_~{CS}_5V) to U28/Pin13\n   S2-FIX2.6: Blop S2-J2/Pin8 (UI_S2_BTN_~{CS}_5V) to GND\n   S2-FIX2.7: Wire from S2-J2/Pin1 to U28/Pin13\n   S2-FIX2.8: Wire from S2-J2/Pin13 (LED_BTN_STR) to freed U28/Pin14\n\n3. S2-FIX3: Q3 for 5V_Hall has drain/source swapped! Remove and bridge for Series-II.\n   S2-FIX3.1: Remove Q3\n   S2-FIX3.2: Bridge 5V_HALL\n\n4. S1-FIX4: LM339 blocks Series-I Halls because active if unplugged\n   S1-FIX4.1: Cut trace of Pin 1, 2 & 14 of LM339 outputs"
+		(exclude_from_sim no)
+		(at 19.05 -47.244 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "25d1b511-9446-442c-a54b-d0ad90f1a202")
+	)
 	(text "UI_S1_BTN_OK"
 		(exclude_from_sim no)
 		(at 182.626 152.908 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 7 47 1)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 255 5 1)
 			)
 		)
 		(uuid "3b22f22f-7fe0-4c70-8ae2-f4cdd785131b")
@@ -4200,20 +4216,6 @@
 			(justify right)
 		)
 		(uuid "4d01a970-572f-4523-a3ce-a96c6edae5be")
-	)
-	(text "--------- DESIGN FAULTS --------\n\n1. Miss-placed (DS/Dx) inputs of U29\n2. See RobotConnectorSeries-1\n3. SPI_RX collision of U42-Q7 and HC165 of CoverUI-S2.\n   Fix via cascading to U29:\n   1. Cut F.Cu trace directly @ U29/Pin10\n   2. Bridge R84 to JP2 and open JP2\n   3. Cut S2-J2/Pin4 (SPI_RX_5V) directly @ U42/Pin9\n      and solder old S2-J2/Pin4 trace to U29/Pin10 \n4. See RobotConnectorSeries-2\n"
-		(exclude_from_sim no)
-		(at 43.434 -23.622 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "d0643388-9b5b-4b3c-ac5a-fb5d13d6b093")
 	)
 	(text "(trace interrupted)"
 		(exclude_from_sim no)
@@ -5320,6 +5322,17 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 49.53) (xy 111.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 25 0 1)
+		)
+		(uuid "15b68e92-f73e-4001-b58a-17b30c6adc65")
+	)
+	(wire
+		(pts
 			(xy 57.15 229.87) (xy 57.15 232.41)
 		)
 		(stroke
@@ -5617,16 +5630,6 @@
 			(type default)
 		)
 		(uuid "25cbd876-a0a3-4030-b4ef-d7920d217898")
-	)
-	(wire
-		(pts
-			(xy 95.25 49.53) (xy 111.76 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "267db7c9-21c7-405e-ae18-e5f47b634168")
 	)
 	(wire
 		(pts
@@ -7310,6 +7313,17 @@
 			(type default)
 		)
 		(uuid "89e53867-ba3c-41a2-8ca4-6947d547d5b3")
+	)
+	(wire
+		(pts
+			(xy 93.98 52.07) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 255 25 0 1)
+		)
+		(uuid "8a623668-fac2-4405-b85e-ca83a4d8e117")
 	)
 	(wire
 		(pts
@@ -10034,7 +10048,7 @@
 		)
 		(uuid "5b42ec51-4010-4498-b796-1f05c66d893b")
 	)
-	(label "LCD_MISC2_3V"
+	(label "LCD_~{C}D_3V"
 		(at 300.99 86.36 180)
 		(effects
 			(font
@@ -10225,7 +10239,7 @@
 		)
 		(uuid "6dc52351-291c-4fda-996e-9ff13cf38f80")
 	)
-	(label "LCD_MISC1_3V"
+	(label "LCD_~{RST}_3V"
 		(at 300.99 166.37 180)
 		(effects
 			(font
@@ -10470,6 +10484,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 3 1)
 			)
 			(justify left bottom)
 		)
@@ -10555,7 +10570,7 @@
 		)
 		(uuid "ab990229-68a3-475b-bdd6-8516462356c6")
 	)
-	(label "LCD_MISC2_3V"
+	(label "LCD_~{C}D_3V"
 		(at 300.99 168.91 180)
 		(effects
 			(font
@@ -10686,7 +10701,7 @@
 		)
 		(uuid "c799b2e2-c4b4-4597-99cf-5107e76b2f7c")
 	)
-	(label "LCD_MISC1_3V"
+	(label "LCD_~{RST}_3V"
 		(at 300.99 83.82 180)
 		(effects
 			(font
@@ -10721,6 +10736,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -20543,6 +20559,73 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3198cd0-3fee-403a-8729-9c5969fcaaef")
+		(property "Reference" "#PWR0107"
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76798d4e-824b-49fe-93b0-f47e472b6939")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)

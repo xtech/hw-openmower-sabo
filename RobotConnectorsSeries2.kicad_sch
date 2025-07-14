@@ -4655,20 +4655,6 @@
 		)
 		(uuid "9f5bb7e8-d7ae-40ab-8d1e-30490e842cb7")
 	)
-	(text "--------- DESIGN FAULTS --------\n\n1. Q3 has drain/source swapped?!\n3. Cut trace between S2-J2/Pin1 to 13 (B.Cu)\n4. Cut trace from S2-J2/Pin1 (UI_S2_LATCH_~{LOAD}_5V) to\n   U43/Pin1 and wire to U28/Pin13\n5. Bridge U43/OE to GND and cut trace to U28/Pin14\n5. Route wire from S2-J2/Pin13 (LED_BTN_STR) to\n   freed U28/Pin14 (previously ~{OE}_5V,\n   now UI_S2_LATCH_5V)"
-		(exclude_from_sim no)
-		(at 102.616 -12.446 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9fb39f81-83cb-43e3-ae3b-7b6e6b48ff16")
-	)
 	(text "V"
 		(exclude_from_sim no)
 		(at 85.852 47.498 0)
@@ -7484,7 +7470,7 @@
 		)
 		(uuid "08f5916d-e147-4a4b-be2c-00381dcea8ea")
 	)
-	(hierarchical_label "LCD_IN_MISC2_3V"
+	(hierarchical_label "LCD_~{C}D_3V"
 		(shape input)
 		(at 180.34 54.61 180)
 		(effects
@@ -7737,7 +7723,7 @@
 		)
 		(uuid "dbcdc934-0b38-421a-a210-240b30c5e717")
 	)
-	(hierarchical_label "LCD_IN_MISC1_3V"
+	(hierarchical_label "LCD_~{RST}_3V"
 		(shape input)
 		(at 209.55 64.77 0)
 		(effects
