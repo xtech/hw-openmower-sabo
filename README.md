@@ -12,7 +12,7 @@ This hardware version is in beta state. Expect for things to not work at the cur
 
 OpenMower is an open-source project that upgrades off-the-shelf robotic mowers into modern, smart lawn mowing robots with RTK GPS technology. For more details, check out the [OpenMower project](https://github.com/clemensElflein/openmower).
 
-This repository contains the design files for a custom mainboard specifically designed for converting SABO based mowers to OpenMower.
+This repository contains the design files for a custom mainboard specifically designed for converting SABO based mowers to OpenMower V2.
 
 For further infos or questions, please visit [Discord](https://discord.com/channels/958476543846412329/1355300774523174922)
 
@@ -64,28 +64,29 @@ This mainboard is compatible with the following mower models:
     - [x] LEDs
     - [x] LCD Backlight
     - [ ] LC-Display
-  - [ ] CoverUI (Series-II)
+  - [x] CoverUI (Series-II)
     - [x] Buttons
     - [x] LEDs
-    - [ ] LCD Backlight
-    - [ ] LC-Display
+    - [x] LCD Backlight
+    - [x] LC-Display
 - [ ] Software
   - [x] [Firmware](https://github.com/xtech/fw-openmower-v2)
     - [x] Emergency (Series-I)
     - [x] Emergency (Series-II)
     - [x] Buttons
     - [x] LEDs
-    - [ ] LC-Display
+    - [ ] LC-Display Driver :fire:
+    - [ ] LC-Display GUI
   - [ ] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
     - [x] Drive PIDs. ~~At the moment the mower drive somehow stutter (not a big deal, but time consuming)~~
     - [x] ~~Limit blade motor to only one direction~~
     - [ ] Buttons
-    - [ ] LEDs :fire:
+    - [ ] LEDs 
 
 
 ## Known Issues :bangbang:
 
-- LC-Display is not working at all and it's doubtful if it ever will be (mainly due to missing technical specs like display controller, ...)
+- ~~LC-Display is not working at all and it's doubtful if it ever will be (mainly due to missing technical specs like display controller, ...)~~
 - ~~Series-I CoverUI isn't connected (except LCD backlight) due to missing pinning (need a faulty Series-I CoverUI to reverse engineer the pinning).~~
     Since hardware v0.2, Series-I CoverUI is also connected.
 - ~~Series-II is only prepared for now, but not yet tested in any way~~
@@ -101,7 +102,7 @@ This mainboard includes more features than actually required to build an OpenMow
 
 | Version | Date | Info |
 |:-------:|:----:|------|
-| v0.2    | 2025/06 | - Fix Series-II emergency osczillation issues<br>- Support Series-I LEDs and Buttons<br>- May support LCD (at least connected)|
+| v0.2    | 2025/06 | - Fix Series-II emergency osczillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD |
 | v0.1    | 2025/03 | Initial Prototype |
 
 ## Patents, Local Laws, Liability
