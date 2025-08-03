@@ -1,4 +1,4 @@
-# OpenMower-V2 Mainboard for SABO Mowers
+# OpenMower-V2 Carrierboard for SABO Mowers
 
 ![SABO MOWiT 500F Series-I](assets/sabo-mowit-500f-s1.jpg)
 ![SABO MOWiT 500F Series-2](assets/sabo-mowit-500f-s2.jpg)
@@ -12,21 +12,41 @@ This hardware version is in beta state. Expect for things to not work at the cur
 
 OpenMower is an open-source project that upgrades off-the-shelf robotic mowers into modern, smart lawn mowing robots with RTK GPS technology. For more details, check out the [OpenMower project](https://github.com/clemensElflein/openmower).
 
-This repository contains the design files for a custom mainboard specifically designed for converting SABO based mowers to OpenMower V2.
+This repository contains the design files for a custom carrierboard specifically designed for converting SABO based mowers to OpenMower V2.
 
 For further infos or questions, please visit [Discord](https://discord.com/channels/958476543846412329/1355300774523174922)
 
 ## List of Compatible Mowers
 
-This mainboard is compatible with the following mower models:
+This Carrierboard is compatible with the following mower models:
 
 - SABO MOWit 500F (Series-I & II)
 - John Deere Tango E5 (Series-I & II)
 
-| Series-I @ John Deere Tango E5 | Series-II @ Sabo MOWiT 500F |
+| Series-I Carrierboard (v0.1) | Series-II Carrierboard (v0.2) |
 |:---:|:---:|
-| ![OpenMower-V2 SABO Mainboard Series-I v0.1](assets/om-sabo-mb-s1-v01.jpg)  | ![OpenMower-V2 SABO Mainboard Series-II v0.1](assets/om-sabo-mb-s2-v01.jpg) |
-| ![V0.1 Mainboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg) | ![V0.1 Mainboard Series-II assembled](assets/sabo-s2-v01-assembled.jpg) |
+| ![OpenMower-V2 SABO Carrierboard Series-I v0.1](assets/om-sabo-mb-s1-v01.jpg)  | ![OpenMower-V2 SABO Carrierboard Series-II v0.1](assets/om-sabo-cb-s2-v02.jpg) |
+| **Series-I (v0.1) @ John Deere Tango E5** | **Series-II (v0.2) @ Sabo MOWiT 500F** |
+| ![V0.1 Carrierboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg) | ![V0.1 Carrierboard Series-II assembled](assets/sabo-s2-v01-assembled.jpg) |
+
+
+## Required Additional Components
+
+To build a complete OpenMower-V2 system, you will need the following additional components beyond the Carrierboard:
+
+### Essential Components
+
+- **1 * [xCore](https://core.x-tech.online)**: OpenMower-V2 Development Board for all Low-Level processing
+- **1 * [Raspberry Pi CM4](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for all High-Level processing, >= 4GB RAM
+- **3 * [xESC mini](https://github.com/ClemensElflein/xESC)**: Electronic Speed Controller for BLDC motor
+- **1 * [WT-RTK-960](https://witmotion-sensor.com/products/rtk-gps-gnss-modules-centimeter-level-um982-um980-um960)**: RTK GPS Module for precise positioning
+- **1 * HA/HX-901**: GPS Helix Antenna or similar
+
+### Optional Components
+
+- **MicroSD Card**: High-quality MicroSD-Card (32GB+) for OpenMower-OS if CM4 is without eMCC
+- **RTK Base Station**: If you've no public NTRIP service at your location
+
 
 ## Usage
 
@@ -59,11 +79,11 @@ This mainboard is compatible with the following mower models:
   - [x] ESCs (BLDC Motors)
   - [x] Emergency sensors (Front Wheel Lifts, Top-Stop, Handle-Stop)
   - [ ] ~~Battery signal. CAN?~~
-  - [ ] CoverUI (Series-I)
+  - [x] CoverUI (Series-I)
     - [x] Buttons
     - [x] LEDs
     - [x] LCD Backlight
-    - [ ] LC-Display
+    - [x] LC-Display
   - [x] CoverUI (Series-II)
     - [x] Buttons
     - [x] LEDs
@@ -75,13 +95,13 @@ This mainboard is compatible with the following mower models:
     - [x] Emergency (Series-II)
     - [x] Buttons
     - [x] LEDs
-    - [ ] LC-Display Driver :fire:
+    - [x] LC-Display Driver
     - [ ] LC-Display GUI
   - [ ] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
     - [x] Drive PIDs. ~~At the moment the mower drive somehow stutter (not a big deal, but time consuming)~~
     - [x] ~~Limit blade motor to only one direction~~
-    - [ ] Buttons
-    - [ ] LEDs 
+    - [ ] Buttons :fire:
+    - [ ] LEDs :fire:
 
 
 ## Known Issues :bangbang:
@@ -94,7 +114,7 @@ This mainboard is compatible with the following mower models:
 
 ## Additional Information
 
-This mainboard includes more features than actually required to build an OpenMower robot. Additional features include a gigabit Ethernet switch, LiPo charger, and a 12V auxiliary power supply for extensions.
+This Carrierboard includes more features than actually required to build an OpenMower robot. Additional features include a gigabit Ethernet switch, LiPo charger, and a 12V auxiliary power supply for extensions.
 
 ## History
 
