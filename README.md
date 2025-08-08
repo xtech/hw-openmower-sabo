@@ -23,21 +23,21 @@ This Carrierboard is compatible with the following mower models:
 - SABO MOWit 500F (Series-I & II)
 - John Deere Tango E5 (Series-I & II)
 
-| Series-I Carrierboard (v0.1) | Series-II Carrierboard (v0.2) |
+| Series-I Carrierboard (v0.2) | Series-II Carrierboard (v0.2) |
 |:---:|:---:|
-| ![OpenMower-V2 SABO Carrierboard Series-I v0.1](assets/om-sabo-mb-s1-v01.jpg)  | ![OpenMower-V2 SABO Carrierboard Series-II v0.1](assets/om-sabo-cb-s2-v02.jpg) |
-| **Series-I (v0.1) @ John Deere Tango E5** | **Series-II (v0.2) @ Sabo MOWiT 500F** |
+| ![OpenMower-V2 SABO Carrierboard Series-I v0.2](assets/om-sabo-cb-s1-v02.jpg)  | ![OpenMower-V2 SABO Carrierboard Series-II v0.1](assets/om-sabo-cb-s2-v02.jpg) |
+| **Series-I (v0.1) @ John Deere Tango E5** | **Series-II (v0.1) @ Sabo MOWiT 500F** |
 | ![V0.1 Carrierboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg) | ![V0.1 Carrierboard Series-II assembled](assets/sabo-s2-v01-assembled.jpg) |
 
 
 ## Required Additional Components
 
-To build a complete OpenMower-V2 system, you will need the following additional components beyond the Carrierboard:
+To build a complete OpenMower-V2 system, you will need the following additional components beyond this Carrierboard:
 
 ### Essential Components
 
 - **1 * [xCore](https://core.x-tech.online)**: OpenMower-V2 Development Board for all Low-Level processing
-- **1 * [Raspberry Pi CM4](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for all High-Level processing, >= 4GB RAM
+- **1 * [Raspberry Pi CM4](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for all High-Level processing, >= 4GB RAM, >= 32GB Storage (eMCC or SD-Card)
 - **3 * [xESC mini](https://github.com/ClemensElflein/xESC)**: Electronic Speed Controller for BLDC motor
 - **1 * [WT-RTK-960](https://witmotion-sensor.com/products/rtk-gps-gnss-modules-centimeter-level-um982-um980-um960)**: RTK GPS Module for precise positioning
 - **1 * HA/HX-901**: GPS Helix Antenna or similar
@@ -122,7 +122,7 @@ This Carrierboard includes more features than actually required to build an Open
 
 | Version | Date | Info |
 |:-------:|:----:|------|
-| v0.2    | 2025/06 | - Fix Series-II emergency osczillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD |
+| v0.2    | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD |
 | v0.1    | 2025/03 | Initial Prototype |
 
 ## Patents, Local Laws, Liability
