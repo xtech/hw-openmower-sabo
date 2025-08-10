@@ -50,6 +50,8 @@ To build a complete OpenMower-V2 system, you will need the following additional 
 
 ## Usage
 
+For detailed hardware installation and software preparation during installation, see [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md](INSTALL-HARDWARE-AND-SOFTWARE-PREP.md).
+
 ### Meaning of the LEDs
 
 | LED            | Meaning |
