@@ -23,11 +23,11 @@ This Carrierboard is compatible with the following mower models:
 - SABO MOWit 500F (Series-I & II)
 - John Deere Tango E5 (Series-I & II)
 
-| Series-I Carrierboard (v0.2) | Series-II Carrierboard (v0.2) |
-|:---:|:---:|
+|                          Series-I Carrierboard (v0.2)                          |                         Series-II Carrierboard (v0.2)                          |
+| :----------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
 | ![OpenMower-V2 SABO Carrierboard Series-I v0.2](assets/om-sabo-cb-s1-v02.jpg)  | ![OpenMower-V2 SABO Carrierboard Series-II v0.1](assets/om-sabo-cb-s2-v02.jpg) |
-| **Series-I (v0.1) @ John Deere Tango E5** | **Series-II (v0.1) @ Sabo MOWiT 500F** |
-| ![V0.1 Carrierboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg) | ![V0.1 Carrierboard Series-II assembled](assets/sabo-s2-v01-assembled.jpg) |
+|                   **Series-I (v0.1) @ John Deere Tango E5**                    |                     **Series-II (v0.1) @ Sabo MOWiT 500F**                     |
+| ![V0.1 Carrierboard Series-I assembled](assets/johndeere-s1-v01-assembled.jpg) |   ![V0.1 Carrierboard Series-II assembled](assets/sabo-s2-v01-assembled.jpg)   |
 
 
 ## Required Additional Components
@@ -54,23 +54,23 @@ For detailed hardware installation and software preparation during installation,
 
 ### Meaning of the LEDs
 
-| LED            | Meaning |
-|----------------|---------|
-| Auto           | ![led-gn-on] Mow whenever possible (TODO), ![led-gn-blink-slow] Semi- Auto (Mow entire map once and then wait for manual start again) (TODO)
-| Driving/Mowing | ![led-gn-blink-slow] In autonomous mowing or driving mode (TODO), ![led-gn-blink-fast] Area recording mode (TODO)
-| House/Home     | ![led-gn-on] GPS has RTK-Fix (TODO), ![led-gn-blink-slow] Waiting for RTK-Fix (TODO)
+| LED            | Meaning                                                                                                                                                                                                              |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Auto           | ![led-gn-on] Mow whenever possible (TODO), ![led-gn-blink-slow] Semi- Auto (Mow entire map once and then wait for manual start again) (TODO)                                                                         |
+| Driving/Mowing | ![led-gn-blink-slow] In autonomous mowing or driving mode (TODO), ![led-gn-blink-fast] Area recording mode (TODO)                                                                                                    |
+| House/Home     | ![led-gn-on] GPS has RTK-Fix (TODO), ![led-gn-blink-slow] Waiting for RTK-Fix (TODO)                                                                                                                                 |
 | Start/Play     | ![led-rd-blink-fast] Emergency, ![led-rd-blink-slow] Waiting for ROS (TODO)<br>![led-gn-on] Docked & charging finished, ![led-gn-blink-slow] Docked & charging, ![led-gn-blink-fast] Docked but no or faulty battery |
 
 
 ### Meaning of the Buttons
 
-| Button         | Series-I | Series-II          | Meaning |
-|----------------|:--------:|:------------------:|---------|
-| Auto           | :x:      | :white_check_mark: |
-| Driving/Mowing | :x:      | :white_check_mark: |
-| House/Home     | :x:      | :white_check_mark: |
-| Select (left)  | :white_check_mark: |:x:      | 
-| Start/Play     | :white_check_mark: | :white_check_mark: | Start or Pause mowing (TODO)
+| Button         |      Series-I      |     Series-II      | Meaning                      |
+| -------------- | :----------------: | :----------------: | ---------------------------- |
+| Auto           |        :x:         | :white_check_mark: |
+| Driving/Mowing |        :x:         | :white_check_mark: |
+| House/Home     |        :x:         | :white_check_mark: |
+| Select (left)  | :white_check_mark: |        :x:         |
+| Start/Play     | :white_check_mark: | :white_check_mark: | Start or Pause mowing (TODO) |
 
 ## Roadmap
 
@@ -80,7 +80,7 @@ For detailed hardware installation and software preparation during installation,
   - [x] Charger
   - [x] ESCs (BLDC Motors)
   - [x] Emergency sensors (Front Wheel Lifts, Top-Stop, Handle-Stop)
-  - [ ] ~~Battery signal. CAN?~~
+  - [ ] Battery signalling (SPI)
   - [x] CoverUI (Series-I)
     - [x] Buttons
     - [x] LEDs
@@ -122,10 +122,10 @@ This Carrierboard includes more features than actually required to build an Open
 
 ### Carrier versions
 
-| Version | Date | Info |
-|:-------:|:----:|------|
-| v0.2    | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD |
-| v0.1    | 2025/03 | Initial Prototype |
+| Version |  Date   | Info                                                                                                 |
+| :-----: | :-----: | ---------------------------------------------------------------------------------------------------- |
+|  v0.2   | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD |
+|  v0.1   | 2025/03 | Initial Prototype                                                                                    |
 
 ## Patents, Local Laws, Liability
 

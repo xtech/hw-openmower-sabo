@@ -20,105 +20,98 @@ This guide describes the hardware installation and the software preparation step
 
 ## 1. Open the mower and remove the OEM mainboard 🔓
 
-- Place the mower on its back and remove the six 10 mm screws from the housing.
-- Remove the blade with the FIXME: 6?mm Allen key (right‑hand thread). Use gloves and secure the blade while loosening.
-- Hold the housing together with both hands and place the mower back on its wheels.
-- Slightly open the cover on the handle (rear) side by a few centimeters.
-- Using a flashlight, disconnect the display ribbon cable(s):
-  - Series‑I: two ribbon cables going to the CoverUI. Each plug has small side locks; press to release, then unplug from the mainboard.
-  - Series‑II: one ribbon cable; pull it straight out from the mainboard (no release locks).
-- You can now open the cover further. A single cable from the cover’s charging contacts goes toward the mainboard. Before the mainboard there is a 2‑pin Molex plug; press to unlock and disconnect it. Put the cover aside for later modification and reassembly.
-- Disconnect all remaining cables from the OEM mainboard. Many plugs have a latch; press to release before pulling.
-- The OEM mainboard is mounted on a black plastic mainboard holder. On its back side are two larger Torx T30 screws. Remove them to lift out the mainboard together with the holder.
-- Remove the OEM mainboard from the holder by unscrewing the Torx T20 screws.
+1. Place the mower on its back and remove the six 10 mm screws from the housing.
+2. Remove the blade with the 5mm Allen key (right‑hand thread). Use gloves and secure the blade while loosening.
+3. Hold the housing together with both hands and place the mower back on its wheels.
+4. Slightly open the cover on the handle (rear) side by a few centimeters.
+5. Using a flashlight, disconnect the display ribbon cable(s):
+   - Series‑I: two ribbon cables going to the CoverUI. Each plug has small side locks; press to release, then unplug from the mainboard.
+   - Series‑II: one ribbon cable; pull it straight out from the mainboard (no release locks).
+6. You can now open the cover further. A single cable from the cover’s charging contacts goes toward the mainboard. Before the mainboard there is a 2‑pin Molex plug; press to unlock and disconnect it. Put the cover aside for later modification and reassembly.
+7. Disconnect all remaining cables from the OEM mainboard. Many plugs have a latch; press to release before pulling.
+8. The OEM mainboard is mounted on a black plastic mainboard holder. On its back side are two larger Torx T30 screws. Remove them to lift out the mainboard together with the holder.
+9. Remove the OEM mainboard from the holder by unscrewing the Torx T20 screws.
 
 
 ## 2. Prepare xCore & CM4 🧩
 
-- Optional: Waveshare CM4‑Heatsink‑B (SKU 22097)
-  - Place the small standoffs on the xCore’s CM4 mounting holes.
-- Carefully seat the Raspberry Pi CM4 onto the xCore connector. Ensure the orientation is correct (the small IPEX antenna connector aligns appropriately with the SODIMM side).
+1. Optional: Waveshare CM4‑Heatsink‑B (SKU 22097)
+   - Place the small standoffs on the xCore’s CM4 mounting holes.
+2. Carefully seat the Raspberry Pi CM4 onto the xCore connector. Ensure the orientation is correct (the small IPEX antenna connector aligns appropriately with the SODIMM side).
 
-- Download OpenMowerOS from [OpenMowerOS Releases](https://github.com/ClemensElflein/OpenMowerOS/releases) and expand the Assets section.
-- If not already installed, install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
+3. Download the latest OpenMowerOS build artifact (ZIP) from the GitHub Actions page: [OpenMowerOS Actions](https://github.com/ClemensElflein/OpenMowerOS/actions) (branch: `v2-rework`). Pick the most recent successful (green check) run. (You need to be logged into GitHub to download workflow artifacts. If an official V2 release becomes available later, prefer the Release asset instead.)
+4. If not already installed, install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
-- Option A: Raspberry Pi CM4 Lite (without eMMC storage)
-  - Insert a 32 GB or larger microSD card into your PC.
-  - Start Raspberry Pi Imager.
-  - Choose Model = “Raspberry Pi 4”.
-  - Choose OS = “Use custom” and select the downloaded OpenMowerOS image.
-  - Choose your inserted microSD card. **Double‑check you selected the correct removable device, not a hard drive. All data on the selected device will be erased!**
-  - Click Next. Do not enable the optional custom settings. Write the image.
-  - When finished, remove the microSD card and insert it into the xCore.
+5. Option A: Raspberry Pi CM4 Lite (without eMMC storage)
+   1. Insert a ≥ 16 GB microSD card into your PC.
+   1. Start Raspberry Pi Imager.
+   1. Choose Model = “Raspberry Pi 4”.
+   1. Choose OS = “Use custom” and select the downloaded OpenMowerOS zip file.
+   1. Choose your inserted microSD card. **Double‑check you selected the correct removable device, not a hard drive. All data on the selected device will be erased!**
+   1. Follow only the section "Install OpenMowerOS on your Pi4/CM4" in the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS/tree/v2-rework) to write the image.
+   1. When finished, remove the microSD card and insert it into the xCore.
 
-- Insert your xCore+CM4 assembly into the SABO Carrierboard and temporarily mount it to the black plastic mainboard holder (from section 1) using only 2–4 screws.
-- Put the assembly back into the mower, but do not fasten it yet.
-- Plug in the large power Molex cable. Make sure to use the correct Series‑I / Series‑II connector matching your mower model.
+6. Insert your xCore+CM4 assembly into the SABO Carrierboard and temporarily mount it to the black plastic mainboard holder (from section 1) using only 2–4 screws.
+7. Put the assembly back into the mower, but do not fasten it yet.
+8. Plug in the large power Molex cable. Make sure to use the correct Series‑I / Series‑II connector matching your mower model.
 
-- Option B: Raspberry Pi CM4 with eMMC storage
-  - Connect a Micro‑USB cable from your PC to the xCore’s Micro‑USB port.
-  - Install the “rpiboot” host utility as described in [Set up the host device](https://www.raspberrypi.com/documentation/computers/compute-module.html).
-  - Power on[^1] the mower while pressing the xCore “Rpi Boot” button (FIXME: Is it really needed?). When the status LEDs start flashing, release the button.
-  - Run `sudo rpiboot` on your PC (see the Raspberry Pi docs for Windows/macOS). After a few seconds a new mass‑storage device (the CM4 eMMC) appears.
-  - Start Raspberry Pi Imager.
-  - Choose Model = “Raspberry Pi 4”.
-  - Choose OS = “Use custom” and select the downloaded OpenMowerOS image.
-  - Choose the eMMC device just mounted by rpiboot. **Double‑check you selected the correct device, not a hard drive. All data will be erased!**
-  - Click Next. Do not enable the optional custom settings. Write the image.
-  - When verified, close the imager, unplug USB, and power the mower off again.
+9. Option B: Raspberry Pi CM4 with eMMC storage
+   1. Connect a Micro‑USB cable from your PC to the xCore’s Micro‑USB port.
+   1. Install the “rpiboot” host utility as described in [Set up the host device](https://www.raspberrypi.com/documentation/computers/compute-module.html).
+   2. Power on[^1] the mower **while** holding the small "RPi Boot" button on the xCore; release it once LEDs are active. (The power switch is located on the right side beneath the rear handle.)
+   3. Run `sudo rpiboot` on your PC (see the Raspberry Pi docs for Windows/macOS). After a few seconds a new mass‑storage device (the CM4 eMMC) appears.
+   4. Start Raspberry Pi Imager.
+   5. Choose Model = “Raspberry Pi 4”.
+   6. Choose OS = “Use custom” and select the just-downloaded OpenMowerOS zip file.
+   7. Choose the eMMC device just mounted by rpiboot. **Double‑check you selected the correct device, not a hard drive. All data will be erased!**
+   8. Follow only the section "Install OpenMowerOS on your Pi4/CM4" in the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS/tree/v2-rework) to write the image.
+   9. When verified, close the imager, unplug USB, and power the mower off again.
 
-- First boot ⏳
-  - Power on[^1] the mower.
-  - The CM4 will reboot several times; this may take a few minutes. It will create an “OpenMower‑\<nnn>” Wi‑Fi access point. Follow OpenMower’s guide: [Configuring Wi‑Fi](https://openmower.de/docs/software-setup/configuring-wifi/).
-  - After Wi‑Fi configuration, the CM4 will reboot again, connect to your local network and download the latest open_mower_ros image. This can take 20–40 minutes.
-  - You may already check connectivity: `ping openmower.local` and `ssh openmower@openmower.local` (password: `openmower`).
-  - When the open_mower_ros image is installed (after about 20–40 minutes), open the OpenMower WebApp at `http://openmower.local:8080` (note http, not https).
-  - Proceed only when ping, SSH, and the WebApp all work.
+1. First power-up and initial network setup ⏳
+   1. Power on[^1] the mower.
+   1. This time, follow only the section "First boot and network setup" in the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS/tree/v2-rework) to complete initial configuration.
 
-- Login to your mower via `ssh openmower@openmower.local`
-- Shut it down again by `sudo halt`, wait a minute and Power the mower off
-- Unplug the large power Molex from the Carrierboard, and remove the assembly again.
+1. Once you've been able to ping and access your mower, shut it down again via `sudo halt`, power it off once Pi LEDs get inactive, carefully unplug the large Molex power cable from the CarrierBoard and remove the assembly again.
 
-- Optional: Waveshare CM4‑Heatsink‑B (SKU 22097)
-  - Remove the xCore from the Carrierboard.
-  - Remove the Carrierboard from the black plastic mainboard holder.
-  - Place the thermal pads on the CM4 chips as shown:<br>
-    ![WaveShare Thermal Pads](assets/CM4-HEATSINK-B-ThermalPads.jpg)
-  - Place the heatsink on top and fasten only the two screws on the SODIMM side.
-  - Place the larger Waveshare standoff on the Carrierboard where the xCore mounts.
-  - Plug the xCore into the Carrierboard and use the longer screws to fasten xCore + Carrierboard as shown:<br>
-    ![WaveShare Assembled Spacer](assets/CM4-HEATSINK-B-AssembledSpacer.jpg)
+1. Optional: Waveshare CM4‑Heatsink‑B (SKU 22097)
+   1. Remove the xCore from the Carrierboard.
+   1. Remove the Carrierboard from the black plastic mainboard holder.
+   1. Place the thermal pads on the CM4 chips as shown:<br>
+      ![WaveShare Thermal Pads](assets/CM4-HEATSINK-B-ThermalPads.jpg)
+   1. Place the heatsink on top and fasten only the two screws on the SODIMM side.
+   1. Place the larger Waveshare standoff on the Carrierboard where the xCore mounts.
+   1. Plug the xCore into the Carrierboard and use the longer screws to fasten xCore + Carrierboard as shown:<br>
+      ![WaveShare Assembled Spacer](assets/CM4-HEATSINK-B-AssembledSpacer.jpg)
 
 - Do not fully assemble the Carrierboard + mainboard holder yet.
 
   
 ## 3. Prepare the UM9x RTK module 📡
 
-- Connect the UM9x to your PC using the supplied USB cable
-- Open a serial terminal (minicom, miniterm, CuteCom, etc.) at 115200 baud
-- Send the following commands:
-
-  ```text
-  FRESET
-  CONFIG COM1 921600
-  ```
-
-  This resets the UM9x to factory defaults and sets COM1 to 921600 baud
-- Reconnect your terminal at 921600 baud (FIXME: Is it necessary/true?)
-- Then send:
-
-  ```text
-  MODE ROVER UAV
-  GPGSV COM1 2
-  GPRMC COM1 1
-  GPGSA COM1 1
-  GPVTG COM1 1
-  GPGST COM1 1
-  GPGGA COM1 0.2
-  SAVECONFIG
-  ```
-- Disconnect and mount the UM9x module onto the Carrierboard. You may need to solder the straight pin headers first.
-- Install the IPEX/SMA cable (usually included with the UM9x) as shown:<br>
+1. Connect the UM9x to your PC using the supplied USB cable
+1. Open a serial terminal (minicom, miniterm, CuteCom, etc.) at 115200 baud
+1. Send `CONFIG` to verify the connection. You should see readable key/value style output. If not, check cable, port, and permissions.
+1. Reset and switch the baud rate to 921600:
+   ```text
+   FRESET
+   CONFIG COM1 921600
+   ```
+   (After `FRESET` the module may take a few seconds to respond.)
+1. Re-check connection with the simple `CONFIG` command. If you don't get similar results than before, change your serial terminal speed to 921600 baud (re-open if necessary) and run `CONFIG` again.
+1. Apply the rover configuration (then persist with `SAVECONFIG`):
+   ```text
+   MODE ROVER UAV
+   GPGSV COM1 2
+   GPRMC COM1 1
+   GPGSA COM1 1
+   GPVTG COM1 1
+   GPGST COM1 1
+   GPGGA COM1 0.2
+   SAVECONFIG
+   ```
+   The `SAVECONFIG` command stores settings so they survive power cycles.
+1. Unplug the USB cable from the UM9x module and mount it onto the CarrierBoard (solder straight headers first if required).
+1. Attach the IPEX/SMA cable (usually included with the UM9x) as shown:<br>
   ![UM9x IPEX/SMA cable](assets/UM9x-IPEX-SMA-Cable.jpg)
 
 
@@ -130,38 +123,38 @@ This guide describes the hardware installation and the software preparation step
 
 ## 5. Assemble Carrierboard and mainboard holder 🔩
 
-- Now that all modules are prepared and mounted, fasten the Carrierboard to the mainboard holder. If you have fewer screws than holes, prioritize holes close to the connectors.
-- Mount the Carrierboard + mainboard holder back into the mower and fasten it with the two screws.
-- Carefully connect all plugs. Some plugs fit into multiple counterparts, verify the labels or use this plug overview:<br>
+1. Now that all modules are prepared and mounted, fasten the Carrierboard to the mainboard holder. If you have fewer screws than holes, prioritize holes close to the connectors.
+1. Mount the Carrierboard + mainboard holder back into the mower and fasten it with the two screws.
+1. Carefully connect all plugs. Some plugs fit into multiple counterparts, verify the labels or use this plug overview:<br>
   
-  |                     Series-I Plugs                     | Series-II Plugs |
-  | :----------------------------------------------------: | :-------------: |
-  | ![Series-I Plugs](assets/om-sabo-cb-s1-v02-plugs.jpg)  | ![Series-II Plugs](assets/om-sabo-cb-s2-v02-plugs.jpg) |
+   |                    Series-I Plugs                     |                    Series-II Plugs                     |
+   | :---------------------------------------------------: | :----------------------------------------------------: |
+   | ![Series-I Plugs](assets/om-sabo-cb-s1-v02-plugs.jpg) | ![Series-II Plugs](assets/om-sabo-cb-s2-v02-plugs.jpg) |
 
-  Note: some plugs are rotated — do not force any connector.
+   Note: some plugs are rotated — do not force any connector.
 
 ## 6. Install the HA/HX‑901 GPS antenna on the cover 🛰️
 
-- Drill a 6.5–7 mm hole in the cover approximately at the position shown here:<br>
-  ![GPS antenna 1](assets/om-sabo-gps-antenna1.jpg)
-- Install the SMA extension cable. Ensure the SMA bulkhead protrudes far enough so the HA/HX‑901 can fully engage and make good contact; if in doubt, omit one washer/spacer on the inside to gain thread length.<br>
+1. Drill a 6.5–7 mm hole in the cover approximately at the position shown here:<br>
+   ![GPS antenna 1](assets/om-sabo-gps-antenna1.jpg)
+1. Install the SMA extension cable. Ensure the SMA bulkhead protrudes far enough so the HA/HX‑901 can fully engage and make good contact; if in doubt, omit one washer/spacer on the inside to gain thread length.<br>
   Seal it from the top with silicone or a similar sealant. Don’t use too much sealant, so the HA/HX‑901 can still be screwed on later.
-- Also seal the inside thoroughly to prevent any water ingress. On the inside use sealant rule: *More is better*:<br>
-  ![GPS antenna 2](assets/om-sabo-gps-antenna2.jpg)
-- Allow sufficient time for the sealant to cure before proceeding.
+1. Also seal the inside thoroughly to prevent any water ingress. On the inside use sealant rule: *More is better*:<br>
+   ![GPS antenna 2](assets/om-sabo-gps-antenna2.jpg)
+1. Allow sufficient time for the sealant to cure before proceeding.
 
 ## 7. Close the housing ✅
 
-- Place the cover back onto the mower. Let the front engage slightly, but keep the rear open enough to:
-  - Connect the GPS antenna cable to the Carrierboard
-  - Reconnect the docking‑contact cable
-  - Finally, reconnect the CoverUI ribbon cable(s)
-- Close the cover completely so it fits and latches evenly all around
-- Hold the housing together with both hands and turn the mower back onto its back
-- Reinstall and fasten the six 10 mm hex‑head screws
-- Do not install the blade yet
-- Put the mower back on its wheels
-- Finally, screw the HA/HX‑901 antenna onto the cover
+1. Place the cover back onto the mower. Let the front engage slightly, but keep the rear open enough to:
+   1. Connect the GPS antenna cable to the Carrierboard
+   1. Reconnect the docking‑contact cable
+   1. Finally, reconnect the CoverUI ribbon cable(s)
+1. Close the cover completely so it fits and latches evenly all around
+1. Hold the housing together with both hands and turn the mower back onto its back
+1. Reinstall and fasten the six 10 mm hex‑head screws
+1. Do not install the blade yet
+1. Put the mower back on its wheels
+1. Finally, screw the HA/HX‑901 antenna onto the cover
 
 
 ---
