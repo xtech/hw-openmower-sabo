@@ -91,24 +91,22 @@ This guide describes the hardware installation and the software preparation step
 1. Connect the UM9x to your PC using the supplied USB cable
 1. Open a serial terminal (minicom, miniterm, CuteCom, etc.) at 115200 baud
 1. Send `CONFIG` to verify the connection. You should see readable key/value style output. If not, check cable, port, and permissions.
-1. Reset and switch the baud rate to 921600:
-   ```text
-   FRESET
-   CONFIG COM1 921600
-   ```
+1. Reset and switch the baud rate to 921600 by entering the following commands, line by line:
+   > FRESET<kbd>⏎ Enter</kbd><br>
+   > CONFIG COM1 921600<kbd>⏎ Enter</kbd>
+   
    (After `FRESET` the module may take a few seconds to respond.)
 1. Re-check connection with the simple `CONFIG` command. If you don't get similar results than before, change your serial terminal speed to 921600 baud (re-open if necessary) and run `CONFIG` again.
-1. Apply the rover configuration (then persist with `SAVECONFIG`):
-   ```text
-   MODE ROVER UAV
-   GPGSV COM1 2
-   GPRMC COM1 1
-   GPGSA COM1 1
-   GPVTG COM1 1
-   GPGST COM1 1
-   GPGGA COM1 0.2
-   SAVECONFIG
-   ```
+1. Apply the rover configuration by entering the following commands, line by line:
+   > MODE ROVER UAV<kbd>⏎ Enter</kbd><br>
+   > GPGSV COM1 2<kbd>⏎ Enter</kbd><br>
+   > GPRMC COM1 1<kbd>⏎ Enter</kbd><br>
+   > GPGSA COM1 1<kbd>⏎ Enter</kbd><br>
+   > GPVTG COM1 1<kbd>⏎ Enter</kbd><br>
+   > GPGST COM1 1<kbd>⏎ Enter</kbd><br>
+   > GPGGA COM1 0.2<kbd>⏎ Enter</kbd><br>
+   > SAVECONFIG<kbd>⏎ Enter</kbd>
+
    The `SAVECONFIG` command stores settings so they survive power cycles.
 1. Unplug the USB cable from the UM9x module and mount it onto the CarrierBoard (solder straight headers first if required).
 1. Attach the IPEX/SMA cable (usually included with the UM9x) as shown:<br>
