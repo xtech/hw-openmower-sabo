@@ -1672,16 +1672,10 @@
 		(uuid "71f47f7c-cbe1-4dee-bd7e-c6eb65b6dfc3")
 	)
 	(junction
-		(at 290.83 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87bfab69-4fa4-4260-8a7c-667ff591435a")
-	)
-	(junction
 		(at 199.39 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "898a9706-cc01-4366-9c24-9c0eff88aaa8")
+		(uuid "892d529a-dd9d-477b-8687-a8281630a3c6")
 	)
 	(junction
 		(at 154.94 120.65)
@@ -1774,6 +1768,18 @@
 		(uuid "dd75a828-0929-4371-b01e-e39f4fe5d4db")
 	)
 	(junction
+		(at 293.37 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6c140d5-0401-499a-8775-a2301c8b7b60")
+	)
+	(junction
+		(at 293.37 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e94ed18c-4d6a-4eda-a23d-db94243107f7")
+	)
+	(junction
 		(at 313.69 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1790,12 +1796,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb1ac152-92c0-4c8c-9ec3-b60eb1103864")
-	)
-	(junction
-		(at 290.83 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec9a48b4-aa08-431f-855b-40ae56887f6d")
 	)
 	(junction
 		(at 325.12 115.57)
@@ -1989,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 115.57) (xy 290.83 115.57)
+			(xy 283.21 115.57) (xy 293.37 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2046,6 +2046,16 @@
 			(type default)
 		)
 		(uuid "4119fe3b-6505-41c8-8ef9-b6424611bb0d")
+	)
+	(wire
+		(pts
+			(xy 293.37 115.57) (xy 313.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d90ed4-9e32-4635-8edb-ddb6d0d02a30")
 	)
 	(wire
 		(pts
@@ -2299,16 +2309,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 115.57) (xy 313.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1fe0fb-d980-4347-8fed-c75f410c7323")
-	)
-	(wire
-		(pts
 			(xy 157.48 158.75) (xy 157.48 153.67)
 		)
 		(stroke
@@ -2459,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 123.19) (xy 290.83 123.19)
+			(xy 283.21 123.19) (xy 293.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2506,16 +2506,6 @@
 			(type default)
 		)
 		(uuid "a68195a1-1ba1-4e53-95ae-efbb44e8c826")
-	)
-	(wire
-		(pts
-			(xy 290.83 123.19) (xy 283.21 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d4e08b-14bd-42b8-9a54-d5c634824bc5")
 	)
 	(wire
 		(pts
@@ -2676,6 +2666,16 @@
 			(type default)
 		)
 		(uuid "d2490fcd-3390-4c52-98aa-f29b9140245c")
+	)
+	(wire
+		(pts
+			(xy 293.37 123.19) (xy 313.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95b2862-fbb9-4c52-ab43-2cf05accca1c")
 	)
 	(wire
 		(pts
@@ -3327,111 +3327,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/a934a33d-5c23-43ea-a123-a23c10f76236"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 290.83 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1313bdcc-c37f-4f90-bfa3-fbfe11b3ed92")
-		(property "Reference" "C35"
-			(at 294.64 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470nF@50V"
-			(at 294.64 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 291.7952 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 290.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 290.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C13967"
-			(at 290.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 290.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 290.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 290.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b21e9d50-7eee-481f-a1b8-613291620566")
-		)
-		(pin "2"
-			(uuid "3434c0f3-80bb-4adb-aa85-0dba3d9fa949")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/a934a33d-5c23-43ea-a123-a23c10f76236"
-					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4428,6 +4323,111 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 199.39 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d98c3b5-0966-454a-aead-0d11d9370891")
+		(property "Reference" "C29"
+			(at 203.2 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470nF@25V"
+			(at 203.2 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 198.4248 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C1623"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 199.39 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d1ea81-d85e-4359-a991-33b6efe95c94")
+		)
+		(pin "2"
+			(uuid "64f2c023-224b-405e-a81f-9f48cbc42917")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/a934a33d-5c23-43ea-a123-a23c10f76236"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 267.97 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4525,111 +4525,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/a934a33d-5c23-43ea-a123-a23c10f76236"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 199.39 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78ff77aa-6526-46c4-9ff8-34e358a5eb4e")
-		(property "Reference" "C29"
-			(at 203.2 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470nF@50V"
-			(at 203.2 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 198.4248 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C13967"
-			(at 199.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 199.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 199.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 199.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be3be09a-2363-4349-9206-7684858ff6c9")
-		)
-		(pin "2"
-			(uuid "bae0f235-e3d8-42f9-86db-da89309d26ed")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/a934a33d-5c23-43ea-a123-a23c10f76236"
-					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -5560,6 +5455,110 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 293.37 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c485f010-4ba1-4997-8288-cb522304ba95")
+		(property "Reference" "C35"
+			(at 294.132 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470nF@25V"
+			(at 288.544 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 292.4048 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 293.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C1623"
+			(at 293.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 293.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 293.37 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 293.37 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aed8999-1022-4e2c-bdb0-b30d9cb075d7")
+		)
+		(pin "2"
+			(uuid "e23d6d40-d010-46dd-9dd6-a61eb634db35")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/a934a33d-5c23-43ea-a123-a23c10f76236"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 313.69 119.38 0)
 		(mirror x)
 		(unit 1)
@@ -6087,7 +6086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 470nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC"
 			(at 118.11 124.46 0)
 			(effects
 				(font
