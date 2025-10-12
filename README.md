@@ -37,14 +37,14 @@ To build a complete OpenMower-V2 system, you will need the following additional 
 ### Essential Components
 
 - **1 * [xCore](https://core.x-tech.online)**: OpenMower-V2 Development Board for all Low-Level processing
-- **1 * [Raspberry Pi CM4](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for all High-Level processing, >= 4GB RAM, >= 32GB Storage (eMCC or SD-Card)
+- **1 * [Raspberry Pi CM4](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for [OpenMowerOS](https://github.com/ClemensElflein/OpenMowerOS), ≥ 4GB RAM, ≥ 16GB Storage (eMCC or SD-Card)
 - **3 * [xESC mini](https://github.com/ClemensElflein/xESC)**: Electronic Speed Controller for BLDC motor
 - **1 * [WT-RTK-960](https://witmotion-sensor.com/products/rtk-gps-gnss-modules-centimeter-level-um982-um980-um960)**: RTK GPS Module for precise positioning
 - **1 * HA/HX-901**: GPS Helix Antenna or similar
 
 ### Optional Components
 
-- **MicroSD Card**: High-quality MicroSD-Card (32GB+) for OpenMower-OS if CM4 is without eMCC
+- **MicroSD Card**: High-quality MicroSD-Card (≥ 16GB) for [OpenMowerOS](https://github.com/ClemensElflein/OpenMowerOS) if CM4 is without eMCC
 - **RTK Base Station**: If you've no public NTRIP service at your location
 
 
@@ -122,10 +122,11 @@ This Carrierboard includes more features than actually required to build an Open
 
 ### Carrier versions
 
-| Version |  Date   | Info                                                                                                 |
-| :-----: | :-----: | ---------------------------------------------------------------------------------------------------- |
-|  v0.2   | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD |
-|  v0.1   | 2025/03 | Initial Prototype                                                                                    |
+| Version |  Date   | Info                                                                                                                                                                 |
+| :-----: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  v0.3   | 202?/?? | **In development; Not available yet**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility |
+|  v0.2   | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD                                                                 |
+|  v0.1   | 2025/03 | Initial Prototype                                                                                                                                                    |
 
 ## Patents, Local Laws, Liability
 
