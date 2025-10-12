@@ -5,9 +5,9 @@
 	(uuid "cd3a3d0a-5d09-4bbe-8c89-7d42c3a13a97")
 	(paper "A3")
 	(title_block
-		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-10-05")
-		(rev "v0.3")
+		(title "OpenMower SABO Carrierboard for Series I & II")
+		(date "2025-10-12")
+		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -13051,7 +13051,7 @@
 		(at 160.02 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0bfab1c6-10b1-41fc-8aaa-2036613098c9")
@@ -13238,7 +13238,7 @@
 		(at 160.02 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0d8ab002-60b3-41b3-a5d8-d17efca2e8b4")
@@ -14975,7 +14975,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "TestPoint"
 			(at 150.114 54.61 90)
 			(effects
 				(font
@@ -15046,7 +15046,7 @@
 		(at 160.02 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "41b2b64e-0a5c-462e-963a-69757c07961e")
@@ -15867,7 +15867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 259.08 213.36 0)
 			(effects
 				(font
@@ -16243,7 +16243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 29.21 234.95 0)
 			(effects
 				(font
@@ -16515,7 +16515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 41.91 135.89 0)
 			(effects
 				(font
@@ -16756,7 +16756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 400.05 118.11 0)
 			(effects
 				(font
@@ -17332,7 +17332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 83.82 166.37 0)
 			(effects
 				(font
@@ -17690,7 +17690,7 @@
 		(at 160.02 127 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "72229d89-3bee-41ce-8530-109964616b07")
@@ -18482,7 +18482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 365.76 118.11 0)
 			(effects
 				(font
@@ -19020,7 +19020,7 @@
 		(at 160.02 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "905e622a-2b5a-452a-b9e3-f72113c2b0eb")
@@ -19723,7 +19723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 372.11 168.91 0)
 			(effects
 				(font
@@ -19892,7 +19892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -20239,7 +20239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 386.08 237.49 0)
 			(effects
 				(font
@@ -20343,7 +20343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 26.67 166.37 0)
 			(effects
 				(font
@@ -21269,7 +21269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 127 234.95 0)
 			(effects
 				(font
@@ -21672,7 +21672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 341.63 168.91 0)
 			(effects
 				(font
@@ -21775,7 +21775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 157.48 234.95 0)
 			(effects
 				(font
@@ -22943,7 +22943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 128.27 83.82 0)
 			(effects
 				(font
@@ -24701,7 +24701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 228.6 219.71 0)
 			(effects
 				(font
@@ -25398,7 +25398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 59.69 234.95 0)
 			(effects
 				(font

@@ -5,9 +5,9 @@
 	(uuid "d23e1b22-9a2d-47a8-bab0-c7f743b72f7b")
 	(paper "A3")
 	(title_block
-		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-10-05")
-		(rev "v0.3")
+		(title "OpenMower SABO Carrierboard for Series I & II")
+		(date "2025-10-12")
+		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -3273,7 +3273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 325.12 119.38 0)
 			(effects
 				(font
@@ -5605,7 +5605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC"
 			(at 313.69 119.38 0)
 			(effects
 				(font
