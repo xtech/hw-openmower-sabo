@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-22")
-		(rev "v0.2")
+		(date "2025-10-05")
+		(rev "v0.3")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -3607,20 +3607,6 @@
 		)
 		(uuid fc25efc1-e259-4030-814d-0ea67a674ebd)
 	)
-	(text "----- REQUIRED REWORK -----\n\n1. See RobotConnectors"
-		(exclude_from_sim no)
-		(at 36.322 92.71 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "1604f1e2-bd5e-4544-841b-16d8f21afcce")
-	)
 	(text "FAN connector\n"
 		(exclude_from_sim no)
 		(at 379.73 86.36 0)
@@ -3676,7 +3662,7 @@
 	)
 	(text "PWM Capable PE5 (Timer 9, Channel 2)"
 		(exclude_from_sim no)
-		(at 40.132 145.288 0)
+		(at 40.132 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3704,39 +3690,26 @@
 		)
 		(uuid "c686f446-4b31-4bb1-96d1-0a874db72e4a")
 	)
+	(text "I2C Addr (7-Bit) = 0x50"
+		(exclude_from_sim no)
+		(at 19.05 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0aac6a4-de5d-40c4-bdc8-38ee7b5791d8")
+	)
 	(text "(PA8)"
 		(exclude_from_sim no)
-		(at 57.15 168.148 0)
+		(at 57.15 170.688 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e009f037-50c2-45c1-844b-35fab62b6cf4")
-	)
-	(text "<--|\nMODed to be\nUI_S2_~{LOAD}"
-		(exclude_from_sim no)
-		(at 95.758 171.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 2 142 4 1)
-			)
-			(justify right)
-		)
-		(uuid "f9db36ba-37b2-4768-8817-5f19b7d5fe4c")
-	)
-	(text "MODed to be\n<--- UI_S2_LATCH"
-		(exclude_from_sim no)
-		(at 99.568 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 2 142 4 1)
-			)
-			(justify right)
-		)
-		(uuid "fc0b350f-eb46-493d-9e1a-ec627c60fe5d")
 	)
 	(junction
 		(at 46.99 25.4)
@@ -3833,6 +3806,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6edc3600-45e5-4568-9651-868303360365")
+	)
+	(junction
+		(at 68.58 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b40c57f-0063-416a-92c5-a6e95a28dca3")
 	)
 	(junction
 		(at 351.79 83.82)
@@ -4334,7 +4313,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 234.95) (xy 232.41 241.3)
+			(xy 232.41 236.22) (xy 232.41 241.3)
 		)
 		(stroke
 			(width 0)
@@ -4674,7 +4653,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 163.83) (xy 72.39 163.83)
+			(xy 60.96 165.1) (xy 72.39 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4691,6 +4670,16 @@
 			(type default)
 		)
 		(uuid "31b8f524-9015-4209-a8bd-0cdcb94916ab")
+	)
+	(wire
+		(pts
+			(xy 74.93 48.26) (xy 74.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32287f37-6b98-4ec9-87b3-a70d80a23a16")
 	)
 	(wire
 		(pts
@@ -4744,7 +4733,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 161.29) (xy 72.39 161.29)
+			(xy 60.96 162.56) (xy 72.39 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4784,7 +4773,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 146.05) (xy 72.39 146.05)
+			(xy 60.96 135.89) (xy 72.39 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4881,6 +4870,16 @@
 			(type default)
 		)
 		(uuid "42cf2ad1-1eed-40ea-b069-382486f388b4")
+	)
+	(wire
+		(pts
+			(xy 68.58 24.13) (xy 68.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ef5f2a-9dec-48be-a85c-4452e4da15d7")
 	)
 	(bus
 		(pts
@@ -5154,16 +5153,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 132.08) (xy 321.31 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616a1c7e-d9d8-4b2b-8519-35e14af2cd7f")
-	)
-	(wire
-		(pts
 			(xy 78.74 53.34) (xy 67.31 53.34)
 		)
 		(stroke
@@ -5204,7 +5193,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 168.91) (xy 72.39 168.91)
+			(xy 60.96 171.45) (xy 72.39 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5292,6 +5281,16 @@
 		)
 		(uuid "730920f2-8888-45ab-b01b-667fb4599700")
 	)
+	(wire
+		(pts
+			(xy 308.61 132.08) (xy 321.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730fed42-27b5-47f5-8dd9-93b20865b7fa")
+	)
 	(bus
 		(pts
 			(xy 144.78 199.39) (xy 172.72 199.39)
@@ -5321,6 +5320,26 @@
 			(type default)
 		)
 		(uuid "7564f953-17b2-4065-b1bb-4a0b50951ae9")
+	)
+	(wire
+		(pts
+			(xy 63.5 130.81) (xy 72.39 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77865b6e-9baf-4b96-840a-27175e1f3d65")
+	)
+	(wire
+		(pts
+			(xy 308.61 132.08) (xy 308.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790c657a-ceba-4741-ba12-cfd81d455a3a")
 	)
 	(bus
 		(pts
@@ -5404,6 +5423,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 132.08) (xy 344.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80aaf303-5e64-461e-b56b-f6c33fd3393e")
+	)
+	(wire
+		(pts
 			(xy 340.36 90.17) (xy 344.17 90.17)
 		)
 		(stroke
@@ -5414,7 +5443,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 166.37) (xy 72.39 166.37)
+			(xy 60.96 168.91) (xy 72.39 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5464,7 +5493,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 132.08) (xy 334.01 132.08)
+			(xy 334.01 132.08) (xy 344.17 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5514,6 +5543,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 48.26) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9459e6ee-d6bf-4c18-8ac1-87dc0ee0e613")
+	)
+	(wire
+		(pts
 			(xy 248.92 38.1) (xy 262.89 38.1)
 		)
 		(stroke
@@ -5551,6 +5590,16 @@
 			(type default)
 		)
 		(uuid "98dfd28c-0590-4d90-878c-1d7deda2bde3")
+	)
+	(wire
+		(pts
+			(xy 68.58 25.4) (xy 46.99 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b9c6af-28ea-4a48-943c-6f49d211e930")
 	)
 	(wire
 		(pts
@@ -5734,16 +5783,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 135.89) (xy 60.96 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab287e75-21a8-4926-af75-0b75498e8a8a")
-	)
-	(wire
-		(pts
 			(xy 16.51 232.41) (xy 38.1 232.41)
 		)
 		(stroke
@@ -5761,16 +5800,6 @@
 			(type default)
 		)
 		(uuid "abe20986-eac7-4ef3-811d-a45ff8826e13")
-	)
-	(wire
-		(pts
-			(xy 73.66 25.4) (xy 46.99 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad04e793-e8c0-4351-8dcd-9a28dd05ffcd")
 	)
 	(wire
 		(pts
@@ -5881,6 +5910,16 @@
 			(type default)
 		)
 		(uuid "ba8428e7-5511-47cd-8ea1-cc494e1227c2")
+	)
+	(bus
+		(pts
+			(xy 52.07 144.78) (xy 72.39 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad8a2fb-a7d3-497e-9df9-4f519568a68f")
 	)
 	(wire
 		(pts
@@ -6034,7 +6073,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 140.97) (xy 72.39 140.97)
+			(xy 133.35 132.08) (xy 116.84 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6224,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 129.54) (xy 63.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14c19ad-ecd3-4c5e-a3d8-42aa7338e53a")
+	)
+	(wire
+		(pts
 			(xy 116.84 226.06) (xy 137.16 226.06)
 		)
 		(stroke
@@ -6261,16 +6310,6 @@
 			(type default)
 		)
 		(uuid "e70e054c-4bfd-46b5-b418-e07b1cb929f7")
-	)
-	(wire
-		(pts
-			(xy 78.74 48.26) (xy 67.31 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e904b9af-5859-44cd-91d9-f58387c79b49")
 	)
 	(wire
 		(pts
@@ -6351,6 +6390,16 @@
 			(type default)
 		)
 		(uuid "f64bece7-b983-45b4-b9cf-4f2d4844eeea")
+	)
+	(wire
+		(pts
+			(xy 68.58 25.4) (xy 73.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64ef0b1-7b3c-4d39-bd07-e731193fae7a")
 	)
 	(wire
 		(pts
@@ -6673,7 +6722,7 @@
 		(uuid "20dd0dd0-d799-4c30-965e-a36c69a04d8e")
 	)
 	(label "UART7.RX"
-		(at 60.96 168.91 0)
+		(at 60.96 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6741,16 +6790,6 @@
 			(justify left bottom)
 		)
 		(uuid "30118d7d-a7c6-4583-8f18-5275318f2670")
-	)
-	(label "3.3V"
-		(at 36.83 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33547a52-ed0e-4653-a776-d72df3216295")
 	)
 	(label "I2S{SDI SDO WS CK}"
 		(at 144.78 199.39 0)
@@ -6872,16 +6911,6 @@
 		)
 		(uuid "57ba8b1b-d498-4cba-a470-7cc1a7f9ea29")
 	)
-	(label "3.3V"
-		(at 317.5 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5aa956ee-f654-4f2c-8888-df3e0517cb09")
-	)
 	(label "5V"
 		(at 204.47 30.48 180)
 		(effects
@@ -6911,16 +6940,6 @@
 			(justify left bottom)
 		)
 		(uuid "61ae1486-6bff-4b50-b0ee-c4d24feb48e0")
-	)
-	(label "3.3V"
-		(at 337.82 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61e77522-73d2-4638-8989-1a155575719b")
 	)
 	(label "UART2.TX"
 		(at 16.51 234.95 0)
@@ -6963,12 +6982,12 @@
 		(uuid "6e80568c-5467-47ba-8f0e-8c0cb9d158ea")
 	)
 	(label "AGPIO0"
-		(at 60.96 140.97 0)
+		(at 133.35 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6ff46688-685b-43a8-8559-0413d89b9407")
 	)
@@ -6993,7 +7012,7 @@
 		(uuid "76e26da9-52e3-44a0-9024-e5e352502052")
 	)
 	(label "GPIO8"
-		(at 60.96 166.37 0)
+		(at 60.96 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7033,7 +7052,7 @@
 		(uuid "7c29181b-21f7-4a23-bed8-77eb743d14d8")
 	)
 	(label "GPIO9"
-		(at 60.96 163.83 0)
+		(at 60.96 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7222,16 +7241,6 @@
 		)
 		(uuid "aaa97ff8-4650-471b-ac40-ec94fff6a0a1")
 	)
-	(label "3.3V"
-		(at 60.96 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac0b8d0f-b3ae-43e7-9236-8a2f41f58f53")
-	)
 	(label "VIN"
 		(at 248.92 40.64 0)
 		(effects
@@ -7253,7 +7262,7 @@
 		(uuid "ae43ccdc-ddf6-4e64-9119-d3402882f8a9")
 	)
 	(label "GPIO1"
-		(at 60.96 161.29 0)
+		(at 60.96 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7341,16 +7350,6 @@
 			(justify left bottom)
 		)
 		(uuid "bcde81eb-f66b-4c93-a580-be759fbbcf09")
-	)
-	(label "3.3V"
-		(at 78.74 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd944b57-505a-4955-a035-e651c3560ff6")
 	)
 	(label "RASPI_FAN_ON"
 		(at 311.15 90.17 0)
@@ -7562,16 +7561,6 @@
 		)
 		(uuid "f08622e9-2e2f-4164-adc5-e4e565060810")
 	)
-	(label "3.3V"
-		(at 232.41 234.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0a2a5bb-b2d2-4dac-be1f-90fe6ff70651")
-	)
 	(label "UART1{TX RX}"
 		(at 209.55 95.25 180)
 		(effects
@@ -7581,16 +7570,6 @@
 			(justify right bottom)
 		)
 		(uuid "f159d9ca-e05d-4c11-962a-e49dd1fabd77")
-	)
-	(label "3.3V"
-		(at 204.47 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1b151d2-4a1a-4884-8f97-2bd99a7769fb")
 	)
 	(label "UART8.RX"
 		(at 304.8 139.7 0)
@@ -7603,7 +7582,7 @@
 		(uuid "f3f91656-3141-45dc-8e27-d949a891f261")
 	)
 	(label "GPIO3"
-		(at 60.96 146.05 0)
+		(at 60.96 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7611,6 +7590,17 @@
 			(justify left bottom)
 		)
 		(uuid "faeca05e-aced-4615-a5c4-9125c4e30444")
+	)
+	(hierarchical_label "I2C4_ID{SDA SCL}"
+		(shape output)
+		(at 52.07 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f251c03-0f1c-4f9d-9488-6845a500f68c")
 	)
 	(hierarchical_label "I2C4_ID{SDA SCL}"
 		(shape output)
@@ -7690,6 +7680,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 161.29 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 161.29 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7844,6 +7852,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alternative" ""
+			(at 326.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 326.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "500b9d86-4167-4e32-8e64-844d0548e223")
 		)
@@ -7902,13 +7928,79 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 365.76 193.04 0)
+		(lib_id "power:+3V3")
+		(at 68.58 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "391a477f-52d9-415f-8c5b-05fa64cdbfd3")
+		(property "Reference" "#PWR0116"
+			(at 68.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55b34a41-03f4-47ec-811a-ddb054cfe884")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 365.76 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3933a49a-b303-4d6e-b522-5e88e02c8903")
 		(property "Reference" "J31"
@@ -7978,6 +8070,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 365.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 365.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8087,6 +8197,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 351.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 351.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8257,6 +8385,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 140.97 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 140.97 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7990bbe-0d7d-4ad6-a264-7cbd1ee64bbe")
 		)
@@ -8366,6 +8512,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 349.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 349.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6170508-b61c-4c3d-b1bf-5764dd86ba12")
 		)
@@ -8446,6 +8610,72 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 344.17 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49c11c48-0ee9-4755-b474-4e628275d137")
+		(property "Reference" "#PWR0118"
+			(at 344.17 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 344.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 344.17 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45af33c6-2c39-49e0-83de-60cbc77e0d34")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -8539,6 +8769,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 297.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 297.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8646,6 +8894,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 274.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 274.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1384ad9-5ad3-4243-abbe-e0c5b8e3087a")
 		)
@@ -8748,6 +9014,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 140.97 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 140.97 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3d91774-8b6e-48db-87a4-aa7fef427736")
 		)
@@ -8832,6 +9116,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part #" "C7562"
@@ -8840,6 +9125,25 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Alternative" ""
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 46.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -8966,6 +9270,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 294.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9125,6 +9447,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abf83ce6-6a27-4321-994c-51ff519a7857")
 		)
@@ -9215,6 +9555,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 234.95 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 234.95 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9374,6 +9732,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 232.41 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "846104bb-7bb1-4db0-8797-7ff741b45dfd")
+		(property "Reference" "#PWR0146"
+			(at 232.41 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 232.41 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 232.41 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf1f05e5-eac2-4fb6-b067-86f8f5e89421")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 317.5 156.21 0)
 		(unit 1)
@@ -9434,6 +9858,138 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 308.61 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f49fc6c-9801-4e21-9d36-3daa55b75ce9")
+		(property "Reference" "#PWR0117"
+			(at 308.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 308.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 308.61 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11f84421-0150-401d-a0e6-6e3aa41ef57d")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 74.93 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91bbe9a7-dd2a-4e54-8cef-fbff235a1b6e")
+		(property "Reference" "#PWR0119"
+			(at 74.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0ba6729-d4ed-47a1-a50b-0f7ba52208aa")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -9577,6 +10133,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 218.44 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 218.44 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "068990d6-63dc-4135-8000-6207fe55e567")
 		)
@@ -9660,6 +10234,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -9908,6 +10500,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 342.9 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 342.9 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdbbc21e-deb2-466b-8d6f-b6f30ec74eea")
 		)
@@ -10009,6 +10619,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 281.94 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 281.94 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10114,6 +10742,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 336.55 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 336.55 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d337ea7c-c50c-4bd0-aab3-1ff138530c25")
 		)
@@ -10196,6 +10842,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 161.29 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 161.29 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10281,6 +10945,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 313.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 313.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10521,6 +11203,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 328.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 328.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5215e1b-64f9-465f-ae96-caaaef9f3263")
 		)
@@ -10670,6 +11370,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 63.5 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1b42e49-d2b3-4f13-ab57-b266cfc59a89")
+		(property "Reference" "#PWR0139"
+			(at 63.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 63.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d22dc9-4ea2-45ec-8a6d-6110945047e9")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 288.29 76.2 270)
 		(unit 1)
@@ -10757,6 +11523,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 288.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 288.29 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10847,6 +11631,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alternative" ""
+			(at 386.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 386.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b43cf1b-7788-44fe-b606-0153ff607408")
 		)
@@ -10885,7 +11687,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF@50V"
+		(property "Value" "100nF"
 			(at 225.044 237.49 90)
 			(effects
 				(font
@@ -10937,6 +11739,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 228.6 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 228.6 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2f15069-b333-4ccb-91da-e92a8144847d")
 		)
@@ -10960,10 +11780,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f987304f-bd62-4378-b8f2-a5be95964903")
 		(property "Reference" "C63"
-			(at 29.21 30.4799 0)
+			(at 18.542 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +11791,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 29.21 33.0199 0)
+			(at 18.542 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,6 +11841,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12131,8 +12968,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 132.08)
-		(size 44.45 140.97)
+		(at 72.39 127)
+		(size 44.45 146.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12147,7 +12984,7 @@
 		)
 		(uuid "7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f")
 		(property "Sheetname" "RobotConnectors"
-			(at 72.39 131.3684 0)
+			(at 72.39 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,7 +13152,7 @@
 			)
 		)
 		(pin "3.3V" input
-			(at 72.39 135.89 180)
+			(at 72.39 130.81 180)
 			(uuid "0afec141-cf14-4d58-a070-669da1797ea8")
 			(effects
 				(font
@@ -12465,17 +13302,17 @@
 			)
 		)
 		(pin "V_BATTERY_SENSE" output
-			(at 72.39 140.97 180)
+			(at 116.84 132.08 0)
 			(uuid "0bc1f004-16b6-4834-a97d-438fcd4995e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "UI_BACKLIGHT" input
-			(at 72.39 146.05 180)
+			(at 72.39 135.89 180)
 			(uuid "02ad0b3f-96f7-440c-b5d4-46c3cad0e73e")
 			(effects
 				(font
@@ -12484,30 +13321,9 @@
 				(justify left)
 			)
 		)
-		(pin "~{OE}" input
-			(at 72.39 166.37 180)
-			(uuid "f6fee917-3dee-4936-8e48-17155d554009")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(color 255 0 3 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_RX" output
+		(pin "SPI_MISO" output
 			(at 72.39 156.21 180)
 			(uuid "983f75e6-de78-4f01-a8cc-6900090eeb77")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INP_~{CS}" input
-			(at 72.39 161.29 180)
-			(uuid "72684dfb-25e4-454e-8097-6dff50b60556")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,29 +13341,9 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_TX" input
+		(pin "SPI_MOSI" input
 			(at 72.39 158.75 180)
 			(uuid "ea6ab444-4b85-46fc-a499-3d3bf8260f2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LATCH_~{LOAD}" input
-			(at 72.39 163.83 180)
-			(uuid "c0a90546-450a-4b66-8619-e272a809b308")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UI_S2_BTN_~{CS}" input
-			(at 72.39 168.91 180)
-			(uuid "5fec7f80-6c91-4152-8a70-dfc2f213ae88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12578,6 +13374,56 @@
 		(pin "LCD_~{CE}" input
 			(at 72.39 176.53 180)
 			(uuid "bfa9a394-c48b-488f-a030-ef46a6c31279")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UI_S2_BTN_SH{slash}~{LD}" input
+			(at 72.39 165.1 180)
+			(uuid "45521907-8041-4fed-ac71-e93ac92a93b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UI_S2_STR" input
+			(at 72.39 162.56 180)
+			(uuid "94f784b4-3f5c-4a31-a83c-b562c7df9b3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C4_ID{SDA SCL}" output
+			(at 72.39 144.78 180)
+			(uuid "49c7f6f5-d502-427e-8a7c-6439239eaa80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_SPI_MISO_~{UI_S2}{slash}BMC" input
+			(at 72.39 171.45 180)
+			(uuid "823e7d50-7499-4801-946f-c28aaa88de35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL_SPI_MOSI_~{UI_S2}{slash}LCD" input
+			(at 72.39 168.91 180)
+			(uuid "ecec60a6-fbf7-4024-a00b-dd71bf2745dd")
 			(effects
 				(font
 					(size 1.27 1.27)

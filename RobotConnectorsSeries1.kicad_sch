@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-22")
-		(rev "v0.2")
+		(date "2025-10-05")
+		(rev "v0.3")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -4461,7 +4461,7 @@
 		)
 		(uuid "80de1bbe-3dd9-4b7f-848f-1dc1bfacac78")
 	)
-	(text "Looks like cables on PWR switch\nget connected wrong.\nExchange Pin5 with Pin14\nwould look more logic to me."
+	(text "Looks like cables on PWR switch\nget connected wrong by Series-I design.\nExchange Pin5 with Pin14 would\nlook more logic to me."
 		(exclude_from_sim no)
 		(at 123.952 44.196 0)
 		(effects
@@ -4551,20 +4551,6 @@
 			)
 		)
 		(uuid "a7bf252d-6f94-488b-9019-46e41d054a84")
-	)
-	(text "--------- DESIGN FAULTS --------\n\n1. S1-J2 is to tight to USB. Unplugging difficult\n2. S1-J2/S1-J3 is to tight. Unplugging difficult"
-		(exclude_from_sim no)
-		(at 91.44 22.606 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "bec9398c-3003-4229-9745-134013b84d3c")
 	)
 	(text "W"
 		(exclude_from_sim no)
@@ -6971,17 +6957,6 @@
 		)
 		(uuid "07598b60-d8dd-4e51-a4a0-24a3d61f6360")
 	)
-	(hierarchical_label "BMC_GN"
-		(shape bidirectional)
-		(at 86.36 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0a7cae3b-f1ca-4e45-a8f2-ef4e40941e33")
-	)
 	(hierarchical_label "UI_~{CON}"
 		(shape input)
 		(at 179.07 39.37 180)
@@ -7092,8 +7067,29 @@
 		)
 		(uuid "4b95e06a-3ef4-4c49-a4bc-ab8f588435ca")
 	)
-	(hierarchical_label "HALL1_5V"
+	(hierarchical_label "BMC_SPI_CLK"
 		(shape input)
+		(at 86.36 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5154a4fe-6739-488c-927a-b8b7412b24aa")
+		(property "CableColor" "Yellow"
+			(at 77.47 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "HALL1_5V"
+		(shape output)
 		(at 271.78 68.58 0)
 		(effects
 			(font
@@ -7125,6 +7121,27 @@
 		)
 		(uuid "6957ea44-109d-4414-9777-d23536ddcb41")
 	)
+	(hierarchical_label "BMC_SPI_MISO"
+		(shape output)
+		(at 86.36 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "704ae8a2-d1c6-4db5-bf2f-a7f257855b6d")
+		(property "CableColor" "Green"
+			(at 77.978 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "SPK_PLUS"
 		(shape output)
 		(at 207.01 52.07 0)
@@ -7148,7 +7165,7 @@
 		(uuid "897be70f-a7fe-42a2-8d17-6809c8c4e207")
 	)
 	(hierarchical_label "HALL2_5V"
-		(shape input)
+		(shape output)
 		(at 210.82 24.13 0)
 		(effects
 			(font
@@ -7159,7 +7176,7 @@
 		(uuid "8b7a0c21-6b35-4dbb-ae53-ac5e51999b90")
 	)
 	(hierarchical_label "HALL3_5V"
-		(shape input)
+		(shape output)
 		(at 267.97 34.29 0)
 		(effects
 			(font
@@ -7235,17 +7252,6 @@
 		)
 		(uuid "b210fd4d-3ab7-406c-8204-badc7b35cf7c")
 	)
-	(hierarchical_label "BMC_YW"
-		(shape bidirectional)
-		(at 86.36 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf1d6725-cec0-4da6-9f0b-917c54b461b7")
-	)
 	(hierarchical_label "MC_HALL_SENSOR{U V W}"
 		(shape output)
 		(at 106.68 78.74 0)
@@ -7269,7 +7275,7 @@
 		(uuid "d2a6b393-9721-4e56-8712-e3e9d0790b3d")
 	)
 	(hierarchical_label "HALL0_5V"
-		(shape input)
+		(shape output)
 		(at 271.78 91.44 0)
 		(effects
 			(font
@@ -7534,6 +7540,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 69.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 69.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bd2cdef-b104-49fb-a8f7-b11add6d9f1e")
 		)
@@ -7668,6 +7692,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0daa9c36-f667-49af-9320-c37314b6c598")
 		)
@@ -7712,9 +7754,9 @@
 		(at 243.84 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5874b26e-ca6a-40d8-9883-656db5f78af0")
 		(property "Reference" "S1-J9"
 			(at 245.364 57.404 0)
@@ -7795,6 +7837,24 @@
 			)
 		)
 		(property "FT Rotation Offset" "-90"
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternative" ""
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 243.84 78.74 0)
 			(effects
 				(font
@@ -7980,6 +8040,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -8208,7 +8286,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "90"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -8217,12 +8295,30 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C400369"
+		(property "LCSC Part #" "C505075"
 			(at 243.84 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -8342,6 +8438,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -8644,6 +8758,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 69.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 69.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9114,6 +9246,24 @@
 			)
 		)
 		(property "JLC" "C5339222"
+			(at 69.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternative" ""
+			(at 69.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 69.85 43.18 0)
 			(effects
 				(font

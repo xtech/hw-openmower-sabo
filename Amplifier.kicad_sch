@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-22")
-		(rev "v0.2")
+		(date "2025-10-05")
+		(rev "v0.3")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -1470,6 +1470,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alternative" ""
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "14c77c61-b31c-44f1-9b2c-bcfa95ecb55b")
 		)
@@ -1594,6 +1612,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alternative" ""
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04c7202d-58ee-4df3-bff6-1715a0a10fc2")
 		)
@@ -1665,6 +1701,24 @@
 		)
 		(property "JLC" "C15008"
 			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternative" ""
+			(at 68.58 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,6 +1863,24 @@
 			)
 		)
 		(property "JLC" "C17514"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternative" ""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 104.14 124.46 0)
 			(effects
 				(font
@@ -1962,6 +2034,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alternative" ""
+			(at 120.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ab042df-3233-4be3-9f0a-98c6c861a9d4")
 		)
@@ -2107,6 +2197,24 @@
 				(hide yes)
 			)
 		)
+		(property "Alternative" ""
+			(at 120.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4811e779-681f-4e54-96f9-8403d8bfcf5c")
 		)
@@ -2179,6 +2287,24 @@
 			)
 		)
 		(property "JLC" "C307331"
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternative" ""
+			(at 81.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 81.28 71.12 0)
 			(effects
 				(font

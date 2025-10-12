@@ -11,4 +11,5 @@
   (lib (name "xcore")(type "KiCad")(uri "${KIPRJMOD}/xcore-lib/xcore.kicad_sym")(options "")(descr ""))
   (lib (name "LM5163DDA")(type "KiCad")(uri "${KIPRJMOD}/components/extern/symbols/LM5163DDA.kicad_sym")(options "")(descr ""))
   (lib (name "LM76005RNPR")(type "KiCad")(uri "${KIPRJMOD}/components/extern/symbols/LM76005RNPR.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/components/easyeda2kicad.kicad_sym")(options "")(descr ""))
 )

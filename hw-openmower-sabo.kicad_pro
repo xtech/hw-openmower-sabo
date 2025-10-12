@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -61,6 +61,22 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|137805000|69405000|296006f8-d45e-42d9-a57c-b37261e7948b|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          ""
+        ],
+        [
+          "courtyards_overlap|137805000|74155000|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4|ffb5aba4-37bb-42b8-97ef-f03de63f50a6",
+          ""
+        ],
+        [
+          "courtyards_overlap|138795000|72645000|67c89f13-7b74-4fc4-b283-0ba0292ee9e6|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          ""
+        ],
+        [
+          "courtyards_overlap|138795000|77445000|150a9c01-adff-4012-8022-d67372da5d09|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          ""
+        ],
+        [
           "courtyards_overlap|160455000|79105000|340a22f5-4ed8-4601-b3a5-8fb28ca67835|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
@@ -69,7 +85,7 @@
           ""
         ],
         [
-          "courtyards_overlap|162555000|79047500|bbcd0380-8d49-4a90-8029-e6365663ff68|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          "courtyards_overlap|163705000|79037500|bbcd0380-8d49-4a90-8029-e6365663ff68|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
         [
@@ -97,15 +113,15 @@
           ""
         ],
         [
-          "courtyards_overlap|78275000|120035000|8fe71767-4ce6-4576-a57d-5e4c9cacac88|b3ebc18f-c400-4ec0-9725-cf617f1f1af2",
+          "courtyards_overlap|77775000|118735000|8fe71767-4ce6-4576-a57d-5e4c9cacac88|b3ebc18f-c400-4ec0-9725-cf617f1f1af2",
           ""
         ],
         [
-          "courtyards_overlap|78805000|121155000|b3ebc18f-c400-4ec0-9725-cf617f1f1af2|eacd8a5f-e857-44be-b280-327005ce7718",
+          "courtyards_overlap|78305000|119855000|b3ebc18f-c400-4ec0-9725-cf617f1f1af2|eacd8a5f-e857-44be-b280-327005ce7718",
           ""
         ],
         [
-          "courtyards_overlap|80375000|120035000|4ad1ee54-755f-47e6-9106-1432a7801931|b3ebc18f-c400-4ec0-9725-cf617f1f1af2",
+          "courtyards_overlap|79875000|118735000|4ad1ee54-755f-47e6-9106-1432a7801931|b3ebc18f-c400-4ec0-9725-cf617f1f1af2",
           ""
         ],
         [
@@ -141,6 +157,10 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|22930302|81784999|d6db9de8-7e7c-4af8-a43a-c703fc6e6d10|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|238095000|139665000|30f56ae0-826b-41f5-abf4-51d94fd3ac8e|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -149,15 +169,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|248900000|59235000|25d88f55-0d3c-4b8b-953b-583c04ed9956|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|266529698|72684999|50b5ae5c-5fd6-4fcd-b14d-1fae712eeb6e|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "starved_thermal|105225000|67150000|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|dafb5237-d95b-4a23-92d2-9c35c23dd5d0|F.Cu",
+          "silk_edge_clearance|251535000|35210000|2cba4642-40bd-4044-8e7c-aff17df4c0ed|2d6399c4-4a4c-428b-b836-8cf69f6895c4",
           ""
         ],
         [
@@ -213,15 +229,19 @@
           ""
         ],
         [
-          "starved_thermal|211490000|37500000|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|365e23c4-b5b3-4c5b-a92c-d323c9fdbbc7|B.Cu",
-          ""
-        ],
-        [
           "starved_thermal|215350000|139388640|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|9dbf9210-2314-4af5-9d88-6e497ba4b560|F.Cu",
           ""
         ],
         [
-          "starved_thermal|230540000|37500000|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|c6431eb8-0b11-4314-af2a-9333cfc1276d|B.Cu",
+          "starved_thermal|244625000|36537500|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|b032e7e5-1e43-4af6-b75e-058d16dbdb9f|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|250475000|36537500|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|83706718-1b3b-4f79-9e7d-272c84bedc0a|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|251125000|36537500|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|7ee9e9d0-f836-4559-9b94-f82ed615442a|F.Cu",
           ""
         ]
       ],
@@ -428,7 +448,31 @@
   "erc": {
     "erc_exclusions": [
       [
+        "lib_symbol_mismatch|1104900|1511300|002f5ff7-5968-4d54-b543-76f4ad65e974|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1104900|1663700|0123b1bc-e2f9-4307-b84b-d84c8f0a65a7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1981200|2578100|1c1335b3-5dd0-48e6-8ce8-5551b9918aba|702ba479-3628-4fb1-8933-858645dbef8b|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f",
+        ""
+      ],
+      [
+        "multiple_net_names|1981200|2578100|4f766e7a-83fd-4b36-bf69-11c39a1869fa|702ba479-3628-4fb1-8933-858645dbef8b|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f",
+        ""
+      ],
+      [
+        "multiple_net_names|381000|901700|5fa26cfd-de59-435c-80fe-51c37c34c6c3|3f378325-1370-4932-9c6f-6bf90c76228a|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f",
+        ""
+      ],
+      [
         "no_connect_connected|1320800|2705100|ed9b1248-8616-439a-962d-f35374b6c810|00000000-0000-0000-0000-000000000000|/e12e8a63-1d1b-4736-9aba-a87a258b2b11|/e12e8a63-1d1b-4736-9aba-a87a258b2b11|",
+        ""
+      ],
+      [
+        "no_connect_connected|901700|1816100|75fe17b8-0d38-48c0-9502-8933453551f5|7ea5ba5a-540a-40aa-a0be-5b654e79e1e8|/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f||",
         ""
       ]
     ],
@@ -924,6 +968,72 @@
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
         }
       ],
       "filter_string": "",

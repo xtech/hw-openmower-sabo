@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Mainboard for Series I & II")
-		(date "2025-05-22")
-		(rev "v0.2")
+		(date "2025-10-05")
+		(rev "v0.3")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -1934,6 +1934,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 26.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
@@ -2023,6 +2041,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 118.11 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 118.11 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d189e3b2-2885-49ef-a9b8-478894acc7f5")
 		)
@@ -2105,6 +2141,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 166.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 166.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -2254,6 +2308,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d99ce3e-57f2-4be9-9dce-b13670d3d617")
 		)
@@ -2357,6 +2429,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 68.58 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
@@ -2444,6 +2534,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2547,6 +2655,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 26.67 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -2720,6 +2846,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 26.67 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
@@ -2817,6 +2961,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 26.67 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.67 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/0359b790-c26c-4759-a59f-5a6b50a14036"
@@ -2912,6 +3074,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 68.58 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -3076,6 +3256,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5748d395-e7f5-45cc-91e6-d4da56d09d73")
 		)
@@ -3167,6 +3365,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 199.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3264,6 +3480,24 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f57579df-7876-412c-bb23-01b415c9a78f")
 		)
@@ -3356,6 +3590,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3459,6 +3711,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 68.58 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 68.58 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -3768,6 +4038,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Alternative" ""
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
