@@ -1,7 +1,8 @@
 # RoHS & REACH Compliance Statement
 
-**Product**: hw-openmower-sabo  
-**Revision**: v0.2  
+**Product**: hw-openmower-sabo<br>
+**Revision**: v0.3<br>
+**Date**: 2025-10-12
 
 ---
 
