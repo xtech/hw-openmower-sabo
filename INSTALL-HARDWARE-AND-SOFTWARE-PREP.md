@@ -39,48 +39,49 @@ This guide describes the hardware installation and the software preparation step
    - Place the small standoffs on the xCore’s CM4 mounting holes.
 2. Carefully seat the Raspberry Pi CM4 onto the xCore connector. Ensure the orientation is correct (the small IPEX antenna connector aligns appropriately with the SODIMM side).
 
-3. Download the latest OpenMowerOS build artifact (ZIP) from the GitHub Actions page: [OpenMowerOS Actions](https://github.com/ClemensElflein/OpenMowerOS/actions) (branch: `v2-rework`). Pick the most recent successful (green check) run. (You need to be logged into GitHub to download workflow artifacts. If an official V2 release becomes available later, prefer the Release asset instead.)
+3. Download the latest OpenMowerOS_\<YYYYMMDD>.zip asset from [OpenMowerOS Releases](https://github.com/ClemensElflein/OpenMowerOS/releases).
+   
 4. If not already installed, install the [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
 5. Option A: Raspberry Pi CM4 Lite (without eMMC storage)
    1. Insert a ≥ 16 GB microSD card into your PC.
-   1. Start Raspberry Pi Imager.
-   1. Choose Model = “Raspberry Pi 4”.
-   1. Choose OS = “Use custom” and select the downloaded OpenMowerOS zip file.
-   1. Choose your inserted microSD card. **Double‑check you selected the correct removable device, not a hard drive. All data on the selected device will be erased!**
-   1. Follow only the section "Install OpenMowerOS on your Pi4/CM4" in the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS/tree/v2-rework) to write the image.
-   1. When finished, remove the microSD card and insert it into the xCore.
+   2. Start Raspberry Pi Imager.
+   3. Choose Model = “Raspberry Pi 4”.
+   4. Choose OS = “Use custom” and select the downloaded OpenMowerOS zip file.
+   5. Choose your inserted microSD card. **Double‑check you selected the correct removable device, not a hard drive. All data on the selected device will be erased!**
+   6. Follow the section "Install OpenMowerOS on your Pi/CM" of the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS#how-to-get-started) to write the image.
+   7. When finished, remove the microSD card and insert it into the xCore.
 
 6. Insert your xCore+CM4 assembly into the SABO Carrierboard and temporarily mount it to the black plastic mainboard holder (from section 1) using only 2–4 screws.
 7. Put the assembly back into the mower, but do not fasten it yet.
 8. Plug in the large power Molex cable. Make sure to use the correct Series‑I / Series‑II connector matching your mower model.
 
-9. Option B: Raspberry Pi CM4 with eMMC storage
+9.  Option B: Raspberry Pi CM4 with eMMC storage
    1. Connect a Micro‑USB cable from your PC to the xCore’s Micro‑USB port.
-   1. Install the “rpiboot” host utility as described in [Set up the host device](https://www.raspberrypi.com/documentation/computers/compute-module.html).
-   2. Power on[^1] the mower **while** holding the small "RPi Boot" button on the xCore; release it once LEDs are active. (The power switch is located on the right side beneath the rear handle.)
-   3. Run `sudo rpiboot` on your PC (see the Raspberry Pi docs for Windows/macOS). After a few seconds a new mass‑storage device (the CM4 eMMC) appears.
-   4. Start Raspberry Pi Imager.
-   5. Choose Model = “Raspberry Pi 4”.
-   6. Choose OS = “Use custom” and select the just-downloaded OpenMowerOS zip file.
-   7. Choose the eMMC device just mounted by rpiboot. **Double‑check you selected the correct device, not a hard drive. All data will be erased!**
-   8. Follow only the section "Install OpenMowerOS on your Pi4/CM4" in the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS/tree/v2-rework) to write the image.
-   9. When verified, close the imager, unplug USB, and power the mower off again.
+   2. Install the “rpiboot” host utility as described in [Set up the host device](https://www.raspberrypi.com/documentation/computers/compute-module.html).
+   3. Power on[^1] the mower **while** holding the small "RPi Boot" button on the xCore; release it once LEDs are active. (The power switch is located on the right side beneath the rear handle.)
+   4. Run `sudo rpiboot` on your PC (see the Raspberry Pi docs for Windows/macOS). After a few seconds a new mass‑storage device (the CM4 eMMC) appears.
+   5. Start Raspberry Pi Imager.
+   6. Choose Model = “Raspberry Pi 4”.
+   7. Choose OS = “Use custom” and select the just-downloaded OpenMowerOS zip file.
+   8. Choose the eMMC device just mounted by rpiboot. **Double‑check you selected the correct device, not a hard drive. All data will be erased!**
+   9. Follow the section "Install OpenMowerOS on your Pi/CM" of the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS#how-to-get-started) to write the image.
+   10. When verified, close the imager, unplug USB, and power the mower off again.
 
-1. First power-up and initial network setup ⏳
+10. First power-up and initial network setup ⏳
    1. Power on[^1] the mower.
-   1. This time, follow only the section "First boot and network setup" in the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS/tree/v2-rework) to complete initial configuration.
+   2. This time, follow only the section "First boot and network setup" of the [OpenMowerOS instructions](https://github.com/ClemensElflein/OpenMowerOS#how-to-get-started) to complete initial configuration.
 
-1. Once you've been able to ping and access your mower, shut it down again via `sudo halt`, power it off once Pi LEDs get inactive, carefully unplug the large Molex power cable from the CarrierBoard and remove the assembly again.
+11. Once you've been able to ping and access your mower, shut it down again via `sudo halt`, power it off once Pi LEDs get inactive, carefully unplug the large Molex power cable from the CarrierBoard and remove the assembly again.
 
-1. Optional: Waveshare CM4‑Heatsink‑B (SKU 22097)
+12. Optional: Waveshare CM4‑Heatsink‑B (SKU 22097)
    1. Remove the xCore from the Carrierboard.
-   1. Remove the Carrierboard from the black plastic mainboard holder.
-   1. Place the thermal pads on the CM4 chips as shown:<br>
+   2. Remove the Carrierboard from the black plastic mainboard holder.
+   3. Place the thermal pads on the CM4 chips as shown:<br>
       ![WaveShare Thermal Pads](assets/CM4-HEATSINK-B-ThermalPads.jpg)
-   1. Place the heatsink on top and fasten only the two screws on the SODIMM side.
-   1. Place the larger Waveshare standoff on the Carrierboard where the xCore mounts.
-   1. Plug the xCore into the Carrierboard and use the longer screws to fasten xCore + Carrierboard as shown:<br>
+   4. Place the heatsink on top and fasten only the two screws on the SODIMM side.
+   5. Place the larger Waveshare standoff on the Carrierboard where the xCore mounts.
+   6. Plug the xCore into the Carrierboard and use the longer screws to fasten xCore + Carrierboard as shown:<br>
       ![WaveShare Assembled Spacer](assets/CM4-HEATSINK-B-AssembledSpacer.jpg)
 
 - Do not fully assemble the Carrierboard + mainboard holder yet.
