@@ -1,20 +1,22 @@
-# Software Installation Guide 🛠️
+# Software Installation Guide
 
-In the previous [INSTALL-HARDWARE-AND-SOFTWARE-PREP](./INSTALL-HARDWARE-AND-SOFTWARE-PREP.md) guide, we already installed the OpenMower Operating System.
-
-This guide describe the remaining software installation steps as well as the mostly required ESC calibration for the drive and mow motors.
+This document continues from the hardware preparation in [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md](INSTALL-HARDWARE-AND-SOFTWARE-PREP.md) and describes the remaining software installation steps and the required ESC calibration for the drive and mow motors.
 
 <details>
-<summary>Activate external WiFi antenna 📶</summary>
+<summary>Activate external Wi-Fi antenna 📶</summary>
 
-If you assembled the adhesive antenna as described in the previous guide, or any other external antenna to the ipex connector of the CM, you also need to activate it.
+If you fitted the adhesive antenna (or any external antenna) to the CM4 IPEX connector, enable it in the firmware config:
 
-1. Boot system up
-2. Get a terminal via SSH or [WebTerminal](http://openmower:7681)
-3. Edit Pi's configuration via: `nano /boot/firmware/config.txt` or `mcedit /boot/firmware/config.txt`
-4. Scroll down and change from internal (ant1) to external (ant2) antenna:
+1. Boot the system and open a terminal via SSH or the [WebTerminal](http://openmower:7681).
+2. Edit the firmware config file:
+
+   ```sh
+   sudo nano /boot/firmware/config.txt
    ```
-   ...
+
+3. Find the [cm4] antenna selection and enable the external antenna by setting:
+
+   ```ini
    [cm4]
    # CM4 antenna selection — choose Wi‑Fi antenna path
    # Internal/on‑module antenna (default):
@@ -22,85 +24,98 @@ If you assembled the adhesive antenna as described in the previous guide, or any
    # External- U.FL/IPEX antenna connector:
    dtparam=ant2
    ```
-5. Reboot the system `sudo reboot`
+4. Save and reboot:
 
+   ```sh
+   sudo reboot
+   ```
 </details>
+
 
 <details>
 <summary>Robot Operating System (open_mower_ros) 🚜</summary>
 
-Easiest way to configure open_mower_ros is by using the awesome openmower-cli.
+We recommend configuring `open_mower_ros` using `openmower-cli`.
 
-Get a terminal via SSH or [WebTerminal](http://openmower:7681), do an `openmower configure env` and read carefully all comments, **but** set `VERSION="v2"` for our Sabo build as it contains specific enhancement which aren't in latest as of writing.
+1. Open a terminal (SSH or [WebTerminal](http://openmower:7681)) and run:
 
-Once the editor get saved and closed, openmower-cli will immediately pull the image and start it once fully downloaded.
+   ```sh
+   openmower configure env
+   ```
 
-Lastly, configure your personal settings via `openmower configure ros`. Change at least:
-- gps: `datum_lat`, `datum_long` and point it to your planned docking position. You get em by right-click at the location within [Google Maps](https://www.google.com/maps)
-- gps: `protocol: "NMEA"` because you most likely use a UM9x GNSS receiver
-- Fill in all `ntrip_client` vars
+2. Set `VERSION="v2"` for the SABO build (this branch contains SABO-specific improvements).
+3. Save and exit the editor. `openmower-cli` will pull the required image and start the service when download completes.
+4. Configure runtime settings:
 
-Once the editor get saved and closed, openmower-cli will again immediately restart the openmower service to load the new settings
+   ```sh
+   openmower configure ros
+   ```
+
+   At minimum, update:
+   - gps: `datum_lat`, `datum_long` — enter your planned docking position
+   - gps: `protocol: "NMEA"` — for UM9x GNSS receivers
+   - `ntrip_client` settings
+
+After saving, `openmower-cli` will reload the service to apply the new settings.
 
 </details>
 
 <details>
-<summary>Calibrate ESCs with your motors 🛠️</summary>
-
-In most cases, the assembled ESC's of a Carrier-Board-Kit have been preconfigured, **but** that configuration is only a rough default configuration, which sometimes sounds ugly and is mostly inefficient as well.
-
-That's why it's highly recommended to do a individual ESC/Motor calibration with your own motors, to get quite as well as efficient running motors!
+<summary>Calibrate ESCs with your motors ⚠️</summary>
 
 ## Required preparations
 
-1. Unmount the mower blade!
-2. Really, unmount the blade! This is a huge mower with a strong motor and large blade!
-3. Lift up the back of the mower during calibration with a small carton, so that the wheels are able to spin freely
+1. Remove the mower blade and confirm it is not installed.
+2. Really, remove the blade! This is a huge mower with a strong motor and large blade! :skull:
+3. Lift the mower's rear so wheels can spin freely (use a carton, block or stand).
 4. Unmount the mower blade!
-5. You need the [VESC Tool Free](https://vesc-project.com/vesc_tool) for your PC. If you don't have it already installed, you need to make an account there, put the "0€ VESC Tool Free" into the cart and checkout. Some seconds later you'll receive a download link.
-6. Check if you disassembled the mower blade!
+5. You need [VESC Tool Free](https://vesc-project.com/vesc_tool) for your PC. If you don't have it already installed, you need to make an account there, put the "0€ VESC Tool Free" into the cart and checkout. Some seconds later you'll receive a download link.
+6. Use battery power for calibration (not dock power), and ensure the battery has sufficient charge.
+7. Check if you disassembled the mower blade!
 
-## Reference Informations
+## Reference Information
 
 ### ESC Ports
 
-The ESCs get exposed by our xCore on the following ports:
-| xCore Port |               ESC               |
-| :--------: | :-----------------------------: |
-|   65102    |   Left Drive ESC (wheel icon)   |
-|   65103    | Mower ESC (blade or blood icon) |
-|   65104    |   Left Drive ESC (wheel icon)   |
+The xCore exposes ESCs on these ports:
 
-### Drive Motor Specs - ECI 42.20 N
+| xCore Port | ESC                       |
+| :--------: | :------------------------ |
+|   65102    | Left drive ESC 🛞          |
+|   65103    | Mower (blade) ESC :hocho: |
+|   65104    | Right drive ESC 🛞         |
 
-| Characteristic | Value    |
-| -------------- | -------- |
-| Motor Type     | Inrunner |
-| Engine Mass    | ~ 330g   |
-| Rated Voltage  | 24V DC   |
-| Rated Current  | 1.25A    |
-| Rated Power    | 30W      |
-| Motor Poles    | 6        |
-
-### Mower Motor Specs - ECI 63.20
+### Drive motor (ECI 42.20 N)
 
 | Characteristic | Value    |
 | -------------- | -------- |
-| Motor Type     | Inrunner |
-| Engine Mass    | ~ 750g   |
-| Rated Voltage  | 24V DC   |
-| Rated Current  | 8.5A     |
-| Rated Power    | 204W     |
-| Motor Poles    | 8        |
+| Motor type     | Inrunner |
+| Approx. mass   | ~330 g   |
+| Rated voltage  | 24 V DC  |
+| Rated current  | 1.25 A   |
+| Rated power    | 30 W     |
+| Motor poles    | 6        |
+
+### Mower motor (ECI 63.20)
+
+| Characteristic | Value    |
+| -------------- | -------- |
+| Motor type     | Inrunner |
+| Approx. mass   | ~750 g   |
+| Rated voltage  | 24 V DC  |
+| Rated current  | 8.5 A    |
+| Rated power    | 204 W    |
+| Motor poles    | 8        |
 
 ### Default ESC configurations
 
-If anything goes wrong or whatever, here are the default [SABO ESCs configs](https://github.com/xtech/hw-openmower-sabo/tree/main/Configs/xESC)
+Default SABO ESC configurations are available in the repository: [SABO ESCs configs](https://github.com/xtech/hw-openmower-sabo/tree/main/Configs/xESC)
 
+---
 
-## Drive Motor Calibration
+## Drive motor calibration (left then right)
 
-Let's start with left drive motor.
+Perform calibration for left drive first, then repeat the procedure for the right drive.
 
 1. Stop open_mower_ros via `openmower stop`
 2. Ensure your mowers back is lifted a little bit, so that the wheels can spin freely
@@ -139,7 +154,7 @@ Let's start with left drive motor.
 Done :satisfied:<br>
 ... **but not finished** :v: ... you need to do the whole procedure again, but with the right drive side.
 
-So, <kbd>Ctrl</kbd>+<kbd>c</kbd> your socat, do it again but for port 65104 and start over once more at point 4. but with port 65104 to do the same for the right ESC
+So, <kbd>Ctrl</kbd>+<kbd>c</kbd> your socat, do it again but for port 65104 and start over at point 4. but with port 65104 to do the same for the right ESC
 
 
 ## Mow Motor Calibration
@@ -151,7 +166,7 @@ For the mow motor ESC calibration, you do the same workflow, but with adapted va
    - Tab "Motor" = Medium Inrunner ~750g
      - Advanced: Max Power Loss = 200, Motor Poles = 8
    - Tab "Battery"
-     - Battery Capacity = 3.9Ah
+     - Battery Capacity = 3.9Ah (same as before)
    - Tab "Setup"
      - Gear Ratio = Check Direct Drive
      - Motor Poles = 8
@@ -159,14 +174,14 @@ For the mow motor ESC calibration, you do the same workflow, but with adapted va
 
 3. Test with "**D 0,08**" which should draw **<= 0.52A** (without assembled blade)
 4. Check/Adjust blade rotation direction:<br>
-   We need to ensure that the blade is rotating CCW (when watching from downside onto the axis). Do this with a slow rotation speed like "D 0,08".
+   We need to ensure that the blade rotate CCW (when watching from downside onto the axis). Do this with a slow rotation speed like "D 0,08".
 
    If it rotates CW, change direction via: _Motor Settings → General → Tab General → Invert Motor Direction_. **Do not forget to do: "Write motor configuration" via `↧M`**
 
 5. Load the correct ESC-App config via: _File → Load App Configuration XML_, choose `SABO_Mower-App.xml` (see [SABO ESCs configs](https://github.com/xtech/hw-openmower-sabo/tree/main/Configs/xESC)) and finally press the `↧A` icon (Write app configuration) on the right side.
 
 6. Limit blade RPM:<br>
-   It's important to limit the max. RPM to the one like OEM is running it! Otherwise you risk your motor bearings or more dangerous: Your blade might fly away (totenkopf symbol)
+   It's important to limit the max. RPM to the one like OEM is running it! Otherwise you risk your motor bearings or more dangerous: Your blade might fly away :skull:
    ![Limit RPM](assets/vesc_7_mow_settings2.jpg)
 
 7. Optional misc settings which you might align to be within the motor/battery specs:<br>
