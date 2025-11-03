@@ -158,6 +158,6 @@ This guide describes the hardware installation and the software preparation step
 
 ---
 
-TODO: For software installation, see [INSTALL-SOFTWARE.md](INSTALL-SOFTWARE.md).
+For software installation, see [INSTALL-SOFTWARE.md](INSTALL-SOFTWARE.md).
 
 [^1]: If your battery is drained (common for second‑hand mowers), you can power the Carrierboard with 12–36 V DC via the 2‑pin Molex you unplugged when removing the cover. Red is +, black is −. **Mind the current draw.** If your DC PSU cannot supply about 2.65 A, disconnect the Molex plug to the battery to prevent charging current from overloading the PSU.
