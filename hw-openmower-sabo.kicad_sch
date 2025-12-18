@@ -13411,7 +13411,7 @@
 				(justify left)
 			)
 		)
-		(pin "SEL_SPI_MISO_~{UI_S2}{slash}BMC" input
+		(pin "SEL_SPI_MISO_~{UI_S2}{slash}BMS" input
 			(at 72.39 171.45 180)
 			(uuid "823e7d50-7499-4801-946f-c28aaa88de35")
 			(effects

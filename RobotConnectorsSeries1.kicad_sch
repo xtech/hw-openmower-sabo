@@ -7067,7 +7067,7 @@
 		)
 		(uuid "4b95e06a-3ef4-4c49-a4bc-ab8f588435ca")
 	)
-	(hierarchical_label "BMC_SPI_CLK"
+	(hierarchical_label "BMS_SPI_CLK"
 		(shape input)
 		(at 86.36 35.56 0)
 		(effects
@@ -7121,7 +7121,7 @@
 		)
 		(uuid "6957ea44-109d-4414-9777-d23536ddcb41")
 	)
-	(hierarchical_label "BMC_SPI_MISO"
+	(hierarchical_label "BMS_SPI_MISO"
 		(shape output)
 		(at 86.36 38.1 0)
 		(effects
@@ -8301,6 +8301,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Alternative" ""

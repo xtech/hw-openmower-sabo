@@ -11042,7 +11042,7 @@
 		)
 		(uuid "69a978c4-f830-4a58-a1ed-6d9e7d34253c")
 	)
-	(label "BMC_SPI_MISO"
+	(label "BMS_SPI_MISO"
 		(at 220.98 204.47 180)
 		(effects
 			(font
@@ -11352,7 +11352,7 @@
 		)
 		(uuid "af7b6750-d653-4720-a41a-c1e998d65173")
 	)
-	(label "BMC_SPI_MISO"
+	(label "BMS_SPI_MISO"
 		(at 300.99 64.77 180)
 		(effects
 			(font
@@ -11483,7 +11483,7 @@
 		)
 		(uuid "cafa4024-2b84-45e6-ae87-0c0ec85e7659")
 	)
-	(label "BMC_SPI_MISO"
+	(label "BMS_SPI_MISO"
 		(at 300.99 148.59 180)
 		(effects
 			(font
@@ -11856,7 +11856,7 @@
 		)
 		(uuid "211f5113-3711-4418-9b7c-c664da966b2e")
 	)
-	(hierarchical_label "SEL_SPI_MISO_~{UI_S2}{slash}BMC"
+	(hierarchical_label "SEL_SPI_MISO_~{UI_S2}{slash}BMS"
 		(shape input)
 		(at 193.04 196.85 180)
 		(effects
@@ -16965,7 +16965,7 @@
 				)
 			)
 		)
-		(property "Value" "BATT Fuse 4A"
+		(property "Value" "BATT Fuse 4A MT"
 			(at 49.53 82.55 90)
 			(effects
 				(font
@@ -23214,18 +23214,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2b3d332-afa0-4d3d-be3b-f246f324968f")
 		(property "Reference" "F2"
-			(at 26.67 31.75 90)
+			(at 26.67 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PWR Fuse 2.5A"
-			(at 26.67 34.29 90)
+		(property "Value" "PWR Fuse 2.5A F"
+			(at 26.67 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25861,7 +25860,7 @@
 				(justify right)
 			)
 		)
-		(pin "BMC_SPI_MISO" output
+		(pin "BMS_SPI_MISO" output
 			(at 284.48 64.77 0)
 			(uuid "8aae8a17-0e51-4bdb-a93c-f3ffd7e3839e")
 			(effects
@@ -25871,7 +25870,7 @@
 				(justify right)
 			)
 		)
-		(pin "BMC_SPI_CLK" input
+		(pin "BMS_SPI_CLK" input
 			(at 284.48 62.23 0)
 			(uuid "8eedc29f-3c46-4370-9176-868864a81403")
 			(effects
@@ -26163,7 +26162,7 @@
 				(justify left)
 			)
 		)
-		(pin "BMC_SPI_CLK" input
+		(pin "BMS_SPI_CLK" input
 			(at 284.48 146.05 0)
 			(uuid "dd2c3a26-3377-4f92-809a-9c743f7d2121")
 			(effects
@@ -26173,7 +26172,7 @@
 				(justify right)
 			)
 		)
-		(pin "BMC_SPI_MISO" output
+		(pin "BMS_SPI_MISO" output
 			(at 284.48 148.59 0)
 			(uuid "9454b528-b1bd-4e90-a798-a11893880e11")
 			(effects

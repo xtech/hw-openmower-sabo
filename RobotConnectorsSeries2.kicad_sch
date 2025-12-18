@@ -3878,6 +3878,16 @@
 		)
 		(uuid "dcd1a109-1134-42fa-b229-a3f677bd6cb8")
 	)
+	(text "Heartbeat Signal\n15-20uS Tim+, 4.8-5ms Tim- = ~210Hz"
+		(exclude_from_sim no)
+		(at 129.032 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd9c6d87-da0a-46da-98f3-8d4a42e1a796")
+	)
 	(text "W"
 		(exclude_from_sim no)
 		(at 85.852 50.038 0)
@@ -4310,6 +4320,16 @@
 		)
 		(uuid "09ce066b-6828-47dd-a416-b9e655e5958c")
 	)
+	(polyline
+		(pts
+			(xy 138.43 151.13) (xy 140.97 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b69e974-c47b-4633-8553-fc6051fbef93")
+	)
 	(wire
 		(pts
 			(xy 191.77 66.04) (xy 191.77 67.31)
@@ -4389,6 +4409,16 @@
 			(type default)
 		)
 		(uuid "1a1fa58f-0008-47ac-86d2-1ba5c5a4fe9f")
+	)
+	(polyline
+		(pts
+			(xy 114.3 151.13) (xy 116.84 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf8dbb4-b91e-480a-a5fd-a8aa2060a478")
 	)
 	(bus
 		(pts
@@ -4700,6 +4730,16 @@
 		)
 		(uuid "478d9ba3-3ae5-49ca-a616-9705cf3850e1")
 	)
+	(polyline
+		(pts
+			(xy 116.84 151.13) (xy 116.84 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494d76db-a157-4b29-83ec-2dabcf2cff33")
+	)
 	(wire
 		(pts
 			(xy 205.74 71.12) (xy 205.74 67.31)
@@ -4719,6 +4759,16 @@
 			(type default)
 		)
 		(uuid "4a8781a7-9a58-4492-8a59-f13411d91820")
+	)
+	(polyline
+		(pts
+			(xy 111.76 158.75) (xy 114.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8fb8c7-4758-41df-a1ff-7230406631a0")
 	)
 	(wire
 		(pts
@@ -4869,6 +4919,16 @@
 			(type default)
 		)
 		(uuid "5e4d6192-cd11-490a-a98e-c6d153f5215b")
+	)
+	(polyline
+		(pts
+			(xy 138.43 158.75) (xy 138.43 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3995d2-ee56-431f-a61e-85e0e0bff2e2")
 	)
 	(wire
 		(pts
@@ -5260,6 +5320,16 @@
 		)
 		(uuid "a26c2603-18bd-4804-a894-528f9ba7c8bd")
 	)
+	(polyline
+		(pts
+			(xy 140.97 158.75) (xy 144.78 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a561ddae-91b2-4047-aafc-9ca0eb5c9977")
+	)
 	(wire
 		(pts
 			(xy 193.04 111.76) (xy 184.15 111.76)
@@ -5449,6 +5519,16 @@
 			(type default)
 		)
 		(uuid "b9c64b72-f12a-400b-b433-c6cb3f21a573")
+	)
+	(polyline
+		(pts
+			(xy 114.3 158.75) (xy 114.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2b17ee-d163-4d87-93ef-a2413024b977")
 	)
 	(wire
 		(pts
@@ -5680,6 +5760,16 @@
 		)
 		(uuid "cf3c06ed-cc49-4caa-b82e-4732e193fc6a")
 	)
+	(polyline
+		(pts
+			(xy 140.97 151.13) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfcc412f-0926-4374-8718-7b9734d67d47")
+	)
 	(wire
 		(pts
 			(xy 199.39 140.97) (xy 199.39 143.51)
@@ -5909,6 +5999,16 @@
 			(type default)
 		)
 		(uuid "f800b331-0d44-47ba-be5f-098aacdfbd35")
+	)
+	(polyline
+		(pts
+			(xy 116.84 158.75) (xy 138.43 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb98ce4-3617-43be-8120-cdcdee440d11")
 	)
 	(bus
 		(pts
@@ -6313,7 +6413,7 @@
 		)
 		(uuid "1a0cdf81-8668-4f54-b9d4-5f353b47b2a1")
 	)
-	(hierarchical_label "BMC_SPI_CLK"
+	(hierarchical_label "BMS_SPI_CLK"
 		(shape input)
 		(at 107.95 38.1 0)
 		(effects
@@ -6433,7 +6533,7 @@
 		)
 		(uuid "5d7afef4-bb0f-4c77-ae1a-8dafbb7bd054")
 	)
-	(hierarchical_label "BMC_SPI_MISO"
+	(hierarchical_label "BMS_SPI_MISO"
 		(shape output)
 		(at 107.95 40.64 0)
 		(effects
