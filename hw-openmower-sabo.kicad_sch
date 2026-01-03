@@ -3609,7 +3609,7 @@
 	)
 	(text "----- REQUIRED REWORK -----\n\n1. See RobotConnectors"
 		(exclude_from_sim no)
-		(at 36.322 92.71 0)
+		(at 35.814 85.344 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -3652,6 +3652,20 @@
 			(justify left)
 		)
 		(uuid "64773b3d-e333-48fb-8815-4a5140bf167a")
+	)
+	(text "----- OPTIONAL MODs -----\n\n1. Support for BMS data:\n   - Add a cable from TP2 Pin1 (BMC_YW, the upper one)\n     to Extension connector J32, Pin10 (I2C.SCL),\n   - as well as TP2 Pin2 (BMC_GN, the lower one)\n     to J32, Pin8 (I2C.SDA)"
+		(exclude_from_sim no)
+		(at 35.052 106.172 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "6f96a654-8b22-4ed1-937a-172ec618060c")
 	)
 	(text "GPS Header for UM9xx"
 		(exclude_from_sim no)
