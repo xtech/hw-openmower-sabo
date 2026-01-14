@@ -1,3 +1,8 @@
+
+> [!IMPORTANT]  
+> These instructions don't get actively maintained anymore!<br>
+> Please check the official [docs](https://openmower.de/latest/docs) for actively maintained instructions.
+
 # Hardware Installation and Software Preparation Guide 🛠️🛰️
 
 This guide describes the hardware installation and the software preparation steps required during installation for the OpenMower‑V2 Carrierboard for SABO mowers.

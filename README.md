@@ -14,7 +14,7 @@ OpenMower is an open-source project that upgrades off-the-shelf robotic mowers i
 
 This repository contains the design files for a custom carrierboard specifically designed for converting SABO based mowers to OpenMower V2.
 
-For further infos or questions, please visit [Discord](https://discord.com/channels/958476543846412329/1355300774523174922)
+For more info or questions, please visit [Discord](https://discord.com/channels/958476543846412329/1355300774523174922)
 
 ## List of Compatible Mowers
 
@@ -48,18 +48,25 @@ To build a complete OpenMower-V2 system, you will need the following additional 
 - **RTK Base Station**: If you've no public NTRIP service at your location
 
 
-## Usage
+## Installation
 
-For detailed hardware installation and software preparation during installation, see [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md](INSTALL-HARDWARE-AND-SOFTWARE-PREP.md).
+See [Robot Specific Guide](https://openmower.de/latest/docs/step-by-step/2-robot-modification/robot-specific-guides/sabo/) in the official [docs](https://openmower.de/latest/docs/).
+
+The **old** instruction are still here: [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md](INSTALL-HARDWARE-AND-SOFTWARE-PREP.md).
+
+### LCD
+
+<video src="https://www.shbe.net/openmower/sabo/Sabo_LCD_20251212.mp4" width="640" height="360" controls></video>
+
 
 ### Meaning of the LEDs
 
-| LED            | Meaning                                                                                                                                                                                                              |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Auto           | ![led-gn-on] Mow whenever possible (TODO), ![led-gn-blink-slow] Semi- Auto (Mow entire map once and then wait for manual start again) (TODO)                                                                         |
-| Driving/Mowing | ![led-gn-blink-slow] In autonomous mowing or driving mode (TODO), ![led-gn-blink-fast] Area recording mode (TODO)                                                                                                    |
-| House/Home     | ![led-gn-on] GPS has RTK-Fix (TODO), ![led-gn-blink-slow] Waiting for RTK-Fix (TODO)                                                                                                                                 |
-| Start/Play     | ![led-rd-blink-fast] Emergency, ![led-rd-blink-slow] Waiting for ROS (TODO)<br>![led-gn-on] Docked & charging finished, ![led-gn-blink-slow] Docked & charging, ![led-gn-blink-fast] Docked but no or faulty battery |
+| LED            | Meaning                                                                                                                                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Auto           | ![led-gn-on] In autonomous mode, ![led-gn-blink-slow] "Hanging around" indicator due to pause or error                                                                                                        |
+| Driving/Mowing | ![led-gn-on] Mowing or navigating, ![led-gn-blink-slow] Paused                                                                                                                                                |
+| House/Home     | ![led-gn-on] Navigating to dock/home                                                                                                                                                                          |
+| Start/Play     | ![led-rd-blink-fast] Emergency, ![led-rd-blink-slow] Waiting for ROS<br>![led-gn-on] Docked & charging finished, ![led-gn-blink-slow] Docked & charging, ![led-gn-blink-fast] Docked but no or faulty battery |
 
 
 ### Meaning of the Buttons
@@ -74,13 +81,13 @@ For detailed hardware installation and software preparation during installation,
 
 ## Roadmap
 
-- [ ] Hardware
+- [x] Hardware
   - [x] Power/Dock
   - [x] Networking
   - [x] Charger
   - [x] ESCs (BLDC Motors)
   - [x] Emergency sensors (Front Wheel Lifts, Top-Stop, Handle-Stop)
-  - [ ] Battery signalling (SPI)
+  - [x] Battery interface (I²C)
   - [x] CoverUI (Series-I)
     - [x] Buttons
     - [x] LEDs
@@ -98,12 +105,12 @@ For detailed hardware installation and software preparation during installation,
     - [x] Buttons
     - [x] LEDs
     - [x] LC-Display Driver
-    - [ ] LC-Display GUI
+    - [x] LC-Display GUI
   - [ ] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
     - [x] Drive PIDs. ~~At the moment the mower drive somehow stutter (not a big deal, but time consuming)~~
     - [x] ~~Limit blade motor to only one direction~~
     - [ ] Buttons :fire:
-    - [ ] LEDs :fire:
+    - [x] LEDs
 
 
 ## Known Issues :bangbang:

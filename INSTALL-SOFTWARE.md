@@ -1,3 +1,7 @@
+> [!IMPORTANT]  
+> These instructions don't get actively maintained anymore!<br>
+> Please check the official [docs](https://openmower.de/latest/docs) for actively maintained instructions.
+
 # Software Installation Guide
 
 This document continues from the hardware preparation in [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md](INSTALL-HARDWARE-AND-SOFTWARE-PREP.md) and describes the remaining software installation steps and the required ESC calibration for the drive and mow motors.
@@ -118,16 +122,16 @@ Default SABO ESC configurations are available in the repository: [SABO ESCs conf
 Perform calibration for left drive first, then repeat the procedure for the right drive.
 
 1. Stop open_mower_ros via `openmower stop`
-2. Ensure your mowers back is lifted a little bit, so that the wheels can spin freely
+2. Ensure your mower's back is lifted a little bit, so that the wheels can spin freely
 3. You should do all calibration on battery power and not with docked power
-4. To get connected to xCores exposed ESC port from outside the robot, we need to relay it to our accesible IP of our Pi. We can do this via `socat TCP-LISTEN:65102,fork TCP:172.16.78.150:65102` in a terminal on our Pi (SSH or [WebTerminal](http://openmower:7681)), whereas '172.16.78.150' should be the internal IP of your xCore.
+4. To get connected to xCore's exposed ESC port from outside the robot, we need to relay it to our accessible IP of our Pi. We can do this via `socat TCP-LISTEN:65102,fork TCP:172.16.78.150:65102` in a terminal on our Pi (SSH or [WebTerminal](http://openmower:7681)), where '172.16.78.150' should be the internal IP of your xCore.
 5. Start VESC Tool
-6. Connect to mowers ESC: Adapt your hostname or IP accordingly, set the socat'ted ESC port and click connect:<br>
+6. Connect to mower's ESC: Adapt your hostname or IP accordingly, set the socat'ted ESC port and click connect:<br>
    ![Connect](assets/vesc_1_connect.jpg)<br>
    You'll probably get an "old firmware" warning, confirm it, it's harmless:<br>
    ![Old FW](assets/vesc_2_fw_old.jpg)
 
-7. Enable realtime data: Later on, we wanna validate our calibration with a known reference value, but also during calibration it's interested to see the displayed values in the marked 2 window:<br>
+7. Enable realtime data: Later on, we want to validate our calibration with a known reference value, but also during calibration it's interesting to see the displayed values in the marked 2 window:<br>
    ![RT Data](assets/vesc_3_realtime_data.jpg)
 8. Start the FOC Calibration Wizard:<br>
    ![Start FOC Calibration](assets/vesc_4_voc_1.jpg)<br>
@@ -140,11 +144,11 @@ Perform calibration for left drive first, then repeat the procedure for the righ
    Once calibration has been done, **do not change the direction** (even though the left wheel turns forward during calibration, whereas the right one backwards):
 
    <img src="assets/vesc_4_voc_8.jpg" style="vertical-align: middle; width:31%">
-9. Now that the calibration succeed, lets test the result:
+9. Now that the calibration succeeded, let's test the result:
    ![Run Test](assets/vesc_5_test.jpg)<br>
 
-   Test with "**D 0,4**" and press the "Duty cycle" play button. If it draw **<= 0.15A** and sound healty, it is calibrated well.<br>
-   Test with some higher duty settings. It will become more loud for sure, but should always spin smooth and sound healty. If not, press the STOP sign.
+   Test with "**D 0,4**" and press the "Duty cycle" play button. If it draws **<= 0.15A** and sounds healthy, it is calibrated well.<br>
+   Test with some higher duty settings. It will become more loud for sure, but should always spin smooth and sound healthy. If not, press the STOP sign.
 
 10. As a last important step, load the correct ESC-App config via: _File → Load App Configuration XML_, choose `SABO_Drive-App.xml` (see [SABO ESCs configs](https://github.com/xtech/hw-openmower-sabo/tree/main/Configs/xESC)) and finally press the `↧A` icon (Write app configuration) on the right side.
 
@@ -174,7 +178,7 @@ For the mow motor ESC calibration, you do the same workflow, but with adapted va
 
 3. Test with "**D 0,08**" which should draw **<= 0.52A** (without assembled blade)
 4. Check/Adjust blade rotation direction:<br>
-   We need to ensure that the blade rotate CCW (when watching from downside onto the axis). Do this with a slow rotation speed like "D 0,08".
+   We need to ensure that the blade rotates CCW (when watching from downside onto the axis). Do this with a slow rotation speed like "D 0,08".
 
    If it rotates CW, change direction via: _Motor Settings → General → Tab General → Invert Motor Direction_. **Do not forget to do: "Write motor configuration" via `↧M`**
 
@@ -188,4 +192,3 @@ For the mow motor ESC calibration, you do the same workflow, but with adapted va
    ![Drive Settings](assets/vesc_7_mow_settings1.jpg)
 
 </details>
-
