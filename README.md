@@ -52,11 +52,13 @@ To build a complete OpenMower-V2 system, you will need the following additional 
 
 See [Robot Specific Guide](https://openmower.de/latest/docs/step-by-step/2-robot-modification/robot-specific-guides/sabo/) in the official [docs](https://openmower.de/latest/docs/).
 
-The **old** instruction are still here: [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md](INSTALL-HARDWARE-AND-SOFTWARE-PREP.md).
+The **old** instructions are still here: [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md](INSTALL-HARDWARE-AND-SOFTWARE-PREP.md).
 
 ### LCD
 
-<video src="https://www.shbe.net/openmower/sabo/Sabo_LCD_20251212.mp4" width="640" height="360" controls></video>
+[![Sabo LCD Demo Video](https://img.shields.io/badge/▶️_Watch_Sabo_LCD_Demo-blue?style=for-the-badge)](https://www.shbe.net/openmower/sabo/Sabo_LCD_20251212.mp4)
+
+*Click the button above to watch the Sabo LCD demonstration video*
 
 
 ### Meaning of the LEDs
