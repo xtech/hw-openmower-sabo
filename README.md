@@ -73,13 +73,27 @@ The **old** instructions are still here: [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md]
 
 ### Meaning of the Buttons
 
-| Button         |      Series-I      |     Series-II      | Meaning                      |
-| -------------- | :----------------: | :----------------: | ---------------------------- |
-| Auto           |        :x:         | :white_check_mark: |
-| Driving/Mowing |        :x:         | :white_check_mark: |
+The meaning of the buttons is context driven
+
+#### Meaning of the Buttons in IDLE context
+
+| Button         |      Series-I      |     Series-II      | Short Press  | Long (≥0.5s) Press |
+| -------------- | :----------------: | :----------------: | ------------ | ------------------ |
+| Auto           |        :x:         | :white_check_mark: |              |
+| Driving/Mowing |        :x:         | :white_check_mark: | Start mowing |                    |
 | House/Home     |        :x:         | :white_check_mark: |
 | Select (left)  | :white_check_mark: |        :x:         |
-| Start/Play     | :white_check_mark: | :white_check_mark: | Start or Pause mowing (TODO) |
+| Start/Play     | :white_check_mark: | :white_check_mark: | Start mowing | Clear emergency    |
+
+#### Meaning of the Buttons in any autonomous mode (mowing, docking, ...)
+
+| Button         |      Series-I      |     Series-II      | Short Press           | Long (≥0.5s) Press |
+| -------------- | :----------------: | :----------------: | --------------------- | ------------------ |
+| Auto           |        :x:         | :white_check_mark: |
+| Driving/Mowing |        :x:         | :white_check_mark: | Skip path             | Skip area          |
+| House/Home     |        :x:         | :white_check_mark: | Go back home/dock     |
+| Select (left)  | :white_check_mark: |        :x:         |
+| Start/Play     | :white_check_mark: | :white_check_mark: | Pause/Continue mowing | Clear emergency    |
 
 ## Roadmap
 
@@ -100,7 +114,7 @@ The **old** instructions are still here: [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md]
     - [x] LEDs
     - [x] LCD Backlight
     - [x] LC-Display
-- [ ] Software
+- [x] Software
   - [x] [Firmware](https://github.com/xtech/fw-openmower-v2)
     - [x] Emergency (Series-I)
     - [x] Emergency (Series-II)
@@ -108,10 +122,10 @@ The **old** instructions are still here: [INSTALL-HARDWARE-AND-SOFTWARE-PREP.md]
     - [x] LEDs
     - [x] LC-Display Driver
     - [x] LC-Display GUI
-  - [ ] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
+  - [x] ROS/[OpenMower](https://github.com/ClemensElflein/open_mower_ros)
     - [x] Drive PIDs. ~~At the moment the mower drive somehow stutter (not a big deal, but time consuming)~~
     - [x] ~~Limit blade motor to only one direction~~
-    - [ ] Buttons :fire:
+    - [x] Buttons
     - [x] LEDs
 
 
