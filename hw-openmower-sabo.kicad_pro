@@ -426,12 +426,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "no_connect_connected|1320800|2705100|ed9b1248-8616-439a-962d-f35374b6c810|00000000-0000-0000-0000-000000000000|/e12e8a63-1d1b-4736-9aba-a87a258b2b11|/e12e8a63-1d1b-4736-9aba-a87a258b2b11|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -646,6 +641,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

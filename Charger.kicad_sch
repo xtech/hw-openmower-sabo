@@ -2806,9 +2806,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I_{CHG}_{MAX} (Soft) = 4A\n@ 36V, 2.65A power supply"
+	(text "I_{CHG}_{MAX} (Soft):\n4A @ 36V, 2.65A PSU\nor\n5.5A @ 36V, 5A PSU\n\nBut tracks shouldn't get more than 4-5A"
 		(exclude_from_sim no)
-		(at 32.258 156.718 0)
+		(at 35.814 146.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2826,6 +2826,16 @@
 		)
 		(uuid "7123a3c4-7fe4-4b15-bbdc-550ad3f0632a")
 	)
+	(text "Thermal Limit @L4\n-----------------\n@50°C Environment & delta-T=40k L4\nits assumed L4 might get 90°C\n@ 7-8A charge current"
+		(exclude_from_sim no)
+		(at 204.216 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d39e3c0-aa15-4737-81e2-595b87cce66c")
+	)
 	(text "R_{BOTCALC} = 13.76 kOhms = 29.4 V_{CHARGE}\n\nV_{BAT} = 1,536*(1+(R_{TOP}/(R_{BOT}-33)))\n\n7S3P INR18650-13L LiIon:\n- 21.0? V_{EMPTY}, 25.2 V_{NOM}, 29.4 V_{CHARGE}\n- 98.28 Wh, 3.9 Ah\n- 1.95A I_{CHARGE-TYP}, 3.9A I_{CHARGE-MAX}"
 		(exclude_from_sim no)
 		(at 342.138 166.624 0)
@@ -2836,17 +2846,6 @@
 			(justify left)
 		)
 		(uuid "d6903d70-0af1-4867-bab0-8a331ccf096a")
-	)
-	(text "R_{AC_SNS} = 5mOhm = 12A * 2/5 = 4.8A I_{Sense_Max}\n\nTODO:\n- Set corresponding regsiter to 0x60?"
-		(exclude_from_sim no)
-		(at 15.494 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e73bbd30-a980-42c8-a621-31957fda33ae")
 	)
 	(junction
 		(at 257.81 139.7)
