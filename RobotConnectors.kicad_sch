@@ -4951,14 +4951,71 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TEST/TODO:\n----------\nIf LEDs glow when HIGH,\nset mode to \"input\""
+	(text "<- Replaced with\n      47nF muRata 50V X7R"
 		(exclude_from_sim no)
-		(at 177.546 31.496 0)
+		(at 61.214 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 254 1)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 8 1)
 			)
+			(justify left)
+		)
+		(uuid "09cf7ed8-f8d8-412d-8222-c2f772be9677")
+	)
+	(text "----- Required Rework -----\nSeries-I (twisted yw/gn):\n1. Re-Route BMS- SPI-CLK to\n   U29 Pin1 I2C1.SDA (TODO)\n2. Re-Route BMS-MISO to\n   I2C1.SCL (TODO)"
+		(exclude_from_sim no)
+		(at 309.626 78.232 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "23195604-fcc7-4284-bac8-914d373c05ca")
+	)
+	(text "--- Required Rework ---\nSeries-II:\n1. Bridge U43 Pin1 to Pin3"
+		(exclude_from_sim no)
+		(at 118.11 189.484 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "31af1d1e-bddc-4b82-a461-905c03b1b2d1")
+	)
+	(text "----- Required Rework -----\nSeries-II:\n1. Re-Route BMS- SPI-CLK to I2C1.SCL (TODO)\n2. Re-Route BMS-MISO U29 Pin1 to I2CC1.SDA (TODO)"
+		(exclude_from_sim no)
+		(at 319.278 152.908 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7a145002-91e4-4491-a0d9-2bf458d4b35c")
+	)
+	(text "V-Level issue:\n--------------\nSeries-I LEDs get feed by 5V.\nGPIO Expander is 3V3.\nDiff. = 1V7 = glowing red LED.\nSwitch to input mode when off"
+		(exclude_from_sim no)
+		(at 166.624 29.21 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(color 255 153 0 1)
+			)
+			(justify left)
 		)
 		(uuid "87c935f7-facf-4e49-95e2-e083d7c36c3f")
 	)
@@ -4981,6 +5038,34 @@
 			)
 		)
 		(uuid "b20bf64c-516f-49ee-9b44-3307d8f2ccdf")
+	)
+	(text "<- Replaced with\n      47nF muRata 50V X7R"
+		(exclude_from_sim no)
+		(at 64.262 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 8 1)
+			)
+			(justify left)
+		)
+		(uuid "b6eda1c1-db4a-47f2-8967-e4709b3c03f7")
+	)
+	(text "--- TODO ---\nDo we really need that?\nWe do have an LCD_/CE and...?\n\nAnd... should we switch\nthe SCK line instead?!!"
+		(exclude_from_sim no)
+		(at 37.592 207.264 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+			(justify left)
+		)
+		(uuid "eea0ab49-4552-460f-a3ec-8071b56fcf02")
 	)
 	(junction
 		(at 236.22 278.13)
@@ -18845,6 +18930,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 			)
 		)
