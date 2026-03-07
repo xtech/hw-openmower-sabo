@@ -128,15 +128,6 @@ The meaning of the buttons is context driven
     - [x] Buttons
     - [x] LEDs
 
-
-## Known Issues :bangbang:
-
-- ~~LC-Display is not working at all and it's doubtful if it ever will be (mainly due to missing technical specs like display controller, ...)~~
-- ~~Series-I CoverUI isn't connected (except LCD backlight) due to missing pinning (need a faulty Series-I CoverUI to reverse engineer the pinning).~~
-    Since hardware v0.2, Series-I CoverUI is also connected.
-- ~~Series-II is only prepared for now, but not yet tested in any way~~
-
-
 ## Additional Information
 
 This Carrierboard includes more features than actually required to build an OpenMower robot. Additional features include a gigabit Ethernet switch, LiPo charger, and a 12V auxiliary power supply for extensions.
@@ -147,9 +138,10 @@ This Carrierboard includes more features than actually required to build an Open
 
 | Version |  Date   | Info                                                                                                                                                                 |
 | :-----: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  v0.3   | 202?/?? | **In development; Not available yet**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility |
-|  v0.2   | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD                                                                 |
-|  v0.1   | 2025/03 | Initial Prototype                                                                                                                                                    |
+| v0.3.0  | 202?/?? | **In development; Not available yet**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility |
+| v0.2.1  | 2025/06 | - Add DCDC-In current sense and allow charge currents up to 2.8A<br>- BMS data support                                                                               |
+| v0.2.0  | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD                                                                 |
+| v0.1.0  | 2025/03 | Initial Prototype                                                                                                                                                    |
 
 ## Patents, Local Laws, Liability
 
