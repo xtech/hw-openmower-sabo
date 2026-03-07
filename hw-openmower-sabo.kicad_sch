@@ -3698,7 +3698,7 @@
 		)
 		(uuid "b11709eb-ec0c-46f0-8678-3f960f3f1e51")
 	)
-	(text "!! DESIGN FAULT !!\n1. Remove R36, R37, R38, U44\n2. Cut U44 Pin3 to R37/38\n3. Solder R36 = 0.05 Ohm, 0.5W, 1206\n4. Solder INA293A1\n5. Wire U44 Pin3 to shunt directly\n6. Add 1uF on top of C24\n7. Add 100nF on top of C26\n8. AGPIO2 trace on B layer and place R9 & C94"
+	(text "!! DESIGN FAULT !!\n1. Remove R36, R37, R38, U44\n2. Cut U44 Pin3 to R37/38\n3. Solder R36 = 0.05 Ohm, 0.5W, 1206\n4. Solder INA293A1\n5. Wire U44 Pin3 to shunt directly\n6. Cut AGPIO2 trace on B layer and place 10k & 100nF"
 		(exclude_from_sim no)
 		(at 230.632 233.426 0)
 		(effects
@@ -6286,7 +6286,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 252.73) (xy 262.89 252.73)
+			(xy 252.73 252.73) (xy 267.97 252.73)
 		)
 		(stroke
 			(width 0)
@@ -6685,7 +6685,7 @@
 		(uuid "16ce7035-77be-4938-8b9a-d25f9c751530")
 	)
 	(label "AGPIO2"
-		(at 238.76 252.73 180)
+		(at 267.97 252.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)

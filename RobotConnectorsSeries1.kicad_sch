@@ -7956,7 +7956,7 @@
 				)
 			)
 		)
-		(property "MFPN" "5-104068-1"
+		(property "MFPN" "104068-1"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -8310,7 +8310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TE Connectivity, AMPMODU System 50, 5-104068-4"
+		(property "Description" "TE Connectivity, AMPMODU System 50"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -8336,7 +8336,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "104068-4"
 			(at 191.77 44.45 0)
 			(effects
 				(font
