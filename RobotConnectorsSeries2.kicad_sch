@@ -6413,7 +6413,7 @@
 		)
 		(uuid "1a0cdf81-8668-4f54-b9d4-5f353b47b2a1")
 	)
-	(hierarchical_label "BMS_SPI_CLK"
+	(hierarchical_label "BMS_I2C_SCL"
 		(shape input)
 		(at 107.95 38.1 0)
 		(effects
@@ -6533,7 +6533,7 @@
 		)
 		(uuid "5d7afef4-bb0f-4c77-ae1a-8dafbb7bd054")
 	)
-	(hierarchical_label "BMS_SPI_MISO"
+	(hierarchical_label "BMS_I2C_SDA"
 		(shape output)
 		(at 107.95 40.64 0)
 		(effects

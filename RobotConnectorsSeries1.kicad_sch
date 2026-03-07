@@ -4329,6 +4329,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "YES, twisted colors!"
+		(exclude_from_sim no)
+		(at 95.504 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "00436a00-89d1-4ef7-8380-70702ab7c759")
+	)
 	(text "H2"
 		(exclude_from_sim no)
 		(at 78.232 84.328 0)
@@ -6126,7 +6139,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 62.23 87.63)
+			(xy 62.23 87.63) (xy 102.87 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6675,7 +6688,7 @@
 		(uuid "064a9105-062c-4620-a2b8-f0fd0378f95b")
 	)
 	(label "MC_PHASE.W"
-		(at 44.45 74.93 0)
+		(at 44.45 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6705,7 +6718,7 @@
 		(uuid "1a703dc2-0f7e-413a-8e05-71daa9880f51")
 	)
 	(label "MC_HALL_SENSOR.W"
-		(at 102.87 82.55 180)
+		(at 101.6 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6775,7 +6788,7 @@
 		(uuid "5cb21754-7256-4115-b868-30d9a4546be7")
 	)
 	(label "MC_HALL_SENSOR.V"
-		(at 102.87 85.09 180)
+		(at 101.6 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6795,7 +6808,7 @@
 		(uuid "74cde69a-15f7-4bc4-898d-926d46155bb9")
 	)
 	(label "MC_PHASE.U"
-		(at 44.45 77.47 0)
+		(at 44.45 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6835,7 +6848,7 @@
 		(uuid "9cc84af6-4e1d-4cca-8604-eafb0bfcf313")
 	)
 	(label "MC_HALL_SENSOR.U"
-		(at 102.87 87.63 180)
+		(at 101.6 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7067,9 +7080,9 @@
 		)
 		(uuid "4b95e06a-3ef4-4c49-a4bc-ab8f588435ca")
 	)
-	(hierarchical_label "BMS_SPI_CLK"
+	(hierarchical_label "BMS_I2C_SCL"
 		(shape input)
-		(at 86.36 35.56 0)
+		(at 86.36 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7077,8 +7090,8 @@
 			(justify left)
 		)
 		(uuid "5154a4fe-6739-488c-927a-b8b7412b24aa")
-		(property "CableColor" "Yellow"
-			(at 77.47 34.544 0)
+		(property "CableColor" "Green"
+			(at 78.232 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,9 +7134,9 @@
 		)
 		(uuid "6957ea44-109d-4414-9777-d23536ddcb41")
 	)
-	(hierarchical_label "BMS_SPI_MISO"
+	(hierarchical_label "BMS_I2C_SDA"
 		(shape output)
-		(at 86.36 38.1 0)
+		(at 86.36 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7131,8 +7144,8 @@
 			(justify left)
 		)
 		(uuid "704ae8a2-d1c6-4db5-bf2f-a7f257855b6d")
-		(property "CableColor" "Green"
-			(at 77.978 37.084 0)
+		(property "CableColor" "Yellow"
+			(at 77.978 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,9 +7463,9 @@
 		(at 69.85 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "18ea3110-3944-461d-9288-1c4d7eed7f51")
 		(property "Reference" "S1-J15"
 			(at 70.866 131.572 0)
@@ -7602,9 +7615,9 @@
 		(at 69.85 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "30bcc4e6-a4d2-4feb-9798-2e20bd119797")
 		(property "Reference" "S1-J13"
 			(at 71.374 65.786 0)
@@ -8212,9 +8225,9 @@
 		(at 243.84 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "74dda626-35ec-4ce2-9be9-ee9832af9a2d")
 		(property "Reference" "S1-J7"
 			(at 245.364 20.828 0)
@@ -8671,9 +8684,9 @@
 		(at 69.85 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ac786446-bbe0-40f3-b03d-91197628ffda")
 		(property "Reference" "S1-J14"
 			(at 70.866 100.838 0)
@@ -9181,9 +9194,9 @@
 		(at 69.85 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f38fd6e6-0f32-430a-9222-b4e16afc4c5d")
 		(property "Reference" "S1-J17"
 			(at 71.12 29.21 0)

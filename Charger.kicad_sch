@@ -3053,12 +3053,6 @@
 		(uuid "a495fabd-86df-44ab-8d60-f4d47279b0fb")
 	)
 	(junction
-		(at 30.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5394f14-a6ab-4ecc-b9d8-afe008d8e83a")
-	)
-	(junction
 		(at 312.42 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3256,6 +3250,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 106.68) (xy 66.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0021706f-01d6-477b-bbf6-433799e69695")
+	)
+	(wire
+		(pts
 			(xy 334.01 143.51) (xy 334.01 148.59)
 		)
 		(stroke
@@ -3293,16 +3297,6 @@
 			(type default)
 		)
 		(uuid "03e12d9b-943d-4f20-a0cb-cacf03f4b81d")
-	)
-	(wire
-		(pts
-			(xy 30.48 63.5) (xy 30.48 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0761390e-5eee-47ae-be5b-ae6d3d02445d")
 	)
 	(wire
 		(pts
@@ -3373,16 +3367,6 @@
 			(type default)
 		)
 		(uuid "10e560b2-4e9e-48ac-b5b6-c4cbdb5d6b28")
-	)
-	(wire
-		(pts
-			(xy 66.04 81.28) (xy 66.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113cfdd9-45f0-4c0c-9e46-2c95efd9efb5")
 	)
 	(wire
 		(pts
@@ -3526,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 63.5) (xy 30.48 63.5)
+			(xy 26.67 63.5) (xy 41.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3573,16 +3557,6 @@
 			(type default)
 		)
 		(uuid "2bb2e673-0037-4570-a6d3-ee87c2a01ca8")
-	)
-	(bus
-		(pts
-			(xy 46.99 262.89) (xy 69.85 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c27e136-dcd8-4445-8f13-0d5bc470f53a")
 	)
 	(wire
 		(pts
@@ -3786,16 +3760,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 133.35) (xy 86.36 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a8aa29-e5d2-4698-9d25-8e405c9d5dc9")
-	)
-	(wire
-		(pts
 			(xy 198.12 257.81) (xy 204.47 257.81)
 		)
 		(stroke
@@ -3866,16 +3830,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 66.04 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "549df53b-d9c1-4d77-8298-9ee399f4e48b")
-	)
-	(wire
-		(pts
 			(xy 158.75 133.35) (xy 158.75 144.78)
 		)
 		(stroke
@@ -3893,6 +3847,16 @@
 			(type default)
 		)
 		(uuid "57893b6a-369b-4b49-ba7c-f90495a076ee")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 86.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59406077-3293-4c5e-97e9-a815de5d3e8b")
 	)
 	(wire
 		(pts
@@ -3916,13 +3880,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 255.27) (xy 46.99 255.27)
+			(xy 62.23 259.08) (xy 46.99 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bf5ca43-9578-47c4-8cc9-ba6ddb78a9da")
+	)
+	(bus
+		(pts
+			(xy 46.99 262.89) (xy 62.23 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7b7c32-cc03-4e67-ac65-a9609f618953")
 	)
 	(wire
 		(pts
@@ -4006,6 +3980,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 106.68) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2c3037-241a-4a55-8e6a-4cbe394692eb")
+	)
+	(wire
+		(pts
 			(xy 130.81 143.51) (xy 148.59 143.51)
 		)
 		(stroke
@@ -4023,16 +4007,6 @@
 			(type default)
 		)
 		(uuid "6e52fa5d-dc40-47b9-854c-6053072309d8")
-	)
-	(wire
-		(pts
-			(xy 66.04 99.06) (xy 66.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f63cbf0-966e-499c-b936-ac2543cd7cb4")
 	)
 	(wire
 		(pts
@@ -4396,16 +4370,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 41.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab669d21-19fe-4090-98d7-820e414d9643")
-	)
-	(wire
-		(pts
 			(xy 325.12 158.75) (xy 334.01 158.75)
 		)
 		(stroke
@@ -4633,6 +4597,16 @@
 			(type default)
 		)
 		(uuid "c3ed6b56-08c5-4338-a10f-a9ec8fbac6d3")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 66.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bd2c4b-b8db-42dd-9e49-74760e0795b7")
 	)
 	(wire
 		(pts
@@ -5115,7 +5089,7 @@
 		(uuid "20280f3e-8b0b-49f5-abad-1bd0a2b6d5da")
 	)
 	(label "5V"
-		(at 62.23 255.27 180)
+		(at 62.23 259.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5326,7 +5300,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 46.99 255.27 180)
+		(at 46.99 259.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7634,72 +7608,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50a1483d-f5e3-4c78-b0df-40751fb97290")
-		(property "Reference" "#PWR052"
-			(at 30.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd5892dd-d520-43ea-8cfb-260364dc42a4")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "2W 5mΩ Current Sense Resistor SMD ±1% ±50ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
 			(at 297.18 132.08 0)
 			(effects
 				(font
@@ -10139,7 +10047,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C309526"
+		(property "JLC" "C185817"
 			(at 297.18 132.08 0)
 			(effects
 				(font
@@ -10148,7 +10056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RLM25FEER005"
 			(at 297.18 132.08 0)
 			(effects
 				(font
@@ -11236,102 +11144,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 30.48 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d51948ba-908d-4a79-a83b-5ac34203e196")
-		(property "Reference" "R22"
-			(at 33.02 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 33.02 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 28.702 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 30.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 30.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 30.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 30.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a2cff92-b30c-47d7-ac25-20f3ab2f7fa3")
-		)
-		(pin "2"
-			(uuid "26474bd5-6a0f-4535-bd5e-ec9a725e35cd")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 87.63 0)
 		(unit 1)
@@ -12283,7 +12095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 77.47 65.278 90)
 			(effects
 				(font
@@ -12301,7 +12113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1W 5mΩ Current Sensing Resistors ±50ppm/℃ ±5% 1206 Current Sense Resistors"
+		(property "Description" "2W 5mΩ Current Sense Resistor SMD ±1% ±50ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
 			(at 77.47 63.5 0)
 			(effects
 				(font
@@ -12310,7 +12122,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "FRM121WJR005TM"
+		(property "MFPN" "RLM25FEER005"
 			(at 77.47 63.5 90)
 			(effects
 				(font
@@ -12319,7 +12131,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C7420039"
+		(property "JLC" "C185817"
 			(at 77.47 63.5 90)
 			(effects
 				(font
