@@ -24671,7 +24671,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "xcore"
+		(property "Value" "SODIMM 204P"
 			(at 204.47 137.7949 0)
 			(effects
 				(font
@@ -24708,15 +24708,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C306045"
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" "TE Connectivity 2-2013289-1"
 			(at 193.04 139.7 0)
 			(effects
@@ -24726,7 +24717,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC-ALT" "C225721"
+		(property "JLC-ALT" "C306045"
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -24744,14 +24735,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 193.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 193.04 139.7 0)
 			(effects
@@ -24761,7 +24744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C225721"
 			(at 193.04 139.7 0)
 			(effects
 				(font
@@ -25417,7 +25400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "xcore"
+		(property "Value" "SODIMM 204P"
 			(at 101.6 62.8649 0)
 			(effects
 				(font
@@ -25454,15 +25437,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C306045"
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" "TE Connectivity 2-2013289-1"
 			(at 88.9 60.96 0)
 			(effects
@@ -25472,7 +25446,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC-ALT" "C225721"
+		(property "JLC-ALT" "C306045"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -25490,14 +25464,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 88.9 60.96 0)
 			(effects
@@ -25507,7 +25473,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C225721"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -26162,7 +26128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "xcore"
+		(property "Value" "SODIMM 204P"
 			(at 276.86 164.4649 0)
 			(effects
 				(font
@@ -26199,15 +26165,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C306045"
-			(at 262.89 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" "TE Connectivity 2-2013289-1"
 			(at 262.89 152.4 0)
 			(effects
@@ -26217,7 +26174,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC-ALT" "C225721"
+		(property "JLC-ALT" "C306045"
 			(at 262.89 152.4 0)
 			(effects
 				(font
@@ -26235,14 +26192,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 262.89 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 262.89 152.4 0)
 			(effects
@@ -26252,7 +26201,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C225721"
 			(at 262.89 152.4 0)
 			(effects
 				(font
@@ -26908,7 +26857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "xcore"
+		(property "Value" "SODIMM 204P"
 			(at 276.86 90.1699 0)
 			(effects
 				(font
@@ -26945,15 +26894,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C306045"
-			(at 264.16 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" "TE Connectivity 2-2013289-1"
 			(at 264.16 91.44 0)
 			(effects
@@ -26963,7 +26903,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC-ALT" "C225721"
+		(property "JLC-ALT" "C306045"
 			(at 264.16 91.44 0)
 			(effects
 				(font
@@ -26981,14 +26921,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 264.16 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 264.16 91.44 0)
 			(effects
@@ -26998,7 +26930,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C225721"
 			(at 264.16 91.44 0)
 			(effects
 				(font
@@ -27653,7 +27585,7 @@
 				)
 			)
 		)
-		(property "Value" "xcore"
+		(property "Value" "SODIMM 204P"
 			(at 87.63 115.57 0)
 			(effects
 				(font
@@ -27689,15 +27621,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C306045"
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" "TE Connectivity 2-2013289-1"
 			(at 87.63 152.4 0)
 			(effects
@@ -27707,7 +27630,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC-ALT" "C225721"
+		(property "JLC-ALT" "C306045"
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -27725,14 +27648,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 87.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 87.63 152.4 0)
 			(effects
@@ -27742,7 +27657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C225721"
 			(at 87.63 152.4 0)
 			(effects
 				(font

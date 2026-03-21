@@ -5417,35 +5417,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "BQ25756RRVR"
-			(at 110.49 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "JLC" ""
-			(at 110.49 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "FT Rotation Offset" "-90"
-			(at 110.49 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 110.49 151.13 0)
 			(effects
 				(font
@@ -5472,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "MFPN" "BQ25756RRVR"
 			(at 110.49 151.13 0)
 			(effects
 				(font
@@ -5655,23 +5627,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C28233"
-			(at 289.56 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 289.56 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 289.56 147.32 90)
 			(effects
@@ -5681,7 +5636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C28233"
 			(at 289.56 147.32 90)
 			(effects
 				(font
@@ -5758,23 +5713,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
-			(at 81.28 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 81.28 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 81.28 81.28 90)
 			(effects
@@ -5784,7 +5722,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C307331"
 			(at 81.28 81.28 90)
 			(effects
 				(font
@@ -5861,23 +5799,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C1623"
-			(at 297.18 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 297.18 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 297.18 163.83 90)
 			(effects
@@ -5887,7 +5808,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C1623"
 			(at 297.18 163.83 90)
 			(effects
 				(font
@@ -5965,23 +5886,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 356.87 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 356.87 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 356.87 135.89 90)
 			(effects
@@ -5991,7 +5895,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 356.87 135.89 90)
 			(effects
 				(font
@@ -6070,23 +5974,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 170.18 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 170.18 127 90)
 			(effects
@@ -6096,8 +5983,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 170.18 127 90)
+		(property "LCSC Part #" "C307331"
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,23 +6061,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C28233"
-			(at 306.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 306.07 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 306.07 147.32 90)
 			(effects
@@ -6200,7 +6070,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C28233"
 			(at 306.07 147.32 90)
 			(effects
 				(font
@@ -6279,15 +6149,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2297"
-			(at 245.11 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 245.11 252.73 0)
 			(effects
@@ -6295,14 +6156,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 245.11 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Alternative" ""
@@ -6314,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C2297"
 			(at 245.11 252.73 90)
 			(effects
 				(font
@@ -6394,15 +6247,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2297"
-			(at 252.73 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 252.73 252.73 0)
 			(effects
@@ -6410,14 +6254,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 252.73 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Alternative" ""
@@ -6429,7 +6265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C2297"
 			(at 252.73 252.73 90)
 			(effects
 				(font
@@ -6508,23 +6344,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2937593 "
-			(at 262.89 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 262.89 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 262.89 135.89 0)
 			(effects
@@ -6534,7 +6353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C2937593"
 			(at 262.89 135.89 0)
 			(effects
 				(font
@@ -6622,23 +6441,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C407628"
-			(at 334.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 334.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 334.01 152.4 0)
 			(effects
@@ -6648,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C407628"
 			(at 334.01 152.4 0)
 			(effects
 				(font
@@ -6858,23 +6660,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
-			(at 252.73 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 252.73 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 252.73 262.89 0)
 			(effects
@@ -6884,7 +6669,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C25744"
 			(at 252.73 262.89 0)
 			(effects
 				(font
@@ -7029,15 +6814,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2297"
-			(at 237.49 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 237.49 252.73 0)
 			(effects
@@ -7045,14 +6821,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 237.49 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Alternative" ""
@@ -7064,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C2297"
 			(at 237.49 252.73 90)
 			(effects
 				(font
@@ -7143,23 +6911,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
-			(at 229.87 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 229.87 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 229.87 127 90)
 			(effects
@@ -7169,8 +6920,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 229.87 127 90)
+		(property "LCSC Part #" "C307331"
+			(at 229.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,23 +7131,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25077"
-			(at 312.42 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 312.42 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 312.42 135.89 0)
 			(effects
@@ -7406,7 +7140,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C25077"
 			(at 312.42 135.89 0)
 			(effects
 				(font
@@ -7488,23 +7222,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C501503"
-			(at 181.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 181.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 181.61 152.4 0)
 			(effects
@@ -7514,7 +7231,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C501503"
 			(at 181.61 152.4 0)
 			(effects
 				(font
@@ -7667,23 +7384,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 257.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 257.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 257.81 135.89 90)
 			(effects
@@ -7693,7 +7393,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 257.81 135.89 90)
 			(effects
 				(font
@@ -7771,23 +7471,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 109.22 67.31 90)
 			(effects
@@ -7797,7 +7480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 109.22 67.31 90)
 			(effects
 				(font
@@ -7941,23 +7624,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C7436417"
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 91.44 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 91.44 67.31 90)
 			(effects
@@ -7967,7 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C7436417"
 			(at 91.44 67.31 90)
 			(effects
 				(font
@@ -8049,23 +7715,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C501503"
-			(at 222.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 222.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 222.25 137.16 0)
 			(effects
@@ -8075,7 +7724,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C501503"
 			(at 222.25 137.16 0)
 			(effects
 				(font
@@ -8161,23 +7810,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C307331"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 71.12 81.28 90)
 			(effects
@@ -8187,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C307331"
 			(at 71.12 81.28 90)
 			(effects
 				(font
@@ -8266,23 +7898,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C705752"
-			(at 334.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 334.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 334.01 135.89 0)
 			(effects
@@ -8292,7 +7907,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C705752"
 			(at 334.01 135.89 0)
 			(effects
 				(font
@@ -8371,24 +7986,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 204.47 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
-			(at 204.47 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 204.47 266.7 0)
 			(effects
 				(font
@@ -8468,23 +8066,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C28233"
-			(at 120.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 120.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 120.65 93.98 0)
 			(effects
@@ -8494,7 +8075,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C28233"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -8572,23 +8153,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C13967"
-			(at 76.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 76.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 76.2 99.06 90)
 			(effects
@@ -8598,7 +8162,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C13967"
 			(at 76.2 99.06 90)
 			(effects
 				(font
@@ -8742,23 +8306,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 57.15 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 57.15 67.31 90)
 			(effects
@@ -8768,7 +8315,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 57.15 67.31 90)
 			(effects
 				(font
@@ -8913,23 +8460,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
-			(at 237.49 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 237.49 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 237.49 262.89 0)
 			(effects
@@ -8939,7 +8469,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C25744"
 			(at 237.49 262.89 0)
 			(effects
 				(font
@@ -9150,23 +8680,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C3758930"
-			(at 143.51 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 143.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 143.51 101.6 90)
 			(effects
@@ -9176,7 +8689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C3758930"
 			(at 143.51 101.6 90)
 			(effects
 				(font
@@ -9252,23 +8765,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C227577"
-			(at 81.28 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 81.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 81.28 171.45 90)
 			(effects
@@ -9278,7 +8774,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C227577"
 			(at 81.28 171.45 90)
 			(effects
 				(font
@@ -9357,23 +8853,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C17477"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 152.4 87.63 0)
 			(effects
@@ -9383,7 +8862,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C17477"
 			(at 152.4 87.63 0)
 			(effects
 				(font
@@ -9460,23 +8939,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C17700185"
-			(at 201.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 201.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 201.93 144.78 90)
 			(effects
@@ -9486,7 +8948,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C17700185"
 			(at 201.93 144.78 90)
 			(effects
 				(font
@@ -9564,23 +9026,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 252.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 252.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 252.73 135.89 90)
 			(effects
@@ -9590,7 +9035,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 252.73 135.89 90)
 			(effects
 				(font
@@ -9735,23 +9180,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C1779"
-			(at 138.43 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 138.43 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 138.43 154.94 0)
 			(effects
@@ -9761,7 +9189,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C1779"
 			(at 138.43 154.94 0)
 			(effects
 				(font
@@ -9840,23 +9268,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
-			(at 245.11 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 245.11 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 245.11 262.89 0)
 			(effects
@@ -9866,7 +9277,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C25744"
 			(at 245.11 262.89 0)
 			(effects
 				(font
@@ -9944,23 +9355,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 351.79 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 351.79 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 351.79 135.89 90)
 			(effects
@@ -9970,7 +9364,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 351.79 135.89 90)
 			(effects
 				(font
@@ -10012,7 +9406,7 @@
 				)
 			)
 		)
-		(property "Value" "5mR"
+		(property "Value" "5m"
 			(at 297.18 128.27 90)
 			(effects
 				(font
@@ -10047,23 +9441,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C185817"
-			(at 297.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RLM25FEER005"
-			(at 297.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 297.18 132.08 90)
 			(effects
@@ -10073,7 +9450,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C185817"
+			(at 297.18 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RLM25FEER005"
 			(at 297.18 132.08 90)
 			(effects
 				(font
@@ -10284,24 +9670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 204.47 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
-			(at 204.47 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 204.47 250.19 0)
 			(effects
 				(font
@@ -10381,23 +9750,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C354368"
-			(at 100.33 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 100.33 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 100.33 93.98 0)
 			(effects
@@ -10407,7 +9759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C354368"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -10495,15 +9847,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 154.94 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "08ca2d5a-e058-4caf-812a-f480d5731f5d")
 		)
@@ -10574,23 +9917,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25744"
-			(at 66.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 66.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 66.04 181.61 0)
 			(effects
@@ -10600,7 +9926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C25744"
 			(at 66.04 181.61 0)
 			(effects
 				(font
@@ -10678,23 +10004,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 247.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 247.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 247.65 135.89 90)
 			(effects
@@ -10704,7 +10013,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 247.65 135.89 90)
 			(effects
 				(font
@@ -10783,24 +10092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 154.94 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
-			(at 154.94 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 154.94 257.81 90)
 			(effects
 				(font
@@ -10882,23 +10174,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C3758930"
-			(at 161.29 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 161.29 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 161.29 101.6 90)
 			(effects
@@ -10908,7 +10183,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C3758930"
 			(at 161.29 101.6 90)
 			(effects
 				(font
@@ -10988,33 +10263,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 325.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 325.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
-			(at 325.12 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 325.12 144.78 0)
 			(effects
 				(font
@@ -11093,23 +10342,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25077"
-			(at 283.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 283.21 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 283.21 135.89 0)
 			(effects
@@ -11119,7 +10351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C25077"
 			(at 283.21 135.89 0)
 			(effects
 				(font
@@ -11262,23 +10494,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2933179"
-			(at 81.28 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 81.28 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 81.28 158.75 90)
 			(effects
@@ -11288,7 +10503,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C2933179"
 			(at 81.28 158.75 90)
 			(effects
 				(font
@@ -11366,23 +10581,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 49.53 67.31 90)
 			(effects
@@ -11392,7 +10590,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 49.53 67.31 90)
 			(effects
 				(font
@@ -11470,23 +10668,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 361.95 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 361.95 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 361.95 135.89 90)
 			(effects
@@ -11496,7 +10677,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 361.95 135.89 90)
 			(effects
 				(font
@@ -11575,23 +10756,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C1779"
-			(at 128.27 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 128.27 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 128.27 93.98 0)
 			(effects
@@ -11601,7 +10765,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C1779"
 			(at 128.27 93.98 0)
 			(effects
 				(font
@@ -11679,23 +10843,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 100.33 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 100.33 67.31 90)
 			(effects
@@ -11705,7 +10852,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 100.33 67.31 90)
 			(effects
 				(font
@@ -11850,23 +10997,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C25741"
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 66.04 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 66.04 171.45 0)
 			(effects
@@ -11876,7 +11006,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C25741"
 			(at 66.04 171.45 0)
 			(effects
 				(font
@@ -11954,23 +11084,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C7436417"
-			(at 41.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 41.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 41.91 67.31 90)
 			(effects
@@ -11980,7 +11093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C7436417"
 			(at 41.91 67.31 90)
 			(effects
 				(font
@@ -12131,23 +11244,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C185817"
-			(at 77.47 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 77.47 63.5 90)
 			(effects
@@ -12157,7 +11253,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C185817"
 			(at 77.47 63.5 90)
 			(effects
 				(font
@@ -12235,23 +11331,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 242.57 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 242.57 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 242.57 135.89 90)
 			(effects
@@ -12261,7 +11340,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 242.57 135.89 90)
 			(effects
 				(font
@@ -12339,23 +11418,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C29823"
-			(at 367.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 367.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 367.03 135.89 90)
 			(effects
@@ -12365,7 +11427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C29823"
 			(at 367.03 135.89 90)
 			(effects
 				(font
@@ -12447,23 +11509,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C501503"
-			(at 222.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 222.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 222.25 152.4 0)
 			(effects
@@ -12473,7 +11518,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C501503"
 			(at 222.25 152.4 0)
 			(effects
 				(font
@@ -12561,23 +11606,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2937593 "
-			(at 377.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 377.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 377.19 135.89 0)
 			(effects
@@ -12587,7 +11615,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C2937593"
 			(at 377.19 135.89 0)
 			(effects
 				(font
@@ -12669,23 +11697,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C501503"
-			(at 181.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 181.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 181.61 137.16 0)
 			(effects
@@ -12695,7 +11706,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C501503"
 			(at 181.61 137.16 0)
 			(effects
 				(font

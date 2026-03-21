@@ -35,4 +35,5 @@ components/extern/tmp/
 
 release/
 production/OpenMower_SABO_Mainboard_for_Series_I__II_v*.zip
+production/OpenMower_SABO_Carrierboard_for_Series_I__II_v*.zip
 production/netlist.ipc

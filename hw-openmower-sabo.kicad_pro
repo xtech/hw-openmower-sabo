@@ -838,7 +838,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -850,7 +850,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -880,7 +880,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "DNP",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -902,21 +902,9 @@
         },
         {
           "group_by": false,
-          "label": "JLC",
-          "name": "JLC",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "JLC-ALT",
           "name": "JLC-ALT",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
         },
         {
           "group_by": false,
@@ -934,24 +922,6 @@
           "group_by": false,
           "label": "MFPN",
           "name": "MFPN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
           "show": true
         },
         {
@@ -1028,12 +998,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Availability",
           "name": "Availability",
           "show": false
@@ -1067,6 +1031,72 @@
           "label": "Price",
           "name": "Price",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attrition Qty",
+          "name": "Attrition Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rated",
+          "name": "Voltage Rated",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Process",
+          "name": "Process",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1074,7 +1104,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "MFPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {

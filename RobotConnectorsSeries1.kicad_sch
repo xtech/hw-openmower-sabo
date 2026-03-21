@@ -7463,9 +7463,9 @@
 		(at 69.85 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "18ea3110-3944-461d-9288-1c4d7eed7f51")
 		(property "Reference" "S1-J15"
 			(at 70.866 131.572 0)
@@ -7536,23 +7536,6 @@
 				)
 			)
 		)
-		(property "JLC" "C293503"
-			(at 69.85 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 69.85 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 69.85 146.05 0)
 			(effects
@@ -7562,7 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C293503"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -7615,9 +7598,9 @@
 		(at 69.85 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "30bcc4e6-a4d2-4feb-9798-2e20bd119797")
 		(property "Reference" "S1-J13"
 			(at 71.374 65.786 0)
@@ -7688,23 +7671,6 @@
 				)
 			)
 		)
-		(property "JLC" "C293503"
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 69.85 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 69.85 80.01 0)
 			(effects
@@ -7714,7 +7680,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C293503"
 			(at 69.85 80.01 0)
 			(effects
 				(font
@@ -7767,9 +7733,9 @@
 		(at 243.84 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5874b26e-ca6a-40d8-9883-656db5f78af0")
 		(property "Reference" "S1-J9"
 			(at 245.364 57.404 0)
@@ -7831,15 +7797,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Megastar"
-			(at 243.84 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C7501247"
 			(at 243.84 78.74 0)
 			(effects
@@ -7867,7 +7824,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "MF" "Megastar"
 			(at 243.84 78.74 0)
 			(effects
 				(font
@@ -7974,9 +7931,9 @@
 		(at 191.77 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6a6db54f-86e9-4258-b288-c2fb0527c14d")
 		(property "Reference" "S1-J3"
 			(at 192.278 89.154 0)
@@ -8047,14 +8004,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 191.77 105.41 0)
 			(effects
@@ -8064,7 +8013,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C306145"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -8225,9 +8174,9 @@
 		(at 243.84 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "74dda626-35ec-4ce2-9be9-ee9832af9a2d")
 		(property "Reference" "S1-J7"
 			(at 245.364 20.828 0)
@@ -8281,15 +8230,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
-			(at 243.84 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFPN" "430450818"
 			(at 243.84 31.75 0)
 			(effects
@@ -8326,7 +8266,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "MF" "Molex"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -8382,9 +8322,9 @@
 		(at 191.77 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "87a67148-4ade-45ab-8f02-3f923450695d")
 		(property "Reference" "S1-J2"
 			(at 192.532 15.748 0)
@@ -8420,7 +8360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TE Connectivity, AMPMODU System 50, 5-104068-4"
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -8437,21 +8377,13 @@
 				)
 			)
 		)
-		(property "JLC" "C3330369"
+		(property "MFPN" "5-104068-4"
 			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 191.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Alternative" ""
@@ -8463,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C5166238"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -8684,9 +8616,9 @@
 		(at 69.85 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ac786446-bbe0-40f3-b03d-91197628ffda")
 		(property "Reference" "S1-J14"
 			(at 70.866 100.838 0)
@@ -8757,23 +8689,6 @@
 				)
 			)
 		)
-		(property "JLC" "C293503"
-			(at 69.85 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 69.85 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Alternative" ""
 			(at 69.85 114.3 0)
 			(effects
@@ -8783,7 +8698,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C293503"
 			(at 69.85 114.3 0)
 			(effects
 				(font
@@ -9194,9 +9109,9 @@
 		(at 69.85 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f38fd6e6-0f32-430a-9222-b4e16afc4c5d")
 		(property "Reference" "S1-J17"
 			(at 71.12 29.21 0)
@@ -9259,15 +9174,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C5339222"
-			(at 69.85 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alternative" ""
 			(at 69.85 43.18 0)
 			(effects
@@ -9277,7 +9183,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part #" "C5339222"
 			(at 69.85 43.18 0)
 			(effects
 				(font

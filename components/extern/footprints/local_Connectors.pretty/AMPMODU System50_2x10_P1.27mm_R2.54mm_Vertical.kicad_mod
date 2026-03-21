@@ -485,15 +485,15 @@
 		(uuid "2cbc8013-d9c9-4c94-a6c4-bd1a6be692cf")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_2x10_P1.27mm_Vertical.wrl"
+	(model "${KIPRJMOD}/components/easyeda2kicad.3dshapes/c-5-104068-1-s-3d.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 1.25 -6 10)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )
