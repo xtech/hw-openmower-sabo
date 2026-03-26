@@ -3731,7 +3731,7 @@
 	)
 	(text "(PA8)"
 		(exclude_from_sim no)
-		(at 30.734 89.154 0)
+		(at 66.294 167.894 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3950,14 +3950,6 @@
 	(no_connect
 		(at 381 93.98)
 		(uuid "b28ae1df-7775-4f3f-84b3-cbb73318e2d4")
-	)
-	(no_connect
-		(at 40.64 93.98)
-		(uuid "c0d5ad7b-b375-4d40-84d3-088d51e1b9dd")
-	)
-	(no_connect
-		(at 40.64 90.17)
-		(uuid "c9d3980f-a5c7-4d0b-89ae-3c1af10fcef5")
 	)
 	(no_connect
 		(at 191.77 63.5)
@@ -4350,16 +4342,6 @@
 			(type default)
 		)
 		(uuid "152c5aa1-4300-41c8-a6f9-b02f4dd4d525")
-	)
-	(wire
-		(pts
-			(xy 17.78 93.98) (xy 40.64 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155f109f-e199-4824-933d-0aa110e26c9c")
 	)
 	(wire
 		(pts
@@ -4770,16 +4752,6 @@
 			(type default)
 		)
 		(uuid "362629ab-2daf-4b84-82e3-f61b526d0e53")
-	)
-	(wire
-		(pts
-			(xy 17.78 90.17) (xy 40.64 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c58695-f2cb-440d-a166-62ad147eed10")
 	)
 	(wire
 		(pts
@@ -5620,6 +5592,16 @@
 			(type default)
 		)
 		(uuid "9ab5ccd8-2a31-4462-9c5d-0d762debbfc4")
+	)
+	(wire
+		(pts
+			(xy 53.34 171.45) (xy 72.39 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9a88e1-9b7b-46a5-82a2-dfa65a214f78")
 	)
 	(wire
 		(pts
@@ -6513,6 +6495,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 168.91) (xy 72.39 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff896917-fde1-48e4-8973-0ee83149b2c6")
+	)
+	(wire
+		(pts
 			(xy 189.23 229.87) (xy 195.58 229.87)
 		)
 		(stroke
@@ -6762,7 +6754,7 @@
 		(uuid "20dd0dd0-d799-4c30-965e-a36c69a04d8e")
 	)
 	(label "UART7.RX"
-		(at 17.78 90.17 0)
+		(at 53.34 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7052,7 +7044,7 @@
 		(uuid "76e26da9-52e3-44a0-9024-e5e352502052")
 	)
 	(label "GPIO8"
-		(at 17.78 93.98 0)
+		(at 53.34 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8334,7 +8326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "AO3400A"
 			(at 355.6 91.4399 0)
 			(effects
 				(font
@@ -8364,7 +8356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "-55℃~+150℃ 1 N-channel 1.45V 1.4W 30V 48mΩ@2.5V 5.7A 50pF 630pF 75pF 7nC@10V N-Channel SOT-23-3L MOSFETs ROHS"
 			(at 349.25 90.17 0)
 			(effects
 				(font
@@ -8400,7 +8392,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3040446"
+		(property "LCSC Part #" "C20917"
 			(at 349.25 90.17 0)
 			(effects
 				(font
@@ -9078,7 +9070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "AO3400A"
 			(at 300.99 91.4399 0)
 			(effects
 				(font
@@ -9108,7 +9100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "-55℃~+150℃ 1 N-channel 1.45V 1.4W 30V 48mΩ@2.5V 5.7A 50pF 630pF 75pF 7nC@10V N-Channel SOT-23-3L MOSFETs ROHS"
 			(at 294.64 90.17 0)
 			(effects
 				(font
@@ -9144,7 +9136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C3040446"
+		(property "LCSC Part #" "C20917"
 			(at 294.64 90.17 0)
 			(effects
 				(font
@@ -12979,6 +12971,26 @@
 		(pin "I2C_GPIO{SDA SCL}" input
 			(at 72.39 143.51 180)
 			(uuid "f2f3af88-5452-4321-ab9d-1fdc46f1a7aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UI_S1_~{CON}" input
+			(at 72.39 168.91 180)
+			(uuid "a78a5c4b-067a-4f60-b33c-de3edcd76ade")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UI_S2_~{CON}" input
+			(at 72.39 171.45 180)
+			(uuid "280eadc1-8e1f-4631-9ee3-135263370d15")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -208,20 +208,20 @@
 		(uuid "a28b9216-3e2f-456c-831c-f8961ec734ab")
 	)
 	(pad "6" thru_hole rect
-		(at 3.65 0)
-		(size 1 2)
-		(drill oval 0.550012 1.699997)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6f4bee91-f46a-411b-b36c-8ee12ccf7617")
-	)
-	(pad "7" thru_hole rect
 		(at -3.65 0)
 		(size 1 2)
 		(drill oval 0.550012 1.699997)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "99da1cf1-ee39-4465-ab57-bc81013509f7")
+	)
+	(pad "6" thru_hole rect
+		(at 3.65 0)
+		(size 1 2)
+		(drill oval 0.550012 1.699997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f4bee91-f46a-411b-b36c-8ee12ccf7617")
 	)
 	(embedded_fonts no)
 	(model "../easyeda2kicad.3dshapes/MINI-USB-TH_C13453.wrl"

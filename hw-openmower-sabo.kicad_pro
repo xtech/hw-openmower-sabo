@@ -61,10 +61,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|134835000|65675000|3b3d036f-0050-4baf-a7c8-7726cfb3207b|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
-          ""
-        ],
-        [
           "courtyards_overlap|136035000|66575000|a46a6186-919e-4550-91ce-ab731caa7d66|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
@@ -85,10 +81,6 @@
           ""
         ],
         [
-          "courtyards_overlap|183865000|40093615|25c12f8f-9ed5-4f7f-b994-77722cea6c4c|7ccbffc7-fdf2-4338-bece-28ed7c899be6",
-          ""
-        ],
-        [
           "courtyards_overlap|25421108|136957498|8cbd84c7-e790-4aee-be06-580bba9bbe90|ce7acf76-2167-4b54-99d0-7fc4ae06f3c6",
           ""
         ],
@@ -106,6 +98,10 @@
         ],
         [
           "courtyards_overlap|29213463|96525000|000632e6-461c-4a5b-8d1e-2e8271d5dad0|ce7acf76-2167-4b54-99d0-7fc4ae06f3c6",
+          ""
+        ],
+        [
+          "courtyards_overlap|42632006|40317567|6907c20b-dc40-4107-8f6e-9d915ad50eb3|d145cbad-2e41-49e6-98e6-413fea30c25f",
           ""
         ],
         [
@@ -153,10 +149,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|22756250|59950000|d1ea679c-7b8d-4a35-98cb-55289c1342f4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|22930302|81784999|d6db9de8-7e7c-4af8-a43a-c703fc6e6d10|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -169,10 +161,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|254900000|36400000|2d3263ab-cde1-4cae-bc5c-db2ae6602109|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|258400000|38600000|535d4f0c-d781-4061-8729-916aff8a4561|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -181,23 +169,7 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|267400000|38600000|970f2731-6e14-40bd-947f-513f7b8388bb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|268000000|38600000|99b55992-56c1-412c-857d-67949f3ccb8e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|268600000|38600000|b60d9378-7b28-411f-bcf4-20cf23212b5f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|67800000|69100000|6907c20b-dc40-4107-8f6e-9d915ad50eb3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|251535000|35210000|2cba4642-40bd-4044-8e7c-aff17df4c0ed|2d6399c4-4a4c-428b-b836-8cf69f6895c4",
+          "lib_footprint_mismatch|268500000|38600000|b60d9378-7b28-411f-bcf4-20cf23212b5f|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -249,23 +221,11 @@
           ""
         ],
         [
-          "starved_thermal|196140000|109900000|8f5edec1-7538-410d-aecb-caadf2346d1b|a41e6700-82f7-44fb-9805-74f6a7124fa4|F.Cu",
+          "starved_thermal|196140000|109900000|8f5edec1-7538-410d-aecb-caadf2346d1b|95ccb0ef-eaee-442c-9590-d91e98c793b6|F.Cu",
           ""
         ],
         [
           "starved_thermal|215350000|139388640|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|9dbf9210-2314-4af5-9d88-6e497ba4b560|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|244625000|36537500|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|b032e7e5-1e43-4af6-b75e-058d16dbdb9f|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|250475000|36537500|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|83706718-1b3b-4f79-9e7d-272c84bedc0a|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|251125000|36537500|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|7ee9e9d0-f836-4559-9b94-f82ed615442a|F.Cu",
           ""
         ]
       ],
@@ -838,7 +798,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -850,7 +810,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1096,6 +1056,48 @@
           "group_by": false,
           "label": "Category",
           "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature Range",
+          "name": "Operating Temperature Range",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power(Watts)",
+          "name": "Power(Watts)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Overload Voltage (Max)",
+          "name": "Overload Voltage (Max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": false
         }
       ],

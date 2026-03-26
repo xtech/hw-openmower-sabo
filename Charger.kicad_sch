@@ -9741,7 +9741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1uF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 100.33 93.98 0)
 			(effects
 				(font
@@ -9759,7 +9759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C354368"
+		(property "LCSC Part #" "C28323"
 			(at 100.33 93.98 0)
 			(effects
 				(font

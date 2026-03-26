@@ -2318,7 +2318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+105℃ 2 2.54mm 2.54mm 250V 2x2P 3A 4P 8.5mm Square Hole Through Hole Top,P=2.54mm Female Headers ROHS"
 			(at 68.58 207.01 0)
 			(effects
 				(font
@@ -2327,7 +2327,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C92273"
+		(property "LCSC Part #" "C2840016"
 			(at 68.58 207.01 0)
 			(effects
 				(font
@@ -2844,7 +2844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+105℃ 2 2.54mm 2.54mm 250V 2x2P 3A 4P 8.5mm Square Hole Through Hole Top,P=2.54mm Female Headers ROHS"
 			(at 68.58 214.63 0)
 			(effects
 				(font
@@ -2853,7 +2853,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C92273"
+		(property "LCSC Part #" "C2840016"
 			(at 68.58 214.63 0)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+105℃ 2 2.54mm 2.54mm 250V 2x2P 3A 4P 8.5mm Square Hole Through Hole Top,P=2.54mm Female Headers ROHS"
 			(at 68.58 222.25 0)
 			(effects
 				(font
@@ -3396,7 +3396,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C92273"
+		(property "LCSC Part #" "C2840016"
 			(at 68.58 222.25 0)
 			(effects
 				(font

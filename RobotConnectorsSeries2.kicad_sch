@@ -3755,6 +3755,16 @@
 		)
 		(uuid "74be378a-9cb4-416a-850c-cf56fc86be40")
 	)
+	(text "LED_BTN_OE_5V"
+		(exclude_from_sim no)
+		(at 215.138 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75eb0b65-4d0a-4cb1-b0ef-05433074dc77")
+	)
 	(text "H2"
 		(exclude_from_sim no)
 		(at 71.12 34.798 0)
@@ -4019,6 +4029,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "915e56f1-6c8e-420a-999d-9e927aa5277c")
+	)
+	(junction
+		(at 207.01 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c30013-104e-40ed-9705-846b85e3e58f")
 	)
 	(junction
 		(at 140.97 186.69)
@@ -4402,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 52.07) (xy 209.55 52.07)
+			(xy 204.47 52.07) (xy 207.01 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4659,6 +4675,16 @@
 			(type default)
 		)
 		(uuid "3b6ab648-4961-42b9-9687-92f2d8ddc9ca")
+	)
+	(wire
+		(pts
+			(xy 207.01 49.53) (xy 207.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf33eac-7b2b-44b2-880d-eefd811c6bfa")
 	)
 	(wire
 		(pts
@@ -6608,17 +6634,6 @@
 			(justify left)
 		)
 		(uuid "8cd39bf5-dc80-42fc-a508-8bdcf873f73d")
-	)
-	(hierarchical_label "LED_BTN_OE_5V"
-		(shape input)
-		(at 209.55 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "961b2433-3946-471e-9934-044af9c834fb")
 	)
 	(hierarchical_label "BTN_SH{slash}~{LD}_5V"
 		(shape input)

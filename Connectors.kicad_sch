@@ -3087,7 +3087,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS2065CDBV"
+		(property "Value" "TPS2065CDBVR"
 			(at 82.55 142.24 0)
 			(effects
 				(font
