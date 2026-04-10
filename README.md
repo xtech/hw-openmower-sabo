@@ -136,12 +136,13 @@ This Carrierboard includes more features than actually required to build an Open
 
 ### Carrier versions
 
-| Version |  Date   | Info                                                                                                                                                                 |
-| :-----: | :-----: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| v0.3.0  | 202?/?? | **In development; Not available yet**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility |
-| v0.2.1  | 2025/06 | - Add DCDC-In current sense and allow charge currents up to 2.8A<br>- BMS data support                                                                               |
-| v0.2.0  | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD                                                                 |
-| v0.1.0  | 2025/03 | Initial Prototype                                                                                                                                                    |
+| Version |  Date   | Info                                                                                                                                                                                                                                            |
+| :-----: | :-----: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| v0.4.0  | 2026/04 | **In development; Not available yet**<br>- Fix and improve v0.3.0 issues<br>- Skip one GPIO expander and switch to smaller footprint<br>- Rearrange LAN and USB Plug as well as skip 2nd optional LAN in favor of more space for Series-I plugs |
+| v0.3.0  | 2025/11 | **Internal Prototype**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility                                                                                           |
+| v0.2.1  | 2025/06 | - Add DCDC-In current sense and allow charge currents up to 2.8A<br>- BMS data support                                                                                                                                                          |
+| v0.2.0  | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD                                                                                                                                            |
+| v0.1.0  | 2025/03 | Initial Prototype                                                                                                                                                                                                                               |
 
 ## Patents, Local Laws, Liability
 
