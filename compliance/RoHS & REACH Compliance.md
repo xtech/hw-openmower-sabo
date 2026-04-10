@@ -1,37 +1,33 @@
-# RoHS & REACH Compliance Statement
+# RoHS & REACH Compliance Summary
 
-**Product**: hw-openmower-sabo<br>
-**Revision**: v0.4.0<br>
-**Date**: 2026-04-10
+**Product**: hw-openmower-sabo | **Revision**: v0.4.0 | **Date**: 2026-04-10
 
----
+1. **RoHS 2011/65/EU**
+   - **Status**: Compliant per supplier declarations
+   - **Verification**:
+     - Master BOM reviewed for standard RoHS-restricted substances:
+       - Lead (Pb), Cadmium (Cd), Mercury (Hg)
+       - Hexavalent Chromium (Cr⁶⁺), PBB, PBDE
+     - All component suppliers provided RoHS compliance statements
+     - PCB substrate: FR4-UL94V0 (RoHS compliant per manufacturer JLCPCB)
 
-## 1. RoHS Directive 2011/65/EU (incl. EU 2015/863)
+2. **REACH SVHC (ECHA List)**
+   - **Status**: No known intentional use of SVHCs
+   - **Basis of Compliance**:
+     - PCB materials: [JLCPCB REACH Certificate](Supplier%20Docs/REACH%20JLCPCB%20D1040%20Reach247%20Report.pdf)
+     - Electronic components: Supplier-confirmed SVHC <0.1% w/w
+     - No plastics/coatings requiring SVHC screening in this design
 
-- **Compliance Status**: Presumed compliant based on supplier declarations
-- **Verification Process**:
-  - Master BOM reviewed for RoHS-restricted substances:
-    - Lead (Pb), Mercury (Hg), Cadmium (Cd), Hexavalent Chromium (Cr⁶⁺), PBB, PBDE
-    - Phthalates: DEHP, BBP, DBP, DIBP (per 2015/863)
-  - All electronic components sourced from suppliers providing RoHS compliance data
-  - PCB material: FR4-UL94V0 with lead-free ENIG or HASL finish
+## Compliance Statement
 
----
+Based on supplier declarations and material certifications, this product is presumed to comply with EU RoHS and REACH regulations. Full substance testing has not been conducted for this small-series production.
 
-## 2. REACH SVHC (ECHA Candidate List)
 
-- **Compliance Status**: No known intentional use of SVHCs
-- **Basis**:
-  - Component suppliers confirm SVHC content below 0.1% w/w
-  - No plastics or coatings requiring SVHC analysis are present in the design
+## Documentation References
 
----
+- RoHS Declarations: [RoHS BOM](RoHS%20Compliance%20BOM,%20Sabo%20v0.4.0.pdf)
+- PCB REACH Proof: [JLCPCB REACH Certificate](Supplier%20Docs/REACH%20JLCPCB%20D1040%20Reach247%20Report.pdf)
 
-## Declaration
 
-This product is presumed to be in compliance with RoHS and REACH requirements based on supplier documentation and material selection.  
-**No laboratory testing has been performed.**
-
----
-
-*This statement is provided in good faith for informational and documentation purposes only, especially for small-scale and developer use.*
+*This summary reflects a good-faith review of supplier-provided data.  
+Full substance testing was not performed for this small-scale production.*
