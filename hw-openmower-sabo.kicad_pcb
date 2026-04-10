@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2026-04-04")
-		(rev "v0.4")
+		(date "2026-04-10")
+		(rev "v0.5-dev")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -23177,7 +23177,7 @@
 				)
 			)
 		)
-		(property "Value" "249kR 0.1%"
+		(property "Value" "249k 0.1%"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -125539,7 +125539,7 @@
 			(uuid "3eed6c0e-31a2-4db2-af14-c07fd5fa2da6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -7.025 0.015 180)
+			(at -7.025 0.015 0)
 			(layer "F.Fab")
 			(uuid "ce7f1336-181a-4107-bf80-5a43066b291b")
 			(effects
@@ -129569,6 +129569,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -129580,6 +129581,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -200134,9 +200136,7 @@
 	)
 	(group ""
 		(uuid "01235653-84c8-470d-a311-cfb216889c0c")
-		(members "3948eb7e-287b-4667-a413-2440885111b9" "951a80db-92eb-4023-87e5-349df05d2c6e"
-			"b06552ae-874a-4eeb-bd23-0369db73d524"
-		)
+		(members "951a80db-92eb-4023-87e5-349df05d2c6e" "b06552ae-874a-4eeb-bd23-0369db73d524")
 	)
 	(group ""
 		(uuid "34724ceb-5919-404b-9c78-4e633c3ef9e5")
@@ -200165,10 +200165,6 @@
 			"a8fdfabc-3ccf-42bb-9d4d-b03f1ba818a8" "b1ca8d25-2765-40bc-92f0-e4bf7241c897"
 			"d47c4ed9-6375-4193-9e57-6956424c495a" "d566106d-e821-437e-8482-059cfa679aa3"
 		)
-	)
-	(group ""
-		(uuid "9893c7f0-681e-4aa4-af6b-bf508f625fa3")
-		(members "efb10177-97ad-4282-973d-e3c95c5659b5")
 	)
 	(group ""
 		(uuid "a8088ee8-55c7-4213-8a13-91080e56aab3")

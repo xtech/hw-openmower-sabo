@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2026-04-04")
-		(rev "v0.4")
+		(date "2026-04-10")
+		(rev "v0.5-dev")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -13144,7 +13144,7 @@
 	)
 	(symbol
 		(lib_id "xtech:Dummy")
-		(at 289.56 -20.32 0)
+		(at -25.4 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13153,7 +13153,7 @@
 		(fields_autoplaced yes)
 		(uuid "30621175-a0ec-4759-b410-d0f3a53199d5")
 		(property "Reference" "U16"
-			(at 308.61 -24.7651 0)
+			(at -6.35 95.8849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,7 +13162,7 @@
 			)
 		)
 		(property "Value" "Fuse Holder"
-			(at 308.61 -22.86 0)
+			(at -6.35 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,7 +13171,7 @@
 			)
 		)
 		(property "Footprint" "xtech:Dummy"
-			(at 289.56 -20.32 0)
+			(at -25.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13180,7 +13180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 -20.32 0)
+			(at -25.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13189,7 +13189,7 @@
 			)
 		)
 		(property "Description" "Fuseholders ROHS"
-			(at 289.56 -20.32 0)
+			(at -25.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,15 +13198,16 @@
 			)
 		)
 		(property "LCSC Part #" "C3130"
-			(at 289.56 -20.32 0)
+			(at -25.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Alternative" ""
-			(at 289.56 -20.32 0)
+			(at -25.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,7 +14006,7 @@
 	)
 	(symbol
 		(lib_id "xtech:Dummy")
-		(at 289.56 -2.54 0)
+		(at -21.59 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14014,7 +14015,7 @@
 		(fields_autoplaced yes)
 		(uuid "495a7dd0-d2fa-46af-82aa-233532eede44")
 		(property "Reference" "U14"
-			(at 308.61 -6.9851 0)
+			(at -2.54 47.6249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14023,7 +14024,7 @@
 			)
 		)
 		(property "Value" "Fuse Holder"
-			(at 308.61 -5.08 0)
+			(at -2.54 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14032,7 +14033,7 @@
 			)
 		)
 		(property "Footprint" "xtech:Dummy"
-			(at 289.56 -2.54 0)
+			(at -21.59 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14041,7 +14042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 -2.54 0)
+			(at -21.59 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14050,7 +14051,7 @@
 			)
 		)
 		(property "Description" "Fuseholders ROHS"
-			(at 289.56 -2.54 0)
+			(at -21.59 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14059,15 +14060,16 @@
 			)
 		)
 		(property "LCSC Part #" "C3130"
-			(at 289.56 -2.54 0)
+			(at -21.59 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Alternative" ""
-			(at 289.56 -2.54 0)
+			(at -21.59 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14086,7 +14088,7 @@
 	)
 	(symbol
 		(lib_id "xtech:Dummy")
-		(at 289.56 -11.43 0)
+		(at -21.59 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14095,7 +14097,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fdaffdf-6c90-44e8-9a81-57f50e23f2be")
 		(property "Reference" "U15"
-			(at 308.61 -15.8751 0)
+			(at -2.54 56.5149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14104,7 +14106,7 @@
 			)
 		)
 		(property "Value" "Fuse Holder"
-			(at 308.61 -13.97 0)
+			(at -2.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,7 +14115,7 @@
 			)
 		)
 		(property "Footprint" "xtech:Dummy"
-			(at 289.56 -11.43 0)
+			(at -21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14122,7 +14124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 -11.43 0)
+			(at -21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14131,7 +14133,7 @@
 			)
 		)
 		(property "Description" "Fuseholders ROHS"
-			(at 289.56 -11.43 0)
+			(at -21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14140,15 +14142,16 @@
 			)
 		)
 		(property "LCSC Part #" "C3130"
-			(at 289.56 -11.43 0)
+			(at -21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Alternative" ""
-			(at 289.56 -11.43 0)
+			(at -21.59 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18975,7 +18978,7 @@
 	)
 	(symbol
 		(lib_id "xtech:Dummy")
-		(at 289.56 -29.21 0)
+		(at -25.4 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18984,7 +18987,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad81b7c8-f83d-4157-91c0-e9ea824f97b1")
 		(property "Reference" "U17"
-			(at 308.61 -33.6551 0)
+			(at -6.35 104.7749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18993,7 +18996,7 @@
 			)
 		)
 		(property "Value" "Fuse Holder"
-			(at 308.61 -31.75 0)
+			(at -6.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19002,7 +19005,7 @@
 			)
 		)
 		(property "Footprint" "xtech:Dummy"
-			(at 289.56 -29.21 0)
+			(at -25.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19011,7 +19014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 -29.21 0)
+			(at -25.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19020,7 +19023,7 @@
 			)
 		)
 		(property "Description" "Fuseholders ROHS"
-			(at 289.56 -29.21 0)
+			(at -25.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19029,15 +19032,16 @@
 			)
 		)
 		(property "LCSC Part #" "C3130"
-			(at 289.56 -29.21 0)
+			(at -25.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Alternative" ""
-			(at 289.56 -29.21 0)
+			(at -25.4 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
