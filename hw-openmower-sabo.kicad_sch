@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2025-10-12")
+		(date "2026-04-04")
 		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
@@ -3566,7 +3566,7 @@
 		(uuid 87368ab2-4641-471f-b6f2-3c41e3c196b3)
 	)
 	(rectangle
-		(start 15.875 15.24)
+		(start 16.51 15.24)
 		(end 86.36 69.85)
 		(stroke
 			(width 0)
@@ -3590,8 +3590,8 @@
 		(uuid dc8a2e23-d701-47dd-89d2-3ebec42a438e)
 	)
 	(rectangle
-		(start 15.24 81.28)
-		(end 44.45 101.6)
+		(start 16.51 81.28)
+		(end 45.72 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -3623,7 +3623,7 @@
 		)
 		(uuid "11932591-9acd-452d-a2a1-e9b81140d8f4")
 	)
-	(text "Unused GPIOs"
+	(text "Unused GPIOs:\n\nNone ATM"
 		(exclude_from_sim no)
 		(at 26.416 84.328 0)
 		(effects
@@ -3954,10 +3954,6 @@
 	(no_connect
 		(at 191.77 63.5)
 		(uuid "cc7dc0d8-866a-40d0-8335-9f8abe2ce958")
-	)
-	(no_connect
-		(at 129.54 274.32)
-		(uuid "ed9b1248-8616-439a-962d-f35374b6c810")
 	)
 	(bus_entry
 		(at 38.1 53.34)
@@ -4305,7 +4301,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 271.78) (xy 133.35 271.78)
+			(xy 133.35 270.51) (xy 144.78 270.51)
 		)
 		(stroke
 			(width 0)
@@ -4442,6 +4438,16 @@
 			(type default)
 		)
 		(uuid "1c964cdf-2204-4d53-8211-3bc34cf0ad2e")
+	)
+	(wire
+		(pts
+			(xy 130.81 273.05) (xy 144.78 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d34faa0-f8b6-4ee1-8123-86c960b2b08c")
 	)
 	(wire
 		(pts
@@ -4855,7 +4861,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 266.7) (xy 133.35 266.7)
+			(xy 133.35 265.43) (xy 144.78 265.43)
 		)
 		(stroke
 			(width 0)
@@ -4905,16 +4911,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 274.32) (xy 133.35 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c77053-8545-41be-b80b-611db7ed6da6")
-	)
-	(wire
-		(pts
 			(xy 195.58 41.91) (xy 191.77 41.91)
 		)
 		(stroke
@@ -4955,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 264.16) (xy 121.92 264.16)
+			(xy 144.78 262.89) (xy 133.35 262.89)
 		)
 		(stroke
 			(width 0)
@@ -6425,7 +6421,7 @@
 	)
 	(bus
 		(pts
-			(xy 170.18 274.32) (xy 186.69 274.32)
+			(xy 181.61 273.05) (xy 198.12 273.05)
 		)
 		(stroke
 			(width 0)
@@ -6614,7 +6610,7 @@
 		(uuid "0b89142c-aa63-43c3-956a-a32bd0656334")
 	)
 	(label "VBATT"
-		(at 121.92 271.78 0)
+		(at 133.35 270.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6734,7 +6730,7 @@
 		(uuid "2024a8c4-7322-4641-9838-bffaeed5cb21")
 	)
 	(label "5V"
-		(at 121.92 264.16 0)
+		(at 133.35 262.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7114,7 +7110,7 @@
 		(uuid "89bd0f11-ce94-44b8-8422-13cf3f11bc01")
 	)
 	(label "I2C1{SDA SCL}"
-		(at 186.69 274.32 180)
+		(at 198.12 273.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7354,7 +7350,7 @@
 		(uuid "b6f0f323-ae4f-4509-9e19-a94cccb7e307")
 	)
 	(label "V_CHARGE"
-		(at 121.92 266.7 0)
+		(at 133.35 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7730,6 +7726,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a54a80a-ec7e-4677-afcd-ae880dc3a4bd")
+		(property "Reference" "#PWR033"
+			(at 130.81 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08efca2d-e1c7-45e7-b126-f46932dddc66")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
 		(at 326.39 137.16 0)
 		(unit 1)
@@ -7861,6 +7922,192 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 125.73 273.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "35230f9a-8ad3-44a8-90b6-6facbe94e6c2")
+		(property "Reference" "J19"
+			(at 125.73 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 125.73 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C2910525"
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 125.73 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d799676-d80a-4656-a907-00b60763190e")
+		)
+		(pin "2"
+			(uuid "8e1c8119-8bb8-42c9-a5d0-fc33931b2a7f")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -8195,7 +8442,7 @@
 			(uuid "8719a8c8-652e-4ff5-a43f-f4bc44ea7cc0")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "#PWR0105")
 					(unit 1)
@@ -8623,7 +8870,7 @@
 			(uuid "97465eda-f879-49e5-918a-07e1233df0e0")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "C96")
 					(unit 1)
@@ -11723,7 +11970,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 257.81)
+		(at 144.78 256.54)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11739,7 +11986,7 @@
 		)
 		(uuid "1be58867-73c0-413f-a3d9-ad9d26e5650f")
 		(property "Sheetname" "Charger"
-			(at 133.35 257.0984 0)
+			(at 144.78 255.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11748,7 +11995,7 @@
 			)
 		)
 		(property "Sheetfile" "Charger.kicad_sch"
-			(at 133.35 278.7146 0)
+			(at 144.78 277.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,7 +12004,7 @@
 			)
 		)
 		(pin "V_CHARGER" input
-			(at 133.35 266.7 180)
+			(at 144.78 265.43 180)
 			(uuid "0ce9f7ee-32e7-4c32-9d76-e1f0fc36c2c3")
 			(effects
 				(font
@@ -11767,7 +12014,7 @@
 			)
 		)
 		(pin "V_BATT_CHARGE" output
-			(at 133.35 271.78 180)
+			(at 144.78 270.51 180)
 			(uuid "8c4b2a16-00f8-4e86-ab84-4752b11b5477")
 			(effects
 				(font
@@ -11777,7 +12024,7 @@
 			)
 		)
 		(pin "NTC_BATT" input
-			(at 133.35 274.32 180)
+			(at 144.78 273.05 180)
 			(uuid "6a12eb76-f4b1-4374-92d5-db9e0fff4c66")
 			(effects
 				(font
@@ -11787,7 +12034,7 @@
 			)
 		)
 		(pin "I2C{SDA SCL}" input
-			(at 170.18 274.32 0)
+			(at 181.61 273.05 0)
 			(uuid "d92cc305-8ed4-4f6a-9e70-82aeb97b7038")
 			(effects
 				(font
@@ -11797,7 +12044,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 133.35 264.16 180)
+			(at 144.78 262.89 180)
 			(uuid "0b382f78-7efb-4324-825e-ae9840507e31")
 			(effects
 				(font

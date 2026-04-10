@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2025-10-12")
+		(date "2026-04-04")
 		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
@@ -2808,7 +2808,7 @@
 	)
 	(text "I_{CHG}_{MAX} (Soft) = 4A\n@ 36V, 2.65A power supply"
 		(exclude_from_sim no)
-		(at 32.258 156.718 0)
+		(at 40.64 158.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2826,6 +2826,16 @@
 		)
 		(uuid "7123a3c4-7fe4-4b15-bbdc-550ad3f0632a")
 	)
+	(text "103AT-2\n(10k thermistor)"
+		(exclude_from_sim no)
+		(at 192.532 262.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "967c2e14-2d76-4683-b3be-0482ed914862")
+	)
 	(text "R_{BOTCALC} = 13.76 kOhms = 29.4 V_{CHARGE}\n\nV_{BAT} = 1,536*(1+(R_{TOP}/(R_{BOT}-33)))\n\n7S3P INR18650-13L LiIon:\n- 21.0? V_{EMPTY}, 25.2 V_{NOM}, 29.4 V_{CHARGE}\n- 98.28 Wh, 3.9 Ah\n- 1.95A I_{CHARGE-TYP}, 3.9A I_{CHARGE-MAX}"
 		(exclude_from_sim no)
 		(at 342.138 166.624 0)
@@ -2837,14 +2847,13 @@
 		)
 		(uuid "d6903d70-0af1-4867-bab0-8a331ccf096a")
 	)
-	(text "R_{AC_SNS} = 5mOhm = 12A * 2/5 = 4.8A I_{Sense_Max}\n\nTODO:\n- Set corresponding regsiter to 0x60?"
+	(text "R_{AC_SNS} =\n5mOhm =\n12A * 2/5 =\n4.8A I_{Sense_Max}"
 		(exclude_from_sim no)
-		(at 15.494 130.81 0)
+		(at 77.216 54.102 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
 		(uuid "e73bbd30-a980-42c8-a621-31957fda33ae")
 	)
@@ -2861,16 +2870,10 @@
 		(uuid "08b5f418-8615-4c56-82ac-267346b2cd63")
 	)
 	(junction
-		(at 77.47 161.29)
+		(at 72.39 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bcccd61-abe8-434a-ae01-e673fedd2c98")
-	)
-	(junction
-		(at 109.22 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "116741e1-2e46-44f7-bd0a-80e8f1a63295")
 	)
 	(junction
 		(at 86.36 63.5)
@@ -2885,16 +2888,16 @@
 		(uuid "1aea7bd9-b5ad-4129-aa96-319e57e1c7a9")
 	)
 	(junction
-		(at 100.33 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20d651eb-928d-4e29-9359-8a6d6a47be61")
-	)
-	(junction
 		(at 361.95 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22c5cc38-1339-45c6-9fbe-60fe9fd839f2")
+	)
+	(junction
+		(at 48.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26c69fe3-4aa8-42d8-b51b-decdbb5e2216")
 	)
 	(junction
 		(at 283.21 132.08)
@@ -2909,10 +2912,10 @@
 		(uuid "2958b67a-eaaf-4544-94f2-8f1f39b06e3d")
 	)
 	(junction
-		(at 49.53 71.12)
+		(at 60.96 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3520cc5a-0c90-42ab-bea2-1c9d3d1cd8c9")
+		(uuid "2dd7545a-a3eb-4818-bc21-dd23b5696710")
 	)
 	(junction
 		(at 247.65 139.7)
@@ -2975,28 +2978,16 @@
 		(uuid "5a0a1c9f-7f73-42da-b853-20fa171f71df")
 	)
 	(junction
-		(at 66.04 130.81)
+		(at 66.04 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cb7bb7f-2557-4dad-9f35-2f66433dad53")
+		(uuid "5e7e12a9-2f8d-4c08-8595-35072e885f4f")
 	)
 	(junction
-		(at 49.53 63.5)
+		(at 86.36 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d1e51b1-fa81-49ad-8186-3856bdba533e")
-	)
-	(junction
-		(at 66.04 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a56ba60-cf6f-49ce-8b2e-44b030312a4f")
-	)
-	(junction
-		(at 86.36 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "805f2af8-d088-469a-8c0c-a126af2a286c")
+		(uuid "696118aa-e48c-426c-9cd8-963042279d8e")
 	)
 	(junction
 		(at 252.73 132.08)
@@ -3017,16 +3008,28 @@
 		(uuid "921c9583-0317-402d-a642-b019072c20f8")
 	)
 	(junction
+		(at 54.61 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93843d3c-c397-4f77-aec1-e8d23aeb09e4")
+	)
+	(junction
+		(at 97.79 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94a54001-b350-47b2-b51f-e842d29fd1fe")
+	)
+	(junction
 		(at 245.11 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d86429-bcee-441d-9bd6-c878316e5896")
 	)
 	(junction
-		(at 91.44 63.5)
+		(at 54.61 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c567ebf-934c-4483-a945-8220f7df1280")
+		(uuid "97032879-8d81-47ae-82fc-b73c1346afbc")
 	)
 	(junction
 		(at 130.81 184.15)
@@ -3041,7 +3044,7 @@
 		(uuid "9da63cb5-a685-4e99-abbe-9f07d60c825f")
 	)
 	(junction
-		(at 100.33 71.12)
+		(at 106.68 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1999044-6268-4dd4-bab2-0edef292268c")
@@ -3071,10 +3074,16 @@
 		(uuid "a7b0b0c3-10dc-4bd5-abab-45e0d0bc8662")
 	)
 	(junction
-		(at 76.2 81.28)
+		(at 76.2 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac41339d-fc7f-4e7b-a664-75a67b432e96")
+	)
+	(junction
+		(at 66.04 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac8bdb3e-3a3b-459c-a118-cb7b2ec86077")
 	)
 	(junction
 		(at 252.73 139.7)
@@ -3125,12 +3134,6 @@
 		(uuid "be128b56-e41f-4e96-80dc-a16e686b0ce9")
 	)
 	(junction
-		(at 66.04 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bee7ba4a-fd08-4c28-b7a5-cbfe46d60362")
-	)
-	(junction
 		(at 184.15 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3141,6 +3144,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c115f72f-d314-43ed-927e-3dbb2a520388")
+	)
+	(junction
+		(at 115.57 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c26f38-201a-457d-a7d9-1bf066101ccd")
 	)
 	(junction
 		(at 312.42 132.08)
@@ -3155,16 +3164,16 @@
 		(uuid "c50284dc-abba-4345-ae9e-b7274b631e64")
 	)
 	(junction
+		(at 106.68 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca83a2cc-fe22-46dc-8a63-8a94cb7c8378")
+	)
+	(junction
 		(at 262.89 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbd104fd-abb7-46f5-9cd4-d7339a35f5c5")
-	)
-	(junction
-		(at 100.33 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4899d57-26ba-4385-812f-b4c74788d37e")
 	)
 	(junction
 		(at 325.12 132.08)
@@ -3185,16 +3194,10 @@
 		(uuid "d8fba985-ddec-4c96-8d29-93e21e9bd619")
 	)
 	(junction
-		(at 66.04 166.37)
+		(at 100.33 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db6dcbc4-5415-4916-80fc-974764ca11de")
-	)
-	(junction
-		(at 57.15 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de83e380-a738-467c-b3e9-5176cce6f6da")
+		(uuid "dff42553-b51e-401a-84d1-137f543cfffb")
 	)
 	(junction
 		(at 283.21 163.83)
@@ -3209,16 +3212,22 @@
 		(uuid "e4156e75-d88e-4de7-8002-c66cf1fd3769")
 	)
 	(junction
+		(at 66.04 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ead23787-a525-4a46-9e03-e4e55a17357f")
+	)
+	(junction
 		(at 262.89 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb58b039-fda4-4adb-991e-121919c09a55")
 	)
 	(junction
-		(at 86.36 81.28)
+		(at 86.36 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebafa27c-9b2f-4cbf-bd7e-61551fb257ae")
+		(uuid "ee9e1bfb-ff1b-4f35-9eae-a8a2711a604f")
 	)
 	(junction
 		(at 66.04 176.53)
@@ -3227,16 +3236,16 @@
 		(uuid "f0bccf90-321a-4d19-a54c-2ead59bfd114")
 	)
 	(junction
-		(at 66.04 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2a5af10-644b-4471-9122-179fca4a856e")
-	)
-	(junction
 		(at 283.21 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7fd1d1e-0d7e-4ccd-9cfb-6f3f3173c9ed")
+	)
+	(junction
+		(at 48.26 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbbd7546-9ce4-413b-8de5-f94828865b0f")
 	)
 	(junction
 		(at 367.03 139.7)
@@ -3250,16 +3259,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 66.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0021706f-01d6-477b-bbf6-433799e69695")
-	)
-	(wire
-		(pts
 			(xy 334.01 143.51) (xy 334.01 148.59)
 		)
 		(stroke
@@ -3267,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "019566c5-d345-4ec5-9ab4-a1b4458afd9c")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 60.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d16fc5-9957-41f4-b291-7be99c7728ee")
 	)
 	(wire
 		(pts
@@ -3287,16 +3296,6 @@
 			(type default)
 		)
 		(uuid "03471934-8169-49c3-a845-a1222143d490")
-	)
-	(wire
-		(pts
-			(xy 91.44 63.5) (xy 100.33 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e12d9b-943d-4f20-a0cb-cacf03f4b81d")
 	)
 	(wire
 		(pts
@@ -3370,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 99.06) (xy 72.39 99.06)
+			(xy 66.04 102.87) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3420,6 +3419,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a52a047-3b57-4648-97c5-8d7473b50aa3")
+	)
+	(wire
+		(pts
 			(xy 204.47 257.81) (xy 204.47 262.89)
 		)
 		(stroke
@@ -3440,13 +3449,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 72.39) (xy 100.33 71.12)
+			(xy 106.68 72.39) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1cfaae95-3c21-4237-83c0-07fa5a44fc29")
+	)
+	(wire
+		(pts
+			(xy 66.04 72.39) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfd1dfc-b03f-43c9-8478-be0a90e493c5")
 	)
 	(wire
 		(pts
@@ -3457,6 +3476,16 @@
 			(type default)
 		)
 		(uuid "1ddd0bef-cf8d-4ced-918b-0a9c514c7047")
+	)
+	(wire
+		(pts
+			(xy 86.36 83.82) (xy 86.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de701ec-8e6d-4741-9366-963783e41ec0")
 	)
 	(wire
 		(pts
@@ -3500,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 99.06) (xy 86.36 99.06)
+			(xy 80.01 102.87) (xy 86.36 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3527,16 +3556,6 @@
 			(type default)
 		)
 		(uuid "246f12e9-ecf7-4adc-a86e-73aafc37f824")
-	)
-	(wire
-		(pts
-			(xy 49.53 71.12) (xy 57.15 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ce29c0-64f7-46ea-8c76-966019ef9342")
 	)
 	(wire
 		(pts
@@ -3580,6 +3599,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4c8795-6132-4a06-b422-3493cb6812a1")
+	)
+	(wire
+		(pts
+			(xy 86.36 102.87) (xy 86.36 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30118444-c009-4dde-85d2-9aa38ffe4cfb")
+	)
+	(wire
+		(pts
 			(xy 184.15 144.78) (xy 184.15 147.32)
 		)
 		(stroke
@@ -3587,6 +3626,16 @@
 			(type default)
 		)
 		(uuid "309710eb-00fb-435f-867a-8d3b8c3b26eb")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.82) (xy 66.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f0129e-b3e3-49b1-b6d3-ac2d649274bb")
 	)
 	(wire
 		(pts
@@ -3710,6 +3759,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 152.4) (xy 66.04 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea4ee1f-4bdd-4490-9d54-43c3eaddd03a")
+	)
+	(wire
+		(pts
+			(xy 48.26 63.5) (xy 54.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebdaba7-83ce-417a-9c1d-4ba9216fc2c5")
+	)
+	(wire
+		(pts
 			(xy 157.48 152.4) (xy 176.53 152.4)
 		)
 		(stroke
@@ -3770,7 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 76.2 81.28)
+			(xy 74.93 83.82) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3780,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 100.33 71.12)
+			(xy 97.79 71.12) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3810,23 +3879,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 63.5) (xy 91.44 63.5)
+			(xy 86.36 63.5) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "50316446-3047-4676-ae7a-1b8d78e788ab")
-	)
-	(wire
-		(pts
-			(xy 100.33 106.68) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52da148b-5d2d-48cf-ac9a-45018f33449e")
 	)
 	(wire
 		(pts
@@ -3847,16 +3906,6 @@
 			(type default)
 		)
 		(uuid "57893b6a-369b-4b49-ba7c-f90495a076ee")
-	)
-	(wire
-		(pts
-			(xy 86.36 99.06) (xy 86.36 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59406077-3293-4c5e-97e9-a815de5d3e8b")
 	)
 	(wire
 		(pts
@@ -3900,16 +3949,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 99.06) (xy 86.36 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ded1c8e-4b22-43c1-852a-d4852e213373")
-	)
-	(wire
-		(pts
 			(xy 128.27 83.82) (xy 139.7 83.82)
 		)
 		(stroke
@@ -3940,17 +3979,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 63.5) (xy 109.22 63.5)
+			(xy 106.68 63.5) (xy 115.57 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "684aa753-1426-4d97-8af0-1b750cc160d3")
+		(uuid "6682e627-742b-4629-bd39-ec5d4b5d47b5")
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 67.31 81.28)
+			(xy 66.04 83.82) (xy 67.31 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3977,16 +4016,6 @@
 			(type default)
 		)
 		(uuid "6ab3fe4e-38cc-47fd-be91-397d926eb05e")
-	)
-	(wire
-		(pts
-			(xy 66.04 106.68) (xy 66.04 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2c3037-241a-4a55-8e6a-4cbe394692eb")
 	)
 	(wire
 		(pts
@@ -4040,6 +4069,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 71.12) (xy 54.61 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73219444-a441-48a3-b879-9f5ff113b6cd")
+	)
+	(wire
+		(pts
 			(xy 143.51 120.65) (xy 130.81 120.65)
 		)
 		(stroke
@@ -4067,16 +4106,6 @@
 			(type default)
 		)
 		(uuid "7688fdab-8d8a-4e24-b5c8-417368310dd7")
-	)
-	(wire
-		(pts
-			(xy 66.04 63.5) (xy 66.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76c5430b-d729-4376-95b3-6335305c5fdf")
 	)
 	(wire
 		(pts
@@ -4180,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 86.36 81.28)
+			(xy 85.09 83.82) (xy 86.36 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4260,7 +4289,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 161.29) (xy 90.17 161.29)
+			(xy 72.39 161.29) (xy 90.17 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4270,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 71.12) (xy 109.22 71.12)
+			(xy 106.68 71.12) (xy 115.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4297,16 +4326,6 @@
 			(type default)
 		)
 		(uuid "a1a4e987-eab3-4ef4-9e80-6b1e810a3db5")
-	)
-	(wire
-		(pts
-			(xy 109.22 63.5) (xy 184.15 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2715a83-4792-4a78-b343-01642f73fa89")
 	)
 	(wire
 		(pts
@@ -4400,6 +4419,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 63.5) (xy 66.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac712622-28ce-40c1-856e-d029c4df1ca1")
+	)
+	(wire
+		(pts
 			(xy 170.18 130.81) (xy 170.18 144.78)
 		)
 		(stroke
@@ -4407,16 +4436,6 @@
 			(type default)
 		)
 		(uuid "aceca343-411b-49b4-88ef-978421df98b9")
-	)
-	(wire
-		(pts
-			(xy 49.53 63.5) (xy 57.15 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad87d436-e2ef-44e0-9abc-4abb42cc8c42")
 	)
 	(wire
 		(pts
@@ -4430,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 76.2 82.55)
+			(xy 76.2 83.82) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4440,7 +4459,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 71.12) (xy 49.53 71.12)
+			(xy 41.91 71.12) (xy 48.26 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4460,7 +4479,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 81.28) (xy 86.36 63.5)
+			(xy 86.36 63.5) (xy 86.36 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4477,6 +4496,16 @@
 			(type default)
 		)
 		(uuid "b57c731f-8aec-405e-b0c8-64126c57ac12")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 184.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b692846b-e1da-4331-bda4-91c439fba598")
 	)
 	(wire
 		(pts
@@ -4500,16 +4529,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 63.5) (xy 66.04 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b932d9e4-6e31-4c07-8b42-854569251f87")
-	)
-	(wire
-		(pts
 			(xy 130.81 140.97) (xy 151.13 140.97)
 		)
 		(stroke
@@ -4517,6 +4536,16 @@
 			(type default)
 		)
 		(uuid "ba80b1a4-933e-483e-9a8e-b0d0bc234764")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba880075-e0e2-41da-af4c-d5faea3aa868")
 	)
 	(wire
 		(pts
@@ -4580,6 +4609,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 63.5) (xy 66.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf452c21-1736-4bf1-b31f-a990a3dba7a0")
+	)
+	(wire
+		(pts
 			(xy 184.15 144.78) (xy 198.12 144.78)
 		)
 		(stroke
@@ -4597,16 +4636,6 @@
 			(type default)
 		)
 		(uuid "c3ed6b56-08c5-4338-a10f-a9ec8fbac6d3")
-	)
-	(wire
-		(pts
-			(xy 66.04 81.28) (xy 66.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4bd2c4b-b8db-42dd-9e49-74760e0795b7")
 	)
 	(wire
 		(pts
@@ -4670,26 +4699,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 106.68) (xy 100.33 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe92462-31f2-45ed-9b1b-08182975ef9e")
-	)
-	(wire
-		(pts
-			(xy 66.04 130.81) (xy 66.04 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccbd00de-85b5-4f13-8806-4e1ad575b843")
-	)
-	(wire
-		(pts
 			(xy 242.57 139.7) (xy 247.65 139.7)
 		)
 		(stroke
@@ -4750,6 +4759,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 63.5) (xy 60.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84070e2-d446-436d-9db2-1a1a5175eca2")
+	)
+	(wire
+		(pts
 			(xy 152.4 97.79) (xy 161.29 97.79)
 		)
 		(stroke
@@ -4800,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 63.5) (xy 49.53 63.5)
+			(xy 41.91 63.5) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4810,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 158.75) (xy 90.17 158.75)
+			(xy 80.01 158.75) (xy 90.17 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4837,6 +4856,16 @@
 			(type default)
 		)
 		(uuid "e1b7a074-f999-4cce-8446-00280c3f4047")
+	)
+	(wire
+		(pts
+			(xy 66.04 102.87) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31daab4-7263-4854-b145-17e43f388530")
 	)
 	(wire
 		(pts
@@ -4900,7 +4929,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 161.29) (xy 77.47 158.75)
+			(xy 72.39 161.29) (xy 72.39 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +4959,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 77.47 81.28)
+			(xy 86.36 72.39) (xy 86.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed92530e-2e28-424a-bed2-3ec6faf9b012")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 77.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5030,7 +5069,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 71.12) (xy 49.53 72.39)
+			(xy 48.26 71.12) (xy 48.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5138,6 +5177,16 @@
 		)
 		(uuid "4775ab43-8f5c-4c43-8d67-5033d44e3052")
 	)
+	(label "V_CHARGER"
+		(at 29.21 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e4cbece-39a3-4f5f-83d0-b14ec4bc7b05")
+	)
 	(label "TS"
 		(at 199.39 257.81 0)
 		(effects
@@ -5208,6 +5257,16 @@
 		)
 		(uuid "7b69c8c2-417a-46c4-8b0e-32366f9077fe")
 	)
+	(label "V_CHARGER"
+		(at 66.04 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d5cbd9-49f2-48a9-8d5a-cd33c236fae5")
+	)
 	(label "~{PG}"
 		(at 134.62 168.91 180)
 		(effects
@@ -5257,6 +5316,16 @@
 			(justify left bottom)
 		)
 		(uuid "d60facb5-e1d5-474b-ad85-1f05e5b1b8e5")
+	)
+	(label "V_CHARGER"
+		(at 92.71 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d696f52e-a7d7-449c-a9f3-46f2411c7af9")
 	)
 	(label "FBG"
 		(at 334.01 163.83 0)
@@ -5565,6 +5634,12 @@
 			(uuid "96f7c460-3ab7-4d27-a7c7-51426042f339")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "U27")
@@ -5652,6 +5727,12 @@
 			(uuid "98b3d836-7c9c-4040-b4e9-b86c2a389d72")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C81")
@@ -5662,7 +5743,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 81.28 90)
+		(at 81.28 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5671,14 +5752,6 @@
 		(fields_autoplaced yes)
 		(uuid "0d81dc5c-43ee-431d-a88e-3f0b3ba69aa4")
 		(property "Reference" "C77"
-			(at 81.28 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
 			(at 81.28 76.2 90)
 			(effects
 				(font
@@ -5686,8 +5759,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 85.09 80.3148 0)
+		(property "Value" "100nF@100V"
+			(at 81.28 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 85.09 82.8548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 81.28 0)
+			(at 81.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5786,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.28 81.28 0)
+			(at 81.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5795,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 81.28 81.28 90)
+			(at 81.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,8 +5803,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C307331"
-			(at 81.28 81.28 90)
+		(property "LCSC Part #" "C28233"
+			(at 81.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,6 +5819,12 @@
 			(uuid "94a53907-3fcb-43ba-bfa0-d50a120bb47e")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C77")
@@ -5824,9 +5911,102 @@
 			(uuid "da0956bb-4621-4731-ba41-8281bc8113d8")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10c757c4-bafa-4a67-82ff-c7f3b9280660")
+		(property "Reference" "C22"
+			(at 62.23 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF@50V"
+			(at 59.69 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 61.9252 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternative" ""
+			(at 60.96 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C29823"
+			(at 60.96 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a7d9a2c-aeed-48af-aa13-12837dd0ea82")
+		)
+		(pin "1"
+			(uuid "80491f33-6310-40e3-a848-d8469ae54b9b")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5911,6 +6091,12 @@
 			(uuid "5591b6bb-6e0d-4f6a-b121-d3d2e7f5b5b5")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C44")
@@ -5999,6 +6185,12 @@
 			(uuid "ba602215-8bca-483d-ae6d-6280c1a62400")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C76")
@@ -6086,6 +6278,12 @@
 			(uuid "6c743438-6e30-4e9a-a462-1d6f23bc5a83")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C82")
@@ -6183,6 +6381,12 @@
 			(uuid "8e0a21fd-478b-405b-8918-bb177462b6a8")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D6")
@@ -6281,6 +6485,12 @@
 			(uuid "d5729900-a392-42c8-ab60-49099b208713")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D29")
@@ -6369,6 +6579,12 @@
 			(uuid "7bd26f7a-6e65-4a3a-84e6-125b0c4d3d0b")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C50")
@@ -6466,6 +6682,12 @@
 			(uuid "2669ec4f-d4bc-4c5e-9ffa-1d15ad41ed71")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R71")
@@ -6531,6 +6753,12 @@
 			(uuid "f2589f36-4639-4c3a-ae92-fcf6960ecec2")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0166")
@@ -6597,6 +6825,12 @@
 			(uuid "68213d2e-49c1-4c06-bc8f-92f0945aa49f")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0165")
@@ -6685,6 +6919,12 @@
 			(uuid "52253a23-4008-4b3c-828f-e0e9af2b9c66")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R76")
@@ -6751,6 +6991,12 @@
 			(uuid "932fd756-37db-4acb-ad9d-c8340d6209ca")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0167")
@@ -6848,6 +7094,12 @@
 			(uuid "c5e5301b-ce79-44fd-8bff-412b462f4b7e")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D5")
@@ -6936,6 +7188,12 @@
 			(uuid "11fe294e-ad16-41cd-a050-06a6494ff3b2")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C48")
@@ -6946,7 +7204,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 72.39 0)
+		(at 106.68 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6955,7 +7213,7 @@
 		(fields_autoplaced yes)
 		(uuid "42002033-17d6-400b-b62c-a752ccfc6c32")
 		(property "Reference" "#PWR01"
-			(at 100.33 78.74 0)
+			(at 106.68 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +7222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 77.47 0)
+			(at 106.68 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +7230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 72.39 0)
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +7239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 72.39 0)
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,7 +7248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 72.39 0)
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,6 +7260,12 @@
 			(uuid "48987e26-ab38-42b5-a17f-889320ee2bc3")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR01")
@@ -7068,6 +7332,12 @@
 			(uuid "241ad293-bd7f-4e08-87e4-5f93e7948148")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0158")
@@ -7156,6 +7426,12 @@
 			(uuid "2eca5a93-93ad-4c57-a0ce-f095dab42c40")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R69")
@@ -7256,6 +7532,12 @@
 			(uuid "9bd0e6d8-8418-462a-ae7f-31e198ac2b84")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q7")
@@ -7266,7 +7548,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 161.29 0)
+		(at 72.39 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7274,7 +7556,7 @@
 		(dnp no)
 		(uuid "4aa81d67-4565-4c49-b2d6-e1cf257e4cd6")
 		(property "Reference" "#PWR053"
-			(at 77.47 167.64 0)
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 164.338 0)
+			(at 77.47 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 161.29 0)
+			(at 72.39 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 161.29 0)
+			(at 72.39 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 161.29 0)
+			(at 72.39 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,6 +7604,12 @@
 			(uuid "710910d2-b1ad-4625-9e75-88a3fc91fc25")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR053")
@@ -7409,6 +7697,12 @@
 			(uuid "0b19eede-a485-4d83-bc66-32c37101e23e")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C59")
@@ -7419,7 +7713,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 67.31 0)
+		(at 115.57 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7427,7 +7721,7 @@
 		(dnp no)
 		(uuid "5b8b2261-65fd-47d5-a8f8-431346e19081")
 		(property "Reference" "C40"
-			(at 110.49 60.452 90)
+			(at 116.84 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7730,7 @@
 			)
 		)
 		(property "Value" "4.7uF@50V"
-			(at 107.95 60.452 90)
+			(at 114.3 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 110.1852 71.12 0)
+			(at 116.5352 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 67.31 0)
+			(at 115.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7757,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 67.31 0)
+			(at 115.57 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,7 +7766,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 109.22 67.31 90)
+			(at 115.57 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7775,7 @@
 			)
 		)
 		(property "LCSC Part #" "C29823"
-			(at 109.22 67.31 90)
+			(at 115.57 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,6 +7790,12 @@
 			(uuid "a578af07-481b-46b7-86f0-7239211193cb")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C40")
@@ -7506,7 +7806,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 82.55 0)
+		(at 76.2 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7515,7 +7815,7 @@
 		(fields_autoplaced yes)
 		(uuid "620ac228-8393-420d-8ab7-f70492e9a990")
 		(property "Reference" "#PWR061"
-			(at 76.2 88.9 0)
+			(at 76.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7824,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 87.63 0)
+			(at 76.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +7832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 82.55 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +7841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 82.55 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +7850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 82.55 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,6 +7862,12 @@
 			(uuid "3945fae2-0367-445f-b2c2-b3c0fb951fad")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR061")
@@ -7572,7 +7878,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 91.44 67.31 0)
+		(at 97.79 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7580,7 +7886,7 @@
 		(dnp no)
 		(uuid "6c07d265-de35-46a1-a1ec-10baa6eaf8cc")
 		(property "Reference" "C61"
-			(at 89.916 60.706 90)
+			(at 96.266 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7588,8 +7894,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF@63V"
-			(at 92.456 60.706 90)
+		(property "Value" "220uF@80V"
+			(at 98.806 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,8 +7903,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 92.4052 71.12 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 98.7552 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 67.31 0)
+			(at 97.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,8 +7921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100uF 63V ±20% Plugin,D8xL12mm Aluminum Electrolytic Capacitors"
-			(at 91.44 67.31 0)
+		(property "Description" "220uF 80V Plugin,D10xL16mm  Aluminum Electrolytic Capacitors - Leaded ROHS"
+			(at 97.79 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7931,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 91.44 67.31 90)
+			(at 97.79 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,8 +7939,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C7436417"
-			(at 91.44 67.31 90)
+		(property "LCSC Part #" "C2937593"
+			(at 97.79 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,9 +7955,550 @@
 			(uuid "f68224e2-888c-4996-bea3-9245091e9d40")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 66.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ccb57b-285d-485e-b222-ef15e5beef1c")
+		(property "Reference" "R78"
+			(at 68.58 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 68.58 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 64.262 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C22859"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "APPLICATION" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIGURATION" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT_RATING" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Centerline_Pitch" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGNATOR" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_RoHS_Compliance" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FINISH" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_PATH" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_REFERENCE" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_DATE" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_NOTE" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_PATH" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_REF" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_LINK" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number_of_Positions" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_DESCRIPTION" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PITCH" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POSITIONS" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ROHS_COMPLIANT" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SERIES" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SIGNAL_INTEGRITY" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICE_MODEL" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_RATING_AC" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_RATING_DC" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d8e50fc-5a5b-450a-bc2a-92f39c51a927")
+		)
+		(pin "2"
+			(uuid "ec0c852d-49f8-43b3-bdc3-7c3916c565d2")
+		)
+		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -7749,6 +8596,12 @@
 			(uuid "e2a5ad56-4a37-43ae-9592-ddd616afbd84")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q8")
@@ -7759,7 +8612,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 71.12 81.28 90)
+		(at 71.12 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7768,14 +8621,6 @@
 		(fields_autoplaced yes)
 		(uuid "768b08c6-a738-4b1f-85f9-be77aad695c6")
 		(property "Reference" "C62"
-			(at 71.12 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
 			(at 71.12 76.2 90)
 			(effects
 				(font
@@ -7783,8 +8628,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.93 80.3148 0)
+		(property "Value" "100nF@100V"
+			(at 71.12 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 74.93 82.8548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +8646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 81.28 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +8655,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 71.12 81.28 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +8664,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 71.12 81.28 90)
+			(at 71.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7819,8 +8672,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C307331"
-			(at 71.12 81.28 90)
+		(property "LCSC Part #" "C28233"
+			(at 71.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,6 +8688,12 @@
 			(uuid "3730a104-ec76-46d6-b784-9300f37831f0")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C62")
@@ -7862,7 +8721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "249kR 0.1%"
+		(property "Value" "249k 0.1%"
 			(at 336.55 137.1599 0)
 			(effects
 				(font
@@ -7923,6 +8782,12 @@
 			(uuid "84a0dbfa-2b6b-427b-8515-266fd11c6889")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R33")
@@ -7938,7 +8803,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84d98b94-6253-4c39-a255-dde26629735f")
 		(property "Reference" "R73"
@@ -7950,7 +8815,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30.31kR"
+		(property "Value" "30k"
 			(at 207.01 267.9699 0)
 			(effects
 				(font
@@ -7977,7 +8842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-55℃~+155℃ 100mW 30kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 204.47 266.7 0)
 			(effects
 				(font
@@ -7986,7 +8851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternative" ""
+		(property "LCSC Part #" "C22984"
 			(at 204.47 266.7 0)
 			(effects
 				(font
@@ -8002,6 +8867,12 @@
 			(uuid "0fc13ced-b7b2-4b0f-8d4e-005e7db253b3")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R73")
@@ -8091,6 +8962,12 @@
 			(uuid "fcfbc4e5-e25d-42b7-ad55-148673169830")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C79")
@@ -8101,7 +8978,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 99.06 270)
+		(at 76.2 102.87 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8111,7 +8988,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ad63f1c-d965-4d50-8954-6f5a1d3cb11c")
 		(property "Reference" "C85"
-			(at 76.2 91.44 90)
+			(at 76.2 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8119,7 +8996,7 @@
 			)
 		)
 		(property "Value" "470nF@50V"
-			(at 76.2 93.98 90)
+			(at 76.2 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +9004,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 72.39 98.0948 0)
+			(at 72.39 101.9048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +9013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 99.06 0)
+			(at 76.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +9022,7 @@
 			)
 		)
 		(property "Description" "50V 470nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC"
-			(at 76.2 99.06 0)
+			(at 76.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +9031,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 76.2 99.06 90)
+			(at 76.2 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +9040,7 @@
 			)
 		)
 		(property "LCSC Part #" "C13967"
-			(at 76.2 99.06 90)
+			(at 76.2 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,6 +9055,12 @@
 			(uuid "846539ac-4fc7-4f90-b878-eecac8a1ae33")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C85")
@@ -8244,6 +9127,12 @@
 			(uuid "05744f27-e185-41fd-a83b-d95694c0ed01")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0160")
@@ -8254,7 +9143,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 67.31 0)
+		(at 54.61 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8262,15 +9151,6 @@
 		(dnp no)
 		(uuid "8f1e1de5-fbbe-4fbf-8786-b383f0c8592c")
 		(property "Reference" "C38"
-			(at 58.42 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF@50V"
 			(at 55.88 60.96 90)
 			(effects
 				(font
@@ -8279,8 +9159,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "4.7uF@50V"
+			(at 53.34 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 58.1152 71.12 0)
+			(at 55.5752 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +9178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +9187,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 67.31 0)
+			(at 54.61 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +9196,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 57.15 67.31 90)
+			(at 54.61 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +9205,7 @@
 			)
 		)
 		(property "LCSC Part #" "C29823"
-			(at 57.15 67.31 90)
+			(at 54.61 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,6 +9220,12 @@
 			(uuid "5d04222b-a2b9-4cc9-8b52-6516df16cdba")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C38")
@@ -8397,6 +9292,12 @@
 			(uuid "0f8f7bf8-7e58-4a36-95ab-3e3de99ae01a")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0157")
@@ -8485,6 +9386,12 @@
 			(uuid "2cd13adb-10a9-40de-a132-a09e3a2942ff")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R34")
@@ -8551,6 +9458,12 @@
 			(uuid "c55722c6-3e45-4ddb-b20b-38ec062c5e33")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0155")
@@ -8561,7 +9474,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 72.39 0)
+		(at 48.26 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8570,7 +9483,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d41af05-56ce-461c-b09d-b4a1eb188833")
 		(property "Reference" "#PWR024"
-			(at 49.53 78.74 0)
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +9492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 77.47 0)
+			(at 48.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,7 +9500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 72.39 0)
+			(at 48.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +9509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 72.39 0)
+			(at 48.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +9518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 72.39 0)
+			(at 48.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,6 +9530,12 @@
 			(uuid "f47fa5d7-27ff-47fb-9c78-eecc4d39d81c")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR024")
@@ -8705,6 +9624,12 @@
 			(uuid "82df7a2b-9b33-4467-8bef-ed3cdf0812cf")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D26")
@@ -8790,6 +9715,12 @@
 			(uuid "93728f3d-2aa7-49a5-8e86-b534077a7c8c")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R74")
@@ -8878,6 +9809,12 @@
 			(uuid "a57cae70-d366-4a03-acff-abb65457a760")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R66")
@@ -8964,6 +9901,12 @@
 			(uuid "16e69d3c-bc78-49b1-9e64-a60a101da4a0")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "L?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "L4")
@@ -9051,6 +9994,12 @@
 			(uuid "6876cdd4-6794-4250-a885-e57e146564a6")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C58")
@@ -9117,6 +10066,12 @@
 			(uuid "f215bb04-892b-46db-8822-b0004acf863f")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR051")
@@ -9205,6 +10160,12 @@
 			(uuid "8aefdd56-82f9-4868-bfdb-5905bbdbf7df")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C84")
@@ -9293,6 +10254,12 @@
 			(uuid "a3537669-1c6d-43c7-98a4-6aea80327d5b")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R35")
@@ -9380,6 +10347,12 @@
 			(uuid "782af717-c76e-421b-b220-5c310d5808ae")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C43")
@@ -9475,6 +10448,12 @@
 			(uuid "34aa891e-a1c0-40a2-aa3c-9940a8a12210")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R67")
@@ -9541,6 +10520,12 @@
 			(uuid "5fe926ea-8896-45a0-9f8b-849eafad11a3")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0163")
@@ -9607,6 +10592,12 @@
 			(uuid "e918d595-31a8-4f40-b9a5-2eaf0e2a7056")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR071")
@@ -9622,7 +10613,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb656f3a-29bc-429f-91a8-551dd70cd4ba")
 		(property "Reference" "R72"
@@ -9634,7 +10625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.24kR"
+		(property "Value" "5k1"
 			(at 207.01 251.4599 0)
 			(effects
 				(font
@@ -9661,7 +10652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-55℃~+155℃ 100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 204.47 250.19 0)
 			(effects
 				(font
@@ -9670,7 +10661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternative" ""
+		(property "LCSC Part #" "C23186"
 			(at 204.47 250.19 0)
 			(effects
 				(font
@@ -9686,9 +10677,550 @@
 			(uuid "1e86a77c-a694-4c58-8443-155a34da87b8")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd9ec609-4845-46e2-9b23-ee6a9fadb636")
+		(property "Reference" "R79"
+			(at 88.9 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10R"
+			(at 88.9 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.582 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C22859"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "APPLICATION" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIGURATION" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT_RATING" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Centerline_Pitch" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESIGNATOR" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_RoHS_Compliance" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FINISH" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_PATH" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_REFERENCE" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_DATE" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_NOTE" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_PATH" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_REF" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_LINK" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Number_of_Positions" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_DESCRIPTION" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PITCH" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POSITIONS" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product_Type" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ROHS_COMPLIANT" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SERIES" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SIGNAL_INTEGRITY" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPICE_MODEL" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_RATING_AC" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_RATING_DC" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d24088-c886-4f73-a8d7-67a534823708")
+		)
+		(pin "2"
+			(uuid "fdf859b3-e444-4bf3-acc1-0ded92268410")
+		)
+		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -9775,6 +11307,12 @@
 			(uuid "5195e007-5823-407b-ac06-b6a2952cc3d5")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C80")
@@ -9854,6 +11392,12 @@
 			(uuid "7d5d1f1c-6cab-4a75-9f3a-c7dcdecfa81d")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "TP1")
@@ -9942,6 +11486,12 @@
 			(uuid "63aa535f-a33e-46a8-89a1-e3f4ffe8c73d")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R75")
@@ -10029,6 +11579,12 @@
 			(uuid "d72ee40d-e5b0-4696-8054-374d910a44d3")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C56")
@@ -10111,6 +11667,12 @@
 			(uuid "c79c2855-1fab-4c5b-a2ee-7ed2ab73753f")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "JP1")
@@ -10199,6 +11761,12 @@
 			(uuid "6114ab7c-673e-4724-8550-1c42bdf28ff8")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "D2")
@@ -10279,6 +11847,12 @@
 			(uuid "6a6fa0cb-f226-4c19-8f25-ecc14caec97e")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C49")
@@ -10367,6 +11941,12 @@
 			(uuid "beab52f4-87c3-4391-99f2-bd27bc6260b0")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R68")
@@ -10434,6 +12014,12 @@
 			(uuid "f0e184a6-2828-4d11-a34a-9fb6922df554")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0159")
@@ -10444,7 +12030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 158.75 90)
+		(at 76.2 158.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10452,7 +12038,7 @@
 		(dnp no)
 		(uuid "d9e19d9d-09e6-4869-bdc0-14d20d54984f")
 		(property "Reference" "R20"
-			(at 86.106 157.734 90)
+			(at 81.026 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10460,7 +12046,7 @@
 			)
 		)
 		(property "Value" "25k5"
-			(at 81.28 158.75 90)
+			(at 76.2 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,7 +12054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.28 160.528 90)
+			(at 76.2 160.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10477,7 +12063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 158.75 0)
+			(at 76.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +12072,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 25.5kΩ 0603 Chip Resistor"
-			(at 81.28 158.75 0)
+			(at 76.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +12081,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 81.28 158.75 90)
+			(at 76.2 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +12090,7 @@
 			)
 		)
 		(property "LCSC Part #" "C2933179"
-			(at 81.28 158.75 90)
+			(at 76.2 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10519,6 +12105,12 @@
 			(uuid "52d0c7ce-27f6-4626-9213-470bea43a5e4")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R20")
@@ -10529,7 +12121,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 67.31 0)
+		(at 48.26 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10537,7 +12129,7 @@
 		(dnp no)
 		(uuid "db4c8a86-f13e-46b8-a4d5-b211466fd716")
 		(property "Reference" "C39"
-			(at 50.8 60.96 90)
+			(at 49.53 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +12138,7 @@
 			)
 		)
 		(property "Value" "4.7uF@50V"
-			(at 48.26 60.96 90)
+			(at 46.99 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +12147,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 50.4952 71.12 0)
+			(at 49.2252 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +12156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 67.31 0)
+			(at 48.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,7 +12165,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 67.31 0)
+			(at 48.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +12174,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 49.53 67.31 90)
+			(at 48.26 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +12183,7 @@
 			)
 		)
 		(property "LCSC Part #" "C29823"
-			(at 49.53 67.31 90)
+			(at 48.26 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,6 +12198,12 @@
 			(uuid "ac840b06-c8e6-4046-a1a0-118df9d81f84")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C39")
@@ -10693,6 +12291,12 @@
 			(uuid "cf704f97-2675-4534-a5d0-0f5e10d6fb74")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C45")
@@ -10781,6 +12385,12 @@
 			(uuid "385aae70-695a-4e77-8451-8fd49b166720")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C78")
@@ -10791,7 +12401,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 67.31 0)
+		(at 106.68 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10799,7 +12409,7 @@
 		(dnp no)
 		(uuid "e024f797-ff28-4c2f-8e58-aa2d5e683b97")
 		(property "Reference" "C41"
-			(at 101.854 60.452 90)
+			(at 108.204 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +12418,7 @@
 			)
 		)
 		(property "Value" "4.7uF@50V"
-			(at 99.314 60.452 90)
+			(at 105.664 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +12427,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 101.2952 71.12 0)
+			(at 107.6452 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +12436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 67.31 0)
+			(at 106.68 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,7 +12445,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 67.31 0)
+			(at 106.68 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,7 +12454,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 100.33 67.31 90)
+			(at 106.68 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,7 +12463,7 @@
 			)
 		)
 		(property "LCSC Part #" "C29823"
-			(at 100.33 67.31 90)
+			(at 106.68 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,6 +12478,12 @@
 			(uuid "87461634-9b34-40b3-acee-e820cd94c20b")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C41")
@@ -10934,6 +12550,12 @@
 			(uuid "e1493c36-6c7c-4217-8445-bc00eea3abc2")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0164")
@@ -11022,6 +12644,12 @@
 			(uuid "a2d61a04-d906-4866-a166-804934fa9320")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R21")
@@ -11048,7 +12676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF@63V"
+		(property "Value" "220uF@80V"
 			(at 42.926 60.706 90)
 			(effects
 				(font
@@ -11057,7 +12685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 42.8752 71.12 0)
 			(effects
 				(font
@@ -11075,7 +12703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100uF 63V ±20% Plugin,D8xL12mm Aluminum Electrolytic Capacitors"
+		(property "Description" "220uF 80V Plugin,D10xL16mm  Aluminum Electrolytic Capacitors - Leaded ROHS"
 			(at 41.91 67.31 0)
 			(effects
 				(font
@@ -11093,7 +12721,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C7436417"
+		(property "LCSC Part #" "C2937593"
 			(at 41.91 67.31 90)
 			(effects
 				(font
@@ -11109,6 +12737,12 @@
 			(uuid "761c8a73-252c-4b03-8515-9a929d7a1917")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C42")
@@ -11175,6 +12809,12 @@
 			(uuid "72dc7d06-d16c-49e5-be61-24fb95c79477")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0156")
@@ -11269,6 +12909,12 @@
 			(uuid "a3349b9b-c50c-4aec-9a49-a4a925667e71")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R30")
@@ -11356,6 +13002,12 @@
 			(uuid "2dcc318b-c1be-4fdd-ab52-7d71c65047c1")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C55")
@@ -11443,6 +13095,12 @@
 			(uuid "3b0e8ba6-e88b-4448-8c5b-23eb2ea18dd4")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C46")
@@ -11543,6 +13201,12 @@
 			(uuid "eda51945-7a55-49d2-a951-7c54b9745018")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q9")
@@ -11631,6 +13295,12 @@
 			(uuid "a3de4392-76a2-4dc6-a1f8-b7a8a66d6106")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "C47")
@@ -11731,6 +13401,12 @@
 			(uuid "c808a4ba-6f80-4a14-9f47-ed2ed2d480eb")
 		)
 		(instances
+			(project "Charger"
+				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "Q6")
@@ -11739,4 +13415,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

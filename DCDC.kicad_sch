@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2025-10-12")
+		(date "2026-04-04")
 		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
@@ -5918,7 +5918,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 340.36 135.8899 0)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 336.042 134.62 90)
 			(effects
 				(font
@@ -5945,7 +5945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 337.82 134.62 0)
 			(effects
 				(font
@@ -5963,7 +5963,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C17513"
+		(property "LCSC Part #" "C25744"
 			(at 337.82 134.62 0)
 			(effects
 				(font

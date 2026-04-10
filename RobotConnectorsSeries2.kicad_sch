@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2025-10-12")
+		(date "2026-04-04")
 		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
@@ -6898,7 +6898,7 @@
 			(uuid "46a7c796-688b-4857-bde5-245672dc9133")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "U49")
 					(unit 3)
@@ -7002,7 +7002,7 @@
 			(uuid "46a7c796-688b-4857-bde5-245672dc9134")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "U49")
 					(unit 2)
@@ -8262,7 +8262,7 @@
 			(uuid "a667c620-4a96-432c-8475-335c5a56f754")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "U50")
 					(unit 2)
@@ -8651,7 +8651,7 @@
 			(uuid "a667c620-4a96-432c-8475-335c5a56f755")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "U50")
 					(unit 3)
@@ -9178,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Top_Bottom"
+		(property "Value" "Conn_02x04_Top_Bottom_MountingPin"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -9528,7 +9528,7 @@
 			(uuid "46a7c796-688b-4857-bde5-245672dc9135")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "U49")
 					(unit 1)
@@ -10457,7 +10457,7 @@
 			(uuid "a667c620-4a96-432c-8475-335c5a56f756")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "U50")
 					(unit 1)
@@ -10600,7 +10600,7 @@
 			(uuid "696dba1e-201d-429b-aa6a-373050e2da41")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f/dd64c4b9-f40c-48f2-9722-a05c0658867e"
 					(reference "JP2")
 					(unit 1)
@@ -10770,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Top_Bottom"
+		(property "Value" "Conn_02x04_Top_Bottom_MountingPin"
 			(at 78.994 72.39 0)
 			(effects
 				(font

@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -90,6 +90,10 @@
         ],
         [
           "courtyards_overlap|25544423|79105000|d6db9de8-7e7c-4af8-a43a-c703fc6e6d10|da2ba389-4996-4ebb-8f66-cfa11dda5b6f",
+          ""
+        ],
+        [
+          "courtyards_overlap|264573413|137039446|898cc188-fcea-459c-8dad-d8a62bffe793|963c2db9-0166-4fcd-80f8-48f4710ea247",
           ""
         ],
         [
@@ -1099,6 +1103,312 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATEST_REVISION_NOTE",
+          "name": "LATEST_REVISION_NOTE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Number_of_Positions",
+          "name": "Number_of_Positions",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORIENTATION",
+          "name": "ORIENTATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIBRARY_REF",
+          "name": "LIBRARY_REF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONNECTOR",
+          "name": "CONNECTOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT_REFERENCE",
+          "name": "FOOTPRINT_REFERENCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_DESCRIPTION",
+          "name": "PART_DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_REV",
+          "name": "PART_REV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH",
+          "name": "PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LIBRARY_PATH",
+          "name": "LIBRARY_PATH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POSITIONS",
+          "name": "POSITIONS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHED",
+          "name": "PUBLISHED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PUBLISHER",
+          "name": "PUBLISHER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_LINK",
+          "name": "MANUFACTURER_LINK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EU_RoHS_Compliance",
+          "name": "EU_RoHS_Compliance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Product_Type",
+          "name": "Product_Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RESISTANCE",
+          "name": "RESISTANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS_COMPLIANT",
+          "name": "ROHS_COMPLIANT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT_RATING",
+          "name": "CURRENT_RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SERIES",
+          "name": "SERIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SIGNAL_INTEGRITY",
+          "name": "SIGNAL_INTEGRITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PACKAGE_ID",
+          "name": "SNAPEDA_PACKAGE_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SPICE_MODEL",
+          "name": "SPICE_MODEL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Centerline_Pitch",
+          "name": "Centerline_Pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE",
+          "name": "CASE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FINISH",
+          "name": "FINISH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GENDER",
+          "name": "GENDER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TECHNOLOGY",
+          "name": "TECHNOLOGY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC",
+          "name": "JLC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONFIGURATION",
+          "name": "CONFIGURATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT",
+          "name": "FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE_RATING_AC",
+          "name": "VOLTAGE_RATING_AC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE_RATING_DC",
+          "name": "VOLTAGE_RATING_DC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATEST_REVISION_DATE",
+          "name": "LATEST_REVISION_DATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESIGNATOR",
+          "name": "DESIGNATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "APPLICATION",
+          "name": "APPLICATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT_PATH",
+          "name": "FOOTPRINT_PATH",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1106,7 +1416,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "MFPN"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

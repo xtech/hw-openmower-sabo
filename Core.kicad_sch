@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2025-10-12")
+		(date "2026-04-04")
 		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")

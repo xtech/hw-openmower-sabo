@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2025-10-12")
+		(date "2026-04-04")
 		(rev "v0.4")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
@@ -11440,7 +11440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternative" ""
+		(property "FT Rotation Offset" "-90"
 			(at 134.62 69.85 0)
 			(effects
 				(font
@@ -11525,7 +11525,7 @@
 			(uuid "01d37617-0462-46e1-a8ae-827a28a2f794")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U48")
 					(unit 1)
@@ -11897,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -12590,7 +12590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -12933,7 +12933,7 @@
 			(uuid "ac89cbf8-9b3a-485d-848e-5a45701cb3cf")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "R11")
 					(unit 1)
@@ -13508,7 +13508,7 @@
 			(uuid "8394db97-e745-4126-876f-37b6ae0c524e")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "TP2")
 					(unit 1)
@@ -15049,7 +15049,7 @@
 			(uuid "3e4ee3d7-a981-4560-9cbf-d28a97b1560c")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR02")
 					(unit 1)
@@ -15600,7 +15600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 172.72 43.18 0)
 			(effects
 				(font
@@ -15686,7 +15686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -16055,7 +16055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -16580,7 +16580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 160.02 43.18 0)
 			(effects
 				(font
@@ -16733,7 +16733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -19567,7 +19567,7 @@
 			(uuid "218b071e-c6b1-4db0-9840-c70cb6781b60")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C99")
 					(unit 1)
@@ -20216,7 +20216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 262.89 213.36 0)
 			(effects
 				(font
@@ -20555,7 +20555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 154.94 43.18 0)
 			(effects
 				(font
@@ -20792,7 +20792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
 			(at 165.1 43.18 0)
 			(effects
 				(font
@@ -20925,7 +20925,7 @@
 			(uuid "7afa2a80-706f-40cc-b07a-7fc36a650f2f")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "U45")
 					(unit 1)
@@ -21262,7 +21262,7 @@
 			(uuid "71cf7c64-99ec-4b35-89ef-396821ee5845")
 		)
 		(instances
-			(project ""
+			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "C98")
 					(unit 1)
