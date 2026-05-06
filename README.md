@@ -4,10 +4,6 @@
 ![SABO MOWiT 500F Series-2](assets/sabo-mowit-500f-s2.jpg)
 ![John Deere Tango E5](assets/johndeere-tango-e5.jpg)
 
-## Information
-
-This hardware version is in beta state. Expect for things to not work at the current state!
-
 ## About This Repo
 
 OpenMower is an open-source project that upgrades off-the-shelf robotic mowers into modern, smart lawn mowing robots with RTK GPS technology. For more details, check out the [OpenMower project](https://github.com/clemensElflein/openmower).
