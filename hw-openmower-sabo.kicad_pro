@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -38,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 4.6,
-          "width": 3.6
+          "height": 0.35,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -49,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.3,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -133,10 +151,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|154200000|73500000|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|160100000|111100001|0b6bbbe7-e4c0-4c5a-886a-f7609d4ba3bb|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -149,31 +163,11 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|213717677|92700000|06530370-e220-467a-8003-a49b209a3407|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|22930302|81784999|d6db9de8-7e7c-4af8-a43a-c703fc6e6d10|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|238095000|139665000|30f56ae0-826b-41f5-abf4-51d94fd3ac8e|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|239895000|131415000|462b958b-8bbf-4201-8871-d03987021c7c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|258400000|38600000|535d4f0c-d781-4061-8729-916aff8a4561|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|266529698|72684999|50b5ae5c-5fd6-4fcd-b14d-1fae712eeb6e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|268500000|38600000|b60d9378-7b28-411f-bcf4-20cf23212b5f|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -225,11 +219,27 @@
           ""
         ],
         [
-          "starved_thermal|196140000|109900000|8f5edec1-7538-410d-aecb-caadf2346d1b|95ccb0ef-eaee-442c-9590-d91e98c793b6|F.Cu",
+          "starved_thermal|193290000|109250000|8f5edec1-7538-410d-aecb-caadf2346d1b|7c00977a-a52a-4220-9ba5-46b0bb96d1e7|F.Cu",
           ""
         ],
         [
-          "starved_thermal|215350000|139388640|b5c7cbbd-f329-4c8a-ada5-b68a39c2b429|9dbf9210-2314-4af5-9d88-6e497ba4b560|F.Cu",
+          "starved_thermal|193860000|109900000|8f5edec1-7538-410d-aecb-caadf2346d1b|a2c73fde-0e3d-4703-aa72-6cde52fc6f9b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|194430000|109250000|8f5edec1-7538-410d-aecb-caadf2346d1b|ed1b28d2-2037-4492-ab69-614b40f5e105|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|195000000|109900000|8f5edec1-7538-410d-aecb-caadf2346d1b|ce637182-5d22-46e3-83e0-0677224d05f5|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|195570000|109250000|8f5edec1-7538-410d-aecb-caadf2346d1b|fb52cfd9-e124-49a1-93ab-b63a12555a70|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|196710000|109250000|8f5edec1-7538-410d-aecb-caadf2346d1b|5f330be2-f553-48f2-808e-c7c9053e8020|F.Cu",
           ""
         ]
       ],
@@ -251,6 +261,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -269,6 +280,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -288,9 +300,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -419,17 +434,28 @@
       "zones_use_no_outline": true
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "v0.5-dev"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -657,11 +683,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -684,6 +713,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -716,6 +746,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -731,12 +762,13 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -771,6 +803,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "hw-openmower-sabo.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -799,10 +835,10 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Footprint",
+          "group_by": false,
+          "label": "FOOTPRINT",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -844,12 +880,6 @@
           "group_by": false,
           "label": "DNP",
           "name": "DNP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DigiKey",
-          "name": "DigiKey",
           "show": false
         },
         {
@@ -944,12 +974,6 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MAXIMUM_PACKAGE_HEIGHT",
           "name": "MAXIMUM_PACKAGE_HEIGHT",
           "show": false
@@ -982,12 +1006,6 @@
           "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
           "show": false
         },
         {
@@ -1070,12 +1088,6 @@
         },
         {
           "group_by": false,
-          "label": "Type",
-          "name": "Type",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Power(Watts)",
           "name": "Power(Watts)",
           "show": false
@@ -1084,12 +1096,6 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Resistance",
-          "name": "Resistance",
           "show": false
         },
         {
@@ -1364,12 +1370,6 @@
         },
         {
           "group_by": false,
-          "label": "FOOTPRINT",
-          "name": "FOOTPRINT",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "VOLTAGE_RATING_AC",
           "name": "VOLTAGE_RATING_AC",
           "show": false
@@ -1411,12 +1411,26 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "F",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "LCSC Part #"
+    },
+    "bus_aliases": {
+      "ETH_TPI": [
+        "PAIR_A_N",
+        "PAIR_A_P",
+        "PAIR_B_N",
+        "PAIR_B_P",
+        "PAIR_C_N",
+        "PAIR_C_P",
+        "PAIR_D_N",
+        "PAIR_D_P",
+        "LED_Y",
+        "LED_G"
+      ]
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1425,6 +1439,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1448,6 +1463,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1456,12 +1472,21 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "hw-openmower-sabo.kicad_sch",
+        "name": "hw-openmower-sabo",
+        "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+      }
+    ],
+    "used_designators": "",
+    "variants": []
   },
   "sheets": [
     [
       "e12e8a63-1d1b-4736-9aba-a87a258b2b11",
-      "Root"
+      "hw-openmower-sabo"
     ],
     [
       "21bbbd11-8ac8-4378-8d98-3992b8c47cac",
@@ -1518,5 +1543,11 @@
   ],
   "text_variables": {
     "git_version": "v0.0.0"
+  },
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
   }
 }

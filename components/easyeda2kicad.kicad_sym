@@ -33,124 +33,145 @@
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
+      "Manufacturer"
+      "YAGEO(国巨)"
+      (id 4)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "YC158TJR-0710KL"
+      (id 5)
+      (at 0 -22.86 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
       "LCSC Part"
       "C309679"
-      (id 5)
-      (at 0 -20.32 0)
+      (id 6)
+      (at 0 -25.40 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Resistors"
+      (id 8)
+      (at 0 -27.94 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (symbol "YC158TJR-0710KL_0_1"
       (rectangle
         (start -7.62 3.81)
         (end 7.62 -3.81)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type background))
       )
       (circle
         (center -5.08 -0.00)
         (radius 0.25)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (circle
         (center -2.54 -0.00)
         (radius 0.25)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (circle
         (center 0.00 -0.00)
         (radius 0.25)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (circle
         (center 2.54 -0.00)
         (radius 0.25)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (circle
         (center 5.08 -0.00)
         (radius 0.25)
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy -5.08 3.81) (xy -5.08 -0.00)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy -5.08 -0.00) (xy -5.08 -0.76) (xy -4.32 -1.27) (xy -5.59 -1.52) (xy -4.32 -2.29) (xy -5.59 -2.54) (xy -5.08 -3.05) (xy -5.08 -3.81)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 3.81) (xy -2.54 3.05) (xy -1.78 2.54) (xy -3.05 2.29) (xy -1.78 1.52) (xy -3.05 1.27) (xy -2.54 0.76) (xy -2.54 -0.00)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 -0.00) (xy -2.54 -0.76) (xy -1.78 -1.27) (xy -3.05 -1.52) (xy -1.78 -2.29) (xy -3.05 -2.54) (xy -2.54 -3.05) (xy -2.54 -3.81)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy 0.00 3.81) (xy 0.00 3.05) (xy 0.76 2.54) (xy -0.51 2.29) (xy 0.76 1.52) (xy -0.51 1.27) (xy 0.00 0.76) (xy 0.00 -0.00)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy 0.00 -0.00) (xy 0.00 -0.76) (xy 0.76 -1.27) (xy -0.51 -1.52) (xy 0.76 -2.29) (xy -0.51 -2.54) (xy 0.00 -3.05) (xy 0.00 -3.81)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 3.81) (xy 2.54 3.05) (xy 3.30 2.54) (xy 2.03 2.29) (xy 3.30 1.52) (xy 2.03 1.27) (xy 2.54 0.76) (xy 2.54 -0.00)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 -0.00) (xy 2.54 -0.76) (xy 3.30 -1.27) (xy 2.03 -1.52) (xy 3.30 -2.29) (xy 2.03 -2.54) (xy 2.54 -3.05) (xy 2.54 -3.81)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 3.81) (xy 5.08 3.05) (xy 5.84 2.54) (xy 4.57 2.29) (xy 5.84 1.52) (xy 4.57 1.27) (xy 5.08 0.76) (xy 5.08 -0.00)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy 5.08 -0.00) (xy 5.08 -3.81)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
           (xy -5.08 -0.00) (xy 5.08 -0.00)
         )
-        (stroke (width 0) (type default) (color 0 0 0 0))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (pin unspecified line
@@ -2835,6 +2856,262 @@
         (length 2.54)
         (name "EP" (effects (font (size 1.27 1.27))))
         (number "31" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "XF-508P-A-B"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "FUSE"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "XF-508P-A-B"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:FUSE-TH_XF-508P-A-B"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C19727304.pdf"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "XFCN(兴飞)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "XF-508P-A-B"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C19727304"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Fuse Holders"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "XF-508P-A-B_0_1"
+      (rectangle
+        (start -7.62 2.54)
+        (end 7.62 -2.54)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (rectangle
+        (start -6.35 1.27)
+        (end -2.54 -1.27)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (rectangle
+        (start 2.54 1.27)
+        (end 6.35 -1.27)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at -10.16 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 10.16 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "PTF-77"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "FH"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "PTF-77"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:FUSE-TH_L24.4-W9.4-P22.60"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Fuse-Holders_XFCN-PTF-77_C717030.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "XFCN(兴飞)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "PTF-77"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C717030"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Fuse Holders"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "PTF-77_0_1"
+      (rectangle
+        (start -3.30 0.76)
+        (end 3.30 -0.76)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (polyline
+        (pts
+          (xy -2.54 -0.00) (xy 2.54 -0.00)
+        )
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at 5.08 -0.00 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -5.08 -0.00 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "XF-003"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "FH"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "XF-003"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "easyeda2kicad:XF-003"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/Fuse-Holders_XFCN-XF-003_C717027.html"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "XFCN(兴飞)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "XF-003"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C717027"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Fuse Holders"
+      (id 8)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "XF-003_0_1"
+      (rectangle
+        (start -3.81 2.54)
+        (end -1.27 -2.54)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (pin unspecified line
+        (at 3.81 -0.00 180)
+        (length 5.08)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
