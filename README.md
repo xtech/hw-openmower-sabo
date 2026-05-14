@@ -134,7 +134,7 @@ This Carrierboard includes more features than actually required to build an Open
 
 | Version |  Date   | Info                                                                                                                                                                                                   |
 | :-----: | :-----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| v0.?.0  | 2026/07 | **In Development**<br>- Add Mow-ESC-Fuse for power ESCs<br>- Slightly improve power traces                                                                                                             |
+| v0.?.0  | 2026/07 | **In Development**<br>- Add Mow-ESC-Fuse for power ESCs<br>- Slightly improve power traces<br>- Improve mow-phases for 9A                                                                              |
 | v0.4.0  | 2026/05 | - Fix and improve v0.3.0 issues<br>- Skip one GPIO expander and switch to smaller footprint<br>- Rearrange LAN and USB Plug as well as skip 2nd optional LAN in favor of more space for Series-I plugs |
 | v0.3.0  | 2025/11 | **Internal Prototype**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility                                                  |
 | v0.2.1  | 2025/06 | - Add DCDC-In current sense and allow charge currents up to 2.8A<br>- BMS data support                                                                                                                 |
