@@ -105175,7 +105175,7 @@
 				)
 			)
 		)
-		(property "Value" "13k7 0.5%"
+		(property "Value" "14k3 0.1%"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -105200,7 +105200,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±0.5% 13.7kΩ 0603 Chip Resistor"
+		(property "Description" "-55℃~+155℃ 100mW 14.3kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105213,7 +105213,7 @@
 				)
 			)
 		)
-		(property "PN" "0603WAD1372T5E"
+		(property "PN" "RT0603BRD0714K3L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105239,7 +105239,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C407628"
+		(property "LCSC Part #" "C861131"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

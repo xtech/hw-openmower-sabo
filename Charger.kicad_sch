@@ -3052,7 +3052,7 @@
 		)
 		(uuid "967c2e14-2d76-4683-b3be-0482ed914862")
 	)
-	(text "R_{BOTCALC} = 13.76 kOhms = 29.4 V_{CHARGE}\n\nV_{BAT} = 1,536*(1+(R_{TOP}/(R_{BOT}-33)))\n\n7S3P INR18650-13L LiIon:\n- 21.0? V_{EMPTY}, 25.2 V_{NOM}, 29.4 V_{CHARGE}\n- 98.28 Wh, 3.9 Ah\n- 1.95A I_{CHARGE-TYP}, 3.9A I_{CHARGE-MAX}"
+	(text "V_{BAT} = 1,536*(1+(R_{TOP}/(R_{BOT}-33)))\n\nR_{BOTCALC} = 14.3k Ohms = 4.04V_{Cell} => 28.28 V_{BAT}\n\n7S3P INR18650-13L LiIon:\n- 21.0? V_{EMPTY}, 25.2 V_{NOM}, 29.4 V_{CHARGE}\n- 98.28 Wh, 3.9 Ah\n- 1.95A I_{CHARGE-TYP}, 3.9A I_{CHARGE-MAX}"
 		(exclude_from_sim no)
 		(at 342.138 166.624 0)
 		(effects
@@ -7018,7 +7018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13k7 0.5%"
+		(property "Value" "14k3 0.1%"
 			(at 336.55 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7051,7 +7051,7 @@
 				)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±0.5% 13.7kΩ 0603 Chip Resistor"
+		(property "Description" "-55℃~+155℃ 100mW 14.3kΩ 75V Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 334.01 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7062,7 +7062,7 @@
 				)
 			)
 		)
-		(property "PN" "0603WAD1372T5E"
+		(property "PN" "RT0603BRD0714K3L"
 			(at 334.01 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7084,7 +7084,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C407628"
+		(property "LCSC Part #" "C861131"
 			(at 334.01 152.4 0)
 			(hide yes)
 			(show_name no)
