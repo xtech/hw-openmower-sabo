@@ -103,7 +103,7 @@
           ""
         ],
         [
-          "courtyards_overlap|163725000|75355000|27648edf-c2da-43f4-a674-ceb99dd44f3a|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          "courtyards_overlap|164475000|75835000|27648edf-c2da-43f4-a674-ceb99dd44f3a|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
         [
@@ -1397,9 +1397,21 @@
           "label": "FOOTPRINT_PATH",
           "name": "FOOTPRINT_PATH",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
         }
       ],
-      "filter_string": "J",
+      "filter_string": "R",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -1468,7 +1480,7 @@
         "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
       }
     ],
-    "used_designators": "JP3-4",
+    "used_designators": "R83,R85",
     "variants": []
   },
   "sheets": [

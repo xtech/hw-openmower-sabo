@@ -4343,16 +4343,6 @@
 		)
 		(uuid "b11709eb-ec0c-46f0-8678-3f960f3f1e51")
 	)
-	(text "(PF7)"
-		(exclude_from_sim no)
-		(at 57.15 178.054 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bff53329-a4e5-4270-a95d-0a0a7a9bd15b")
-	)
 	(text "Identification for this Mainboard Version"
 		(exclude_from_sim no)
 		(at 36.322 17.78 0)
@@ -4373,16 +4363,6 @@
 			(justify left)
 		)
 		(uuid "d0aac6a4-de5d-40c4-bdc8-38ee7b5791d8")
-	)
-	(text "(PA8)"
-		(exclude_from_sim no)
-		(at 66.294 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e009f037-50c2-45c1-844b-35fab62b6cf4")
 	)
 	(junction
 		(at 46.99 25.4)
@@ -4604,7 +4584,7 @@
 		(uuid "0308eb6c-f252-4e3a-b8cb-6c24d91f442e")
 	)
 	(bus_entry
-		(at 302.26 134.62)
+		(at 293.37 134.62)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -4703,7 +4683,7 @@
 		(uuid "889f7b5d-2f01-440a-84da-cbea0f4037a6")
 	)
 	(bus_entry
-		(at 302.26 137.16)
+		(at 293.37 137.16)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -4790,7 +4770,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 176.53) (xy 72.39 176.53)
+			(xy 60.96 168.91) (xy 72.39 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +4910,7 @@
 	)
 	(bus
 		(pts
-			(xy 302.26 134.62) (xy 281.94 134.62)
+			(xy 293.37 134.62) (xy 273.05 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5100,7 +5080,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 179.07) (xy 72.39 179.07)
+			(xy 60.96 171.45) (xy 72.39 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5330,6 +5310,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 177.8) (xy 54.61 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e330665-2c9c-4af2-b872-d2550853966a")
+	)
+	(wire
+		(pts
 			(xy 217.17 224.79) (xy 217.17 231.14)
 		)
 		(stroke
@@ -5550,7 +5540,7 @@
 	)
 	(bus
 		(pts
-			(xy 302.26 134.62) (xy 302.26 137.16)
+			(xy 293.37 134.62) (xy 293.37 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5990,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 139.7) (xy 321.31 139.7)
+			(xy 295.91 139.7) (xy 321.31 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6067,6 +6057,16 @@
 			(type default)
 		)
 		(uuid "86a8bffa-0f2c-480a-ab4b-0086193e2e47")
+	)
+	(wire
+		(pts
+			(xy 62.23 177.8) (xy 72.39 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c8e965-dc2b-41ca-9796-8030e5618d5d")
 	)
 	(bus
 		(pts
@@ -6227,16 +6227,6 @@
 			(type default)
 		)
 		(uuid "9ab5ccd8-2a31-4462-9c5d-0d762debbfc4")
-	)
-	(wire
-		(pts
-			(xy 53.34 171.45) (xy 72.39 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b9a88e1-9b7b-46a5-82a2-dfa65a214f78")
 	)
 	(wire
 		(pts
@@ -6460,7 +6450,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 137.16) (xy 321.31 137.16)
+			(xy 295.91 137.16) (xy 307.34 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6530,7 +6520,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 181.61) (xy 72.39 181.61)
+			(xy 60.96 173.99) (xy 72.39 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6910,6 +6900,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 137.16) (xy 321.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f08894-62f2-4ebc-9275-101f608134f0")
+	)
+	(wire
+		(pts
 			(xy 189.23 241.3) (xy 204.47 241.3)
 		)
 		(stroke
@@ -7110,6 +7110,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 180.34) (xy 72.39 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcec4fab-2b71-4d41-a755-80fb4862adf8")
+	)
+	(wire
+		(pts
 			(xy 337.82 129.54) (xy 334.01 129.54)
 		)
 		(stroke
@@ -7127,16 +7137,6 @@
 			(type default)
 		)
 		(uuid "ff353001-719c-415f-80b0-929df59dfe45")
-	)
-	(wire
-		(pts
-			(xy 53.34 168.91) (xy 72.39 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff896917-fde1-48e4-8973-0ee83149b2c6")
 	)
 	(wire
 		(pts
@@ -7199,7 +7199,7 @@
 		(uuid "030b33a9-816b-407d-a1eb-e72b892f4900")
 	)
 	(label "GPIO5"
-		(at 60.96 176.53 0)
+		(at 60.96 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7219,7 +7219,7 @@
 		(uuid "0862dbce-4b06-42d0-880d-a96a84582827")
 	)
 	(label "UART8.TX"
-		(at 304.8 137.16 0)
+		(at 297.18 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7389,7 +7389,7 @@
 		(uuid "20dd0dd0-d799-4c30-965e-a36c69a04d8e")
 	)
 	(label "UART7.RX"
-		(at 53.34 168.91 0)
+		(at 45.72 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7519,7 +7519,7 @@
 		(uuid "453604eb-9439-47b1-a380-22aa87b89010")
 	)
 	(label "UART8{TX RX}"
-		(at 281.94 134.62 0)
+		(at 273.05 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7679,7 +7679,7 @@
 		(uuid "76e26da9-52e3-44a0-9024-e5e352502052")
 	)
 	(label "GPIO8"
-		(at 53.34 171.45 0)
+		(at 60.96 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7699,7 +7699,7 @@
 		(uuid "7ae44f36-147c-4293-af6a-4496b951d139")
 	)
 	(label "AGPIO4"
-		(at 60.96 181.61 0)
+		(at 60.96 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8109,7 +8109,7 @@
 		(uuid "cd6c9d6d-0136-4a48-ab97-2589c753c5fb")
 	)
 	(label "UART7.TX"
-		(at 60.96 179.07 0)
+		(at 45.72 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8259,7 +8259,7 @@
 		(uuid "f159d9ca-e05d-4c11-962a-e49dd1fabd77")
 	)
 	(label "UART8.RX"
-		(at 304.8 139.7 0)
+		(at 297.18 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10092,6 +10092,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 311.15 137.16 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65e83f36-cb6d-43ea-9c9b-1288d4aeb1fd")
+		(property "Reference" "R84"
+			(at 311.15 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 311.15 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 311.15 138.938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 311.15 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 311.15 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 311.15 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6995462-3f42-4256-af9d-913754e154fd")
+		)
+		(pin "1"
+			(uuid "75c4cac5-08dd-4568-9172-897c2bbc623a")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 140.97 229.87 180)
 		(unit 1)
@@ -11166,6 +11268,108 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 177.8 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "868ea8f1-fdea-4d71-90b8-84271ec52089")
+		(property "Reference" "R85"
+			(at 63.246 176.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 58.42 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 58.42 179.578 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 58.42 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 58.42 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c6fd7cd-b886-427d-a226-f08675801a47")
+		)
+		(pin "1"
+			(uuid "4d0e4ca3-e3c4-4a6c-969a-ebfe3b96659d")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -14958,7 +15162,7 @@
 			)
 		)
 		(pin "LCD_~{RST}" input
-			(at 72.39 179.07 180)
+			(at 72.39 171.45 180)
 			(uuid "98016762-ce89-4365-a001-104094212356")
 			(effects
 				(font
@@ -14968,7 +15172,7 @@
 			)
 		)
 		(pin "LCD_~{C}D" input
-			(at 72.39 181.61 180)
+			(at 72.39 173.99 180)
 			(uuid "a1e08db2-a76f-40c6-9e02-c6fe32763795")
 			(effects
 				(font
@@ -14978,7 +15182,7 @@
 			)
 		)
 		(pin "LCD_~{CE}" input
-			(at 72.39 176.53 180)
+			(at 72.39 168.91 180)
 			(uuid "bfa9a394-c48b-488f-a030-ef46a6c31279")
 			(effects
 				(font
@@ -15027,9 +15231,9 @@
 				(justify left)
 			)
 		)
-		(pin "UI_S1_~{CON}" input
-			(at 72.39 168.91 180)
-			(uuid "a78a5c4b-067a-4f60-b33c-de3edcd76ade")
+		(pin "ALT_BMS_RX" input
+			(at 72.39 177.8 180)
+			(uuid "d5611cf7-bf07-409a-a173-4f817d8318c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15037,9 +15241,9 @@
 				(justify left)
 			)
 		)
-		(pin "UI_S2_~{CON}" input
-			(at 72.39 171.45 180)
-			(uuid "280eadc1-8e1f-4631-9ee3-135263370d15")
+		(pin "ALT_BMS_TX" output
+			(at 72.39 180.34 180)
+			(uuid "66b0b3b5-6eca-4bcb-a157-63a9be5b466e")
 			(effects
 				(font
 					(size 1.27 1.27)

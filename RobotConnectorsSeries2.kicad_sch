@@ -10929,7 +10929,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 234.95 45.212 90)
+			(at 234.95 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

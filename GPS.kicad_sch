@@ -1950,7 +1950,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 217.424 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1960,7 +1960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 217.17 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -1982,7 +1982,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2004,7 +2004,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17520"
+		(property "LCSC Part #" "C11702"
 			(at 217.17 97.79 90)
 			(hide yes)
 			(show_name no)

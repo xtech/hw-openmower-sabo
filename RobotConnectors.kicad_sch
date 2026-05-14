@@ -12,129 +12,6 @@
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_B_Mini"
 			(pin_names
 				(offset 1.016)
@@ -4454,6 +4331,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:ZX-HY2.0-4PZZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZX-HY2.0-4PZZ"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-TH_4P-P2.00_HX20020-4A_2"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7429580.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Megastar(兆星)"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ZX-HY2.0-4PZZ"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C7429580"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ZX-HY2.0-4PZZ_0_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+36V"
 			(power global)
 			(pin_numbers
@@ -5233,6 +5311,12 @@
 		(uuid "1479baaa-9c35-4b15-a8f9-cb08f2187c2d")
 	)
 	(junction
+		(at 157.48 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a22313a-43ac-43c3-9034-b4cc9423213f")
+	)
+	(junction
 		(at 36.83 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5377,6 +5461,12 @@
 		(uuid "63315682-5779-4507-a8ac-441c07444dce")
 	)
 	(junction
+		(at 154.94 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64b46e93-341c-4eb5-a116-07caef976fb5")
+	)
+	(junction
 		(at 207.01 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5489,6 +5579,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9358a6f4-30f7-413b-932f-7827bb0ee03c")
+	)
+	(junction
+		(at 157.48 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e8416d-2f0e-495d-ae69-e83c1c198cf4")
 	)
 	(junction
 		(at 175.26 72.39)
@@ -5635,6 +5731,12 @@
 		(uuid "dc2378f1-cdd3-443f-80e8-f42264b47fc6")
 	)
 	(junction
+		(at 125.73 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2e026b3-3538-4c27-8522-2be3000797b1")
+	)
+	(junction
 		(at 349.25 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5739,6 +5841,10 @@
 	(no_connect
 		(at 59.69 252.73)
 		(uuid "b40b08f9-2d00-4a86-90dd-64450f62164f")
+	)
+	(no_connect
+		(at 132.08 132.08)
+		(uuid "c1abe5ac-ccb6-47bd-958c-a31dc74e7a51")
 	)
 	(no_connect
 		(at 59.69 255.27)
@@ -6120,6 +6226,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 134.62) (xy 132.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6ea7ac-81dc-429c-8fb9-9303acb2c2fe")
+	)
+	(wire
+		(pts
 			(xy 19.05 53.34) (xy 24.13 53.34)
 		)
 		(stroke
@@ -6297,6 +6413,16 @@
 			(type default)
 		)
 		(uuid "15454382-4791-452a-9a93-76f5b044c9e5")
+	)
+	(wire
+		(pts
+			(xy 157.48 102.87) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15920bed-fc17-43a8-a2d3-33abb313d493")
 	)
 	(wire
 		(pts
@@ -6558,16 +6684,6 @@
 		)
 		(uuid "1fe1fb17-0db2-4cdd-bad3-d875ed766e21")
 	)
-	(wire
-		(pts
-			(xy 222.25 115.57) (xy 238.76 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207917ba-f964-4515-bc6d-a91f67cbb4d2")
-	)
 	(bus
 		(pts
 			(xy 284.48 25.4) (xy 289.56 25.4)
@@ -6620,7 +6736,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 90.17) (xy 167.64 90.17)
+			(xy 152.4 90.17) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6930,6 +7046,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 102.87) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e19e99-3987-420c-99ff-8fe92288e1c8")
+	)
+	(wire
+		(pts
 			(xy 276.86 278.13) (xy 285.75 278.13)
 		)
 		(stroke
@@ -7167,6 +7293,16 @@
 			(type default)
 		)
 		(uuid "439ecb1f-85ee-4c1c-bc00-2b3c160b832b")
+	)
+	(wire
+		(pts
+			(xy 130.81 140.97) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43bf0f35-c590-481d-bfd2-daf4ecfa4fb2")
 	)
 	(wire
 		(pts
@@ -7660,6 +7796,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625c54bd-2770-4b2d-962f-f49d7eb7e588")
+	)
+	(wire
+		(pts
 			(xy 374.65 62.23) (xy 374.65 76.2)
 		)
 		(stroke
@@ -7920,6 +8066,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 132.08) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721569e9-fce7-4b25-b652-25beb1afdede")
+	)
+	(wire
+		(pts
 			(xy 262.89 217.17) (xy 262.89 226.06)
 		)
 		(stroke
@@ -7927,6 +8083,16 @@
 			(type default)
 		)
 		(uuid "731d17cc-6a9e-47f4-b59e-cf0c586f77eb")
+	)
+	(wire
+		(pts
+			(xy 207.01 36.83) (xy 238.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74991a77-6eef-47fc-ab1d-52d993cf9d42")
 	)
 	(wire
 		(pts
@@ -8017,6 +8183,16 @@
 			(type default)
 		)
 		(uuid "7ee38274-08c1-42e8-9025-40f45084a890")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1bfe5f-a20f-4598-8e1c-3eb4ef0486f5")
 	)
 	(wire
 		(pts
@@ -8347,16 +8523,6 @@
 			(type default)
 		)
 		(uuid "8fe878a6-d24b-426e-a697-82d59a2a2583")
-	)
-	(wire
-		(pts
-			(xy 218.44 36.83) (xy 238.76 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9084dc53-9270-4dc7-8bde-66ed9ba60636")
 	)
 	(wire
 		(pts
@@ -8730,6 +8896,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 87.63) (xy 207.01 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44bac44-a41f-4e64-8635-3229068c9eb2")
+	)
+	(wire
+		(pts
 			(xy 337.82 233.68) (xy 345.44 233.68)
 		)
 		(stroke
@@ -8750,6 +8926,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 87.63) (xy 207.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52b2391-bd3d-48f8-8bea-daca91de14d4")
+	)
+	(wire
+		(pts
 			(xy 386.08 243.84) (xy 378.46 243.84)
 		)
 		(stroke
@@ -8767,6 +8953,16 @@
 			(type default)
 		)
 		(uuid "a635cf88-90a4-457e-8d1e-10196ae89196")
+	)
+	(wire
+		(pts
+			(xy 207.01 115.57) (xy 238.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69e999d-0b05-4b9c-aad3-b2726ec3d183")
 	)
 	(wire
 		(pts
@@ -8900,6 +9096,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 134.62) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1be76d1-0c2d-41f5-9504-0b7b5b47ae5e")
+	)
+	(wire
+		(pts
 			(xy 284.48 162.56) (xy 300.99 162.56)
 		)
 		(stroke
@@ -9017,6 +9223,16 @@
 			(type default)
 		)
 		(uuid "bae35013-3ca1-4d0e-8e9d-c184795ddcba")
+	)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 207.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0ee1d2-f6fb-4bd2-a0f0-e4c1fccc0de0")
 	)
 	(wire
 		(pts
@@ -9280,6 +9496,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 119.38) (xy 125.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7f9055-53bf-4eb0-b569-dcc010522fc8")
+	)
+	(wire
+		(pts
 			(xy 215.9 278.13) (xy 226.06 278.13)
 		)
 		(stroke
@@ -9347,6 +9573,26 @@
 			(type default)
 		)
 		(uuid "cd406999-8bb1-4300-9b0c-a518a8f9d247")
+	)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd59fc1f-1d68-4fb5-ab9a-a02d92a9b28d")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda79175-2695-4a02-b35e-37ea00a29d26")
 	)
 	(wire
 		(pts
@@ -9447,6 +9693,16 @@
 			(type default)
 		)
 		(uuid "d0f8063c-d6c3-4806-a3f5-d1788f7939cd")
+	)
+	(wire
+		(pts
+			(xy 207.01 90.17) (xy 207.01 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1783849-e413-4c06-bca7-4d75ddba9e1a")
 	)
 	(wire
 		(pts
@@ -9690,7 +9946,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 87.63) (xy 167.64 87.63)
+			(xy 152.4 87.63) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
@@ -10929,6 +11185,16 @@
 		)
 		(uuid "7600debf-c1a4-40fb-a0e2-b53e826a35ab")
 	)
+	(label "3.3V"
+		(at 125.73 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "775db982-1593-4cbb-9922-8aa1abee8b68")
+	)
 	(label "LCD_MOSI_3V"
 		(at 334.01 189.23 0)
 		(effects
@@ -10968,6 +11234,16 @@
 			(justify right bottom)
 		)
 		(uuid "80fff6af-b901-440f-82ee-5549c9a61b87")
+	)
+	(label "5V"
+		(at 161.29 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8384781f-6091-48bd-b72f-08cd86662326")
 	)
 	(label "USS_1_ECHO_5V"
 		(at 78.74 250.19 180)
@@ -11651,6 +11927,17 @@
 		)
 		(uuid "1bcab16c-35d1-4793-8854-d238509b4008")
 	)
+	(hierarchical_label "ALT_BMS_RX"
+		(shape input)
+		(at 120.65 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fc3a739-50cf-4a50-b634-cbf2f9687015")
+	)
 	(hierarchical_label "V_CHARGE_SENSE"
 		(shape output)
 		(at 64.77 66.04 0)
@@ -11738,17 +12025,6 @@
 			(justify left)
 		)
 		(uuid "3f378325-1370-4932-9c6f-6bf90c76228a")
-	)
-	(hierarchical_label "UI_S2_~{CON}"
-		(shape input)
-		(at 222.25 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42197ad3-4621-46f7-82b8-99e0bf4527a0")
 	)
 	(hierarchical_label "MR_HALL_SENSOR{U V W}"
 		(shape output)
@@ -11882,16 +12158,16 @@
 		)
 		(uuid "966bb89c-771b-4aae-9408-7b07a46702da")
 	)
-	(hierarchical_label "UI_S1_~{CON}"
-		(shape input)
-		(at 218.44 36.83 180)
+	(hierarchical_label "ALT_BMS_TX"
+		(shape output)
+		(at 120.65 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9b1b8eb9-7e97-4aaa-8349-506e5b16ccb7")
+		(uuid "9b4f53c8-c929-4987-9219-fb4ffb27d73c")
 	)
 	(hierarchical_label "HALL0"
 		(shape output)
@@ -14129,6 +14405,127 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:ZX-HY2.0-4PZZ")
+		(at 135.89 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c333e26-35a2-4cdb-8637-bf8bb50fd7cf")
+		(property "Reference" "CN1"
+			(at 140.97 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZX-HY2.0-4PZZ"
+			(at 140.97 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_4P-P2.00_HX20020-4A_2"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7429580.pdf"
+			(at 135.89 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Megastar(兆星)"
+			(at 135.89 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ZX-HY2.0-4PZZ"
+			(at 135.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7429580"
+			(at 135.89 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "13c355d6-f8b0-40af-be0e-a53e58f8433c")
+		)
+		(pin "1"
+			(uuid "2c49ac50-654a-4fcf-88d6-40b87e9e4611")
+		)
+		(pin "2"
+			(uuid "d828bcb2-fb6f-499e-be98-2a6cba4bf0b2")
+		)
+		(pin "4"
+			(uuid "1e79ced1-dcb4-4e7b-a410-876b9a041563")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 234.95 90)
 		(mirror x)
@@ -14280,6 +14677,108 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 128.27 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d23f29c-6493-45a3-97a3-28f5497a930e")
+		(property "Reference" "R83"
+			(at 127 123.698 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 125.73 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.952 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
+			(at 125.73 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 125.73 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 125.73 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cff1efa6-5459-4c42-822f-43b9d462008c")
+		)
+		(pin "1"
+			(uuid "994eb37b-f92d-4dbe-9c82-c7e4b7a9e729")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -14721,95 +15220,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 167.64 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e4acdf1-a8f9-4201-b5f9-41597d783d6f")
-		(property "Reference" "TP2"
-			(at 183.134 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 172.974 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 167.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 167.64 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8394db97-e745-4126-876f-37b6ae0c524e")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -18881,95 +19291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 167.64 90.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "91ba7c44-fdd1-4d41-aee5-400b5a8c9dd4")
-		(property "Reference" "TP3"
-			(at 183.134 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 172.974 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 167.64 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 167.64 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 167.64 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fc6f090-adfe-462c-aea6-f703fd98e990")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 83.82 252.73 0)
 		(mirror x)
@@ -19613,6 +19934,108 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 99.06 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b82f736-3d3d-451b-be44-d825d4bff801")
+		(property "Reference" "R81"
+			(at 158.75 94.488 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.48 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 155.702 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 157.48 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 157.48 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af92db34-d670-4e07-96e8-e1191b284704")
+		)
+		(pin "1"
+			(uuid "f753f5ea-381f-4827-b4ec-8f55d3610546")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -24065,6 +24488,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e96123ac-d662-4666-9238-b56a8e91e080")
+		(property "Reference" "#PWR0111"
+			(at 130.81 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b864a07d-4507-4bf7-bb68-34d5647abd9b")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 215.9 29.21 0)
 		(mirror y)
@@ -24197,6 +24699,108 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 99.06 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec1d8f05-f31b-49ff-b72c-387190c3f187")
+		(property "Reference" "R80"
+			(at 156.21 94.488 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 154.94 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 153.162 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor"
+			(at 154.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 154.94 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 154.94 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "54321cf4-33c5-4642-a06e-6d23014b0ad7")
+		)
+		(pin "1"
+			(uuid "f07d1716-2c76-4f71-9799-a6ef53e1b577")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
+					(reference "R80")
 					(unit 1)
 				)
 			)
