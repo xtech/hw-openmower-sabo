@@ -79,14 +79,6 @@
       ],
       "drc_exclusions": [
         [
-          "copper_sliver|265789671|99144988|00000000-0000-0000-0000-000000000000|F.Cu",
-          ""
-        ],
-        [
-          "copper_sliver|265789671|99144988|00000000-0000-0000-0000-000000000000|In4.Cu",
-          ""
-        ],
-        [
           "courtyards_overlap|136035000|66575000|a46a6186-919e-4550-91ce-ab731caa7d66|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
@@ -1480,7 +1472,7 @@
         "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
       }
     ],
-    "used_designators": "R83,R85",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
