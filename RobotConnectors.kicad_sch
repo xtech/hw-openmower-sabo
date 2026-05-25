@@ -12327,8 +12327,8 @@
 		(uuid "1bcab16c-35d1-4793-8854-d238509b4008")
 	)
 	(hierarchical_label "ALT_BMS_RX"
-		(shape input)
-		(at 129.54 133.35 180)
+		(shape output)
+		(at 129.54 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12558,8 +12558,8 @@
 		(uuid "966bb89c-771b-4aae-9408-7b07a46702da")
 	)
 	(hierarchical_label "ALT_BMS_TX"
-		(shape output)
-		(at 129.54 130.81 180)
+		(shape input)
+		(at 129.54 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)

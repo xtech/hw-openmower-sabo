@@ -1176,6 +1176,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0)
@@ -3022,6 +3188,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Open solder bridge\nfor 5-9A charge current"
+		(exclude_from_sim no)
+		(at 122.936 207.01 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "40841a62-9c02-4240-8555-615d27cd83de")
+	)
 	(text "I_{CHG}_{MAX} (Soft) = 4A\n@ 36V, 2.65A power supply"
 		(exclude_from_sim no)
 		(at 40.64 158.242 0)
@@ -3180,6 +3356,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c56588b-4213-4d42-b635-4a8d3a08eff8")
+	)
+	(junction
+		(at 85.09 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f3f1c7-7426-4e28-919f-592ed3c91e87")
+	)
+	(junction
+		(at 85.09 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e8ecd7-d1e6-4120-aa2a-db17d23b7e9d")
 	)
 	(junction
 		(at 120.65 106.68)
@@ -3398,12 +3586,6 @@
 		(uuid "d4be9911-d336-4304-abf0-5abf4d0cb502")
 	)
 	(junction
-		(at 76.2 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d591a27a-237d-4c1d-be7f-7d38879b75fb")
-	)
-	(junction
 		(at 139.7 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3512,6 +3694,16 @@
 			(type default)
 		)
 		(uuid "03471934-8169-49c3-a845-a1222143d490")
+	)
+	(wire
+		(pts
+			(xy 82.55 210.82) (xy 82.55 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c78cb6-cd19-410d-88cd-fcfc83bc40d6")
 	)
 	(wire
 		(pts
@@ -3645,6 +3837,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 200.66) (xy 87.63 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af4b22d-5d1a-4c21-bef1-aa569cb3b718")
+	)
+	(wire
+		(pts
 			(xy 204.47 257.81) (xy 204.47 262.89)
 		)
 		(stroke
@@ -3775,7 +3977,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 168.91) (xy 76.2 171.45)
+			(xy 85.09 198.12) (xy 85.09 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae08b6a-3827-4f08-be7e-8c57a90bace3")
+	)
+	(wire
+		(pts
+			(xy 76.2 168.91) (xy 76.2 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3935,6 +4147,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 200.66) (xy 85.09 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ec8484-d0cb-429f-944b-eb6592446d12")
+	)
+	(wire
+		(pts
 			(xy 283.21 163.83) (xy 283.21 147.32)
 		)
 		(stroke
@@ -3952,6 +4174,16 @@
 			(type default)
 		)
 		(uuid "3a44aba8-1f54-4a01-a3d3-a801d9daacbe")
+	)
+	(wire
+		(pts
+			(xy 87.63 200.66) (xy 87.63 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b26073a-9fca-4e90-91f1-0161df68c2ae")
 	)
 	(wire
 		(pts
@@ -4135,16 +4367,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 171.45) (xy 77.47 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e23677-9509-4cf8-94bd-25e8b00d4560")
-	)
-	(wire
-		(pts
 			(xy 62.23 259.08) (xy 46.99 259.08)
 		)
 		(stroke
@@ -4175,6 +4397,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 203.2) (xy 82.55 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61100671-ebc3-4241-954b-10d718f93069")
+	)
+	(wire
+		(pts
 			(xy 245.11 256.54) (xy 245.11 259.08)
 		)
 		(stroke
@@ -4202,6 +4434,16 @@
 			(type default)
 		)
 		(uuid "6682e627-742b-4629-bd39-ec5d4b5d47b5")
+	)
+	(wire
+		(pts
+			(xy 85.09 213.36) (xy 87.63 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d9ef9c-8529-47b3-ab13-139ecbe8ac1d")
 	)
 	(wire
 		(pts
@@ -4272,6 +4514,16 @@
 			(type default)
 		)
 		(uuid "6f929630-218e-4961-bd58-3f210fa2104e")
+	)
+	(wire
+		(pts
+			(xy 82.55 213.36) (xy 85.09 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ea2034-336e-459a-a2b8-31e289cef544")
 	)
 	(wire
 		(pts
@@ -4382,6 +4634,16 @@
 			(type default)
 		)
 		(uuid "8660cfea-8cd5-44b2-a6bf-814d9c1e9041")
+	)
+	(wire
+		(pts
+			(xy 85.09 213.36) (xy 85.09 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c20626-1a7b-4e0e-ae68-aa6f4ab7deb8")
 	)
 	(wire
 		(pts
@@ -4915,6 +5177,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 213.36) (xy 87.63 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2899201-f64c-4920-8e4e-c782bf9befbc")
+	)
+	(wire
+		(pts
 			(xy 242.57 139.7) (xy 247.65 139.7)
 		)
 		(stroke
@@ -5212,6 +5484,16 @@
 			(type default)
 		)
 		(uuid "ef1358a9-00a6-44d4-96e4-b277e42bd470")
+	)
+	(wire
+		(pts
+			(xy 85.09 171.45) (xy 85.09 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13ad8ca-c565-4b5d-9d0c-24fbe6c44078")
 	)
 	(wire
 		(pts
@@ -6212,6 +6494,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fb87e3e-4476-45fd-ab7d-109b4f8d9ebf")
+		(property "Reference" "#PWR0169"
+			(at 76.2 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43905f3e-8d8c-481f-9a29-0d9dcfa10360")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 67.31 0)
 		(unit 1)
@@ -7111,89 +7470,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "R71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25ae34a1-780e-41b1-aea6-985983b3eaad")
-		(property "Reference" "#PWR0166"
-			(at 76.2 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.994 174.752 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2589f36-4639-4c3a-ae92-fcf6960ecec2")
-		)
-		(instances
-			(project "Charger"
-				(path "/28dc289b-2dcc-4bf5-8f4d-b88a79252516"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
-					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -10567,7 +10843,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 171.45 90)
+		(at 85.09 194.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10577,7 +10853,7 @@
 		(dnp no)
 		(uuid "9e32079b-9bb1-468c-8f85-464c8aa83f51")
 		(property "Reference" "R74"
-			(at 86.36 170.434 90)
+			(at 84.074 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10587,7 +10863,7 @@
 			)
 		)
 		(property "Value" "133k"
-			(at 81.534 171.45 90)
+			(at 85.09 194.056 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10597,7 +10873,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.28 173.228 90)
+			(at 86.868 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10608,7 +10884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 171.45 0)
+			(at 85.09 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10619,7 +10895,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 171.45 0)
+			(at 85.09 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10630,7 +10906,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 81.28 171.45 90)
+			(at 85.09 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10641,7 +10917,7 @@
 			)
 		)
 		(property "LCSC Part #" "C227577"
-			(at 81.28 171.45 90)
+			(at 85.09 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12548,6 +12824,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 82.55 207.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c06011c2-87b0-489b-9c76-a9ffc020fe5d")
+		(property "Reference" "R86"
+			(at 81.534 201.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68k"
+			(at 82.55 206.756 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 84.328 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 82.55 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C23231"
+			(at 82.55 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "155550bc-8e82-411a-9f4c-76217b669c8a")
+		)
+		(pin "1"
+			(uuid "e0bda23d-3d9a-4e83-b78e-6ec615fa96ee")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 154.94 247.65 90)
 		(mirror x)
@@ -14001,6 +14378,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 87.63 207.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e354dd7a-a49e-436c-bdcf-8fc8171c7380")
+		(property "Reference" "JP5"
+			(at 88.9 205.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "250k/200k"
+			(at 88.9 208.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 87.63 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 95.25 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73179aca-a925-4a57-abf0-ee6a2b1fbb8e")
+		)
+		(pin "2"
+			(uuid "218fd1e6-6182-4efd-a2ec-3c5eac7881f8")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 66.04 171.45 0)
 		(unit 1)
@@ -14298,6 +14757,84 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
 					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e65a06b2-7f1c-4a42-b489-ef8e809c0584")
+		(property "Reference" "#PWR0168"
+			(at 85.09 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0e16b82-0077-4c40-8af0-75fa587012e8")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/1be58867-73c0-413f-a3d9-ad9d26e5650f"
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)

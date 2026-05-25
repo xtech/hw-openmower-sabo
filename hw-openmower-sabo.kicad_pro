@@ -53,20 +53,20 @@
           "45_degree_only": false,
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 1,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.5,
+          "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.3,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 1.0
         }
       },
@@ -1472,7 +1472,7 @@
         "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR168-169,JP5,R86",
     "variants": []
   },
   "sheets": [

@@ -15231,7 +15231,7 @@
 				(justify left)
 			)
 		)
-		(pin "ALT_BMS_RX" input
+		(pin "ALT_BMS_TX" input
 			(at 72.39 177.8 180)
 			(uuid "d5611cf7-bf07-409a-a173-4f817d8318c8")
 			(effects
@@ -15241,7 +15241,7 @@
 				(justify left)
 			)
 		)
-		(pin "ALT_BMS_TX" output
+		(pin "ALT_BMS_RX" output
 			(at 72.39 180.34 180)
 			(uuid "66b0b3b5-6eca-4bcb-a157-63a9be5b466e")
 			(effects
