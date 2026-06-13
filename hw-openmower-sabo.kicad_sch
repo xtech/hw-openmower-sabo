@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
-		(date "2026-04-10")
-		(rev "v0.5-dev")
+		(date "2026-05-26")
+		(rev "v0.5")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -11697,7 +11697,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ac5fa6fe-bc01-4892-8f51-cf350b448a50")
 		(property "Reference" "F3"
 			(at 24.13 214.63 90)
