@@ -33,7 +33,7 @@ To build a complete OpenMower-V2 system, you will need the following additional 
 ### Essential Components
 
 - **1 * [xCore](https://core.x-tech.online)**: OpenMower-V2 Development Board for all Low-Level processing
-- **1 * [Raspberry Pi CM4](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for [OpenMowerOS](https://github.com/ClemensElflein/OpenMowerOS), ≥ 4GB RAM, ≥ 16GB Storage (eMCC or SD-Card)
+- **1 * [Raspberry Pi CM4/CM5](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for [OpenMowerOS](https://github.com/ClemensElflein/OpenMowerOS), ≥ 4GB RAM, ≥ 16GB Storage (eMCC or SD-Card)
 - **3 * [xESC mini](https://github.com/ClemensElflein/xESC)**: Electronic Speed Controller for BLDC motor
 - **1 * [WT-RTK-960](https://witmotion-sensor.com/products/rtk-gps-gnss-modules-centimeter-level-um982-um980-um960)**: RTK GPS Module for precise positioning
 - **1 * HA/HX-901**: GPS Helix Antenna or similar
@@ -88,7 +88,7 @@ The meaning of the buttons is context driven
 | Auto           |        :x:         | :white_check_mark: |
 | Driving/Mowing |        :x:         | :white_check_mark: | Skip path             | Skip area          |
 | House/Home     |        :x:         | :white_check_mark: | Go back home/dock     |
-| Select (left)  | :white_check_mark: |        :x:         |
+| Select (left)  | :white_check_mark: |        :x:         | Skip path             | Skip area          |
 | Start/Play     | :white_check_mark: | :white_check_mark: | Pause/Continue mowing | Clear emergency    |
 
 ## Roadmap
@@ -132,14 +132,14 @@ This Carrierboard includes more features than actually required to build an Open
 
 ### Carrier versions
 
-| Version |  Date   | Info                                                                                                                                                                                                                                                                                                                                                              |
-| :-----: | :-----: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| v0.5.0  | 2026/07 | **In Development**<br>- Add Mow-ESC-Fuse for power ESCs<br>- Slightly improve power traces<br>- Improve mow-phases for 9A<br>- Lower chargers FB divider to target a V<sub>BAT</sub> of 28.28V<br>- Add BMS-I2C swapper via solder jumper<br>- Custom BMS plugs for DALY or JBD (UART7)<br>- Optional 6-9A charge current via F<sub>sw</sub> 200kHz solder jumper |
-| v0.4.0  | 2026/05 | - Fix and improve v0.3.0 issues<br>- Skip one GPIO expander and switch to smaller footprint<br>- Rearrange LAN and USB Plug as well as skip 2nd optional LAN in favor of more space for Series-I plugs                                                                                                                                                            |
-| v0.3.0  | 2025/11 | **Internal Prototype**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility                                                                                                                                                                                                             |
-| v0.2.1  | 2025/06 | - Add DCDC-In current sense and allow charge currents up to 2.8A<br>- BMS data support                                                                                                                                                                                                                                                                            |
-| v0.2.0  | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD                                                                                                                                                                                                                                                              |
-| v0.1.0  | 2025/03 | Initial Prototype                                                                                                                                                                                                                                                                                                                                                 |
+| Version |  Date   | Info                                                                                                                                                                                                                                                                                                                                       |
+| :-----: | :-----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| v0.5.0  | 2026/06 | - Add Mow-ESC-Fuse for power ESCs<br>- Slightly improve power traces<br>- Improve mow-phases to 9A<br>- Lower chargers FB divider to target a V<sub>BAT</sub> of 28.28V<br>- Add BMS-I2C swapper via solder jumper<br>- Custom BMS plugs for DALY or JBD (UART7)<br>- Optional 6-9A charge current via F<sub>sw</sub> 200kHz solder jumper |
+| v0.4.0  | 2026/05 | - Fix and improve v0.3.0 issues<br>- Skip one GPIO expander and switch to smaller footprint<br>- Rearrange LAN and USB Plug as well as skip 2nd optional LAN in favor of more space for Series-I plugs                                                                                                                                     |
+| v0.3.0  | 2025/11 | **Internal Prototype**<br>- Fix Series-I/II emergency incompatibilities<br>- Improve CoverUI circuit<br>- Improve Series-I CoverUI plug accessibility                                                                                                                                                                                      |
+| v0.2.1  | 2025/06 | - Add DCDC-In current sense and allow charge currents up to 2.8A<br>- BMS data support                                                                                                                                                                                                                                                     |
+| v0.2.0  | 2025/06 | - Fix Series-II emergency oscillation issues<br>- Support Series-I LEDs and Buttons<br>- Support LCD                                                                                                                                                                                                                                       |
+| v0.1.0  | 2025/03 | Initial Prototype                                                                                                                                                                                                                                                                                                                          |
 
 ## Patents, Local Laws, Liability
 
