@@ -13,7 +13,7 @@
     <l_abs_current_max>15</l_abs_current_max>
     <l_min_erpm>0</l_min_erpm>
     <l_max_erpm>10500</l_max_erpm>
-    <l_erpm_start>0.95</l_erpm_start>
+    <l_erpm_start>0.9</l_erpm_start>
     <l_max_erpm_fbrake>300</l_max_erpm_fbrake>
     <l_max_erpm_fbrake_cc>1500</l_max_erpm_fbrake_cc>
     <l_min_vin>8</l_min_vin>
@@ -51,8 +51,8 @@
     <hall_table__6>4</hall_table__6>
     <hall_table__7>-1</hall_table__7>
     <hall_sl_erpm>2000</hall_sl_erpm>
-    <foc_current_kp>0.154007</foc_current_kp>
-    <foc_current_ki>173.021</foc_current_ki>
+    <foc_current_kp>0.3088</foc_current_kp>
+    <foc_current_ki>437.44</foc_current_ki>
     <foc_f_zv>25000</foc_f_zv>
     <foc_dt_us>0.12</foc_dt_us>
     <foc_encoder_inverted>0</foc_encoder_inverted>
@@ -61,34 +61,34 @@
     <foc_sensor_mode>2</foc_sensor_mode>
     <foc_pll_kp>2000</foc_pll_kp>
     <foc_pll_ki>30000</foc_pll_ki>
-    <foc_motor_l>0.000154007</foc_motor_l>
-    <foc_motor_ld_lq_diff>8.96468e-05</foc_motor_ld_lq_diff>
-    <foc_motor_r>0.173021</foc_motor_r>
-    <foc_motor_flux_linkage>0.0058868</foc_motor_flux_linkage>
-    <foc_observer_gain>2.88564e+07</foc_observer_gain>
+    <foc_motor_l>0.00015442</foc_motor_l>
+    <foc_motor_ld_lq_diff>7.235e-05</foc_motor_ld_lq_diff>
+    <foc_motor_r>0.2187</foc_motor_r>
+    <foc_motor_flux_linkage>0.005911</foc_motor_flux_linkage>
+    <foc_observer_gain>2.862e+07</foc_observer_gain>
     <foc_observer_gain_slow>0.05</foc_observer_gain_slow>
     <foc_observer_offset>-1</foc_observer_offset>
     <foc_duty_dowmramp_kp>50</foc_duty_dowmramp_kp>
     <foc_duty_dowmramp_ki>1000</foc_duty_dowmramp_ki>
     <foc_start_curr_dec>1</foc_start_curr_dec>
     <foc_start_curr_dec_rpm>2500</foc_start_curr_dec_rpm>
-    <foc_openloop_rpm>1400</foc_openloop_rpm>
-    <foc_openloop_rpm_low>0</foc_openloop_rpm_low>
+    <foc_openloop_rpm>1500</foc_openloop_rpm>
+    <foc_openloop_rpm_low>0.1</foc_openloop_rpm_low>
     <foc_d_gain_scale_start>0.9</foc_d_gain_scale_start>
     <foc_d_gain_scale_max_mod>0.2</foc_d_gain_scale_max_mod>
     <foc_sl_openloop_hyst>0.1</foc_sl_openloop_hyst>
-    <foc_sl_openloop_time_lock>0</foc_sl_openloop_time_lock>
-    <foc_sl_openloop_time_ramp>0.1</foc_sl_openloop_time_ramp>
-    <foc_sl_openloop_time>0.05</foc_sl_openloop_time>
-    <foc_sl_openloop_boost_q>0</foc_sl_openloop_boost_q>
+    <foc_sl_openloop_time_lock>0.5</foc_sl_openloop_time_lock>
+    <foc_sl_openloop_time_ramp>0.5</foc_sl_openloop_time_ramp>
+    <foc_sl_openloop_time>0.5</foc_sl_openloop_time>
+    <foc_sl_openloop_boost_q>10</foc_sl_openloop_boost_q>
     <foc_sl_openloop_max_q>-1</foc_sl_openloop_max_q>
     <foc_hall_table__0>255</foc_hall_table__0>
     <foc_hall_table__1>66</foc_hall_table__1>
-    <foc_hall_table__2>133</foc_hall_table__2>
-    <foc_hall_table__3>99</foc_hall_table__3>
+    <foc_hall_table__2>135</foc_hall_table__2>
+    <foc_hall_table__3>101</foc_hall_table__3>
     <foc_hall_table__4>198</foc_hall_table__4>
-    <foc_hall_table__5>33</foc_hall_table__5>
-    <foc_hall_table__6>166</foc_hall_table__6>
+    <foc_hall_table__5>31</foc_hall_table__5>
+    <foc_hall_table__6>167</foc_hall_table__6>
     <foc_hall_table__7>255</foc_hall_table__7>
     <foc_hall_interp_erpm>500</foc_hall_interp_erpm>
     <foc_sl_erpm_start>2500</foc_sl_erpm_start>
@@ -194,7 +194,7 @@
     <motor_quality_magnets>0</motor_quality_magnets>
     <motor_quality_construction>0</motor_quality_construction>
     <motor_quality_description></motor_quality_description>
-    <bms.type>1</bms.type>
+    <bms.type>0</bms.type>
     <bms.limit_mode>3</bms.limit_mode>
     <bms.t_limit_start>45</bms.t_limit_start>
     <bms.t_limit_end>65</bms.t_limit_end>
