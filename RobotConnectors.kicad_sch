@@ -11555,7 +11555,7 @@
 		(uuid "71f11642-c6f6-4e63-99c1-92ef3cb82c97")
 	)
 	(label "I2C_GPIO_5V.SCL"
-		(at 260.35 233.68 0)
+		(at 260.35 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11725,7 +11725,7 @@
 		(uuid "98bdb6ae-abe7-484d-87c6-fe300da7586a")
 	)
 	(label "I2C_GPIO_5V.SDA"
-		(at 260.35 236.22 0)
+		(at 260.35 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11795,7 +11795,7 @@
 		(uuid "9fc12dbc-6a56-454f-b365-7f4868c78661")
 	)
 	(label "I2C_GPIO.SCL"
-		(at 237.49 233.68 180)
+		(at 237.49 236.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12197,7 +12197,7 @@
 		(uuid "f941a622-7fb6-4195-9fe6-2a1781599122")
 	)
 	(label "I2C_GPIO.SDA"
-		(at 237.49 236.22 180)
+		(at 237.49 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)

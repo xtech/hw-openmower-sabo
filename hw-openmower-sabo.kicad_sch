@@ -514,228 +514,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4738,16 +4516,6 @@
 		)
 		(uuid "003967d3-204d-45f8-8274-74ff94063a9a")
 	)
-	(wire
-		(pts
-			(xy 370.84 195.58) (xy 386.08 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f85283-ef80-4e85-bf5e-1fe2c5c28035")
-	)
 	(bus
 		(pts
 			(xy 189.23 153.67) (xy 208.28 153.67)
@@ -5750,16 +5518,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 193.04) (xy 374.65 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc0962d-4834-4b11-bfc0-88472f9b6c94")
-	)
-	(wire
-		(pts
 			(xy 78.74 55.88) (xy 67.31 55.88)
 		)
 		(stroke
@@ -5790,6 +5548,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 198.12) (xy 370.84 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64418133-5f04-4d92-86de-a63db45660e3")
+	)
+	(wire
+		(pts
 			(xy 144.78 229.87) (xy 151.13 229.87)
 		)
 		(stroke
@@ -5807,6 +5575,16 @@
 			(type default)
 		)
 		(uuid "6800d853-7cc6-47fc-ab85-6b50acac01c2")
+	)
+	(wire
+		(pts
+			(xy 369.57 190.5) (xy 370.84 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69113ad4-99ca-4abf-817b-8e8c4e22b2ac")
 	)
 	(wire
 		(pts
@@ -5940,6 +5718,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 195.58) (xy 370.84 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a35b64-5de9-430c-bbfe-3de72d49ba71")
+	)
+	(wire
+		(pts
 			(xy 63.5 130.81) (xy 72.39 130.81)
 		)
 		(stroke
@@ -5987,16 +5775,6 @@
 			(type default)
 		)
 		(uuid "7c643546-fc9f-482c-bf0c-990971034e87")
-	)
-	(wire
-		(pts
-			(xy 370.84 190.5) (xy 386.08 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8d4890-b5d1-487e-8eed-6b7f1c8ba9f8")
 	)
 	(wire
 		(pts
@@ -6177,6 +5955,16 @@
 			(type default)
 		)
 		(uuid "97faf16c-9ac6-47c9-9c7c-be4415191952")
+	)
+	(wire
+		(pts
+			(xy 358.14 193.04) (xy 370.84 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d53f2f-2ba0-4bcd-8d92-d6817df0eec8")
 	)
 	(bus
 		(pts
@@ -6427,6 +6215,16 @@
 			(type default)
 		)
 		(uuid "b11c9378-9165-4ed9-b16b-de8363cbc5a3")
+	)
+	(wire
+		(pts
+			(xy 369.57 189.23) (xy 369.57 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b327069b-1dc2-4ac1-82e9-bff1751b5baa")
 	)
 	(bus
 		(pts
@@ -6730,16 +6528,6 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 193.04) (xy 374.65 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d559bc1f-2e9d-4b6c-9683-267f1e235d58")
-	)
-	(wire
-		(pts
 			(xy 304.8 142.24) (xy 321.31 142.24)
 		)
 		(stroke
@@ -6817,6 +6605,16 @@
 			(type default)
 		)
 		(uuid "d943414d-e5fe-4a7e-8cbe-d3fc717cd259")
+	)
+	(wire
+		(pts
+			(xy 369.57 199.39) (xy 369.57 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0d4039-bd44-4935-b6ad-999ddb956b38")
 	)
 	(bus
 		(pts
@@ -7159,12 +6957,12 @@
 		(uuid "ffd532b5-28e3-4042-811b-6ecfa4dcd57a")
 	)
 	(label "STM_SWDIO"
-		(at 386.08 190.5 180)
+		(at 358.14 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "00335000-e172-4bf9-ac6a-46ec9e4759a2")
 	)
@@ -7359,12 +7157,12 @@
 		(uuid "1b73e5b6-c467-4206-94c7-6e5b95a6b35d")
 	)
 	(label "STM_SWCLK"
-		(at 386.08 195.58 180)
+		(at 358.14 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2024a8c4-7322-4641-9838-bffaeed5cb21")
 	)
@@ -9013,122 +8811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 365.76 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3933a49a-b303-4d6e-b522-5e88e02c8903")
-		(property "Reference" "J31"
-			(at 366.395 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 366.395 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 365.76 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 365.76 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "FT Rotation Offset" "90"
-			(at 365.76 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 365.76 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C6332196"
-			(at 365.76 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf6b5b2d-ba6c-4422-9c30-08b6971e50c0")
-		)
-		(pin "3"
-			(uuid "f96e684c-5fcf-4f3e-94f9-63df27982aa6")
-		)
-		(pin "2"
-			(uuid "3ad0df1d-b5d4-4a34-aca3-a35a44a3edac")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
-					(reference "J31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Fan_1")
 		(lib_id "Motor:Fan")
 		(at 351.79 77.47 0)
@@ -10086,6 +9768,148 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 375.92 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "646e16c4-093a-433c-9ab4-3ca5c71f5132")
+		(property "Reference" "J10"
+			(at 377.952 193.2432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 377.952 195.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "455-2249-ND"
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock_PN" "J-JST-XH-1x4"
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP" "Y"
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 375.92 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ec8f31c-f1da-4c25-9416-05eab1d673e3")
+		)
+		(pin "2"
+			(uuid "96492b85-36d0-4aba-a993-c93055b7bc04")
+		)
+		(pin "3"
+			(uuid "8090650d-6a45-4224-8196-4eec6f377251")
+		)
+		(pin "4"
+			(uuid "f24308a4-0c3b-4936-8561-e9017b7fe509")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11969,7 +11793,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 374.65 198.12 0)
+		(at 369.57 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11980,7 +11804,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0cc69e1-e638-4ac7-8d7a-8839a73263c9")
 		(property "Reference" "#PWR054"
-			(at 374.65 204.47 0)
+			(at 369.57 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11991,7 +11815,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 374.65 203.2 0)
+			(at 369.57 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12001,7 +11825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 374.65 198.12 0)
+			(at 369.57 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12012,7 +11836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 198.12 0)
+			(at 369.57 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +11847,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.65 198.12 0)
+			(at 369.57 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13046,6 +12870,84 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 369.57 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1443538-eccf-493e-8d6b-8793d9b97814")
+		(property "Reference" "#PWR0147"
+			(at 369.57 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 369.57 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 369.57 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0831a370-d0b1-404c-9ab4-74f2c2a5f027")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
