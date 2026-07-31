@@ -53,20 +53,20 @@
           "45_degree_only": false,
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
-          "min_thickness": 0.5,
-          "pad_connection": 3,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.25,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 1.0
         }
       },
@@ -83,6 +83,14 @@
           ""
         ],
         [
+          "courtyards_overlap|150320000|119005000|375719d7-f551-4d1f-abee-eca4b952ded0|9d838c14-94de-4617-b8c4-8a691afdf62b",
+          ""
+        ],
+        [
+          "courtyards_overlap|151495000|146925257|375719d7-f551-4d1f-abee-eca4b952ded0|f3738165-72e6-48cc-aa4b-7eb8cbb89f83",
+          ""
+        ],
+        [
           "courtyards_overlap|160455000|79105000|340a22f5-4ed8-4601-b3a5-8fb28ca67835|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
@@ -96,6 +104,14 @@
         ],
         [
           "courtyards_overlap|164475000|75835000|27648edf-c2da-43f4-a674-ceb99dd44f3a|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          ""
+        ],
+        [
+          "courtyards_overlap|206705000|57505000|9ca51736-0fb2-4264-ac58-73a0b9e14f03|b64fac21-a9e0-43e3-83e7-749652a42678",
+          ""
+        ],
+        [
+          "courtyards_overlap|207895000|85411470|64bfde20-6c8e-47a3-b515-bea3e49ec88a|9ca51736-0fb2-4264-ac58-73a0b9e14f03",
           ""
         ],
         [
@@ -1464,7 +1480,7 @@
         "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
       }
     ],
-    "used_designators": "D7,D11,D17,#PWR147,#PWR161-162,#PWR166,J10",
+    "used_designators": "C94,C100-104,D7,D11,D17,#PWR147,#PWR161-162,#PWR166,#PWR170,#PWR174-178,J10",
     "variants": []
   },
   "sheets": [
