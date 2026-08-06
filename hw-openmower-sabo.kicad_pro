@@ -62,7 +62,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.3,
-          "min_island_area": 10.0,
+          "min_island_area": 9.9999993548,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -79,7 +79,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|134435000|64975000|a46a6186-919e-4550-91ce-ab731caa7d66|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          "courtyards_overlap|107225000|87973020|8e1500d9-96ef-4a02-b341-fb6cf45a35ef|c580dbcc-227b-473d-b289-0a7556b11e39",
           ""
         ],
         [
@@ -88,6 +88,22 @@
         ],
         [
           "courtyards_overlap|151495000|146925257|375719d7-f551-4d1f-abee-eca4b952ded0|f3738165-72e6-48cc-aa4b-7eb8cbb89f83",
+          ""
+        ],
+        [
+          "courtyards_overlap|156895000|67945000|0ce9ce5b-1fb4-4f7d-aef7-13df6a236f17|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          ""
+        ],
+        [
+          "courtyards_overlap|157295100|61794900|48b5987b-53b8-482a-af5b-4f7aea4ab3e0|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          ""
+        ],
+        [
+          "courtyards_overlap|159195000|67945000|c5bf4abb-c3e0-4471-af47-5592176bd024|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          ""
+        ],
+        [
+          "courtyards_overlap|159795100|61794900|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4|cffab5b5-8980-4a1d-9407-24e98f7768cb",
           ""
         ],
         [
@@ -428,7 +444,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v0.5"
+      "sch_revision": "v0.6"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -826,7 +842,7 @@
           "group_by": false,
           "label": "FOOTPRINT",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1411,7 +1427,7 @@
           "show": false
         }
       ],
-      "filter_string": "R",
+      "filter_string": "r",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -1480,7 +1496,7 @@
         "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
       }
     ],
-    "used_designators": "C94,C100-104,D7,D11,D17,#PWR147,#PWR161-162,#PWR166,#PWR170,#PWR174-178,J10",
+    "used_designators": "Q3,Q5,Q10-11,U12,U14-16,R87-88,R91-111,C54,C94,C100-104,D7,D11,D17,#PWR92,#PWR106-107,#PWR142,#PWR144,#PWR147,#PWR161-162,#PWR166,#PWR170,#PWR174-181,J2-3,J10",
     "variants": []
   },
   "sheets": [
@@ -1539,6 +1555,14 @@
     [
       "dd64c4b9-f40c-48f2-9722-a05c0658867e",
       "RobotConnectorsSeries-2"
+    ],
+    [
+      "70835829-4d7b-44fe-b317-3d0661b3555d",
+      "I2C-Shifter"
+    ],
+    [
+      "c99cf94f-6a2d-4647-8707-2b297ba56f04",
+      "I2C-Shifter1"
     ]
   ],
   "text_variables": {

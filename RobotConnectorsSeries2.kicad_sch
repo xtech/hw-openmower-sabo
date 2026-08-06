@@ -7,7 +7,7 @@
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
 		(date "2026-05-26")
-		(rev "v0.5")
+		(rev "v0.6")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -5716,6 +5716,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 19.05) (xy 43.18 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e27610-52ad-46c2-b302-16d0384cd565")
+	)
+	(wire
+		(pts
 			(xy 72.39 156.21) (xy 72.39 162.56)
 		)
 		(stroke
@@ -5913,16 +5923,6 @@
 			(type default)
 		)
 		(uuid "cabaa749-5155-4969-894a-bc2971512865")
-	)
-	(wire
-		(pts
-			(xy 21.59 19.05) (xy 43.18 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6d80d6-bbc2-4d8f-8026-baad7f8b6810")
 	)
 	(wire
 		(pts
@@ -6334,6 +6334,16 @@
 		)
 		(uuid "215413ff-455f-45a6-aa2c-ccbe3996a4b1")
 	)
+	(label "5V"
+		(at 43.18 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2640dd31-6531-4ec1-a780-a726b2b67e92")
+	)
 	(label "MC_PHASE.V"
 		(at 91.44 48.26 0)
 		(effects
@@ -6403,16 +6413,6 @@
 			(justify left bottom)
 		)
 		(uuid "86d594d3-f3a5-4e21-a9ae-4b126801115f")
-	)
-	(label "5V"
-		(at 43.18 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cc84af6-4e1d-4cca-8604-eafb0bfcf313")
 	)
 	(label "MR_HALL_SENSOR.U"
 		(at 101.6 123.19 0)
@@ -6594,16 +6594,16 @@
 		)
 		(uuid "fc8b20ed-f0aa-4c4c-92dd-b7d90cf734fd")
 	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 21.59 19.05 180)
+	(hierarchical_label "HALL0_5V"
+		(shape output)
+		(at 149.86 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "07598b60-d8dd-4e51-a4a0-24a3d61f6360")
+		(uuid "059db04f-5b07-4f34-ac0b-15328257e6aa")
 	)
 	(hierarchical_label "MC_PHASE{U V W}"
 		(shape input)
@@ -6615,6 +6615,17 @@
 			(justify left)
 		)
 		(uuid "08f5916d-e147-4a4b-be2c-00381dcea8ea")
+	)
+	(hierarchical_label "HALL3_5V"
+		(shape output)
+		(at 100.33 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1835a7b4-0bf1-4033-86da-0ae627e6db62")
 	)
 	(hierarchical_label "LCD_~{C}D_3V"
 		(shape input)
@@ -6650,6 +6661,17 @@
 			)
 		)
 	)
+	(hierarchical_label "LCD_BACKLIGHT_ANODE"
+		(shape input)
+		(at 209.55 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "202952c9-9a06-4825-9fb7-1035b9487263")
+	)
 	(hierarchical_label "SPI_MISO_5V"
 		(shape output)
 		(at 209.55 39.37 0)
@@ -6683,17 +6705,6 @@
 		)
 		(uuid "38a5fb2d-4b7f-42bb-adb9-691968eb6af8")
 	)
-	(hierarchical_label "LCD_BACKLIGHT_ANODE"
-		(shape input)
-		(at 209.55 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39139e9a-78ef-4314-84ea-43ddb17a060b")
-	)
 	(hierarchical_label "LCD_CLK_3V"
 		(shape input)
 		(at 180.34 57.15 180)
@@ -6716,17 +6727,6 @@
 		)
 		(uuid "4f7c2c89-7dd3-4f8c-8454-101afb61d12f")
 	)
-	(hierarchical_label "HALL1_5V"
-		(shape output)
-		(at 266.7 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "517c5280-cf1d-480a-8413-897ec803fe6d")
-	)
 	(hierarchical_label "MR_PHASE{U V W}"
 		(shape input)
 		(at 44.45 111.76 180)
@@ -6748,6 +6748,17 @@
 			(justify right)
 		)
 		(uuid "5d7afef4-bb0f-4c77-ae1a-8dafbb7bd054")
+	)
+	(hierarchical_label "HALL1_5V"
+		(shape output)
+		(at 266.7 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6277d5a8-a6e3-404b-a52a-998c2b68d3b0")
 	)
 	(hierarchical_label "BMS_I2C_SDA"
 		(shape output)
@@ -6794,16 +6805,16 @@
 		)
 		(uuid "7c968e26-0d5a-4a5f-8da9-ccd81a4577bd")
 	)
-	(hierarchical_label "HALL2_5V"
-		(shape output)
-		(at 274.32 44.45 0)
+	(hierarchical_label "LCD_BACKLIGHT_KATHODE"
+		(shape input)
+		(at 185.42 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8b7a0c21-6b35-4dbb-ae53-ac5e51999b90")
+		(uuid "8233f6db-3061-4e14-ab51-77d2a85f6168")
 	)
 	(hierarchical_label "MC_HALL_SENSOR{U V W}"
 		(shape output)
@@ -6816,16 +6827,27 @@
 		)
 		(uuid "8c60587c-26f7-4252-a2f1-4da398c7a544")
 	)
-	(hierarchical_label "HALL3_5V"
+	(hierarchical_label "HALL2_5V"
 		(shape output)
-		(at 100.33 153.67 0)
+		(at 274.32 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8cd39bf5-dc80-42fc-a508-8bdcf873f73d")
+		(uuid "9749ff3a-28b4-48bf-8365-131dfdaacb06")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 21.59 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4bb06b6-499d-484b-a43f-fff2b6cc0ea1")
 	)
 	(hierarchical_label "BTN_SH{slash}~{LD}_5V"
 		(shape input)
@@ -6849,17 +6871,6 @@
 		)
 		(uuid "d524532f-67d4-4a22-9470-f31bdb964b76")
 	)
-	(hierarchical_label "HALL0_5V"
-		(shape output)
-		(at 149.86 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db630364-a7a9-4d04-b7bc-d1898f45131f")
-	)
 	(hierarchical_label "ML_PHASE{U V W}"
 		(shape input)
 		(at 44.45 72.39 180)
@@ -6881,17 +6892,6 @@
 			(justify left)
 		)
 		(uuid "de41367c-b6b1-488f-aa66-0473cb692656")
-	)
-	(hierarchical_label "LCD_BACKLIGHT_KATHODE"
-		(shape input)
-		(at 185.42 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f03b587c-2175-4b2b-84f0-9222b4c6fd7b")
 	)
 	(hierarchical_label "SPI_MOSI_5V"
 		(shape input)
@@ -7731,7 +7731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 258.318 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -11040,7 +11040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.028 106.68 90)
 			(hide yes)
 			(show_name no)

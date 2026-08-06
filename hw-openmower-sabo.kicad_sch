@@ -7,7 +7,7 @@
 	(title_block
 		(title "OpenMower SABO Carrierboard for Series I & II")
 		(date "2026-05-26")
-		(rev "v0.5")
+		(rev "v0.6")
 		(company "Apeheanger <joerg@ebeling.ws> for OpenMower")
 		(comment 1 "This design is licensed under CC BY-NC 4.0")
 	)
@@ -190,320 +190,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BSS138_1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSS138"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BSS138_1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSS138_1_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3057,8 +2743,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS138"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3077,7 +2764,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSS138"
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3101,7 +2788,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3113,7 +2800,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3146,7 +2833,7 @@
 					)
 				)
 			)
-			(symbol "BSS138_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3290,7 +2977,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -3313,7 +3000,7 @@
 					)
 				)
 			)
-			(symbol "BSS138_1_1"
+			(symbol "AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -4079,6 +3766,17 @@
 		)
 		(uuid "4374cc21-a8af-4544-b50f-4088ecbce182")
 	)
+	(text "TIM1_CH1\n\nTIM1_CH2\n\nTIM1_CH3\n\nTIM1_CH4\n\nTIM15_CH1"
+		(exclude_from_sim no)
+		(at 124.46 156.718 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+				(color 0 194 194 1)
+			)
+		)
+		(uuid "4cb2f1c9-8e46-40f8-a934-08167b872de9")
+	)
 	(text "Optional:\n12V Aux Power + Fan Connections"
 		(exclude_from_sim no)
 		(at 242.57 17.78 0)
@@ -4089,6 +3787,18 @@
 			(justify left)
 		)
 		(uuid "64773b3d-e333-48fb-8815-4a5140bf167a")
+	)
+	(text "PG4\nPG5\nPG8\nPD10"
+		(exclude_from_sim no)
+		(at 124.46 172.212 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+				(color 0 194 194 1)
+			)
+			(justify top)
+		)
+		(uuid "7a189b8f-f4ce-4ca2-99bc-d344cf578c28")
 	)
 	(text "GPS Header for UM9xx"
 		(exclude_from_sim no)
@@ -4110,16 +3820,6 @@
 			(justify left)
 		)
 		(uuid "80958c25-61db-4140-8ed2-066813bc710c")
-	)
-	(text "PWM Capable PE5 (Timer 9, Channel 2)"
-		(exclude_from_sim no)
-		(at 40.132 135.128 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b11709eb-ec0c-46f0-8678-3f960f3f1e51")
 	)
 	(text "Identification for this Mainboard Version"
 		(exclude_from_sim no)
@@ -4808,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 172.72) (xy 132.08 172.72)
+			(xy 116.84 176.53) (xy 132.08 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4928,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 175.26) (xy 132.08 175.26)
+			(xy 116.84 179.07) (xy 132.08 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5438,7 +5138,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 177.8) (xy 132.08 177.8)
+			(xy 116.84 181.61) (xy 132.08 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5648,7 +5348,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 170.18) (xy 132.08 170.18)
+			(xy 116.84 173.99) (xy 132.08 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7066,13 +6766,13 @@
 		)
 		(uuid "0c5f0fba-c9f1-43f9-9ba7-c038fcb9fe51")
 	)
-	(label "AGPIO3"
-		(at 133.35 135.89 180)
+	(label "GPIO3"
+		(at 132.08 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0c9e3d14-7322-444f-8028-726bd7154951")
 	)
@@ -7177,7 +6877,7 @@
 		(uuid "20a7c076-1d6c-42fc-afe5-1b1d77ce4c94")
 	)
 	(label "GPIO23"
-		(at 132.08 160.02 0)
+		(at 132.08 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7276,6 +6976,16 @@
 		)
 		(uuid "3f97893c-a978-4966-9094-265866b78a6e")
 	)
+	(label "AGPIO3"
+		(at 60.96 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "418ed074-c64b-4dc0-89ba-779c7945305c")
+	)
 	(label "I2C4_ID.SDA"
 		(at 57.15 30.48 0)
 		(effects
@@ -7287,7 +6997,7 @@
 		(uuid "42256bc0-3202-430b-93d8-8824cbe69852")
 	)
 	(label "GPIO10"
-		(at 132.08 177.8 0)
+		(at 132.08 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7357,7 +7067,7 @@
 		(uuid "53d4ffb1-c6c7-45b8-bbb0-6195d3ec15b1")
 	)
 	(label "GPIO14"
-		(at 132.08 147.32 0)
+		(at 132.08 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7387,7 +7097,7 @@
 		(uuid "5b1fb6e4-2405-4e23-8cc1-b525f19ea254")
 	)
 	(label "GPIO11"
-		(at 132.08 175.26 0)
+		(at 132.08 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7397,7 +7107,7 @@
 		(uuid "5bc857e5-0383-4708-8f38-b5ef83b008d2")
 	)
 	(label "GPIO16"
-		(at 132.08 152.4 0)
+		(at 132.08 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7457,7 +7167,7 @@
 		(uuid "6ff46688-685b-43a8-8559-0413d89b9407")
 	)
 	(label "GPIO17"
-		(at 132.08 149.86 0)
+		(at 132.08 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7487,7 +7197,7 @@
 		(uuid "773a8a49-d549-4c70-bbba-8be59c308a48")
 	)
 	(label "GPIO12"
-		(at 132.08 172.72 0)
+		(at 132.08 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7497,12 +7207,12 @@
 		(uuid "7ae44f36-147c-4293-af6a-4496b951d139")
 	)
 	(label "AGPIO4"
-		(at 60.96 173.99 0)
+		(at 133.35 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7b42016b-307b-449e-b4b6-4f96740be4ea")
 	)
@@ -7527,7 +7237,7 @@
 		(uuid "862b8494-aa39-4d15-8d53-6a50a71163e8")
 	)
 	(label "GPIO13"
-		(at 132.08 170.18 0)
+		(at 132.08 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7557,7 +7267,7 @@
 		(uuid "8a357f04-0f9a-4fc1-82a7-5e96d99eaff6")
 	)
 	(label "GPIO20"
-		(at 132.08 162.56 0)
+		(at 132.08 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7857,7 +7567,7 @@
 		(uuid "c29ac13a-7d7c-4d16-89c1-0ae4f60ff0ab")
 	)
 	(label "GPIO22"
-		(at 132.08 167.64 0)
+		(at 60.96 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7977,7 +7687,7 @@
 		(uuid "e2a4a1de-f29f-49e3-a6f4-d8c9bb3c9da9")
 	)
 	(label "GPIO19"
-		(at 132.08 154.94 0)
+		(at 132.08 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8065,16 +7775,6 @@
 			(justify left bottom)
 		)
 		(uuid "f3f91656-3141-45dc-8e27-d949a891f261")
-	)
-	(label "GPIO3"
-		(at 60.96 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "faeca05e-aced-4615-a5c4-9125c4e30444")
 	)
 	(symbol
 		(lib_id "xtech:Dummy")
@@ -8206,7 +7906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 243.84 236.982 90)
 			(hide yes)
 			(show_name no)
@@ -9133,139 +8833,6 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "BSS138_1")
-		(lib_id "Transistor_FET:BSS138")
-		(at 349.25 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "466e8fee-d1d9-455d-a4e5-140b0cd72405")
-		(property "Reference" "Q5"
-			(at 355.6 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 355.6 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 354.33 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 349.25 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-55℃~+150℃ 1 N-channel 1.45V 1.4W 30V 48mΩ@2.5V 5.7A 50pF 630pF 75pF 7nC@10V N-Channel SOT-23-3L MOSFETs ROHS"
-			(at 349.25 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock_PN" "Q-AP2300"
-			(at 349.25 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "BSS138K-13DICT-ND"
-			(at 349.25 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 349.25 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C20917"
-			(at 349.25 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6170508-b61c-4c3d-b1bf-5764dd86ba12")
-		)
-		(pin "2"
-			(uuid "273f302b-9e3a-4894-84a4-8a10dd95fcdf")
-		)
-		(pin "3"
-			(uuid "5428a540-f0f5-4e85-a34e-db72d0a5242a")
-		)
-		(instances
-			(project "hw-openmower-sabo"
-				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10262,7 +9829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
+		(lib_id "Transistor_FET:AO3400A")
 		(at 294.64 90.17 0)
 		(unit 1)
 		(body_style 1)
@@ -10308,8 +9875,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 294.64 90.17 0)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 299.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10320,40 +9887,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "-55℃~+150℃ 1 N-channel 1.45V 1.4W 30V 48mΩ@2.5V 5.7A 50pF 630pF 75pF 7nC@10V N-Channel SOT-23-3L MOSFETs ROHS"
-			(at 294.64 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock_PN" "Q-AP2300"
-			(at 294.64 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" "BSS138K-13DICT-ND"
-			(at 294.64 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alternative" ""
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 			(at 294.64 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10571,6 +10105,105 @@
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 349.25 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a46f67-cd8e-43dc-9e0d-da45d3fd2ec9")
+		(property "Reference" "Q5"
+			(at 355.6 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 355.6 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 354.33 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 354.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 349.25 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C20917"
+			(at 349.25 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "efba12f5-f939-4c0b-9bdb-76f28f669141")
+		)
+		(pin "2"
+			(uuid "56938f55-7528-48e3-b6fd-cb0c17fa4485")
+		)
+		(pin "3"
+			(uuid "75174960-f989-42e4-a55d-82a8be3f4d23")
+		)
+		(instances
+			(project "hw-openmower-sabo"
+				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -14974,7 +14607,7 @@
 			)
 		)
 		(pin "HALL0" output
-			(at 116.84 170.18 0)
+			(at 116.84 173.99 0)
 			(uuid "4d58e21c-5c32-41f2-a913-1a956f94d5fe")
 			(effects
 				(font
@@ -14984,7 +14617,7 @@
 			)
 		)
 		(pin "HALL2" output
-			(at 116.84 175.26 0)
+			(at 116.84 179.07 0)
 			(uuid "9518847f-9988-43d3-960f-182191e1b384")
 			(effects
 				(font
@@ -14994,7 +14627,7 @@
 			)
 		)
 		(pin "HALL1" output
-			(at 116.84 172.72 0)
+			(at 116.84 176.53 0)
 			(uuid "f234b15a-1947-4dbd-a0d6-a0e4dd7ee01e")
 			(effects
 				(font
@@ -15004,7 +14637,7 @@
 			)
 		)
 		(pin "HALL3" output
-			(at 116.84 177.8 0)
+			(at 116.84 181.61 0)
 			(uuid "350227e2-5b66-4179-b915-96596382cd00")
 			(effects
 				(font
