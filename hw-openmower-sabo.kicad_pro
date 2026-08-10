@@ -54,15 +54,15 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.5,
-          "corner_smoothing": 2,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
-          "min_island_area": 9.9999993548,
+          "min_clearance": 0.1,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -244,6 +244,30 @@
         ],
         [
           "starved_thermal|196710000|109250000|8f5edec1-7538-410d-aecb-caadf2346d1b|5f330be2-f553-48f2-808e-c7c9053e8020|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|218930000|37500000|4af06d1d-f832-4ed3-857c-414af316ced0|c34d3188-11bb-4416-978a-e747ca179765|In2.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|218930000|37500000|4af06d1d-f832-4ed3-857c-414af316ced0|c34d3188-11bb-4416-978a-e747ca179765|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|222740000|40040000|4af06d1d-f832-4ed3-857c-414af316ced0|f64f4365-b424-4e80-9744-d10be25d91de|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|234170000|37500000|4af06d1d-f832-4ed3-857c-414af316ced0|c6431eb8-0b11-4314-af2a-9333cfc1276d|In2.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|234170000|37500000|4af06d1d-f832-4ed3-857c-414af316ced0|c6431eb8-0b11-4314-af2a-9333cfc1276d|In3.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|234170000|40040000|4af06d1d-f832-4ed3-857c-414af316ced0|92c7aec6-4888-493e-a61d-d3cbec615e00|In2.Cu",
           ""
         ]
       ],
@@ -756,6 +780,17 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.4,
+        "line_style": 0,
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -763,7 +798,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -788,6 +823,22 @@
       {
         "netclass": "PWR",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "+36V"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/VBATT"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/RobotConnectors/M*_PHASE.*"
       }
     ]
   },
