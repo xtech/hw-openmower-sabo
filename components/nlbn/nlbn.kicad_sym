@@ -863,4 +863,232 @@
     )
   )
 
+
+  (symbol "AON7246E_C3277811"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "AON7246E"
+      (id 1)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "nlbn:AON7246E_C3277811"
+      (id 2)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://item.szlcsc.com/datasheet/AON7246E/3840709.html"
+      (id 3)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Description"
+      "AON7246E PDFN3333-8_L3.1-W3.2-P0.65-LS3.4-BL_1"
+      (id 4)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C3277811"
+      (id 5)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "AON7246E_C3277811_0_1"
+    (polyline
+      (pts
+        (xy -2.5400 1.7780)
+        (xy 0.0000 1.7780)
+        (xy 0.0000 2.5400)
+        (xy 2.5400 2.5400)
+        (xy 2.5400 0.5080)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 0.0000)
+        (xy 0.0000 0.0000)
+        (xy 0.0000 -2.5400)
+        (xy 5.0800 -2.5400)
+        (xy 2.5400 -2.5400)
+        (xy 2.5400 -0.7620)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 0.0000 -1.7780)
+        (xy -2.5400 -1.7780)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -3.0480 2.2860)
+        (xy -3.0480 -2.2860)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 2.2860)
+        (xy -2.5400 1.2700)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 -0.5080)
+        (xy -2.5400 0.5080)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 -2.2860)
+        (xy -2.5400 -1.2700)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -5.5880 0.0000)
+        (xy -3.0480 0.0000)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 3.5560 0.5080)
+        (xy 3.0480 0.5080)
+        (xy 2.0320 0.5080)
+        (xy 1.5240 0.5080)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -6.0960 -1.0160)
+        (xy -5.5880 -0.7620)
+        (xy -4.5720 -0.7620)
+        (xy -4.0640 -0.5080)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -5.0800 0.0000)
+        (xy -5.0800 -2.0320)
+        (xy -5.0800 -3.0480)
+        (xy -5.0800 -4.3180)
+        (xy 0.0000 -4.3180)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -6.0960 -4.0640)
+        (xy -5.5880 -3.8100)
+        (xy -4.5720 -3.8100)
+        (xy -4.0640 -3.5560)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy -2.5400 0.0000)
+        (xy -1.0160 0.5080)
+        (xy -1.0160 -0.5080)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy 2.5400 0.5080)
+        (xy 1.7780 -0.7620)
+        (xy 3.3020 -0.7620)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy -5.0800 -0.7620)
+        (xy -4.3180 -2.0320)
+        (xy -5.8420 -2.0320)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy -5.0800 -3.8100)
+        (xy -5.8420 -2.5400)
+        (xy -4.3180 -2.5400)
+      )
+      (stroke (width 0.2540) (type default))
+      (fill (type outline))
+    )
+      (pin passive line
+        (at 0.00 5.08 270)
+        (length 2.54)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at -7.62 -0.00 0)
+        (length 2.03)
+        (name "G" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 0.00 -5.08 90)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 2.54 -5.08 90)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line
+        (at 5.08 -5.08 90)
+        (length 2.54)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
 )
