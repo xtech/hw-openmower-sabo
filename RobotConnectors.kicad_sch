@@ -15036,6 +15036,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 109.22 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 109.22 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "98d1ddee-c34c-4fcf-bdf4-ea93dd138319")
 		)
@@ -15150,6 +15172,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 189.23 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 189.23 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12093a4b-e725-4e14-8280-13d2785f2675")
 		)
@@ -15242,6 +15286,28 @@
 			)
 		)
 		(property "FT Rotation Offset" "-90"
+			(at 134.62 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 134.62 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 134.62 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15424,6 +15490,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 300.99 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 300.99 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc129d85-edc9-4043-b874-acdf052ac711")
 		)
@@ -15512,6 +15600,28 @@
 			)
 		)
 		(property "LCSC Part #" "C22808"
+			(at 161.29 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 161.29 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 161.29 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -15625,6 +15735,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 280.67 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 280.67 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "858c7244-0a60-41e5-9b80-40c7502e7221")
 		)
@@ -15714,6 +15846,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 162.56 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 162.56 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 162.56 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -15826,6 +15980,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 43.18 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 43.18 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2dc1f17c-af7e-47f5-833f-b89151e92b03")
 		)
@@ -15917,6 +16093,28 @@
 			)
 		)
 		(property "LCSC Part #" "C861323"
+			(at 38.1 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 38.1 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 38.1 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -16329,6 +16527,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 168.91 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 168.91 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5da590e7-9c33-479b-ab5f-a337ebb3f336")
 		)
@@ -16449,6 +16669,28 @@
 			)
 		)
 		(property "LCSC Part #" "C7429584"
+			(at 382.27 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 382.27 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 382.27 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16581,6 +16823,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 55.88 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 55.88 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7be8b49e-636b-42ef-bb64-d0ca0491a7e9")
 		)
@@ -16664,6 +16928,28 @@
 			)
 		)
 		(property "LCSC Part #" "C114003"
+			(at 36.83 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 36.83 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 36.83 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -16855,6 +17141,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 240.03 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 240.03 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af995be0-ee61-4710-b736-39add1c36423")
 		)
@@ -16944,6 +17252,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 157.48 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 157.48 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 157.48 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -17056,6 +17386,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 153.67 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 153.67 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f631e69-0ce3-4a56-a1b7-1dd2bcc71a83")
 		)
@@ -17149,6 +17501,28 @@
 			)
 		)
 		(property "LCSC Part #" "C1623"
+			(at 74.93 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 74.93 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 74.93 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17426,6 +17800,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 207.01 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 207.01 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45cba930-2ba4-4f7a-9a5e-fa17da29a964")
 		)
@@ -17621,6 +18017,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 151.13 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 151.13 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "13c355d6-f8b0-40af-be0e-a53e58f8433c")
 		)
@@ -17806,6 +18224,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 140.97 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 140.97 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cff1efa6-5459-4c42-822f-43b9d462008c")
 		)
@@ -17910,6 +18350,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at -25.4 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at -25.4 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
@@ -17976,6 +18438,28 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 328.93 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 341.63 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 341.63 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18079,6 +18563,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 50.8 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 50.8 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 50.8 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -18263,6 +18769,28 @@
 		)
 		(property "LCSC Part #" "C1623"
 			(at 55.88 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 55.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 55.88 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18687,6 +19215,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 152.4 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 152.4 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "dc7d17d4-1de2-43f7-a8b4-36373ec97920")
 		)
@@ -18778,6 +19328,28 @@
 			)
 		)
 		(property "LCSC Part #" "C728589"
+			(at 38.1 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 38.1 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 38.1 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -18891,6 +19463,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 53.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 53.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8b843f58-3a49-4021-a003-f3f8f0761869")
 		)
@@ -18973,6 +19567,28 @@
 		)
 		(property "LCSC Part" "C2676799"
 			(at 168.91 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 168.91 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 168.91 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19120,6 +19736,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 149.86 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 149.86 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "65f576f0-1a21-44d5-9b46-7f9c26ca24e9")
 		)
@@ -19224,6 +19862,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at -21.59 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at -21.59 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
@@ -19310,6 +19970,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 186.69 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 186.69 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 186.69 198.12 90)
 			(hide yes)
 			(show_name no)
@@ -19502,6 +20184,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at -21.59 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at -21.59 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "hw-openmower-sabo"
 				(path "/e12e8a63-1d1b-4736-9aba-a87a258b2b11/7a7dfcf0-39e0-4eb7-9f4b-f66d7afbe41f"
@@ -19598,6 +20302,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 252.73 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 252.73 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4cd58295-51e4-47c7-a603-0fbb65d86d5c")
 		)
@@ -19681,6 +20407,28 @@
 			)
 		)
 		(property "LCSC Part #" "C201698"
+			(at 373.38 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 373.38 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 373.38 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19892,6 +20640,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 199.39 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 199.39 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6655704-2dd6-4639-ace4-780dcf3b422e")
 		)
@@ -19981,6 +20751,28 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 72.39 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 72.39 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 72.39 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -20095,6 +20887,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 44.45 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 44.45 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa1fba8c-1441-471f-9c03-94b2dfe4aa52")
 		)
@@ -20197,6 +21011,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 88.9 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 88.9 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98a1a8f4-e8cc-44e7-825b-6abf1ca3d4b8")
 		)
@@ -20281,6 +21117,28 @@
 			)
 		)
 		(property "LCSC Part #" "C14858"
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -20552,6 +21410,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 368.3 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 368.3 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67032a61-bbfb-4c6f-9ad8-563b2f329e03")
 		)
@@ -20732,6 +21612,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 29.21 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 29.21 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1bfbfdfb-0be1-4048-b720-98da51374a87")
 		)
@@ -20824,6 +21726,28 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 383.54 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 383.54 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 383.54 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -21016,6 +21940,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "095eb4b5-8f52-4541-a6fc-517169a38b55")
 		)
@@ -21108,6 +22054,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 96.52 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 96.52 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 96.52 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -21234,6 +22202,28 @@
 			)
 		)
 		(property "Alternative" ""
+			(at 77.47 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 77.47 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 77.47 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21419,6 +22409,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 204.47 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 204.47 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d1d4b3b5-4d07-40a2-ae94-3a4504715d56")
 		)
@@ -21514,6 +22526,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 172.72 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 172.72 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 172.72 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -21626,6 +22660,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 170.18 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 170.18 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ce0d0ba1-16a4-4894-8877-aa55306c793c")
 		)
@@ -21706,8 +22762,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C48940325"
+		(property "LCSC Part #" "C48940325"
 			(at 267.97 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 267.97 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 267.97 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21828,6 +22906,28 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 328.93 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 341.63 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 341.63 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22011,6 +23111,28 @@
 			)
 		)
 		(property "Alternative" ""
+			(at 209.55 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 209.55 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 209.55 -2.54 0)
 			(hide yes)
 			(show_name no)
@@ -22277,6 +23399,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 167.64 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 167.64 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aef76dd4-96db-4772-8d05-2314c6636bdb")
 		)
@@ -22449,6 +23593,28 @@
 			)
 		)
 		(property "Alternative" ""
+			(at 250.19 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 250.19 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 250.19 -2.54 0)
 			(hide yes)
 			(show_name no)
@@ -22637,6 +23803,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 54.61 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 54.61 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "92982a7d-54f5-4e25-b013-a96a6454c118")
 		)
@@ -22729,6 +23917,28 @@
 			)
 		)
 		(property "LCSC Part #" "C23138"
+			(at 194.31 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 194.31 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 194.31 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -22998,6 +24208,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 160.02 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 160.02 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "02be78eb-3ca0-4ac4-956a-e57b08212008")
 		)
@@ -23100,6 +24332,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 186.69 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 186.69 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "96a3c9e2-5f40-433e-9d6b-af372a1c3443")
 		)
@@ -23192,6 +24446,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 57.15 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 57.15 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 57.15 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -23383,6 +24659,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 175.26 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 175.26 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "41fa9262-3ea5-40ed-af8d-3b5b7762204c")
 		)
@@ -23487,6 +24785,28 @@
 			)
 		)
 		(property "LCSC Part #" "C353882"
+			(at 50.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 50.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 50.8 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -23608,6 +24928,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 293.37 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 293.37 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2335ca5-7672-405e-809d-47b7d7836c7a")
 		)
@@ -23710,6 +25052,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 38.1 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 38.1 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e05f7c74-a825-4e8f-9ae3-967e0fb0ceb1")
 		)
@@ -23802,6 +25166,28 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 340.36 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 340.36 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 340.36 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -23991,6 +25377,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 52.07 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 52.07 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e951473-0d7a-42a3-889b-c8271cb30182")
 		)
@@ -24084,6 +25492,28 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 127 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 127 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 127 39.37 90)
 			(hide yes)
 			(show_name no)
@@ -24352,6 +25782,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 157.48 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 157.48 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af92db34-d670-4e07-96e8-e1191b284704")
 		)
@@ -24455,6 +25907,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 375.92 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 375.92 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cdb6dd17-2052-41fe-ad57-869a2a4910ab")
 		)
@@ -24548,6 +26022,28 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 25.4 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 25.4 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 25.4 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -24816,6 +26312,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 71.12 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 71.12 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "946390cc-93d2-448b-928c-ad6dbf2b2366")
 		)
@@ -24907,6 +26425,28 @@
 			)
 		)
 		(property "LCSC Part #" "C705768"
+			(at 62.23 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 62.23 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 62.23 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -25338,6 +26878,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 78.74 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 78.74 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1157ee2-33d9-4ad8-8555-689f43771d42")
 		)
@@ -25519,6 +27081,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 168.91 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 168.91 246.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aca719c3-ede3-433f-8870-7c048a07a674")
 		)
@@ -25611,6 +27195,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 40.64 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 40.64 222.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 40.64 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -25879,6 +27485,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 151.13 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 151.13 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77106de8-f82d-4f37-a278-7efdd640a687")
 		)
@@ -26059,6 +27687,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 384.81 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 384.81 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "836d2961-828f-4f33-8c46-c3d671e9f88b")
 		)
@@ -26153,6 +27803,28 @@
 			)
 		)
 		(property "Alternative" ""
+			(at -25.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at -25.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at -25.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -26339,6 +28011,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 290.83 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 290.83 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "877d89e9-29ee-4eba-bf8f-01b0c9d495db")
 		)
@@ -26427,6 +28121,28 @@
 			)
 		)
 		(property "LCSC Part #" "C22808"
+			(at 161.29 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 161.29 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 161.29 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -26532,6 +28248,28 @@
 			)
 		)
 		(property "LCSC Part #" "C28323"
+			(at 335.28 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 335.28 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 335.28 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -26715,6 +28453,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 382.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 382.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "efdccd77-c86f-4422-bb1d-cd0dfaedd172")
 		)
@@ -26819,6 +28579,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 189.23 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 189.23 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 189.23 198.12 90)
 			(hide yes)
 			(show_name no)
@@ -27096,6 +28878,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 204.47 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 204.47 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "945bb11e-3065-40ee-8434-8948d2d493c6")
 		)
@@ -27187,6 +28991,28 @@
 			)
 		)
 		(property "LCSC Part #" "C318131"
+			(at 62.23 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 62.23 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 62.23 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -27300,6 +29126,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 260.35 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 260.35 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "145fa2d7-c3c1-4cd8-840e-f0cd2aa9b382")
 		)
@@ -27379,6 +29227,28 @@
 		)
 		(property "LCSC Part" "C184429"
 			(at 363.22 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 363.22 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 363.22 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27529,6 +29399,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 393.7 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 393.7 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4bf8948f-f12d-4a1b-b95e-a78522966255")
 		)
@@ -27622,6 +29514,28 @@
 			)
 		)
 		(property "LCSC Part #" "C1623"
+			(at 67.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 67.31 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 67.31 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -27735,6 +29649,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 219.71 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 219.71 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f95ea46e-cfad-4cc7-9e17-ac3168256616")
 		)
@@ -27824,6 +29760,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 147.32 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 147.32 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 147.32 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -27925,6 +29883,28 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 29.21 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 29.21 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 29.21 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -28038,6 +30018,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 309.88 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 309.88 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b53bc28b-6494-4f8f-9413-366e8503b09b")
 		)
@@ -28127,6 +30129,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 154.94 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 154.94 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 154.94 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -28229,6 +30253,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 184.15 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 184.15 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 184.15 255.27 90)
 			(hide yes)
 			(show_name no)
@@ -28354,6 +30400,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 149.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 149.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "25989aac-c588-4401-a7e4-bab87160f548")
 		)
@@ -28463,6 +30531,28 @@
 			)
 		)
 		(property "LCSC Part #" "C22966"
+			(at 161.29 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 161.29 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 161.29 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -28653,6 +30743,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 165.1 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 165.1 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2ac28b09-78db-4c89-bfdf-46e36745639c")
 		)
@@ -28745,6 +30857,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 99.06 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 99.06 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 99.06 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -28859,6 +30993,28 @@
 			)
 		)
 		(property "MF" "HXY MOSFET"
+			(at 347.98 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 347.98 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 347.98 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -29031,6 +31187,28 @@
 		)
 		(property "LCSC Part" "C2676799"
 			(at 72.39 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 72.39 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 72.39 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29247,6 +31425,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 101.6 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 101.6 224.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 101.6 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -29474,6 +31674,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 215.9 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 215.9 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ffaba44-9f3e-4780-ac23-81daa43d127f")
 		)
@@ -29566,6 +31788,28 @@
 			)
 		)
 		(property "LCSC Part #" "C22978"
+			(at 396.24 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 396.24 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 396.24 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -29678,6 +31922,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 154.94 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 154.94 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "54321cf4-33c5-4642-a06e-6d23014b0ad7")
 		)
@@ -29769,6 +32035,28 @@
 			)
 		)
 		(property "LCSC Part #" "C22808"
+			(at 161.29 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 161.29 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 161.29 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -29872,6 +32160,28 @@
 			)
 		)
 		(property "Alternative" ""
+			(at 228.6 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 228.6 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 228.6 -2.54 0)
 			(hide yes)
 			(show_name no)
@@ -30049,6 +32359,28 @@
 			)
 		)
 		(property "LCSC Part #" "C307331"
+			(at 363.22 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 363.22 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 363.22 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -30240,6 +32572,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 168.91 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 168.91 193.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3e27f460-3cf0-44ee-89ef-fc21147f6c94")
 		)
@@ -30331,6 +32685,28 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
+			(at 48.26 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 48.26 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 48.26 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -30433,6 +32809,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 38.1 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 38.1 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 38.1 144.78 90)
 			(hide yes)
 			(show_name no)
@@ -30546,6 +32944,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 269.24 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 269.24 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "508f76b4-4c0b-4b73-95f9-91a7b9708eb1")
 		)
@@ -30635,6 +33055,28 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 35.56 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 35.56 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 35.56 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -30736,6 +33178,28 @@
 			)
 		)
 		(property "LCSC Part #" "C22808"
+			(at 161.29 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 161.29 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 161.29 82.55 90)
 			(hide yes)
 			(show_name no)

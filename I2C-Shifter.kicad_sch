@@ -651,6 +651,28 @@
 				)
 			)
 		)
+		(property "Capacitance" ""
+			(at 132.08 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
+			(at 132.08 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0ff358f4-9221-4153-88da-68c54f730fa1")
 		)
@@ -750,6 +772,28 @@
 			)
 		)
 		(property "MFPN" "BSS138P,215"
+			(at 125.73 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" ""
+			(at 125.73 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" ""
 			(at 125.73 90.17 90)
 			(hide yes)
 			(show_name no)
