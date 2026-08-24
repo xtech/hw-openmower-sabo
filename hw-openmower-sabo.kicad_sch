@@ -4282,15 +4282,6 @@
 		(uuid "35ebebfd-ce01-4e06-b730-cc68bfd6d1a6")
 	)
 	(bus_entry
-		(at 53.34 158.75)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb37425-649d-4967-8854-6ed29531a004")
-	)
-	(bus_entry
 		(at 137.16 199.39)
 		(size 2.54 2.54)
 		(stroke
@@ -4318,15 +4309,6 @@
 		(uuid "81d3f460-297e-487c-9083-1cda67d477ad")
 	)
 	(bus_entry
-		(at 53.34 156.21)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889f7b5d-2f01-440a-84da-cbea0f4037a6")
-	)
-	(bus_entry
 		(at 293.37 137.16)
 		(size 2.54 2.54)
 		(stroke
@@ -4343,15 +4325,6 @@
 			(type default)
 		)
 		(uuid "bb650205-24a6-472a-b07d-8556d3352115")
-	)
-	(bus_entry
-		(at 53.34 161.29)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37da8fc-7c3f-4e3b-be5d-e91e018e5ea3")
 	)
 	(bus_entry
 		(at 351.79 134.62)
@@ -4581,16 +4554,6 @@
 			(type default)
 		)
 		(uuid "11ddc500-652c-493a-9075-18cbc5c96348")
-	)
-	(bus
-		(pts
-			(xy 53.34 163.83) (xy 53.34 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12848a50-9b97-4b8c-abe9-a77e63ce664f")
 	)
 	(wire
 		(pts
@@ -4882,16 +4845,6 @@
 		)
 		(uuid "28b5de1b-0235-4a0c-b19a-f1825d5f37e8")
 	)
-	(bus
-		(pts
-			(xy 52.07 163.83) (xy 53.34 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ec952c-d91f-44d9-b9d2-0ce904a436dd")
-	)
 	(wire
 		(pts
 			(xy 116.84 210.82) (xy 127 210.82)
@@ -5122,6 +5075,16 @@
 		)
 		(uuid "3fa5f804-9527-4f09-989d-de685259f278")
 	)
+	(bus
+		(pts
+			(xy 49.53 151.13) (xy 72.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fceb4db-af75-4cfc-ae88-e0bf66890271")
+	)
 	(wire
 		(pts
 			(xy 33.02 251.46) (xy 38.1 251.46)
@@ -5254,16 +5217,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 156.21) (xy 72.39 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f714324-73e1-4d4b-9551-b684c475b9b3")
-	)
-	(wire
-		(pts
 			(xy 361.95 96.52) (xy 381 96.52)
 		)
 		(stroke
@@ -5291,16 +5244,6 @@
 			(type default)
 		)
 		(uuid "5062d6f9-948c-4c39-92b3-a87c1605c352")
-	)
-	(bus
-		(pts
-			(xy 53.34 158.75) (xy 53.34 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507a3848-c283-421d-9190-eb5d5a98fc19")
 	)
 	(wire
 		(pts
@@ -5431,16 +5374,6 @@
 			(type default)
 		)
 		(uuid "67fdebf5-d957-47ae-8689-51f2dbda6cf6")
-	)
-	(wire
-		(pts
-			(xy 55.88 158.75) (xy 72.39 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6800d853-7cc6-47fc-ab85-6b50acac01c2")
 	)
 	(wire
 		(pts
@@ -6232,16 +6165,6 @@
 		)
 		(uuid "c37662e3-6a8c-41c9-aa0a-140729aee1fd")
 	)
-	(bus
-		(pts
-			(xy 53.34 158.75) (xy 53.34 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c497ccf9-2eb0-4e76-81ef-d91aaa7d22ae")
-	)
 	(wire
 		(pts
 			(xy 35.56 237.49) (xy 38.1 237.49)
@@ -6321,16 +6244,6 @@
 			(type default)
 		)
 		(uuid "cf423202-3e96-4a4a-94c2-494a0e2afccd")
-	)
-	(wire
-		(pts
-			(xy 55.88 153.67) (xy 72.39 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1453b7b-9e27-43b1-9fe2-185256c1a6a6")
 	)
 	(bus
 		(pts
@@ -6882,16 +6795,6 @@
 		)
 		(uuid "08d68b47-3184-4bcd-82b6-af03cef52cc7")
 	)
-	(label "SPI1.SCK"
-		(at 60.96 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0acb11f7-df76-4319-bb1e-8b2b30b180f1")
-	)
 	(label "UART10{TX RX}"
 		(at 209.55 110.49 180)
 		(effects
@@ -7081,16 +6984,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ec58da3-fab2-40f7-ad55-167ca68b3f49")
-	)
-	(label "SPI1.MOSI"
-		(at 60.96 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fcf99a0-5a6b-4e61-bcf8-9acbd496eb2b")
 	)
 	(label "RASPI_FAN_ON"
 		(at 361.95 96.52 0)
@@ -7863,12 +7756,12 @@
 		(uuid "e87c52ba-3a52-4561-bd15-b364c1791af0")
 	)
 	(label "SPI1{MISO MOSI SCK}"
-		(at 52.07 163.83 180)
+		(at 49.53 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e8a1d2e8-0c15-4fc5-acf4-273487f1a01d")
 	)
@@ -7901,16 +7794,6 @@
 			(justify right bottom)
 		)
 		(uuid "ee2afa66-886f-46bc-bfbb-435e1ee60add")
-	)
-	(label "SPI1.MISO"
-		(at 60.96 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f08622e9-2e2f-4164-adc5-e4e565060810")
 	)
 	(label "UART1{TX RX}"
 		(at 209.55 95.25 180)
@@ -15363,16 +15246,6 @@
 				(justify left)
 			)
 		)
-		(pin "USB{P N}" input
-			(at 116.84 139.7 0)
-			(uuid "cad88f03-842f-42e4-9b95-13623febcbd0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RAIN_SENSE" bidirectional
 			(at 116.84 135.89 0)
 			(uuid "40156f1d-9b12-4f96-b240-7bf6f00acf14")
@@ -15553,36 +15426,6 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MISO" output
-			(at 72.39 156.21 180)
-			(uuid "983f75e6-de78-4f01-a8cc-6900090eeb77")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_CLK" input
-			(at 72.39 153.67 180)
-			(uuid "1aa5e3cf-399d-424d-9a17-516636ff04e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI_MOSI" input
-			(at 72.39 158.75 180)
-			(uuid "ea6ab444-4b85-46fc-a499-3d3bf8260f2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCD_~{RST}" input
 			(at 72.39 171.45 180)
 			(uuid "98016762-ce89-4365-a001-104094212356")
@@ -15633,7 +15476,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_BMS{SDA SCL}" input
+		(pin "I2C_BMS{SDA SCL}" bidirectional
 			(at 72.39 147.32 180)
 			(uuid "846b591a-f216-4de6-bb00-11a4f5d8ff8c")
 			(effects
@@ -15671,6 +15514,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SPI{MISO MOSI SCK}" input
+			(at 72.39 151.13 180)
+			(uuid "7dfb5842-db92-4eee-a3bf-f560eb93cd9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_EXT{P N}" input
+			(at 116.84 139.7 0)
+			(uuid "1bf6ee38-ce7d-49b7-ac4b-b6cbe5db9b7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

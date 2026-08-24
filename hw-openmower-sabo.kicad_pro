@@ -107,7 +107,7 @@
           ""
         ],
         [
-          "courtyards_overlap|157295100|61794900|48b5987b-53b8-482a-af5b-4f7aea4ab3e0|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
+          "courtyards_overlap|157295000|61795000|8a25748a-6b49-4e18-8894-577c9e0a6183|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
         [
@@ -115,7 +115,7 @@
           ""
         ],
         [
-          "courtyards_overlap|159795100|61794900|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4|cffab5b5-8980-4a1d-9407-24e98f7768cb",
+          "courtyards_overlap|159795000|61795000|6906ed99-dbb4-4dc3-b013-cb2f4fcbd9fd|cd88a0d9-1c5b-4a22-b3d9-4e815bbb0af4",
           ""
         ],
         [
@@ -1555,8 +1555,15 @@
         "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
       }
     ],
-    "used_designators": "Q3,Q5,Q7,Q9-12,U12,U14-17,JP6,R87-88,R91-114,C54,C60,C94,C97-98,C100-106,D3,D7,D11,D17,#PWR92,#PWR106-107,#PWR115,#PWR142,#PWR144,#PWR147,#PWR161-162,#PWR166,#PWR170,#PWR172,#PWR174-183,J2-3,J10",
-    "variants": []
+    "used_designators": "S2\\-J3,Q3,Q5,Q7,Q9-12,U2,U12,U14-17,JP6,R2,R4,R87-88,R91-114,C2,C6-8,C52,C54,C60,C94,C97-98,C100-106,D3,D7,D11,D17,#PWR9,#PWR11,#PWR17,#PWR36,#PWR90,#PWR92,#PWR106-107,#PWR115,#PWR132,#PWR142,#PWR144,#PWR147,#PWR161-162,#PWR166,#PWR170,#PWR172,#PWR174-183,J2-3,J10",
+    "variants": [
+      {
+        "name": "Series-I"
+      },
+      {
+        "name": "Series-II"
+      }
+    ]
   },
   "sheets": [
     [
