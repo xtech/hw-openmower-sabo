@@ -1,12 +1,12 @@
 (footprint "MINI-USB-TH_C13453"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.95 0)
 		(layer "F.SilkS")
-		(uuid "fb58842a-ef58-4584-a3b4-32831fbed0a4")
+		(uuid "e73c37d3-8145-4f85-9cba-e9278d38d958")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "MINI-USB-TH_C13453"
 		(at 0 4.95 0)
 		(layer "F.Fab")
-		(uuid "14dabdba-06be-484c-b843-ce8a6ad2082b")
+		(uuid "ef6dd033-a178-441a-a31e-c2d3cc680c33")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8c4529dc-9d4b-4829-919b-40da887b0501")
+		(uuid "098b602f-9af1-4baa-87d0-7c0bf40225cb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f5193760-8b05-4276-a0a1-7d3090b1843d")
+		(uuid "bf199b71-c19a-41e4-9add-8f7bbdfa4411")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,45 +50,17 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -3.56 -2.03)
-		(end -3.56 -2.03)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.1 -2.5)
+		(end 4.1 2.6)
 		(stroke
-			(width 3)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(layer "F.Fab")
-		(uuid "001c0663-2597-40d8-9a74-b5fa1a1d958a")
-	)
-	(fp_line
-		(start -3.56 -2.03)
-		(end 3.56 -2.03)
-		(stroke
-			(width 3)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ca87e97f-04f0-484d-84cd-cc913b096e85")
-	)
-	(fp_line
-		(start 3.56 -2.03)
-		(end 3.56 2.29)
-		(stroke
-			(width 3)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "4903df0c-758f-4ea5-abd2-d8603835855a")
-	)
-	(fp_line
-		(start 3.56 2.29)
-		(end -3.56 2.29)
-		(stroke
-			(width 3)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "009406e5-58f0-41dc-b251-3b5387146cf3")
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "182a4190-2a8f-4f91-9f72-973ba9cf708a")
 	)
 	(fp_circle
 		(center -4.15 2.41)
@@ -99,7 +71,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c17c12dc-7117-461c-a836-37067522a8bf")
+		(uuid "d6fe09d4-73cd-4495-96ee-a7ba0de07afc")
 	)
 	(fp_circle
 		(center -1.6 0.95)
@@ -110,7 +82,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "113f7d7b-8514-4f8a-9eab-2a615dc5637c")
+		(uuid "f7dfcbfa-7ce2-4b25-823b-1d0632b33166")
 	)
 	(fp_circle
 		(center -0.8 -0.95)
@@ -121,7 +93,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c3fa9b69-29b6-4d8a-a56f-f131f9d2e85b")
+		(uuid "6090844c-3874-4250-9da2-4003aba909a8")
 	)
 	(fp_circle
 		(center 0 0.95)
@@ -132,7 +104,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "a9fd41bc-30cc-41e0-a6bb-397b55e18fe8")
+		(uuid "801f479e-c159-470b-9b8b-9451479a34cb")
 	)
 	(fp_circle
 		(center 0.8 -0.95)
@@ -143,7 +115,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "ee6f8df1-80f8-4acf-a1a0-656ed13df90f")
+		(uuid "8fab5acd-9030-4085-941f-7e8dbb58cfa2")
 	)
 	(fp_circle
 		(center 1.6 0.95)
@@ -154,12 +126,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bc650a69-4421-4e2e-926f-ce77d0dbe2fc")
+		(uuid "850a9aaa-7786-4c93-9b0b-3b853beea659")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "05173fcb-942d-4f08-88cc-dec53d5ba548")
+		(uuid "e0bdf99f-9de0-4b4d-85fb-f5bd901f05df")
 		(effects
 			(font
 				(size 1 1)
@@ -173,7 +145,7 @@
 		(drill 0.550012)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7873ca46-083e-44e6-a871-dd59e07fec9f")
+		(uuid "73ad20b5-fd66-48c2-9071-1dbcd90f048e")
 	)
 	(pad "2" thru_hole circle
 		(at -0.8 -0.95)
@@ -181,7 +153,7 @@
 		(drill 0.550012)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "63f22cbe-5e4b-4b28-ad69-db9d2031d067")
+		(uuid "68773afc-5f6f-45ce-a1d0-cb0fce7a2574")
 	)
 	(pad "3" thru_hole circle
 		(at 0 0.95)
@@ -189,7 +161,7 @@
 		(drill 0.550012)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "464e8cce-4527-4c52-9637-88a81dbc21ca")
+		(uuid "d9a7358f-a8cd-4b38-8104-c6716ffbb3fe")
 	)
 	(pad "4" thru_hole circle
 		(at 0.8 -0.95)
@@ -197,7 +169,7 @@
 		(drill 0.550012)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "94e3de16-1360-4d23-bb1f-6efca6d8e8b4")
+		(uuid "41c899c9-56aa-4b0c-a508-b2aaffa4afaf")
 	)
 	(pad "5" thru_hole circle
 		(at 1.6 0.95)
@@ -205,7 +177,7 @@
 		(drill 0.550012)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a28b9216-3e2f-456c-831c-f8961ec734ab")
+		(uuid "ee8b4511-05e9-4b6d-b70b-0433fe95e606")
 	)
 	(pad "6" thru_hole rect
 		(at -3.65 0)
@@ -213,7 +185,7 @@
 		(drill oval 0.550012 1.699997)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "99da1cf1-ee39-4465-ab57-bc81013509f7")
+		(uuid "a5f85fc5-13ef-4319-aba1-e4162354101e")
 	)
 	(pad "6" thru_hole rect
 		(at 3.65 0)
@@ -221,7 +193,7 @@
 		(drill oval 0.550012 1.699997)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6f4bee91-f46a-411b-b36c-8ee12ccf7617")
+		(uuid "2126d758-cd1d-415e-b03a-bfb6ff6e3a7e")
 	)
 	(embedded_fonts no)
 	(model "../easyeda2kicad.3dshapes/MINI-USB-TH_C13453.wrl"
