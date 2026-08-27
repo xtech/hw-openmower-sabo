@@ -496,8 +496,8 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.19,
+        "min_hole_to_hole": 0.19,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -1695,7 +1695,7 @@
         "uuid": "e12e8a63-1d1b-4736-9aba-a87a258b2b11"
       }
     ],
-    "used_designators": "S2\\-J3,Q3,Q5,Q7,Q9-12,U2,U12,U14-17,JP6,R2,R4,R87-88,R91-114,C2,C6-8,C52,C54,C60,C94,C97-98,C100-106,D3,D7,D11,D17,#PWR9,#PWR11,#PWR17,#PWR36,#PWR90,#PWR92,#PWR106-107,#PWR115,#PWR132,#PWR142,#PWR144,#PWR147,#PWR161-162,#PWR166,#PWR170,#PWR172,#PWR174-183,J2-3,J10",
+    "used_designators": "J2-3,J10,#PWR9,#PWR11,#PWR17,#PWR36,#PWR90,#PWR92,#PWR106-107,#PWR115,#PWR132,#PWR142,#PWR144,#PWR147,#PWR161-162,#PWR166,#PWR170,#PWR172,#PWR174-183,D3,D7,D11,D17,C2,C6-8,C52,C54,C60,C94,C97-98,C100-106,R2,R4,R87-88,R91-114,JP6,U2,U12,U14-17,Q3,Q5,Q7,Q9-12,S2\\-J3",
     "variants": [
       {
         "name": "Series-I"
