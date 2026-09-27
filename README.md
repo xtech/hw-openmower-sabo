@@ -34,8 +34,9 @@ To build a complete OpenMower-V2 system, you will need the following additional 
 
 - **1 * [xCore](https://core.x-tech.online)**: OpenMower-V2 Development Board for all Low-Level processing
 - **1 * [Raspberry Pi CM4/CM5](https://www.raspberrypi.com/products/compute-module-4)**: System on Module (SoM) for [OpenMowerOS](https://github.com/ClemensElflein/OpenMowerOS), ≥ 4GB RAM, ≥ 16GB Storage (eMCC or SD-Card)
-- **3 * [xESC mini](https://github.com/ClemensElflein/xESC)**: Electronic Speed Controller for BLDC motor
-- **1 * [WT-RTK-960](https://witmotion-sensor.com/products/rtk-gps-gnss-modules-centimeter-level-um982-um980-um960)**: RTK GPS Module for precise positioning
+- **2 * [xESC2-lite](https://github.com/ClemensElflein/xESC-lite)**: Electronic Speed Controller (light variant) for BLDC drive motor
+- **1 * [xESC2-mini](https://github.com/ClemensElflein/xESC)**: Electronic Speed Controller (power variant) for BLDC mow motor
+- **1 * [WTRTK-960 or WTRTK-M10](https://witmotion-sensor.com/collections/gps-imu)**: RTK GPS Module for precise positioning
 - **1 * HA/HX-901**: GPS Helix Antenna or similar
 
 ### Optional Components
